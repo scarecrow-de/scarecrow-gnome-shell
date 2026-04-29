@@ -1,5 +1,5 @@
 metainfo = app_id + '.metainfo.xml'
-i18n.merge_file(metainfo,
+i18n.merge_file(
   input: metainfo + '.in',
   output: metainfo,
   po_dir: po_dir,
