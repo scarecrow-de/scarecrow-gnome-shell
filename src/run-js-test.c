@@ -31,7 +31,7 @@
 #include <string.h>
 
 #include <girepository.h>
-#ifdef USE_CJS
+#ifndef USE_CJS
 #include <cjs/gjs.h>
 #else
 #include <gjs/gjs.h>

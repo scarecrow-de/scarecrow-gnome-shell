@@ -33,3 +33,9 @@ option('systemd',
   value: true,
   description: 'Enable systemd integration'
 )
+
+option('cjs',
+  type: 'boolean',
+  value: true,
+  description: 'Use cjs instead of gjs for runtime'
+)

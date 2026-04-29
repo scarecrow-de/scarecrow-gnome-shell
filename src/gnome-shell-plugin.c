@@ -38,7 +38,7 @@
 
 #include <clutter/clutter.h>
 #include <clutter/x11/clutter-x11.h>
-#ifdef USE_CJS
+#ifndef USE_GJS
 #include <cjs/gjs.h>
 #else
 #include <gjs/gjs.h>

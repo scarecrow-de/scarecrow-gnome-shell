@@ -152,7 +152,7 @@ cdata.set_quoted('PACKAGE_VERSION', meson.project_version())
 
 cdata.set('HAVE_NETWORKMANAGER', have_networkmanager)
 cdata.set('HAVE_SYSTEMD', have_systemd)
-cdata.set('USE_CJS', use_cjs)
+cdata.set('USE_GJS', use_cjs)
 
 # New API added in glib-2.57.2
 cdata.set('HAVE_GIO_DESKTOP_LAUNCH_URIS_WITH_FDS',
