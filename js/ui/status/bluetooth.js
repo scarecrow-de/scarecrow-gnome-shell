@@ -1,7 +1,7 @@
 // -*- mode: js; js-indent-level: 4; indent-tabs-mode: nil -*-
 /* exported Indicator */
 
-const { Gio, GLib, GnomeBluetooth, GObject } = imports.gi;
+const { Gio, GLib, ScarecrowBluetooth, GObject } = imports.gi;
 
 const Main = imports.ui.main;
 const PanelMenu = imports.ui.panelMenu;
@@ -52,7 +52,7 @@ class Indicator extends PanelMenu.SystemIndicator {
         this._syncId = 0;
         this._adapter = null;
 
-        this._client = new GnomeBluetooth.Client();
+        this._client = new ScarecrowBluetooth.Client();
         this._model = this._client.get_model();
         this._model.connect('row-deleted', this._queueSync.bind(this));
         this._model.connect('row-changed', this._queueSync.bind(this));
@@ -74,9 +74,9 @@ class Indicator extends PanelMenu.SystemIndicator {
         let [ret, iter] = this._model.get_iter_first();
         while (ret) {
             let isDefault = this._model.get_value(iter,
-                                                  GnomeBluetooth.Column.DEFAULT);
+                                                  ScarecrowBluetooth.Column.DEFAULT);
             let isPowered = this._model.get_value(iter,
-                                                  GnomeBluetooth.Column.POWERED);
+                                                  ScarecrowBluetooth.Column.POWERED);
             if (isDefault && isPowered)
                 return iter;
             ret = this._model.iter_next(iter);
@@ -92,16 +92,16 @@ class Indicator extends PanelMenu.SystemIndicator {
         let [ret, iter] = this._model.iter_children(adapter);
         while (ret) {
             const isPaired = this._model.get_value(iter,
-                GnomeBluetooth.Column.PAIRED);
+                ScarecrowBluetooth.Column.PAIRED);
             const isTrusted = this._model.get_value(iter,
-                GnomeBluetooth.Column.TRUSTED);
+                ScarecrowBluetooth.Column.TRUSTED);
 
             if (isPaired || isTrusted) {
                 deviceInfos.push({
                     connected: this._model.get_value(iter,
-                        GnomeBluetooth.Column.CONNECTED),
+                        ScarecrowBluetooth.Column.CONNECTED),
                     name: this._model.get_value(iter,
-                        GnomeBluetooth.Column.ALIAS),
+                        ScarecrowBluetooth.Column.ALIAS),
                 });
             }
 
