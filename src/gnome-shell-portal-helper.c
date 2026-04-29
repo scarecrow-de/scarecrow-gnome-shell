@@ -2,7 +2,11 @@
 
 #include "config.h"
 
+#ifdef USE_CJS
+#include <cjs/gjs.h>
+#else
 #include <gjs/gjs.h>
+#endif
 #include <glib/gi18n.h>
 
 int

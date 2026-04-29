@@ -79,7 +79,12 @@ gdk_pixbuf_dep = dependency('gdk-pixbuf-2.0')
 gi_dep = dependency('gobject-introspection-1.0', version: gi_req)
 gio_dep = dependency('gio-2.0', version: gio_req)
 gio_unix_dep = dependency('gio-unix-2.0', version: gio_req)
-gjs_dep = dependency('gjs-1.0', version: gjs_req)
+use_cjs = get_option('cjs')
+if use_cjs
+  gjs_dep = dependency('cjs-1.0', version: gjs_req)
+else
+  gjs_dep = dependency('gjs-1.0', version: gjs_req)
+endif
 gtk_dep = dependency('gtk+-3.0', version: gtk_req)
 libxml_dep = dependency('libxml-2.0')
 clutter_dep = dependency(clutter_pc, version: mutter_req)
@@ -147,6 +152,7 @@ cdata.set_quoted('PACKAGE_VERSION', meson.project_version())
 
 cdata.set('HAVE_NETWORKMANAGER', have_networkmanager)
 cdata.set('HAVE_SYSTEMD', have_systemd)
+cdata.set('USE_CJS', use_cjs)
 
 # New API added in glib-2.57.2
 cdata.set('HAVE_GIO_DESKTOP_LAUNCH_URIS_WITH_FDS',

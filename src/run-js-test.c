@@ -31,7 +31,11 @@
 #include <string.h>
 
 #include <girepository.h>
+#ifdef USE_CJS
+#include <cjs/gjs.h>
+#else
 #include <gjs/gjs.h>
+#endif
 
 #include "shell-global.h"
 #include "shell-global-private.h"

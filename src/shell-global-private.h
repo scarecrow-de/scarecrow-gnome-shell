@@ -4,7 +4,11 @@
 
 #include "shell-global.h"
 
+#ifdef USE_CJS
+#include <cjs/gjs.h>
+#else
 #include <gjs/gjs.h>
+#endif
 
 void _shell_global_init            (const char *first_property_name,
                                     ...);
