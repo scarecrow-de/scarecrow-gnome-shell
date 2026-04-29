@@ -1,7 +1,21 @@
 // -*- mode: js; js-indent-level: 4; indent-tabs-mode: nil -*-
 /* exported init, installExtension, uninstallExtension, checkForUpdates */
 
-const { Clutter, Gio, GLib, GObject, Soup } = imports.gi;
+const { Clutter, Gio, GLib, GObject } = imports.gi;
+
+// Since Soup 2 and Soup 3 hate eachother extension downloading stuff is stubbed out for now
+let Soup = {};
+Soup.form_request_new_from_hash = function(a,b,c) {}
+Soup.KnownStatusCode = {
+    OK = 200
+}
+Soup.Session = class {
+    constructor(options) {}
+    add_feature(a) {}
+}
+Soup.ProxyResolverDefault = class {
+    constructor() {}
+}
 
 const Config = imports.misc.config;
 const Dialog = imports.ui.dialog;
