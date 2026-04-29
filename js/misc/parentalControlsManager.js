@@ -127,6 +127,10 @@ var ParentalControlsManager = GObject.registerClass({
     //    X-Flatpak-RenamedFrom lines are denied in the user’s parental
     //    controls.
     shouldShowApp(appInfo) {
+        // Is it undefined?
+        if(!appInfo)
+            return false;
+
         // Quick decision?
         if (!appInfo.should_show())
             return false;
