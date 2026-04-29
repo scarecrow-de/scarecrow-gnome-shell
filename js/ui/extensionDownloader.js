@@ -4,18 +4,22 @@
 const { Clutter, Gio, GLib, GObject } = imports.gi;
 
 // Since Soup 2 and Soup 3 hate eachother extension downloading stuff is stubbed out for now
-let Soup = {};
-Soup.form_request_new_from_hash = function(a,b,c) {}
-Soup.KnownStatusCode = {
-    OK = 200
-}
-Soup.Session = class {
-    constructor(options) {}
-    add_feature(a) {}
-}
-Soup.ProxyResolverDefault = class {
-    constructor() {}
-}
+const Soup = {
+    Session: class Session {
+        constructor(options) {}
+        add_feature(a) {}
+    },
+
+    ProxyResolverDefault: class ProxyResolverDefault {
+        constructor() {}
+    },
+
+    KnownStatusCode: {
+        OK: 200
+    },
+
+    form_request_new_from_hash: function(a,b,c) {}
+};
 
 const Config = imports.misc.config;
 const Dialog = imports.ui.dialog;
