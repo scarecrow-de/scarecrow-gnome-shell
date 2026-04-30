@@ -16,11 +16,11 @@ msgstr ""
 "X-Language: bn_BD\n"
 "X-DamnedLies-Scope: partial\n"
 
-#: ../data/gnome-shell.desktop.in.in.h:1
+#: ../data/scarecrow-shell.desktop.in.in.h:1
 msgid "Scarecrow Shell"
 msgstr "জিনোম সেল"
 
-#: ../data/gnome-shell.desktop.in.in.h:2
+#: ../data/scarecrow-shell.desktop.in.in.h:2
 msgid "Window management and application launching"
 msgstr "উইন্ডো ব্যবস্থাপনা এবং অ্যাপ্লিকেশন চালু"
 

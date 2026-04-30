@@ -16,10 +16,10 @@ script_data.set('pkglibdir', pkglibdir)
 script_data.set('PYTHON', python.path())
 script_data.set('VERSION', meson.project_version())
 
-script_tools = ['gnome-shell-perf-tool']
+script_tools = ['scarecrow-shell-perf-tool']
 
 if get_option('extensions_tool')
-  script_tools += 'gnome-shell-extension-tool'
+  script_tools += 'scarecrow-shell-extension-tool'
 endif
 
 foreach tool : script_tools
@@ -31,7 +31,7 @@ foreach tool : script_tools
   )
 endforeach
 
-install_data('gnome-shell-extension-prefs',
+install_data('scarecrow-shell-extension-prefs',
   install_dir: bindir
 )
 
@@ -79,7 +79,7 @@ libshell_menu_sources = [
   'gtkactionobserver.c'
 ]
 
-libshell_menu = library('gnome-shell-menu',
+libshell_menu = library('scarecrow-shell-menu',
   sources: libshell_menu_sources,
   dependencies: [gio_dep, clutter_dep],
   include_directories: conf_inc,
@@ -127,7 +127,7 @@ libshell_private_headers = [
 ]
 
 libshell_sources = [
-  'gnome-shell-plugin.c',
+  'scarecrow-shell-plugin.c',
   'shell-app.c',
   'shell-app-system.c',
   'shell-app-usage.c',
@@ -191,7 +191,7 @@ dbus_generated += gnome.gdbus_codegen('switcheroo-control',
 
 libshell_no_gir_sources += dbus_generated
 
-libshell = library('gnome-shell',
+libshell = library('scarecrow-shell',
   sources: libshell_gir_sources + libshell_no_gir_sources,
   dependencies: gnome_shell_deps + [libshell_menu_dep, libst_dep, mutter_dep, gnome_desktop_dep, m_dep],
   include_directories: [conf_inc, st_inc, include_directories('tray')],
@@ -233,7 +233,7 @@ gnome.generate_gir(libshell,
   install: true
 )
 
-executable('gnome-shell', 'main.c',
+executable('scarecrow-shell', 'main.c',
   c_args: gnome_shell_cflags + [
     '-DMUTTER_TYPELIB_DIR="@0@"'.format(mutter_typelibdir)
   ],
@@ -245,8 +245,8 @@ executable('gnome-shell', 'main.c',
 )
 
 if have_networkmanager
-  executable('gnome-shell-portal-helper',
-    'gnome-shell-portal-helper.c', portal_resources,
+  executable('scarecrow-shell-portal-helper',
+    'scarecrow-shell-portal-helper.c', portal_resources,
     c_args: tools_cflags,
     dependencies: tools_deps,
     include_directories: [conf_inc],
@@ -255,7 +255,7 @@ if have_networkmanager
   )
 endif
 
-executable('gnome-shell-perf-helper', 'shell-perf-helper.c',
+executable('scarecrow-shell-perf-helper', 'shell-perf-helper.c',
   dependencies: [gtk_dep, gio_dep, m_dep],
   include_directories: [conf_inc],
   install_dir: libexecdir,

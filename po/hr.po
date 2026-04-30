@@ -1,12 +1,12 @@
-# Croatian translation for gnome-shell.
-# Copyright (C) 2016 gnome-shell's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-shell package.
+# Croatian translation for scarecrow-shell.
+# Copyright (C) 2016 scarecrow-shell's COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-shell package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-shell/issues\n"
+"Project-Id-Version: scarecrow-shell master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-shell/issues\n"
 "POT-Creation-Date: 2020-08-17 22:03+0000\n"
 "PO-Revision-Date: 2020-08-20 00:30+0200\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
@@ -19,27 +19,27 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 2.4.1\n"
 
-#: data/50-gnome-shell-system.xml:6
+#: data/50-scarecrow-shell-system.xml:6
 msgid "System"
 msgstr "Sustav"
 
-#: data/50-gnome-shell-system.xml:9
+#: data/50-scarecrow-shell-system.xml:9
 msgid "Show the notification list"
 msgstr "Prikaži popis poruka obavijesti"
 
-#: data/50-gnome-shell-system.xml:12
+#: data/50-scarecrow-shell-system.xml:12
 msgid "Focus the active notification"
 msgstr "Fokusiraj aktivnu obavijest"
 
-#: data/50-gnome-shell-system.xml:15
+#: data/50-scarecrow-shell-system.xml:15
 msgid "Show the overview"
 msgstr "Prikaži pregled"
 
-#: data/50-gnome-shell-system.xml:18
+#: data/50-scarecrow-shell-system.xml:18
 msgid "Show all applications"
 msgstr "Prikaži sve aplikacije"
 
-#: data/50-gnome-shell-system.xml:21
+#: data/50-scarecrow-shell-system.xml:21
 msgid "Open the application menu"
 msgstr "Otvori izbornik aplikacija"
 

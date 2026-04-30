@@ -345,7 +345,7 @@ function _getStylesheet(name) {
 
     let dataDirs = GLib.get_system_data_dirs();
     for (let i = 0; i < dataDirs.length; i++) {
-        let path = GLib.build_filenamev([dataDirs[i], 'gnome-shell', 'theme', name]);
+        let path = GLib.build_filenamev([dataDirs[i], 'scarecrow-shell', 'theme', name]);
         stylesheet = Gio.file_new_for_path(path);
         if (stylesheet.query_exists(null))
             return stylesheet;
@@ -415,7 +415,7 @@ function reloadThemeResource() {
 }
 
 function _loadOskLayouts() {
-    _oskResource = Gio.Resource.load('%s/gnome-shell-osk-layouts.gresource'.format(global.datadir));
+    _oskResource = Gio.Resource.load('%s/scarecrow-shell-osk-layouts.gresource'.format(global.datadir));
     _oskResource._register();
 }
 
@@ -784,7 +784,7 @@ function queueDeferredWork(workId) {
             _deferredTimeoutId = 0;
             return GLib.SOURCE_REMOVE;
         });
-        GLib.Source.set_name_by_id(_deferredTimeoutId, '[gnome-shell] _runAllDeferredWork');
+        GLib.Source.set_name_by_id(_deferredTimeoutId, '[scarecrow-shell] _runAllDeferredWork');
     }
 }
 

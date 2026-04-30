@@ -1,14 +1,14 @@
-# translation of gnome-shell.master.hi.po to Hindi
-# Hindi translation for gnome-shell.
-# Copyright (C) 2011 gnome-shell's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-shell package.
+# translation of scarecrow-shell.master.hi.po to Hindi
+# Hindi translation for scarecrow-shell.
+# Copyright (C) 2011 scarecrow-shell's COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-shell package.
 #
 # Rajesh <rranjan>, 2011.
 # rajesh <rajeshkajha@yahoo.com>, 2012, 2013, 2014.
 # chandankumar <chandankumar.093047@gmail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell.master.hi\n"
+"Project-Id-Version: scarecrow-shell.master.hi\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "shell&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-09-19 19:40+0000\n"
@@ -23,48 +23,48 @@ msgstr ""
 "X-Generator: Lokalize 1.5\n"
 "X-DamnedLies-Scope: partial\n"
 
-#: ../data/50-gnome-shell-system.xml.in.h:1
+#: ../data/50-scarecrow-shell-system.xml.in.h:1
 msgid "System"
 msgstr "तंत्र"
 
-#: ../data/50-gnome-shell-system.xml.in.h:2
+#: ../data/50-scarecrow-shell-system.xml.in.h:2
 msgid "Show the message tray"
 msgstr "संदेश तश्तरी दिखाएँ"
 
-#: ../data/50-gnome-shell-system.xml.in.h:3
+#: ../data/50-scarecrow-shell-system.xml.in.h:3
 msgid "Focus the active notification"
 msgstr "सक्रिय अधिसूचना पर फोकस करें"
 
-#: ../data/50-gnome-shell-system.xml.in.h:4
+#: ../data/50-scarecrow-shell-system.xml.in.h:4
 msgid "Show the overview"
 msgstr "सारांश दिखाएँ"
 
-#: ../data/50-gnome-shell-system.xml.in.h:5
+#: ../data/50-scarecrow-shell-system.xml.in.h:5
 msgid "Show all applications"
 msgstr "सभी अनुप्रयोग दिखाएँ"
 
-#: ../data/50-gnome-shell-system.xml.in.h:6
+#: ../data/50-scarecrow-shell-system.xml.in.h:6
 msgid "Open the application menu"
 msgstr "अनुप्रयोग मेन्यू खोलें"
 
-#: ../data/gnome-shell.desktop.in.in.h:1
+#: ../data/scarecrow-shell.desktop.in.in.h:1
 msgid "Scarecrow Shell"
 msgstr "गनोम शेल"
 
-#: ../data/gnome-shell.desktop.in.in.h:2
-#: ../data/gnome-shell-wayland.desktop.in.in.h:2
+#: ../data/scarecrow-shell.desktop.in.in.h:2
+#: ../data/scarecrow-shell-wayland.desktop.in.in.h:2
 msgid "Window management and application launching"
 msgstr "विंडो प्रबंधन और अनुप्रयोग लॉन्चिंग"
 
-#: ../data/gnome-shell-extension-prefs.desktop.in.in.h:1
+#: ../data/scarecrow-shell-extension-prefs.desktop.in.in.h:1
 msgid "Scarecrow Shell Extension Preferences"
 msgstr "गनोम शेल एक्सटेंशन वरीयताएँ"
 
-#: ../data/gnome-shell-extension-prefs.desktop.in.in.h:2
+#: ../data/scarecrow-shell-extension-prefs.desktop.in.in.h:2
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "गनोम शेल एक्सटेंशन विन्यस्त करें"
 
-#: ../data/gnome-shell-wayland.desktop.in.in.h:1
+#: ../data/scarecrow-shell-wayland.desktop.in.in.h:1
 msgid "Scarecrow Shell (wayland compositor)"
 msgstr "गनोम शेल (wayland compositor)"
 

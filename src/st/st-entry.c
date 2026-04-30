@@ -737,7 +737,7 @@ static gpointer          cursor_func_data = NULL;
 /**
  * st_entry_set_cursor_func: (skip)
  *
- * This function is for private use by libgnome-shell.
+ * This function is for private use by libscarecrow-shell.
  * Do not ever use.
  */
 void

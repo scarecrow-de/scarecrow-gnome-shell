@@ -208,5 +208,5 @@ On success 0 is returned, a non-zero failure code otherwise.
 
 BUGS
 ----
-The tool is part of the gnome-shell project, and bugs should be reported
-in its issue tracker at https://gitlab.gnome.org/GNOME/gnome-shell/issues.
+The tool is part of the scarecrow-shell project, and bugs should be reported
+in its issue tracker at https://gitlab.gnome.org/GNOME/scarecrow-shell/issues.

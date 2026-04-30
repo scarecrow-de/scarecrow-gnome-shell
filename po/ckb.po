@@ -1,11 +1,11 @@
-# Kurdish (Sorani) translation for gnome-shell
+# Kurdish (Sorani) translation for scarecrow-shell
 # Copyright (c) 2020 Rosetta Contributors and Canonical Ltd 2020
-# This file is distributed under the same license as the gnome-shell package.
+# This file is distributed under the same license as the scarecrow-shell package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell\n"
+"Project-Id-Version: scarecrow-shell\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2020-01-13 09:13+0000\n"
 "PO-Revision-Date: 2020-03-28 18:37+0300\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Generator: Poedit 2.3\n"
 "Language: ckb\n"
 
-#: data/gnome-shell-extension-prefs.desktop.in.in:4
+#: data/scarecrow-shell-extension-prefs.desktop.in.in:4
 #: js/extensionPrefs/main.js:211
 msgid "Shell Extensions"
 msgstr ""

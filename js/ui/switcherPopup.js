@@ -145,7 +145,7 @@ var SwitcherPopup = GObject.registerClass({
                 this._showImmediately();
                 return GLib.SOURCE_REMOVE;
             });
-        GLib.Source.set_name_by_id(this._initialDelayTimeoutId, '[gnome-shell] Main.osdWindow.cancel');
+        GLib.Source.set_name_by_id(this._initialDelayTimeoutId, '[scarecrow-shell] Main.osdWindow.cancel');
         return true;
     }
 
@@ -281,7 +281,7 @@ var SwitcherPopup = GObject.registerClass({
             GLib.source_remove(this._motionTimeoutId);
 
         this._motionTimeoutId = GLib.timeout_add(GLib.PRIORITY_DEFAULT, DISABLE_HOVER_TIMEOUT, this._mouseTimedOut.bind(this));
-        GLib.Source.set_name_by_id(this._motionTimeoutId, '[gnome-shell] this._mouseTimedOut');
+        GLib.Source.set_name_by_id(this._motionTimeoutId, '[scarecrow-shell] this._mouseTimedOut');
     }
 
     _mouseTimedOut() {

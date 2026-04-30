@@ -285,7 +285,7 @@ var ShellUserVerifier = class {
                                                            this._queueMessageTimeout();
                                                            return GLib.SOURCE_REMOVE;
                                                        });
-        GLib.Source.set_name_by_id(this._messageQueueTimeoutId, '[gnome-shell] this._queueMessageTimeout');
+        GLib.Source.set_name_by_id(this._messageQueueTimeoutId, '[scarecrow-shell] this._queueMessageTimeout');
     }
 
     _queueMessage(message, messageType) {

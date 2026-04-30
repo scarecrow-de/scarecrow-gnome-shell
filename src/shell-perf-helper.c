@@ -1,6 +1,6 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 
-/* gnome-shell-perf-helper: a program to create windows for performance tests
+/* scarecrow-shell-perf-helper: a program to create windows for performance tests
  *
  * Running performance tests with whatever windows a user has open results
  * in unreliable results, so instead we hide all other windows and talk
@@ -80,7 +80,7 @@ establish_timeout (void)
   g_clear_handle_id (&timeout_id, g_source_remove);
 
   timeout_id = g_timeout_add (opt_idle_timeout * 1000, on_timeout, NULL);
-  g_source_set_name_by_id (timeout_id, "[gnome-shell] on_timeout");
+  g_source_set_name_by_id (timeout_id, "[scarecrow-shell] on_timeout");
 }
 
 static void
@@ -346,8 +346,8 @@ main (int argc, char **argv)
   GOptionContext *context;
   GError *error = NULL;
 
-  /* Since we depend on this, avoid the possibility of lt-gnome-shell-perf-helper */
-  g_set_prgname ("gnome-shell-perf-helper");
+  /* Since we depend on this, avoid the possibility of lt-scarecrow-shell-perf-helper */
+  g_set_prgname ("scarecrow-shell-perf-helper");
 
   context = g_option_context_new (" - server to create windows for performance testing");
   g_option_context_add_main_entries (context, opt_entries, NULL);

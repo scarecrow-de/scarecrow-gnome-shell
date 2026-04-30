@@ -137,7 +137,7 @@ var StreamSlider = class {
                 return GLib.SOURCE_REMOVE;
             });
             GLib.Source.set_name_by_id(this._notifyVolumeChangeId,
-                '[gnome-shell] this._notifyVolumeChangeId');
+                '[scarecrow-shell] this._notifyVolumeChangeId');
         }
     }
 

@@ -513,7 +513,7 @@ function initEnvironment() {
             log('ERROR: %s'.format(s));
         },
 
-        userdatadir: GLib.build_filenamev([GLib.get_user_data_dir(), 'gnome-shell']),
+        userdatadir: GLib.build_filenamev([GLib.get_user_data_dir(), 'scarecrow-shell']),
     };
 }
 

@@ -263,7 +263,7 @@ var ScreenShield = class {
                     this.lock(false);
                     return GLib.SOURCE_REMOVE;
                 });
-            GLib.Source.set_name_by_id(this._lockTimeoutId, '[gnome-shell] this.lock');
+            GLib.Source.set_name_by_id(this._lockTimeoutId, '[scarecrow-shell] this.lock');
         }
 
         this._activateFade(this._longLightbox, STANDARD_FADE_TIME);
@@ -465,7 +465,7 @@ var ScreenShield = class {
                 this._activateFade(this._shortLightbox, MANUAL_FADE_TIME);
                 return GLib.SOURCE_REMOVE;
             });
-            GLib.Source.set_name_by_id(id, '[gnome-shell] this._activateFade');
+            GLib.Source.set_name_by_id(id, '[scarecrow-shell] this._activateFade');
         } else {
             if (params.fadeToBlack)
                 this._activateFade(this._shortLightbox, 0);

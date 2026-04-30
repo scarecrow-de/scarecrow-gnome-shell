@@ -680,7 +680,7 @@ var WindowPreview = GObject.registerClass({
                 return GLib.SOURCE_REMOVE;
             });
 
-        GLib.Source.set_name_by_id(this._idleHideOverlayId, '[gnome-shell] this._idleHideOverlayId');
+        GLib.Source.set_name_by_id(this._idleHideOverlayId, '[scarecrow-shell] this._idleHideOverlayId');
 
         return super.vfunc_leave_event(crossingEvent);
     }

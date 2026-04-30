@@ -1,11 +1,11 @@
-# Sinhala translation for gnome-shell.
-# Copyright (C) 2012 gnome-shell's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-shell package.
+# Sinhala translation for scarecrow-shell.
+# Copyright (C) 2012 scarecrow-shell's COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-shell package.
 #
 # Danishka Navin <danishka@gmail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell master\n"
+"Project-Id-Version: scarecrow-shell master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "shell&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2012-02-01 05:57+0000\n"
@@ -19,11 +19,11 @@ msgstr ""
 "Language: si\n"
 "X-Generator: Lokalize 1.2\n"
 
-#: ../data/gnome-shell.desktop.in.in.h:1
+#: ../data/scarecrow-shell.desktop.in.in.h:1
 msgid "Scarecrow Shell"
 msgstr "GNOME ශෙල්"
 
-#: ../data/gnome-shell.desktop.in.in.h:2
+#: ../data/scarecrow-shell.desktop.in.in.h:2
 msgid "Window management and application launching"
 msgstr ""
 

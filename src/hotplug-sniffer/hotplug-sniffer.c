@@ -72,7 +72,7 @@ ensure_autoquit_on (void)
   autoquit_id = 
     g_timeout_add_seconds (AUTOQUIT_TIMEOUT,
                            autoquit_timeout_cb, NULL);
-  g_source_set_name_by_id (autoquit_id, "[gnome-shell] autoquit_timeout_cb");
+  g_source_set_name_by_id (autoquit_id, "[scarecrow-shell] autoquit_timeout_cb");
 }
 
 typedef struct {
@@ -290,7 +290,7 @@ print_debug (const gchar *format, ...)
   s = g_strdup_vprintf (format, ap);
   va_end (ap);
 
-  g_print ("gnome-shell-hotplug-sniffer[%d]: %s.%03d: %s\n",
+  g_print ("scarecrow-shell-hotplug-sniffer[%d]: %s.%03d: %s\n",
            pid, timestamp, g_date_time_get_microsecond (now), s);
  out:
   ;

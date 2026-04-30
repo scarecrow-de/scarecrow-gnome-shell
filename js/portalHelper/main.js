@@ -228,7 +228,7 @@ class PortalWindow extends Gtk.ApplicationWindow {
         }
 
         // We *may* have finished here, but we don't know for
-        // sure. Tell gnome-shell to run another connectivity check
+        // sure. Tell scarecrow-shell to run another connectivity check
         // (but ratelimit the checks, we don't want to spam
         // nmcheck.gnome.org for portals that have 10 or more internal
         // redirects - and unfortunately they exist)
@@ -252,7 +252,7 @@ class PortalWindow extends Gtk.ApplicationWindow {
         }
 
         // Update the URI, in case of chained redirects, so we still
-        // think we're doing the login until gnome-shell kills us
+        // think we're doing the login until scarecrow-shell kills us
         this._uri = uri;
 
         decision.use();

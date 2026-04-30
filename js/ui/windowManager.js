@@ -40,7 +40,7 @@ const GSD_WACOM_OBJECT_PATH = '/org/gnome/SettingsDaemon/Wacom';
 const GsdWacomIface = loadInterfaceXML('org.gnome.SettingsDaemon.Wacom');
 const GsdWacomProxy = Gio.DBusProxy.makeProxyWrapper(GsdWacomIface);
 
-const WINDOW_DIMMER_EFFECT_NAME = "gnome-shell-window-dimmer";
+const WINDOW_DIMMER_EFFECT_NAME = "scarecrow-shell-window-dimmer";
 
 Gio._promisify(Shell,
     'util_start_systemd_unit', 'util_start_systemd_unit_finish');
@@ -74,7 +74,7 @@ class DisplayChangeDialog extends ModalDialog.ModalDialog {
                                           default: true });
 
         this._timeoutId = GLib.timeout_add(GLib.PRIORITY_DEFAULT, ONE_SECOND, this._tick.bind(this));
-        GLib.Source.set_name_by_id(this._timeoutId, '[gnome-shell] this._tick');
+        GLib.Source.set_name_by_id(this._timeoutId, '[scarecrow-shell] this._tick');
     }
 
     close(timestamp) {
@@ -295,7 +295,7 @@ var WorkspaceTracker = class {
             this._queueCheckWorkspaces();
             return GLib.SOURCE_REMOVE;
         });
-        GLib.Source.set_name_by_id(workspace._keepAliveId, '[gnome-shell] this._queueCheckWorkspaces');
+        GLib.Source.set_name_by_id(workspace._keepAliveId, '[scarecrow-shell] this._queueCheckWorkspaces');
     }
 
     _windowRemoved(workspace, window) {
@@ -308,7 +308,7 @@ var WorkspaceTracker = class {
             }
             return GLib.SOURCE_REMOVE;
         });
-        GLib.Source.set_name_by_id(id, '[gnome-shell] this._queueCheckWorkspaces');
+        GLib.Source.set_name_by_id(id, '[scarecrow-shell] this._queueCheckWorkspaces');
     }
 
     _windowLeftMonitor(metaDisplay, monitorIndex, _metaWin) {

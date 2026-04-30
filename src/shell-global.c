@@ -356,7 +356,7 @@ shell_global_init (ShellGlobal *global)
     }
 
   /* Ensure config dir exists for later use */
-  global->userdatadir = g_build_filename (g_get_user_data_dir (), "gnome-shell", NULL);
+  global->userdatadir = g_build_filename (g_get_user_data_dir (), "scarecrow-shell", NULL);
   g_mkdir_with_parents (global->userdatadir, 0700);
   global->userdatadir_path = g_file_new_for_path (global->userdatadir);
 
@@ -367,7 +367,7 @@ shell_global_init (ShellGlobal *global)
 #endif
 
   /* And the runtime state */
-  path = g_strdup_printf ("%s/gnome-shell/runtime-state-%s.%s",
+  path = g_strdup_printf ("%s/scarecrow-shell/runtime-state-%s.%s",
                           g_get_user_runtime_dir (),
                           byteorder_string,
                           XDisplayName (NULL));
@@ -564,28 +564,28 @@ shell_global_class_init (ShellGlobalClass *klass)
                                    PROP_SETTINGS,
                                    g_param_spec_object ("settings",
                                                         "Settings",
-                                                        "GSettings instance for gnome-shell configuration",
+                                                        "GSettings instance for scarecrow-shell configuration",
                                                         G_TYPE_SETTINGS,
                                                         G_PARAM_READABLE | G_PARAM_STATIC_STRINGS));
   g_object_class_install_property (gobject_class,
                                    PROP_DATADIR,
                                    g_param_spec_string ("datadir",
                                                         "Data directory",
-                                                        "Directory containing gnome-shell data files",
+                                                        "Directory containing scarecrow-shell data files",
                                                         NULL,
                                                         G_PARAM_READABLE | G_PARAM_STATIC_STRINGS));
   g_object_class_install_property (gobject_class,
                                    PROP_IMAGEDIR,
                                    g_param_spec_string ("imagedir",
                                                         "Image directory",
-                                                        "Directory containing gnome-shell image files",
+                                                        "Directory containing scarecrow-shell image files",
                                                         NULL,
                                                         G_PARAM_READABLE | G_PARAM_STATIC_STRINGS));
   g_object_class_install_property (gobject_class,
                                    PROP_USERDATADIR,
                                    g_param_spec_string ("userdatadir",
                                                         "User data directory",
-                                                        "Directory containing gnome-shell user data",
+                                                        "Directory containing scarecrow-shell user data",
                                                         NULL,
                                                         G_PARAM_READABLE | G_PARAM_STATIC_STRINGS));
   g_object_class_install_property (gobject_class,
@@ -1594,7 +1594,7 @@ schedule_leisure_functions (ShellGlobal *global)
       global->leisure_function_id = g_idle_add_full (G_PRIORITY_LOW,
                                                      run_leisure_functions,
                                                      global, NULL);
-      g_source_set_name_by_id (global->leisure_function_id, "[gnome-shell] run_leisure_functions");
+      g_source_set_name_by_id (global->leisure_function_id, "[scarecrow-shell] run_leisure_functions");
     }
 }
 

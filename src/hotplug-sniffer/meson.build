@@ -5,7 +5,7 @@ hotplug_sources = [
   'hotplug-sniffer.c'
 ]
 
-executable('gnome-shell-hotplug-sniffer', hotplug_sources,
+executable('scarecrow-shell-hotplug-sniffer', hotplug_sources,
   dependencies: [gio_dep, gdk_pixbuf_dep],
   include_directories: include_directories('../..'),
   install_dir: libexecdir,

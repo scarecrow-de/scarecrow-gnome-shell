@@ -1,14 +1,14 @@
 # translation of gu.po to Gujarati
-# Gujarati translation for gnome-shell.
-# Copyright (C) 2011 gnome-shell's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-shell package.
+# Gujarati translation for scarecrow-shell.
+# Copyright (C) 2011 scarecrow-shell's COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-shell package.
 #
 # Sweta Kothari <swkothar@redhat.com>, 2011, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: gu\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
-"cgi?product=gnome-shell&keywords=I18N+L10N&component=general\n"
+"cgi?product=scarecrow-shell&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-10-01 07:39+0000\n"
 "PO-Revision-Date: 2014-10-01 15:51+0530\n"
 "Last-Translator: \n"
@@ -20,48 +20,48 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Lokalize 1.0\n"
 
-#: ../data/50-gnome-shell-system.xml.in.h:1
+#: ../data/50-scarecrow-shell-system.xml.in.h:1
 msgid "System"
 msgstr "સિસ્ટમ"
 
-#: ../data/50-gnome-shell-system.xml.in.h:2
+#: ../data/50-scarecrow-shell-system.xml.in.h:2
 msgid "Show the message tray"
 msgstr "સંદેશો ટ્રેને બતાવો"
 
-#: ../data/50-gnome-shell-system.xml.in.h:3
+#: ../data/50-scarecrow-shell-system.xml.in.h:3
 msgid "Focus the active notification"
 msgstr "સક્રિય સૂચના પર પ્રકાશ નાંખો"
 
-#: ../data/50-gnome-shell-system.xml.in.h:4
+#: ../data/50-scarecrow-shell-system.xml.in.h:4
 msgid "Show the overview"
 msgstr "ઝાંખી બતાવો"
 
-#: ../data/50-gnome-shell-system.xml.in.h:5
+#: ../data/50-scarecrow-shell-system.xml.in.h:5
 msgid "Show all applications"
 msgstr "બધા કાર્યક્રમો બતાવો"
 
-#: ../data/50-gnome-shell-system.xml.in.h:6
+#: ../data/50-scarecrow-shell-system.xml.in.h:6
 msgid "Open the application menu"
 msgstr "કાર્યક્રમ મેનુને ખોલો"
 
-#: ../data/gnome-shell.desktop.in.in.h:1
+#: ../data/scarecrow-shell.desktop.in.in.h:1
 msgid "Scarecrow Shell"
 msgstr "GNOME શેલ"
 
-#: ../data/gnome-shell.desktop.in.in.h:2
-#: ../data/gnome-shell-wayland.desktop.in.in.h:2
+#: ../data/scarecrow-shell.desktop.in.in.h:2
+#: ../data/scarecrow-shell-wayland.desktop.in.in.h:2
 msgid "Window management and application launching"
 msgstr "વિન્ડો સંચાલન અને કાર્યક્રમ શરૂઆત"
 
-#: ../data/gnome-shell-extension-prefs.desktop.in.in.h:1
+#: ../data/scarecrow-shell-extension-prefs.desktop.in.in.h:1
 msgid "Scarecrow Shell Extension Preferences"
 msgstr "Scarecrow Shell ઍક્સટેન્શન પસંદગીઓ"
 
-#: ../data/gnome-shell-extension-prefs.desktop.in.in.h:2
+#: ../data/scarecrow-shell-extension-prefs.desktop.in.in.h:2
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "Scarecrow Shell ઍક્સટેન્શનને રૂપરેખાંકિત કરો"
 
-#: ../data/gnome-shell-wayland.desktop.in.in.h:1
+#: ../data/scarecrow-shell-wayland.desktop.in.in.h:1
 msgid "Scarecrow Shell (wayland compositor)"
 msgstr "Scarecrow Shell (વેલૅન્ડ કંપોઝીટર)"
 

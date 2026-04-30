@@ -1,12 +1,12 @@
-# Karbi translation for gnome-shell.
+# Karbi translation for scarecrow-shell.
 # Copyright (C) 2019 nautilus-shell's The Gnome Foundation.
-# This file is distributed under the same license as the gnome-shell package.
+# This file is distributed under the same license as the scarecrow-shell package.
 # Jor Teron <jor.teron@gmail.com>, 2019-20.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-shell/issues\n"
+"Project-Id-Version: scarecrow-shell master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-shell/issues\n"
 "POT-Creation-Date: 2020-02-22 15:36+0000\n"
 "PO-Revision-Date: 2020-02-22 21:44+0530\n"
 "Last-Translator: Jor Teron <jor.teron@gmail.com>\n"
@@ -18,27 +18,27 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator:Gedit \n"
 
-#: data/50-gnome-shell-system.xml:6
+#: data/50-scarecrow-shell-system.xml:6
 msgid "System"
 msgstr "System"
 
-#: data/50-gnome-shell-system.xml:9
+#: data/50-scarecrow-shell-system.xml:9
 msgid "Show the notification list"
 msgstr "Notification list ke paklang"
 
-#: data/50-gnome-shell-system.xml:12
+#: data/50-scarecrow-shell-system.xml:12
 msgid "Focus the active notification"
 msgstr "Non-het notification ke paklang"
 
-#: data/50-gnome-shell-system.xml:15
+#: data/50-scarecrow-shell-system.xml:15
 msgid "Show the overview"
 msgstr "Kado-kawe"
 
-#: data/50-gnome-shell-system.xml:18
+#: data/50-scarecrow-shell-system.xml:18
 msgid "Show all applications"
 msgstr "Kado-kawe applications ke-paklang"
 
-#: data/50-gnome-shell-system.xml:21
+#: data/50-scarecrow-shell-system.xml:21
 msgid "Open the application menu"
 msgstr "Application ason-amung kangpu"
 

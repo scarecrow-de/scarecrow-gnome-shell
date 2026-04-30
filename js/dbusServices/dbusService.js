@@ -158,7 +158,7 @@ var DBusService = class {
     }
 
     run() {
-        // Bail out when not running under gnome-shell
+        // Bail out when not running under scarecrow-shell
         Gio.DBus.watch_name(Gio.BusType.SESSION,
             'org.gnome.Shell',
             Gio.BusNameWatcherFlags.NONE,

@@ -459,7 +459,7 @@ class ActivitiesButton extends PanelMenu.Button {
         this._xdndTimeOut = GLib.timeout_add(GLib.PRIORITY_DEFAULT, BUTTON_DND_ACTIVATION_TIMEOUT, () => {
             this._xdndToggleOverview();
         });
-        GLib.Source.set_name_by_id(this._xdndTimeOut, '[gnome-shell] this._xdndToggleOverview');
+        GLib.Source.set_name_by_id(this._xdndTimeOut, '[scarecrow-shell] this._xdndToggleOverview');
 
         return DND.DragMotionResult.CONTINUE;
     }

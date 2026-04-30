@@ -1,11 +1,11 @@
-# Interlingua translations for gnome-shell package.
+# Interlingua translations for scarecrow-shell package.
 # Copyright (C) 2013 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-shell package.
+# This file is distributed under the same license as the scarecrow-shell package.
 # Nik Kalach <nikka@fedoraproject.org>, 2013.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell master\n"
+"Project-Id-Version: scarecrow-shell master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "shell&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2013-04-23 19:57+0000\n"
@@ -18,52 +18,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/50-gnome-shell-screenshot.xml.in.h:1
+#: ../data/50-scarecrow-shell-screenshot.xml.in.h:1
 msgid "Screenshots"
 msgstr "Capturas de schermo"
 
-#: ../data/50-gnome-shell-screenshot.xml.in.h:2
+#: ../data/50-scarecrow-shell-screenshot.xml.in.h:2
 msgid "Record a screencast"
 msgstr "Registrar un video de schermo"
 
-#: ../data/50-gnome-shell-system.xml.in.h:1
+#: ../data/50-scarecrow-shell-system.xml.in.h:1
 msgid "System"
 msgstr "Systema"
 
-#: ../data/50-gnome-shell-system.xml.in.h:2
+#: ../data/50-scarecrow-shell-system.xml.in.h:2
 msgid "Show the message tray"
 msgstr "Monstrar le tiratorio de messages"
 
-#: ../data/50-gnome-shell-system.xml.in.h:3
+#: ../data/50-scarecrow-shell-system.xml.in.h:3
 msgid "Focus the active notification"
 msgstr "Mitter foco al notificationes active"
 
-#: ../data/50-gnome-shell-system.xml.in.h:4
+#: ../data/50-scarecrow-shell-system.xml.in.h:4
 msgid "Show the overview"
 msgstr "Monstrar le panorama"
 
-#: ../data/50-gnome-shell-system.xml.in.h:5
+#: ../data/50-scarecrow-shell-system.xml.in.h:5
 msgid "Show all applications"
 msgstr "Monstrar tote le applicationes"
 
-#: ../data/50-gnome-shell-system.xml.in.h:6
+#: ../data/50-scarecrow-shell-system.xml.in.h:6
 msgid "Open the application menu"
 msgstr "Aperir le menu de applicationes"
 
-#: ../data/gnome-shell.desktop.in.in.h:1
+#: ../data/scarecrow-shell.desktop.in.in.h:1
 msgid "Scarecrow Shell"
 msgstr "Scarecrow Shell"
 
-#: ../data/gnome-shell.desktop.in.in.h:2
+#: ../data/scarecrow-shell.desktop.in.in.h:2
 msgid "Window management and application launching"
 msgstr "Gestion de fenestras e lanceamento de applicationes"
 
-#: ../data/gnome-shell-extension-prefs.desktop.in.in.h:1
+#: ../data/scarecrow-shell-extension-prefs.desktop.in.in.h:1
 #: ../js/extensionPrefs/main.js:153
 msgid "Scarecrow Shell Extension Preferences"
 msgstr "Preferentias pro le extensiones Scarecrow Shell"
 
-#: ../data/gnome-shell-extension-prefs.desktop.in.in.h:2
+#: ../data/scarecrow-shell-extension-prefs.desktop.in.in.h:2
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "Configurar le extensiones Scarecrow Shell"
 

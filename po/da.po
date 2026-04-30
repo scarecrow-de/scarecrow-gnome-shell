@@ -1,6 +1,6 @@
-# Danish translation of gnome-shell
-# Copyright (C) 2010-2011, 2014-2016, 2018 gnome-shell
-# This file is distributed under the same license as the gnome-shell package.
+# Danish translation of scarecrow-shell
+# Copyright (C) 2010-2011, 2014-2016, 2018 scarecrow-shell
+# This file is distributed under the same license as the scarecrow-shell package.
 #
 # Kenneth Nielsen <k.nielsen81@gmail.com>, 2012.
 # Kris Thomsen <mail@kristhomsen.dk>, 2009-2014, 2016-2017.
@@ -15,8 +15,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-shell/issues\n"
+"Project-Id-Version: scarecrow-shell\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-shell/issues\n"
 "POT-Creation-Date: 2020-08-24 15:44+0000\n"
 "PO-Revision-Date: 2020-09-07 18:35+0200\n"
 "Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
@@ -28,27 +28,27 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.3\n"
 
-#: data/50-gnome-shell-system.xml:6
+#: data/50-scarecrow-shell-system.xml:6
 msgid "System"
 msgstr "System"
 
-#: data/50-gnome-shell-system.xml:9
+#: data/50-scarecrow-shell-system.xml:9
 msgid "Show the notification list"
 msgstr "Vis påmindelseslisten"
 
-#: data/50-gnome-shell-system.xml:12
+#: data/50-scarecrow-shell-system.xml:12
 msgid "Focus the active notification"
 msgstr "Fokusér på den aktive påmindelse"
 
-#: data/50-gnome-shell-system.xml:15
+#: data/50-scarecrow-shell-system.xml:15
 msgid "Show the overview"
 msgstr "Vis oversigten"
 
-#: data/50-gnome-shell-system.xml:18
+#: data/50-scarecrow-shell-system.xml:18
 msgid "Show all applications"
 msgstr "Vis alle programmer"
 
-#: data/50-gnome-shell-system.xml:21
+#: data/50-scarecrow-shell-system.xml:21
 msgid "Open the application menu"
 msgstr "Åbn programmenuen"
 

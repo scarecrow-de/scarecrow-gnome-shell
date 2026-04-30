@@ -384,7 +384,7 @@ var Overview = class {
                     this._lastHoveredWindow = null;
                     return GLib.SOURCE_REMOVE;
                 });
-            GLib.Source.set_name_by_id(this._windowSwitchTimeoutId, '[gnome-shell] Main.activateWindow');
+            GLib.Source.set_name_by_id(this._windowSwitchTimeoutId, '[scarecrow-shell] Main.activateWindow');
         }
 
         return DND.DragMotionResult.CONTINUE;

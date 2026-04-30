@@ -73,7 +73,7 @@ should contain only "environment imports". These are either modules from
 gobject-introspection or modules added by gjs itself.
 
 The second block of imports should contain only "application imports". These
-are the JS code that is in the gnome-shell codebase,
+are the JS code that is in the scarecrow-shell codebase,
 e.g. `imports.ui.popupMenu`.
 
 Each import block should be sorted alphabetically. Don't import modules you
@@ -181,7 +181,7 @@ you to inherit from a type to use it, you can do so:
 We use gettext to translate the Scarecrow Shell into all the languages that GNOME
 supports. The `gettext` function is aliased globally as `_`, you do not need to
 explicitly import it. This is done through some magic in the
-[environment.js](http://git.gnome.org/browse/gnome-shell/tree/js/ui/environment.js)
+[environment.js](http://git.gnome.org/browse/scarecrow-shell/tree/js/ui/environment.js)
 file. If you can't find a method that's used, it's probably either in gjs itself
 or installed on the global object from the Environment.
 

@@ -13,7 +13,7 @@ openPrefs() {
 }
 
 cat >&2 <<EOT
-gnome-shell-extension-prefs is deprecated
+scarecrow-shell-extension-prefs is deprecated
 
 Install https://flathub.org/apps/details/org.gnome.Extensions for extension
 management, or use the gnome-extensions command line tool.

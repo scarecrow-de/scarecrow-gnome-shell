@@ -575,7 +575,7 @@ class ChatSource extends MessageTray.Source {
             GLib.source_remove(this._notifyTimeoutId);
         this._notifyTimeoutId = GLib.timeout_add(GLib.PRIORITY_DEFAULT, 500,
             this._notifyTimeout.bind(this));
-        GLib.Source.set_name_by_id(this._notifyTimeoutId, '[gnome-shell] this._notifyTimeout');
+        GLib.Source.set_name_by_id(this._notifyTimeoutId, '[scarecrow-shell] this._notifyTimeout');
     }
 
     _notifyTimeout() {
@@ -617,7 +617,7 @@ class ChatSource extends MessageTray.Source {
         // We don't want to send COMPOSING every time a letter is typed into
         // the entry. We send the state only when it changes. Telepathy/Empathy
         // might change it behind our back if the user is using both
-        // gnome-shell's entry and the Empathy conversation window. We could
+        // scarecrow-shell's entry and the Empathy conversation window. We could
         // keep track of it with the ChatStateChanged signal but it is good
         // enough right now.
         if (state != this._chatState) {
@@ -795,7 +795,7 @@ var ChatNotification = HAVE_TP ? GObject.registerClass({
                     GLib.PRIORITY_DEFAULT,
                     SCROLLBACK_IMMEDIATE_TIME - (currentTime - timestamp),
                     this.appendTimestamp.bind(this));
-                GLib.Source.set_name_by_id(this._timestampTimeoutId, '[gnome-shell] this.appendTimestamp');
+                GLib.Source.set_name_by_id(this._timestampTimeoutId, '[scarecrow-shell] this.appendTimestamp');
             }
         }
 
@@ -1008,7 +1008,7 @@ class ChatNotificationBanner extends MessageTray.NotificationBanner {
                 GLib.PRIORITY_DEFAULT,
                 COMPOSING_STOP_TIMEOUT,
                 this._composingStopTimeout.bind(this));
-            GLib.Source.set_name_by_id(this._composingTimeoutId, '[gnome-shell] this._composingStopTimeout');
+            GLib.Source.set_name_by_id(this._composingTimeoutId, '[scarecrow-shell] this._composingStopTimeout');
         } else {
             this.notification.source.setChatState(Tp.ChannelChatState.ACTIVE);
         }

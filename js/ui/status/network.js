@@ -758,7 +758,7 @@ class NMWirelessDialog extends ModalDialog.ModalDialog {
         this._syncView();
 
         this._scanTimeoutId = GLib.timeout_add_seconds(GLib.PRIORITY_DEFAULT, 15, this._onScanTimeout.bind(this));
-        GLib.Source.set_name_by_id(this._scanTimeoutId, '[gnome-shell] this._onScanTimeout');
+        GLib.Source.set_name_by_id(this._scanTimeoutId, '[scarecrow-shell] this._onScanTimeout');
         this._onScanTimeout();
 
         let id = Main.sessionMode.connect('updated', () => {

@@ -44,7 +44,7 @@ function sleep(milliseconds) {
             resolve();
             return GLib.SOURCE_REMOVE;
         });
-        GLib.Source.set_name_by_id(id, '[gnome-shell] sleep');
+        GLib.Source.set_name_by_id(id, '[scarecrow-shell] sleep');
     });
 }
 
@@ -78,7 +78,7 @@ function _getPerfHelper() {
 
 function _spawnPerfHelper() {
     let path = Config.LIBEXECDIR;
-    let command = `${path}/gnome-shell-perf-helper`;
+    let command = `${path}/scarecrow-shell-perf-helper`;
     Util.trySpawnCommandLine(command);
 }
 
@@ -105,7 +105,7 @@ function _callRemote(obj, method, ...args) {
  *   {bool} [params.redraws=false] - whether the window should continually redraw itself
  * @returns {Promise}
  *
- * Creates a window using gnome-shell-perf-helper for testing purposes.
+ * Creates a window using scarecrow-shell-perf-helper for testing purposes.
  * While this function can be used with yield in an automation
  * script to pause until the D-Bus call to the helper process returns,
  * because of the normal X asynchronous mapping process, to actually wait

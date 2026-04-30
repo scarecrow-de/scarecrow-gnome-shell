@@ -244,7 +244,7 @@ create_extension (const char *uuid, const char *name, const char *description, c
     template = "plain";
 
   dir = g_file_new_build_filename (g_get_user_data_dir (),
-                                   "gnome-shell",
+                                   "scarecrow-shell",
                                    "extensions",
                                    uuid,
                                    NULL);

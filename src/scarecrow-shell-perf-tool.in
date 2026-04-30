@@ -40,7 +40,7 @@ def start_shell(perf_output=None):
 
     self_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
     args = []
-    args.append(os.path.join(self_dir, 'gnome-shell'))
+    args.append(os.path.join(self_dir, 'scarecrow-shell'))
 
     if options.replace:
         args.append('--replace')
@@ -57,7 +57,7 @@ def start_shell(perf_output=None):
     return subprocess.Popen(args, env=env)
 
 def run_shell(perf_output=None):
-    # we do no additional supervision of gnome-shell,
+    # we do no additional supervision of scarecrow-shell,
     # beyond that of wait
     # in particular, we don't kill the shell upon
     # receiving a KeyboardInterrupt, as we expect to be
@@ -69,7 +69,7 @@ def run_shell(perf_output=None):
 def restore_shell():
     pid = os.fork()
     if (pid == 0):
-        os.execlp("gnome-shell", "gnome-shell", "--replace")
+        os.execlp("scarecrow-shell", "scarecrow-shell", "--replace")
     else:
         sys.exit(0)
 
@@ -82,7 +82,7 @@ def upload_performance_report(report_text):
     if not config_home:
         config_home = os.path.expanduser("~/.config")
 
-    config_file = os.path.join(config_home, "gnome-shell/perf.ini")
+    config_file = os.path.join(config_home, "scarecrow-shell/perf.ini")
 
     try:
         config = RawConfigParser()
@@ -139,7 +139,7 @@ def upload_performance_report(report_text):
     signature = parse.quote(base64.b64encode(h.digest()), "~")
 
     headers = {
-        'User-Agent': 'gnome-shell-performance-tool/@VERSION@',
+        'User-Agent': 'scarecrow-shell-performance-tool/@VERSION@',
         'Content-Type': 'application/json',
         'X-Shell-Signature': 'HMAC-SHA1 ' + signature
     };
@@ -155,7 +155,7 @@ def upload_performance_report(report_text):
         print(response.read())
 
 def gnome_hwtest_log(*args):
-    command = ['gnome-hwtest-log', '-t', 'gnome-shell-perf-tool']
+    command = ['gnome-hwtest-log', '-t', 'scarecrow-shell-perf-tool']
     command.extend(args)
     subprocess.check_call(command)
 
@@ -170,7 +170,7 @@ def run_performance_test():
     for i in range(0, iters):
         # We create an empty temporary file that the shell will overwrite
         # with the contents.
-        handle, output_file = tempfile.mkstemp(".json", "gnome-shell-perf.")
+        handle, output_file = tempfile.mkstemp(".json", "scarecrow-shell-perf.")
         os.close(handle)
 
         # Run the performance test and collect the output as JSON
@@ -234,7 +234,7 @@ def run_performance_test():
 
         # Add the Git revision if available
         self_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
-        if os.path.exists(os.path.join(self_dir, 'gnome-shell-jhbuild.in')):
+        if os.path.exists(os.path.join(self_dir, 'scarecrow-shell-jhbuild.in')):
             top_dir = os.path.dirname(self_dir)
             git_dir = os.path.join(top_dir, '.git')
             if os.path.exists(git_dir):

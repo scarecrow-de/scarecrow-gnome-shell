@@ -944,7 +944,7 @@ class Workspace extends St.Widget {
             });
 
         GLib.Source.set_name_by_id(this._layoutFrozenId,
-            '[gnome-shell] this._layoutFrozenId');
+            '[scarecrow-shell] this._layoutFrozenId');
     }
 
     _doAddWindow(metaWin) {
@@ -959,7 +959,7 @@ class Workspace extends St.Widget {
                     this._doAddWindow(metaWin);
                 return GLib.SOURCE_REMOVE;
             });
-            GLib.Source.set_name_by_id(id, '[gnome-shell] this._doAddWindow');
+            GLib.Source.set_name_by_id(id, '[scarecrow-shell] this._doAddWindow');
             return;
         }
 

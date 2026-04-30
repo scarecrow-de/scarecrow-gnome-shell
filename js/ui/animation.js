@@ -44,7 +44,7 @@ class Animation extends St.Bin {
                 this._showFrame(0);
 
             this._timeoutId = GLib.timeout_add(GLib.PRIORITY_LOW, this._speed, this._update.bind(this));
-            GLib.Source.set_name_by_id(this._timeoutId, '[gnome-shell] this._update');
+            GLib.Source.set_name_by_id(this._timeoutId, '[scarecrow-shell] this._update');
         }
 
         this._isPlaying = true;

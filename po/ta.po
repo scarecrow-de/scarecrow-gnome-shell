@@ -1,12 +1,12 @@
-# Tamil translation for gnome-shell.
-# Copyright (C) 2010 gnome-shell's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-shell package.
+# Tamil translation for scarecrow-shell.
+# Copyright (C) 2010 scarecrow-shell's COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-shell package.
 #
 # Dr.T.Vasudevan <agnihot3@gmail.com>, 2010, 2011, 2012.
 # Shantha kumar <shkumar@redhat.com>, 2013, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell master\n"
+"Project-Id-Version: scarecrow-shell master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "shell&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-09-13 16:02+0000\n"
@@ -23,48 +23,48 @@ msgstr ""
 "X-Poedit-Country: இந்தியா\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: ../data/50-gnome-shell-system.xml.in.h:1
+#: ../data/50-scarecrow-shell-system.xml.in.h:1
 msgid "System"
 msgstr "கணினி"
 
-#: ../data/50-gnome-shell-system.xml.in.h:2
+#: ../data/50-scarecrow-shell-system.xml.in.h:2
 msgid "Show the message tray"
 msgstr "அறிவிப்பு பலகத்தை காட்டுக"
 
-#: ../data/50-gnome-shell-system.xml.in.h:3
+#: ../data/50-scarecrow-shell-system.xml.in.h:3
 msgid "Focus the active notification"
 msgstr "இயங்கு செய்தி அறிவிப்பை குவி"
 
-#: ../data/50-gnome-shell-system.xml.in.h:4
+#: ../data/50-scarecrow-shell-system.xml.in.h:4
 msgid "Show the overview"
 msgstr "கண்ணோட்டத்தை காட்டு"
 
-#: ../data/50-gnome-shell-system.xml.in.h:5
+#: ../data/50-scarecrow-shell-system.xml.in.h:5
 msgid "Show all applications"
 msgstr "எல்லா செயலிகளையும் காட்டு"
 
-#: ../data/50-gnome-shell-system.xml.in.h:6
+#: ../data/50-scarecrow-shell-system.xml.in.h:6
 msgid "Open the application menu"
 msgstr "செயலிகள் பட்டியை திறக்க விசைபிணைப்பு"
 
-#: ../data/gnome-shell.desktop.in.in.h:1
+#: ../data/scarecrow-shell.desktop.in.in.h:1
 msgid "Scarecrow Shell"
 msgstr "க்னோம் ஷெல்"
 
-#: ../data/gnome-shell.desktop.in.in.h:2
-#: ../data/gnome-shell-wayland.desktop.in.in.h:2
+#: ../data/scarecrow-shell.desktop.in.in.h:2
+#: ../data/scarecrow-shell-wayland.desktop.in.in.h:2
 msgid "Window management and application launching"
 msgstr "சாளர மேலாண்மை மற்றும் பயன்பாடு துவக்கம்"
 
-#: ../data/gnome-shell-extension-prefs.desktop.in.in.h:1
+#: ../data/scarecrow-shell-extension-prefs.desktop.in.in.h:1
 msgid "Scarecrow Shell Extension Preferences"
 msgstr "க்னோம் ஷெல் நீட்சி விருப்பங்கள்"
 
-#: ../data/gnome-shell-extension-prefs.desktop.in.in.h:2
+#: ../data/scarecrow-shell-extension-prefs.desktop.in.in.h:2
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "க்னோம் ஷெல் நீட்சிகளை வடிவமை"
 
-#: ../data/gnome-shell-wayland.desktop.in.in.h:1
+#: ../data/scarecrow-shell-wayland.desktop.in.in.h:1
 msgid "Scarecrow Shell (wayland compositor)"
 msgstr "GNOME ஷெல் (வேலேன்ட் கம்ப்போசிட்டர்)"
 

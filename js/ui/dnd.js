@@ -547,7 +547,7 @@ var _Draggable = class _Draggable {
 
         this._updateHoverId = GLib.idle_add(GLib.PRIORITY_DEFAULT,
                                             this._updateDragHover.bind(this));
-        GLib.Source.set_name_by_id(this._updateHoverId, '[gnome-shell] this._updateDragHover');
+        GLib.Source.set_name_by_id(this._updateHoverId, '[scarecrow-shell] this._updateDragHover');
     }
 
     _updateDragPosition(event) {

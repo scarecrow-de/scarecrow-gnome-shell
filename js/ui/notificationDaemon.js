@@ -162,7 +162,7 @@ var FdoNotificationDaemon = class FdoNotificationDaemon {
                 this._emitNotificationClosed(id, NotificationClosedReason.DISMISSED);
                 return GLib.SOURCE_REMOVE;
             });
-            GLib.Source.set_name_by_id(idleId, '[gnome-shell] this._emitNotificationClosed');
+            GLib.Source.set_name_by_id(idleId, '[scarecrow-shell] this._emitNotificationClosed');
             return invocation.return_value(GLib.Variant.new('(u)', [id]));
         }
 

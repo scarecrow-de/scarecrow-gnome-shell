@@ -1,11 +1,11 @@
-# Punjabi translation for gnome-shell.
-# Copyright (C) 2009 gnome-shell's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-shell package.
+# Punjabi translation for scarecrow-shell.
+# Copyright (C) 2009 scarecrow-shell's COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-shell package.
 # A S Alam <aalam@users.sf.net>, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-shell/issues\n"
+"Project-Id-Version: scarecrow-shell master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-shell/issues\n"
 "POT-Creation-Date: 2020-02-27 21:57+0000\n"
 "PO-Revision-Date: 2020-03-01 01:16-0800\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
@@ -17,27 +17,27 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 19.04.3\n"
 
-#: data/50-gnome-shell-system.xml:6
+#: data/50-scarecrow-shell-system.xml:6
 msgid "System"
 msgstr "ਸਿਸਟਮ"
 
-#: data/50-gnome-shell-system.xml:9
+#: data/50-scarecrow-shell-system.xml:9
 msgid "Show the notification list"
 msgstr "ਨੋਟੀਫਿਕੇਸ਼ਨ ਸੂਚੀ ਵੇਖਾਓ"
 
-#: data/50-gnome-shell-system.xml:12
+#: data/50-scarecrow-shell-system.xml:12
 msgid "Focus the active notification"
 msgstr "ਸਰਗਰਮ ਸੂਚਨਾ ਉੱਤੇ ਫੋਕਸ"
 
-#: data/50-gnome-shell-system.xml:15
+#: data/50-scarecrow-shell-system.xml:15
 msgid "Show the overview"
 msgstr "ਸੰਖੇਪ ਵੇਖਾਓ"
 
-#: data/50-gnome-shell-system.xml:18
+#: data/50-scarecrow-shell-system.xml:18
 msgid "Show all applications"
 msgstr "ਸਭ ਐਪਲੀਕੇਸ਼ਨ ਵੇਖੋ"
 
-#: data/50-gnome-shell-system.xml:21
+#: data/50-scarecrow-shell-system.xml:21
 msgid "Open the application menu"
 msgstr "ਐਪਲੀਕੇਸ਼ਨ ਮੇਨੂ ਖੋਲ੍ਹੋ"
 

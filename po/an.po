@@ -1,12 +1,12 @@
-# Aragonese translation for gnome-shell.
-# Copyright (C) 2011 gnome-shell's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-shell package.
+# Aragonese translation for scarecrow-shell.
+# Copyright (C) 2011 scarecrow-shell's COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-shell package.
 # FULL NAME <EMAIL@ADDRESS>, 2011.
 # Daniel Martinez <entaltoaragon@gmail.com>, 2011, 2014, 2015.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell master\n"
+"Project-Id-Version: scarecrow-shell master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "shell&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-07-23 08:08+0000\n"
@@ -21,48 +21,48 @@ msgstr ""
 "X-Generator: Pootle 2.5.1.1\n"
 "X-POOTLE-MTIME: 1430206804.000000\n"
 
-#: ../data/50-gnome-shell-system.xml.in.h:1
+#: ../data/50-scarecrow-shell-system.xml.in.h:1
 msgid "System"
 msgstr "Sistema"
 
-#: ../data/50-gnome-shell-system.xml.in.h:2
+#: ../data/50-scarecrow-shell-system.xml.in.h:2
 msgid "Show the notification list"
 msgstr "Amostrar a lista de notificacions"
 
-#: ../data/50-gnome-shell-system.xml.in.h:3
+#: ../data/50-scarecrow-shell-system.xml.in.h:3
 msgid "Focus the active notification"
 msgstr "Dar o foco a la notificación activa"
 
-#: ../data/50-gnome-shell-system.xml.in.h:4
+#: ../data/50-scarecrow-shell-system.xml.in.h:4
 msgid "Show the overview"
 msgstr "Amostrar l'anvista cheneral"
 
-#: ../data/50-gnome-shell-system.xml.in.h:5
+#: ../data/50-scarecrow-shell-system.xml.in.h:5
 msgid "Show all applications"
 msgstr "Amostrar todas as aplicacions"
 
-#: ../data/50-gnome-shell-system.xml.in.h:6
+#: ../data/50-scarecrow-shell-system.xml.in.h:6
 msgid "Open the application menu"
 msgstr "Ubrir o menú de l'aplicación"
 
-#: ../data/gnome-shell.desktop.in.in.h:1
+#: ../data/scarecrow-shell.desktop.in.in.h:1
 msgid "Scarecrow Shell"
 msgstr "Scarecrow Shell"
 
-#: ../data/gnome-shell.desktop.in.in.h:2
-#: ../data/gnome-shell-wayland.desktop.in.in.h:2
+#: ../data/scarecrow-shell.desktop.in.in.h:2
+#: ../data/scarecrow-shell-wayland.desktop.in.in.h:2
 msgid "Window management and application launching"
 msgstr "Chestión de finestras y inicio d'aplicacions"
 
-#: ../data/gnome-shell-extension-prefs.desktop.in.in.h:1
+#: ../data/scarecrow-shell-extension-prefs.desktop.in.in.h:1
 msgid "Scarecrow Shell Extension Preferences"
 msgstr "Preferencias d'as extensions de Scarecrow Shell"
 
-#: ../data/gnome-shell-extension-prefs.desktop.in.in.h:2
+#: ../data/scarecrow-shell-extension-prefs.desktop.in.in.h:2
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "Configurar as extensions de Scarecrow Shell"
 
-#: ../data/gnome-shell-wayland.desktop.in.in.h:1
+#: ../data/scarecrow-shell-wayland.desktop.in.in.h:1
 msgid "Scarecrow Shell (wayland compositor)"
 msgstr "Scarecrow Shell (composición wayland)"
 

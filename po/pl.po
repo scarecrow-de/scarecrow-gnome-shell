@@ -1,6 +1,6 @@
-# Polish translation for gnome-shell.
-# Copyright © 2009-2020 the gnome-shell authors.
-# This file is distributed under the same license as the gnome-shell package.
+# Polish translation for scarecrow-shell.
+# Copyright © 2009-2020 the scarecrow-shell authors.
+# This file is distributed under the same license as the scarecrow-shell package.
 # Piotr Drąg <piotrdrag@gmail.com>, 2009-2020.
 # Tomasz Dominikowski <dominikowski@gmail.com>, 2009.
 # Wojciech Szczęsny <wszczesny@aviary.pl>, 2013.
@@ -8,8 +8,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-shell/issues\n"
+"Project-Id-Version: scarecrow-shell\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-shell/issues\n"
 "POT-Creation-Date: 2020-08-10 23:58+0000\n"
 "PO-Revision-Date: 2020-08-16 11:44+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
@@ -21,27 +21,27 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: data/50-gnome-shell-system.xml:6
+#: data/50-scarecrow-shell-system.xml:6
 msgid "System"
 msgstr "System"
 
-#: data/50-gnome-shell-system.xml:9
+#: data/50-scarecrow-shell-system.xml:9
 msgid "Show the notification list"
 msgstr "Wyświetlenie listy powiadomień"
 
-#: data/50-gnome-shell-system.xml:12
+#: data/50-scarecrow-shell-system.xml:12
 msgid "Focus the active notification"
 msgstr "Aktywacja bieżącego powiadomienia"
 
-#: data/50-gnome-shell-system.xml:15
+#: data/50-scarecrow-shell-system.xml:15
 msgid "Show the overview"
 msgstr "Wyświetlenie ekranu podglądu"
 
-#: data/50-gnome-shell-system.xml:18
+#: data/50-scarecrow-shell-system.xml:18
 msgid "Show all applications"
 msgstr "Wyświetlenie wszystkich programów"
 
-#: data/50-gnome-shell-system.xml:21
+#: data/50-scarecrow-shell-system.xml:21
 msgid "Open the application menu"
 msgstr "Otwarcie menu programu"
 

@@ -12,7 +12,7 @@ from GTK/[libportal].
 This is an unstable library with no API or ABI guarantees, and no
 soname versioning.
 
-It is not recommended to use it outside the gnome-shell project, and
+It is not recommended to use it outside the scarecrow-shell project, and
 may only be used as a subproject.
 
 ## License

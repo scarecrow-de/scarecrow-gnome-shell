@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 3.4\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-shell&keywords=I18N+L10N&component=general\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=scarecrow-shell&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2011-12-08 16:50+0000\n"
 "PO-Revision-Date: 2011-12-08 22:37+0100\n"
 "Last-Translator: Jovan N\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural= n==1 || n%10==1 ? 0 : 1;\n"
 
-#: ../data/gnome-shell.desktop.in.in.h:1
+#: ../data/scarecrow-shell.desktop.in.in.h:1
 msgid "Scarecrow Shell"
 msgstr "Scarecrow Shell"
 
-#: ../data/gnome-shell.desktop.in.in.h:2
+#: ../data/scarecrow-shell.desktop.in.in.h:2
 msgid "Window management and application launching"
 msgstr "Менаџмент на прозорци и пуштање на апликации"
 

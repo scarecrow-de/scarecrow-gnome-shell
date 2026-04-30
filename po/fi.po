@@ -1,6 +1,6 @@
-# gnome-shell Finnish translation
+# scarecrow-shell Finnish translation
 # Copyright (C) 2009-2011 Timo Jyrinki
-# This file is distributed under the same license as the gnome-shell package.
+# This file is distributed under the same license as the scarecrow-shell package.
 #
 # IMPORTANT NOTICE!
 #
@@ -23,8 +23,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-shell/issues\n"
+"Project-Id-Version: scarecrow-shell\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-shell/issues\n"
 "POT-Creation-Date: 2020-09-09 13:43+0000\n"
 "PO-Revision-Date: 2020-09-10 00:59+0300\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
@@ -39,27 +39,27 @@ msgstr ""
 "X-Project-Style: gnome\n"
 "X-POT-Import-Date: 2012-03-05 15:06:10+0000\n"
 
-#: data/50-gnome-shell-system.xml:6
+#: data/50-scarecrow-shell-system.xml:6
 msgid "System"
 msgstr "Järjestelmä"
 
-#: data/50-gnome-shell-system.xml:9
+#: data/50-scarecrow-shell-system.xml:9
 msgid "Show the notification list"
 msgstr "Näytä ilmoitusluettelo"
 
-#: data/50-gnome-shell-system.xml:12
+#: data/50-scarecrow-shell-system.xml:12
 msgid "Focus the active notification"
 msgstr "Kohdista aktiiviseen ilmoitukseen"
 
-#: data/50-gnome-shell-system.xml:15
+#: data/50-scarecrow-shell-system.xml:15
 msgid "Show the overview"
 msgstr "Näytä yleisnäkymä"
 
-#: data/50-gnome-shell-system.xml:18
+#: data/50-scarecrow-shell-system.xml:18
 msgid "Show all applications"
 msgstr "Näytä kaikki sovellukset"
 
-#: data/50-gnome-shell-system.xml:21
+#: data/50-scarecrow-shell-system.xml:21
 msgid "Open the application menu"
 msgstr "Avaa sovellusvalikko"
 

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Script that sets up jhbuild to build gnome-shell. Run this to
+# Script that sets up jhbuild to build scarecrow-shell. Run this to
 # checkout jhbuild and the required configuration.
 #
 # Copyright (C) 2008, Red Hat, Inc.
@@ -116,8 +116,8 @@ udev: f:libudev-devel d:libudev-dev # gudev
 uuid: f:libuuid-devel d:uuid-dev # Networkmanager
 wireless-tools: f:wireless-tools-devel d:libiw-dev s:libiw-devel # NetworkManager
 
-# python libraries used by gnome-shell wrapper script
-# These are commented out because the gnome-shell wrapper script
+# python libraries used by scarecrow-shell wrapper script
+# These are commented out because the scarecrow-shell wrapper script
 # isn't built by default, and needs updating for running on
 # a pure-GNOME 3 system, rather than recovering to GNOME 2.
 # dbus-python: f:dbus-python d:python-dbus
@@ -149,7 +149,7 @@ run_via_sudo() {
     echo "Running: sudo $@"
     if sudo "$@" ; then : ; else
 	echo 1>&2 "Command failed."
-	echo 1>&2 "Exiting gnome-shell-build-setup.sh. You can run it again safely."
+	echo 1>&2 "Exiting scarecrow-shell-build-setup.sh. You can run it again safely."
 	exit 1
     fi
 }
@@ -254,7 +254,7 @@ if test "x$system" = xMandrivaLinux ; then
 fi
 
 SOURCE=$HOME/Source
-BASEURL=http://git.gnome.org/browse/gnome-shell/plain/tools/build
+BASEURL=http://git.gnome.org/browse/scarecrow-shell/plain/tools/build
 
 if [ -d $SOURCE ] ; then : ; else
     mkdir $SOURCE
@@ -299,7 +299,7 @@ if [ -e $HOME/.jhbuildrc ] ; then
 fi
 
 echo -n "Writing ~/.jhbuildrc ... "
-curl -L -s -o $HOME/.jhbuildrc $BASEURL/jhbuildrc-gnome-shell
+curl -L -s -o $HOME/.jhbuildrc $BASEURL/jhbuildrc-scarecrow-shell
 echo "done"
 
 if [ ! -f $HOME/.jhbuildrc-custom ]; then
@@ -308,18 +308,18 @@ if [ ! -f $HOME/.jhbuildrc-custom ]; then
     echo "done"
 fi
 
-if [ -d $HOME/gnome-shell -a \! -d $HOME/gnome ] ; then
+if [ -d $HOME/scarecrow-shell -a \! -d $HOME/gnome ] ; then
     cat <<EOF
 WARNING:
-  The old source and install directory '$HOME/gnome-shell' exists, but
+  The old source and install directory '$HOME/scarecrow-shell' exists, but
   '$HOME/gnome' doesn't. An empty $HOME/gnome will be created.
 
   To avoid starting again from scratch you should remove the empty directory,
-  move your old '$HOME/gnome-shell' to '$HOME/gnome', and delete the old
+  move your old '$HOME/scarecrow-shell' to '$HOME/gnome', and delete the old
   install directory:
 
     rm -rf $HOME/gnome
-    mv $HOME/gnome-shell $HOME/gnome
+    mv $HOME/scarecrow-shell $HOME/gnome
     rm -rf $HOME/gnome/install
 EOF
 fi

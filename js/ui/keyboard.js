@@ -1386,7 +1386,7 @@ class Keyboard extends St.BoxLayout {
                 this._showIdleId = 0;
                 return GLib.SOURCE_REMOVE;
             });
-            GLib.Source.set_name_by_id(this._showIdleId, '[gnome-shell] this.open');
+            GLib.Source.set_name_by_id(this._showIdleId, '[scarecrow-shell] this.open');
         }
     }
 
@@ -1733,7 +1733,7 @@ class Keyboard extends St.BoxLayout {
                 this._open(monitor);
                 return GLib.SOURCE_REMOVE;
             });
-        GLib.Source.set_name_by_id(this._keyboardRestingId, '[gnome-shell] this._clearKeyboardRestTimer');
+        GLib.Source.set_name_by_id(this._keyboardRestingId, '[scarecrow-shell] this._clearKeyboardRestTimer');
     }
 
     _open(monitor) {
@@ -1767,7 +1767,7 @@ class Keyboard extends St.BoxLayout {
                 this._close();
                 return GLib.SOURCE_REMOVE;
             });
-        GLib.Source.set_name_by_id(this._keyboardRestingId, '[gnome-shell] this._clearKeyboardRestTimer');
+        GLib.Source.set_name_by_id(this._keyboardRestingId, '[scarecrow-shell] this._clearKeyboardRestTimer');
     }
 
     _close() {

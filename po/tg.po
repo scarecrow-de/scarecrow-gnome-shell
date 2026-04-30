@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Tajik Gnome\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-shell/issues\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-shell/issues\n"
 "POT-Creation-Date: 2019-03-02 10:57+0000\n"
 "PO-Revision-Date: 2019-03-13 21:44+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
@@ -18,37 +18,37 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2.1\n"
 
-#: data/50-gnome-shell-system.xml:6
+#: data/50-scarecrow-shell-system.xml:6
 msgid "System"
 msgstr "Низом"
 
-#: data/50-gnome-shell-system.xml:9
+#: data/50-scarecrow-shell-system.xml:9
 msgid "Show the notification list"
 msgstr "Намоиш додани рӯйхати огоҳиҳо"
 
-#: data/50-gnome-shell-system.xml:12
+#: data/50-scarecrow-shell-system.xml:12
 msgid "Focus the active notification"
 msgstr "Марказонидани огоҳии фаъол"
 
-#: data/50-gnome-shell-system.xml:15
+#: data/50-scarecrow-shell-system.xml:15
 msgid "Show the overview"
 msgstr "Намоиш додани ҷамъбаст"
 
-#: data/50-gnome-shell-system.xml:18
+#: data/50-scarecrow-shell-system.xml:18
 msgid "Show all applications"
 msgstr "Намоиш додани ҳамаи барномаҳо"
 
-#: data/50-gnome-shell-system.xml:21
+#: data/50-scarecrow-shell-system.xml:21
 msgid "Open the application menu"
 msgstr "Кушодани феҳристи барномаҳо"
 
-#: data/gnome-shell-extension-prefs.desktop.in.in:4
+#: data/scarecrow-shell-extension-prefs.desktop.in.in:4
 #: js/extensionPrefs/main.js:216
 #| msgid "Scarecrow Shell Extensions"
 msgid "Shell Extensions"
 msgstr "Васеъшавиҳои восит"
 
-#: data/gnome-shell-extension-prefs.desktop.in.in:5
+#: data/scarecrow-shell-extension-prefs.desktop.in.in:5
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "Танзимоти васеъшавиҳои восити GNOME"
 

@@ -1,12 +1,12 @@
-# Malay translations for gnome-shell package.
+# Malay translations for scarecrow-shell package.
 # Copyright (C) 2011 Listed translators
-# This file is distributed under the same license as the gnome-shell package.
+# This file is distributed under the same license as the scarecrow-shell package.
 # Andi Rady Kurniawan <niariot87@gmail.com>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell master ms\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-shell/issues\n"
+"Project-Id-Version: scarecrow-shell master ms\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-shell/issues\n"
 "POT-Creation-Date: 2020-01-25 01:15+0000\n"
 "PO-Revision-Date: 2020-01-27 03:20+0800\n"
 "Last-Translator: abuyop <abuyop@gmail.com>\n"
@@ -18,39 +18,39 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 2.0.6\n"
 
-#: data/50-gnome-shell-system.xml:6
+#: data/50-scarecrow-shell-system.xml:6
 msgid "System"
 msgstr "Sistem"
 
-#: data/50-gnome-shell-system.xml:9
+#: data/50-scarecrow-shell-system.xml:9
 #| msgid "%d new notification"
 #| msgid_plural "%d new notifications"
 msgid "Show the notification list"
 msgstr "Tunjuk senarai pemberitahuan"
 
-#: data/50-gnome-shell-system.xml:12
+#: data/50-scarecrow-shell-system.xml:12
 msgid "Focus the active notification"
 msgstr "Fokus pada pemberitahuan aktif"
 
-#: data/50-gnome-shell-system.xml:15
+#: data/50-scarecrow-shell-system.xml:15
 msgid "Show the overview"
 msgstr "Tunjuk selayang pandang"
 
-#: data/50-gnome-shell-system.xml:18
+#: data/50-scarecrow-shell-system.xml:18
 msgid "Show all applications"
 msgstr "Tunjuk semua aplikasi"
 
-#: data/50-gnome-shell-system.xml:21
+#: data/50-scarecrow-shell-system.xml:21
 msgid "Open the application menu"
 msgstr "Buka menu aplikasi"
 
-#: data/gnome-shell-extension-prefs.desktop.in.in:4
+#: data/scarecrow-shell-extension-prefs.desktop.in.in:4
 #: js/extensionPrefs/main.js:209
 #| msgid "Scarecrow Shell Extensions"
 msgid "Shell Extensions"
 msgstr "Sambungan-Sambungan Shell"
 
-#: data/gnome-shell-extension-prefs.desktop.in.in:5
+#: data/scarecrow-shell-extension-prefs.desktop.in.in:5
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "Konfigur Sambungan-Sambungan Shell GNOME"
 

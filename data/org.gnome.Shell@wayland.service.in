@@ -21,7 +21,7 @@ Type=notify
 #       as systemd had a bug where it retries the condition.
 # Only start if the template instance matches the session type.
 ExecCondition=/bin/sh -c 'test "$XDG_SESSION_TYPE" = "%I" || exit 2'
-ExecStart=@bindir@/gnome-shell
+ExecStart=@bindir@/scarecrow-shell
 # Exit code 1 means we are probably *not* dealing with an extension failure
 SuccessExitStatus=1
 

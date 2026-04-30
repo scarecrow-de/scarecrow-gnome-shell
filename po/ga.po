@@ -1,11 +1,11 @@
-# Irish translations for gnome-shell package.
+# Irish translations for scarecrow-shell package.
 # Copyright (C) 2009-2015 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-shell package.
+# This file is distributed under the same license as the scarecrow-shell package.
 # Seán de Búrca <leftmostcat@gmail.com>, 2009-2015.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell.master\n"
+"Project-Id-Version: scarecrow-shell.master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-30 22:09-0600\n"
 "PO-Revision-Date: 2015-09-30 22:29-0600\n"
@@ -18,48 +18,48 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
 
-#: ../data/50-gnome-shell-system.xml.in.h:1
+#: ../data/50-scarecrow-shell-system.xml.in.h:1
 msgid "System"
 msgstr "Córas"
 
-#: ../data/50-gnome-shell-system.xml.in.h:2
+#: ../data/50-scarecrow-shell-system.xml.in.h:2
 msgid "Show the notification list"
 msgstr "Taispeáin an liosta fógraí"
 
-#: ../data/50-gnome-shell-system.xml.in.h:3
+#: ../data/50-scarecrow-shell-system.xml.in.h:3
 msgid "Focus the active notification"
 msgstr "Cuir an fócas san fhógra gníomhach"
 
-#: ../data/50-gnome-shell-system.xml.in.h:4
+#: ../data/50-scarecrow-shell-system.xml.in.h:4
 msgid "Show the overview"
 msgstr "Taispeáin an foramharc"
 
-#: ../data/50-gnome-shell-system.xml.in.h:5
+#: ../data/50-scarecrow-shell-system.xml.in.h:5
 msgid "Show all applications"
 msgstr "Taispeáin gach feidhmchlár"
 
-#: ../data/50-gnome-shell-system.xml.in.h:6
+#: ../data/50-scarecrow-shell-system.xml.in.h:6
 msgid "Open the application menu"
 msgstr "Oscail roghchlár an fheidhmchláir"
 
-#: ../data/gnome-shell.desktop.in.in.h:1
+#: ../data/scarecrow-shell.desktop.in.in.h:1
 msgid "Scarecrow Shell"
 msgstr "Scarecrow Shell"
 
-#: ../data/gnome-shell.desktop.in.in.h:2
-#: ../data/gnome-shell-wayland.desktop.in.in.h:2
+#: ../data/scarecrow-shell.desktop.in.in.h:2
+#: ../data/scarecrow-shell-wayland.desktop.in.in.h:2
 msgid "Window management and application launching"
 msgstr ""
 
-#: ../data/gnome-shell-extension-prefs.desktop.in.in.h:1
+#: ../data/scarecrow-shell-extension-prefs.desktop.in.in.h:1
 msgid "Scarecrow Shell Extension Preferences"
 msgstr "Airíonna Eisínteachtaí Scarecrow Shell"
 
-#: ../data/gnome-shell-extension-prefs.desktop.in.in.h:2
+#: ../data/scarecrow-shell-extension-prefs.desktop.in.in.h:2
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "Cumraigh Eisínteachtaí Scarecrow Shell"
 
-#: ../data/gnome-shell-wayland.desktop.in.in.h:1
+#: ../data/scarecrow-shell-wayland.desktop.in.in.h:1
 msgid "Scarecrow Shell (wayland compositor)"
 msgstr ""
 

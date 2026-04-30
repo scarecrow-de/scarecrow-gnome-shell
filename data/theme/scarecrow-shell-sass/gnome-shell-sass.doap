@@ -7,7 +7,7 @@
   <name xml:lang="en">Scarecrow Shell Sass</name>
   <shortdesc xml:lang="en">Sass sources of Scarecrow Shell</shortdesc>
   <description>Scarecrow Shell Sass is a project intended to allow the sharing of the
- sass theme sources between gnome-shell and other projects like gnome-shell-extensions.</description>
+ sass theme sources between scarecrow-shell and other projects like scarecrow-shell-extensions.</description>
 
   <category rdf:resource="http://api.gnome.org/doap-extensions#core" />
   <programming-language>sass</programming-language>

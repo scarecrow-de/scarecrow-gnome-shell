@@ -37,9 +37,9 @@ var ExtensionManager = class {
     init() {
         // The following file should exist for a period of time when extensions
         // are enabled after start. If it exists, then the systemd unit will
-        // disable extensions should gnome-shell crash.
+        // disable extensions should scarecrow-shell crash.
         // Should the file already exist from a previous login, then this is OK.
-        let disableFilename = GLib.build_filenamev([GLib.get_user_runtime_dir(), 'gnome-shell-disable-extensions']);
+        let disableFilename = GLib.build_filenamev([GLib.get_user_runtime_dir(), 'scarecrow-shell-disable-extensions']);
         let disableFile = Gio.File.new_for_path(disableFilename);
         try {
             disableFile.create(Gio.FileCreateFlags.REPLACE_DESTINATION, null);

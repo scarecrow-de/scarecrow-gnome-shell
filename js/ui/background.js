@@ -168,7 +168,7 @@ var BackgroundCache = class BackgroundCache {
                     params.onLoaded(this._animations[params.settingsSchema]);
                     return GLib.SOURCE_REMOVE;
                 });
-                GLib.Source.set_name_by_id(id, '[gnome-shell] params.onLoaded');
+                GLib.Source.set_name_by_id(id, '[scarecrow-shell] params.onLoaded');
             }
             return;
         }
@@ -183,7 +183,7 @@ var BackgroundCache = class BackgroundCache {
                     params.onLoaded(this._animations[params.settingsSchema]);
                     return GLib.SOURCE_REMOVE;
                 });
-                GLib.Source.set_name_by_id(id, '[gnome-shell] params.onLoaded');
+                GLib.Source.set_name_by_id(id, '[scarecrow-shell] params.onLoaded');
             }
         });
     }
@@ -304,7 +304,7 @@ var Background = GObject.registerClass({
             return GLib.SOURCE_REMOVE;
         });
         GLib.Source.set_name_by_id(this._changedIdleId,
-            '[gnome-shell] Background._emitChangedSignal');
+            '[scarecrow-shell] Background._emitChangedSignal');
     }
 
     updateResolution() {
@@ -330,7 +330,7 @@ var Background = GObject.registerClass({
             this.emit('loaded');
             return GLib.SOURCE_REMOVE;
         });
-        GLib.Source.set_name_by_id(id, '[gnome-shell] Background._setLoaded Idle');
+        GLib.Source.set_name_by_id(id, '[scarecrow-shell] Background._setLoaded Idle');
     }
 
     _loadPattern() {
@@ -442,7 +442,7 @@ var Background = GObject.registerClass({
                                                               this._updateAnimation();
                                                               return GLib.SOURCE_REMOVE;
                                                           });
-        GLib.Source.set_name_by_id(this._updateAnimationTimeoutId, '[gnome-shell] this._updateAnimation');
+        GLib.Source.set_name_by_id(this._updateAnimationTimeoutId, '[scarecrow-shell] this._updateAnimation');
     }
 
     _loadAnimation(file) {
@@ -521,7 +521,7 @@ var SystemBackground = GObject.registerClass({
             this.emit('loaded');
             return GLib.SOURCE_REMOVE;
         });
-        GLib.Source.set_name_by_id(id, '[gnome-shell] SystemBackground.loaded');
+        GLib.Source.set_name_by_id(id, '[scarecrow-shell] SystemBackground.loaded');
     }
 });
 

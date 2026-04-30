@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Nepali Translation Gnome 3.26 dev\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-shell/issues\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-shell/issues\n"
 "POT-Creation-Date: 2019-08-09 14:45+0000\n"
 "PO-Revision-Date: 2019-08-29 14:16+0545\n"
 "Last-Translator: Pawan Chitrakar <chautari@gmail.com>\n"
@@ -19,35 +19,35 @@ msgstr ""
 "X-Generator: Poedit 2.2.3\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: data/50-gnome-shell-system.xml:6
+#: data/50-scarecrow-shell-system.xml:6
 msgid "System"
 msgstr "प्रणाली"
 
-#: data/50-gnome-shell-system.xml:9
+#: data/50-scarecrow-shell-system.xml:9
 msgid "Show the notification list"
 msgstr "सूचना सुची देखाउनुहोस्"
 
-#: data/50-gnome-shell-system.xml:12
+#: data/50-scarecrow-shell-system.xml:12
 msgid "Focus the active notification"
 msgstr "सक्रिय सुचना फोकस"
 
-#: data/50-gnome-shell-system.xml:15
+#: data/50-scarecrow-shell-system.xml:15
 msgid "Show the overview"
 msgstr "अधिलेखन हेर्नुहोस्"
 
-#: data/50-gnome-shell-system.xml:18
+#: data/50-scarecrow-shell-system.xml:18
 msgid "Show all applications"
 msgstr "सबै अनुप्रयोगहरू देखाउनुहोस्"
 
-#: data/50-gnome-shell-system.xml:21
+#: data/50-scarecrow-shell-system.xml:21
 msgid "Open the application menu"
 msgstr "अनुप्रयोग मेनु खोल्नुहोस्"
 
-#: data/gnome-shell-extension-prefs.desktop.in.in:4 js/extensionPrefs/main.js:208
+#: data/scarecrow-shell-extension-prefs.desktop.in.in:4 js/extensionPrefs/main.js:208
 msgid "Shell Extensions"
 msgstr "सेल विस्तारहरू"
 
-#: data/gnome-shell-extension-prefs.desktop.in.in:5
+#: data/scarecrow-shell-extension-prefs.desktop.in.in:5
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "जिनोम सेल  विस्तारहरू कन्फिगर"
 

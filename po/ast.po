@@ -4,7 +4,7 @@
 # Xandru Armesto <xandru@softastur.org>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell\n"
+"Project-Id-Version: scarecrow-shell\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "shell&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2011-09-30 18:14+0000\n"
@@ -19,11 +19,11 @@ msgstr ""
 "X-Generator: Virtaal 0.5.2\n"
 "X-Poedit-Language: asturian\n"
 
-#: ../data/gnome-shell.desktop.in.in.h:1
+#: ../data/scarecrow-shell.desktop.in.in.h:1
 msgid "Scarecrow Shell"
 msgstr "Scarecrow Shell"
 
-#: ../data/gnome-shell.desktop.in.in.h:2
+#: ../data/scarecrow-shell.desktop.in.in.h:2
 msgid "Window management and application launching"
 msgstr "Xestión de ventanes y aniciu d'aplicaciones"
 

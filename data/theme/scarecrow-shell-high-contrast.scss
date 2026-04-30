@@ -1,9 +1,9 @@
 $variant: 'dark';
 
-@import "gnome-shell-sass/_high-contrast-colors"; //use gtk colors
-@import "gnome-shell-sass/_drawing";
-@import "gnome-shell-sass/_common";
-@import "gnome-shell-sass/_widgets";
+@import "scarecrow-shell-sass/_high-contrast-colors"; //use gtk colors
+@import "scarecrow-shell-sass/_drawing";
+@import "scarecrow-shell-sass/_common";
+@import "scarecrow-shell-sass/_widgets";
 
 //force symbolic icons
 stage {

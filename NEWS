@@ -291,7 +291,7 @@ Translators:
 * Use globalThis instead of window [Andy; #2322]
 * Inhibit remote access when disabled by session mode [Jonas Å.; !1210]
 * Improve calendar-server performance [Milan; #1875]
-* Add gnome-shell-extension-prefs wrapper for compatibility [Florian; !1220]
+* Add scarecrow-shell-extension-prefs wrapper for compatibility [Florian; !1220]
 * Fix stuck lock screen after unlock [Jonas D., Florian; #2446]
 * Fixed crashes [Jonas D., Florian, Carlos; #2584, #2625, !1223, !1218]
 * Misc. bug fixes and cleanups [Florian, Jonas Å., Marco, Andre, Georges,
@@ -504,7 +504,7 @@ Translators:
 * Improve DND page switching in app picker [Florian, Jonas D.; #1693]
 * Fix disable command of gnome-extensions tool [Florian; #1946]
 * Tweak styling of notifications/media constrols [Joonas; !855, !865]
-* Enable clean session shutdown after gnome-shell failure [Benjamin; !858]
+* Enable clean session shutdown after scarecrow-shell failure [Benjamin; !858]
 * Also remove scaled keys when texture cache is cleared [Daniel M.; !567]
 * Don't show overflow indicator in switchers that fit screen [Florian; #1834]
 * Move libcroco dependency in-tree [Federico; !861]
@@ -1479,7 +1479,7 @@ Translations:
 * Line-wrap PAM messages on login screen [Tao; #764445]
 * Add a way to launch an app on the discrete GPU [Bastien; #773117]
 * Only allow graphs to lift screen shield when locked [Florian; #773328]
-* Add reload option to gnome-shell-extension-tool [Jonh; #772593]
+* Add reload option to scarecrow-shell-extension-tool [Jonh; #772593]
 * Update background animations when resuming from suspend [Florian; #773265]
 * Misc. bug fixes [Cosimo, Bastien, Florian, Philip, Carlos; #772723, #772287,
   #756432, #772386, #772386, #773085, #773634]
@@ -1742,7 +1742,7 @@ Translations:
 
 3.19.2
 ======
-* Make gnome-shell DBus activatable [Ray; #741666]
+* Make scarecrow-shell DBus activatable [Ray; #741666]
 * Fix browser plugin crash in Firefox [Carlos; #737932, #757940]
 * Optionally show battery percentage in system status area [Bastien; #735771]
 * Misc. bug fixes [Kalev, Florian, Bastien; #757418, #757668, #757779, #757816,
@@ -1977,7 +1977,7 @@ Translations:
   [Giovanni; #660293]
 * Fix dismissing calendar events [Florian; #744927]
 * Add legacy tray to ctrl-alt-tab popup [Florian; #746022]
-* Manage on-screen-keyboard visibility in gnome-shell [Carlos; #745977]
+* Manage on-screen-keyboard visibility in scarecrow-shell [Carlos; #745977]
 * Add pointer barriers to legacy tray [Cosimo; #746026]
 * Use fallback when app icon cannot be resolved [Cosimo; #746219]
 * Fix handling of removed smartcard at startup [Ray; #740143]
@@ -3913,7 +3913,7 @@ Translations:
   reentrancy in the icon loading code [Jasper; #673512]
 * Don't show system and other disabled users in the GDM user list
   [Adel; #673784]
-* Make gnome-shell-calendar-server initialize GTK+ so it can display
+* Make scarecrow-shell-calendar-server initialize GTK+ so it can display
   password prompts if needed [#673608; Owen, Rico]
 * Adapt to Mutter API change for keybinding addition [Florian; #673014]
 * Fix crash when an extension was installed as both a user extension
@@ -4090,9 +4090,9 @@ Translations:
 
 * Extension system: [Jasper; #668429]
   http://blog.mecheye.net/2012/02/more-extension-api-breaks/
- - Add a 'gnome-shell-extension-prefs' application for displaying extension
+ - Add a 'scarecrow-shell-extension-prefs' application for displaying extension
    preferences as provided by the extension in a prefs.js file.
- - Allow launching gnome-shell-extension-prefs from extensions.gnome.org
+ - Allow launching scarecrow-shell-extension-prefs from extensions.gnome.org
    throuhg the browser plugin.
  - Add ExtensionUtils.getCurrentExtension() for an extension to get a
    handle to an extension object, to get local imports or paths.
@@ -4154,7 +4154,7 @@ Translations:
 * Add section label support to the application menu [Giovanni; #666681]
 * Fix screenshot methods to work again [Cosimo; #667662]
 * Fix several crashers related to updating workspace thumbnails [Owen; #667652]
-* Fix memory management error causing gnome-shell-hotplug-sniffer to crash
+* Fix memory management error causing scarecrow-shell-hotplug-sniffer to crash
   [Owen; #667378]
 * Build fixes [Emmanuele, Rico; #667864]
 * Code cleanups [Adel; #668087]
@@ -4231,7 +4231,7 @@ Translations:
 * Extension system
   - Don't try to load disabled extensions at all [Jasper; #661815, #662704]
   - Enable and disable plugins in a consistent order [Jasper; #661815, #662704]
-  - Add options to enable/disable extensions to gnome-shell-extension-tool
+  - Add options to enable/disable extensions to scarecrow-shell-extension-tool
     [Jasper; #661815]
 * Adapt to Mutter change to GSettings [Florian, Matthias; #663429]
 * Allow creating a new workspace by dragging a window or launcher in the

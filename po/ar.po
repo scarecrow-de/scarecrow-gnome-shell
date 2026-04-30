@@ -6,7 +6,7 @@
 # Ibrahim Saed <ibraheem5000@gmail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell master\n"
+"Project-Id-Version: scarecrow-shell master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-18 14:28+0200\n"
 "PO-Revision-Date: 2019-03-18 14:37+0200\n"
@@ -21,36 +21,36 @@ msgstr ""
 "X-Generator: Virtaal 0.7.1\n"
 "X-Project-Style: gnome\n"
 
-#: data/50-gnome-shell-system.xml:6
+#: data/50-scarecrow-shell-system.xml:6
 msgid "System"
 msgstr "النظام"
 
-#: data/50-gnome-shell-system.xml:9
+#: data/50-scarecrow-shell-system.xml:9
 msgid "Show the notification list"
 msgstr "اعرض قائمة التنبيهات"
 
-#: data/50-gnome-shell-system.xml:12
+#: data/50-scarecrow-shell-system.xml:12
 msgid "Focus the active notification"
 msgstr "ركّز على التنبيه النشط"
 
-#: data/50-gnome-shell-system.xml:15
+#: data/50-scarecrow-shell-system.xml:15
 msgid "Show the overview"
 msgstr "اعرض النظرة العامة"
 
-#: data/50-gnome-shell-system.xml:18
+#: data/50-scarecrow-shell-system.xml:18
 msgid "Show all applications"
 msgstr "أظهر كل التطبيقات"
 
-#: data/50-gnome-shell-system.xml:21
+#: data/50-scarecrow-shell-system.xml:21
 msgid "Open the application menu"
 msgstr "افتح قائمة التطبيقات"
 
-#: data/gnome-shell-extension-prefs.desktop.in.in:4
+#: data/scarecrow-shell-extension-prefs.desktop.in.in:4
 #: js/extensionPrefs/main.js:216
 msgid "Shell Extensions"
 msgstr "امتدادات الصدفة"
 
-#: data/gnome-shell-extension-prefs.desktop.in.in:5
+#: data/scarecrow-shell-extension-prefs.desktop.in.in:5
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "اضبط امتدادات صدفة جنوم"
 

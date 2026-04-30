@@ -1,5 +1,5 @@
-# Dutch translation for gnome-shell
-# This file is distributed under the same license as the gnome-shell package.
+# Dutch translation for scarecrow-shell
+# This file is distributed under the same license as the scarecrow-shell package.
 # Aangezien dit een erg zichtbare module is graag eerst contact opnemen met
 # Wouter Bolsterlee alvorens zaken te wijzigen!
 # Message tray           - Berichtenoverzicht
@@ -14,8 +14,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-shell/issues\n"
+"Project-Id-Version: scarecrow-shell\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-shell/issues\n"
 "POT-Creation-Date: 2020-08-24 15:44+0000\n"
 "PO-Revision-Date: 2020-08-25 17:34+0200\n"
 "Last-Translator: Nathan Follens <nthn@unseen.is>\n"
@@ -28,27 +28,27 @@ msgstr ""
 "X-Generator: Poedit 2.4.1\n"
 "X-Project-Style: gnome\n"
 
-#: data/50-gnome-shell-system.xml:6
+#: data/50-scarecrow-shell-system.xml:6
 msgid "System"
 msgstr "Systeem"
 
-#: data/50-gnome-shell-system.xml:9
+#: data/50-scarecrow-shell-system.xml:9
 msgid "Show the notification list"
 msgstr "De notificatielijst tonen"
 
-#: data/50-gnome-shell-system.xml:12
+#: data/50-scarecrow-shell-system.xml:12
 msgid "Focus the active notification"
 msgstr "Actieve notificatie focus geven"
 
-#: data/50-gnome-shell-system.xml:15
+#: data/50-scarecrow-shell-system.xml:15
 msgid "Show the overview"
 msgstr "Het overzicht tonen"
 
-#: data/50-gnome-shell-system.xml:18
+#: data/50-scarecrow-shell-system.xml:18
 msgid "Show all applications"
 msgstr "Alle toepassingen tonen"
 
-#: data/50-gnome-shell-system.xml:21
+#: data/50-scarecrow-shell-system.xml:21
 msgid "Open the application menu"
 msgstr "Toepassingenmenu openen"
 

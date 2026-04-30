@@ -1,4 +1,4 @@
-project('gnome-shell', 'c',
+project('scarecrow-shell', 'c',
   version: '3.38.6',
   meson_version: '>= 0.53.0',
   license: 'GPLv2+'

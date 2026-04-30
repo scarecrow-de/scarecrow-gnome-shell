@@ -1,8 +1,8 @@
 # Rebuild and push with
 #
 #     cd .gitlab-ci/
-#     podman build --format docker --no-cache -t registry.gitlab.gnome.org/gnome/gnome-shell/extension-ci:v2 .
-#     podman push registry.gitlab.gnome.org/gnome/gnome-shell/extension-ci:v2
+#     podman build --format docker --no-cache -t registry.gitlab.gnome.org/gnome/scarecrow-shell/extension-ci:v2 .
+#     podman push registry.gitlab.gnome.org/gnome/scarecrow-shell/extension-ci:v2
 #
 
 FROM registry.fedoraproject.org/fedora:32
@@ -18,7 +18,7 @@ RUN dnf -y update && dnf -y upgrade && \
     npm install -g eslint && \
 
     # Shameless plug for my own tooling; useful for generating zip
-    dnf copr enable -y fmuellner/gnome-shell-ci && \
+    dnf copr enable -y fmuellner/scarecrow-shell-ci && \
     dnf install -y gnome-extensions-tool meson && \
 
     dnf clean all

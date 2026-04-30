@@ -53,8 +53,8 @@ data_resources = [
 ]
 foreach resource : data_resources
   gnome.compile_resources(
-    'gnome-shell-' + resource[0],
-    'gnome-shell-@0@.gresource.xml'.format(resource[0]),
+    'scarecrow-shell-' + resource[0],
+    'scarecrow-shell-@0@.gresource.xml'.format(resource[0]),
     source_dir: resource[0],
     dependencies: resource[1],
     gresource_bundle: true,
@@ -73,8 +73,8 @@ configure_file(
 )
 
 
-install_data('gnome-shell.portal', install_dir: portaldir)
-install_data('50-gnome-shell-system.xml', install_dir: keysdir)
+install_data('scarecrow-shell.portal', install_dir: portaldir)
+install_data('50-scarecrow-shell-system.xml', install_dir: keysdir)
 
 
 schemaconf = configuration_data()
@@ -90,8 +90,8 @@ install_data('00_org.gnome.shell.gschema.override', install_dir: schemadir)
 overrides_migration_conf = configuration_data()
 overrides_migration_conf.set('libexecdir', libexecdir)
 overrides_migration = configure_file(
-  input: 'gnome-shell-overrides-migration.desktop.in',
-  output: 'gnome-shell-overrides-migration.desktop',
+  input: 'scarecrow-shell-overrides-migration.desktop.in',
+  output: 'scarecrow-shell-overrides-migration.desktop',
   configuration: overrides_migration_conf,
   install_dir: autostartdir
 )
@@ -127,4 +127,4 @@ custom_target('compile-schemas',
   command: [find_program('glib-compile-schemas'), meson.current_build_dir()],
   build_by_default: true)
 
-install_data('gnome-shell-overrides.convert', install_dir: convertdir)
+install_data('scarecrow-shell-overrides.convert', install_dir: convertdir)

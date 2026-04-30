@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PKG_DATA_DIR=${XDG_DATA_HOME:-$HOME/.local/share}/gnome-shell
+PKG_DATA_DIR=${XDG_DATA_HOME:-$HOME/.local/share}/scarecrow-shell
 
 MIGRATION_GUARD=$PKG_DATA_DIR/gnome-overrides-migrated
 OVERRIDE_SCHEMA=

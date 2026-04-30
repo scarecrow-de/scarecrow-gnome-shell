@@ -118,7 +118,7 @@ install_extension (const char *bundle,
     goto err;
 
   dstdir = g_file_new_build_filename (g_get_user_data_dir (),
-                                      "gnome-shell", "extensions", NULL);
+                                      "scarecrow-shell", "extensions", NULL);
 
   if (!g_file_make_directory_with_parents (dstdir, NULL, &error))
     {

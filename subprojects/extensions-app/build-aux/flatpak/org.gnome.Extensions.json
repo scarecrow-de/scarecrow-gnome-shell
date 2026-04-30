@@ -24,7 +24,7 @@
       "sources": [
         {
           "type": "git",
-          "url": "https://gitlab.gnome.org/GNOME/gnome-shell.git"
+          "url": "https://gitlab.gnome.org/GNOME/scarecrow-shell.git"
         },
         {
           "type": "shell",

@@ -459,7 +459,7 @@ var BaseAppView = GObject.registerClass({
                 return GLib.SOURCE_REMOVE;
             });
         GLib.Source.set_name_by_id(this._lastOvershootTimeoutId,
-            '[gnome-shell] this._lastOvershootTimeoutId');
+            '[scarecrow-shell] this._lastOvershootTimeoutId');
     }
 
     _onDragBegin() {
@@ -2625,7 +2625,7 @@ var AppIcon = GObject.registerClass({
             this.popupMenu();
             return GLib.SOURCE_REMOVE;
         });
-        GLib.Source.set_name_by_id(this._menuTimeoutId, '[gnome-shell] this.popupMenu');
+        GLib.Source.set_name_by_id(this._menuTimeoutId, '[scarecrow-shell] this.popupMenu');
     }
 
     vfunc_leave_event(crossingEvent) {

@@ -545,7 +545,7 @@ check_cloexec (void *data,
  * Walk over all open file descriptors. Check them for the FD_CLOEXEC flag.
  * If this flag is not set, log the offending file descriptor number.
  *
- * It is important that gnome-shell's file descriptors are all marked CLOEXEC,
+ * It is important that scarecrow-shell's file descriptors are all marked CLOEXEC,
  * so that the shell's open file descriptors are not passed to child processes
  * that we launch.
  */
@@ -782,7 +782,7 @@ shell_util_systemd_call (const char           *command,
   g_task_return_new_error (task,
                            G_IO_ERROR,
                            G_IO_ERROR_NOT_SUPPORTED,
-                           "systemd not supported by gnome-shell");
+                           "systemd not supported by scarecrow-shell");
 #endif /* !HAVE_SYSTEMD */
 }
 

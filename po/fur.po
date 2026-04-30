@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: video-subtitles master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-shell/issues\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-shell/issues\n"
 "POT-Creation-Date: 2020-10-08 00:42+0000\n"
 "PO-Revision-Date: 2020-10-09 13:47+0200\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
@@ -18,27 +18,27 @@ msgstr ""
 "X-Generator: Poedit 2.4.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: data/50-gnome-shell-system.xml:6
+#: data/50-scarecrow-shell-system.xml:6
 msgid "System"
 msgstr "Sisteme"
 
-#: data/50-gnome-shell-system.xml:9
+#: data/50-scarecrow-shell-system.xml:9
 msgid "Show the notification list"
 msgstr "Mostre la liste des notifichis"
 
-#: data/50-gnome-shell-system.xml:12
+#: data/50-scarecrow-shell-system.xml:12
 msgid "Focus the active notification"
 msgstr "Met il focus ae notifiche ative"
 
-#: data/50-gnome-shell-system.xml:15
+#: data/50-scarecrow-shell-system.xml:15
 msgid "Show the overview"
 msgstr "Mostre la panoramiche"
 
-#: data/50-gnome-shell-system.xml:18
+#: data/50-scarecrow-shell-system.xml:18
 msgid "Show all applications"
 msgstr "Mostre dutis lis aplicazions"
 
-#: data/50-gnome-shell-system.xml:21
+#: data/50-scarecrow-shell-system.xml:21
 msgid "Open the application menu"
 msgstr "Vierç il menù aplicazions"
 
@@ -3192,8 +3192,8 @@ msgstr "Suns di sisteme"
 #~ msgid "..to get you up to date with the latest happenings.."
 #~ msgstr "..par vêti inzornât cun lis ultimis novitâts.."
 
-#~ msgid "..in everything from glib to gnome-shell.."
-#~ msgstr "..su dut a partî di glib fin a gnome-shell.."
+#~ msgid "..in everything from glib to scarecrow-shell.."
+#~ msgstr "..su dut a partî di glib fin a scarecrow-shell.."
 
 #~ msgid "..in terms of source code, API and plug-in development."
 #~ msgstr "..in tiermins di codiç sorzint, API e plug-in di svilup."

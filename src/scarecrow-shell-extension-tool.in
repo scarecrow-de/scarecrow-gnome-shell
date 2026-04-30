@@ -6,7 +6,7 @@ import sys
 import optparse
 
 def extension_command(args):
-    print("gnome-shell-extension-tool is deprecated, use gnome-extensions instead",
+    print("scarecrow-shell-extension-tool is deprecated, use gnome-extensions instead",
           file=sys.stderr)
     subprocess.run(["@bindir@/gnome-extensions"] + args)
 

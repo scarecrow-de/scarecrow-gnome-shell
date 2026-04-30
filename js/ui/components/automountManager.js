@@ -39,7 +39,7 @@ var AutomountManager = class {
         this._driveEjectButtonId = this._volumeMonitor.connect('drive-eject-button', this._onDriveEjectButton.bind(this));
 
         this._mountAllId = GLib.idle_add(GLib.PRIORITY_DEFAULT, this._startupMountAll.bind(this));
-        GLib.Source.set_name_by_id(this._mountAllId, '[gnome-shell] this._startupMountAll');
+        GLib.Source.set_name_by_id(this._mountAllId, '[scarecrow-shell] this._startupMountAll');
     }
 
     disable() {
@@ -253,7 +253,7 @@ var AutomountManager = class {
             return GLib.SOURCE_REMOVE;
         });
         volume._allowAutorunExpireId = id;
-        GLib.Source.set_name_by_id(id, '[gnome-shell] volume.allowAutorun');
+        GLib.Source.set_name_by_id(id, '[scarecrow-shell] volume.allowAutorun');
     }
 };
 var Component = AutomountManager;

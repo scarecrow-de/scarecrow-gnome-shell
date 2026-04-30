@@ -136,7 +136,7 @@ var UserListItem = GObject.registerClass({
                 return GLib.SOURCE_CONTINUE;
             });
 
-        GLib.Source.set_name_by_id(this._timedLoginTimeoutId, '[gnome-shell] this._timedLoginTimeoutId');
+        GLib.Source.set_name_by_id(this._timedLoginTimeoutId, '[scarecrow-shell] this._timedLoginTimeoutId');
 
         return hold;
     }
@@ -746,7 +746,7 @@ var LoginDialog = GObject.registerClass({
                 });
         } else {
             let id = GLib.idle_add(GLib.PRIORITY_DEFAULT, this._loadUserList.bind(this));
-            GLib.Source.set_name_by_id(id, '[gnome-shell] _loadUserList');
+            GLib.Source.set_name_by_id(id, '[scarecrow-shell] _loadUserList');
         }
     }
 
@@ -1020,7 +1020,7 @@ var LoginDialog = GObject.registerClass({
                 hold.release();
                 return GLib.SOURCE_REMOVE;
             });
-        GLib.Source.set_name_by_id(this._timedLoginIdleTimeOutId, '[gnome-shell] this._timedLoginIdleTimeOutId');
+        GLib.Source.set_name_by_id(this._timedLoginIdleTimeOutId, '[scarecrow-shell] this._timedLoginIdleTimeOutId');
         return hold;
     }
 

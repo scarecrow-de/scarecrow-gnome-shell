@@ -20,7 +20,7 @@ fi
 cd mutter
 
 if [ "$CI_MERGE_REQUEST_TARGET_BRANCH_NAME" ]; then
-  merge_request_remote=${CI_MERGE_REQUEST_SOURCE_PROJECT_URL//gnome-shell/mutter}
+  merge_request_remote=${CI_MERGE_REQUEST_SOURCE_PROJECT_URL//scarecrow-shell/mutter}
   merge_request_branch=$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME
 
   echo -n Looking for $merge_request_branch on remote ...

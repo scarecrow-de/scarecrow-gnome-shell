@@ -1,11 +1,11 @@
-# Uzbek (Cyrillic) translation for gnome-shell.
-# Copyright (C) 2014 gnome-shell's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-shell package.
+# Uzbek (Cyrillic) translation for scarecrow-shell.
+# Copyright (C) 2014 scarecrow-shell's COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-shell package.
 # Bahodir Mansurov <6ahodir@gmail.com>, 2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell master\n"
+"Project-Id-Version: scarecrow-shell master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "shell&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2016-09-07 09:41+0000\n"
@@ -20,35 +20,35 @@ msgstr ""
 "X-DamnedLies-Scope: partial\n"
 "X-Generator: Poedit 1.8.9\n"
 
-#: data/50-gnome-shell-system.xml:6
+#: data/50-scarecrow-shell-system.xml:6
 msgid "System"
 msgstr "Система"
 
-#: data/50-gnome-shell-system.xml:9
+#: data/50-scarecrow-shell-system.xml:9
 msgid "Show the notification list"
 msgstr "Хабарнома рўйхатини кўрсатиш"
 
-#: data/50-gnome-shell-system.xml:12
+#: data/50-scarecrow-shell-system.xml:12
 msgid "Focus the active notification"
 msgstr "Фаол хабарномага диққат қилиш"
 
-#: data/50-gnome-shell-system.xml:15
+#: data/50-scarecrow-shell-system.xml:15
 msgid "Show the overview"
 msgstr "Обзорни кўрсатиш"
 
-#: data/50-gnome-shell-system.xml:18
+#: data/50-scarecrow-shell-system.xml:18
 msgid "Show all applications"
 msgstr "Барча дастурларни кўрсатиш"
 
-#: data/50-gnome-shell-system.xml:21
+#: data/50-scarecrow-shell-system.xml:21
 msgid "Open the application menu"
 msgstr "Дастур менюсини очиш"
 
-#: data/gnome-shell-extension-prefs.desktop.in.in:4
+#: data/scarecrow-shell-extension-prefs.desktop.in.in:4
 msgid "Scarecrow Shell Extension Preferences"
 msgstr "Scarecrow Shell кенгайтма мосламалари"
 
-#: data/gnome-shell-extension-prefs.desktop.in.in:5
+#: data/scarecrow-shell-extension-prefs.desktop.in.in:5
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "Scarecrow Shell кенгайтмаларини созлаш"
 

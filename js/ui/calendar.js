@@ -645,7 +645,7 @@ var Calendar = GObject.registerClass({
             else
                 styleClass += ' calendar-nonwork-day';
 
-            // Hack used in lieu of border-collapse - see gnome-shell.css
+            // Hack used in lieu of border-collapse - see scarecrow-shell.css
             if (row == 2)
                 styleClass = 'calendar-day-top %s'.format(styleClass);
 

@@ -96,7 +96,7 @@ class ATIndicator extends PanelMenu.Button {
             return;
 
         this._syncMenuVisibilityIdle = GLib.idle_add(GLib.PRIORITY_DEFAULT, this._syncMenuVisibility.bind(this));
-        GLib.Source.set_name_by_id(this._syncMenuVisibilityIdle, '[gnome-shell] this._syncMenuVisibility');
+        GLib.Source.set_name_by_id(this._syncMenuVisibilityIdle, '[scarecrow-shell] this._syncMenuVisibility');
     }
 
     _buildItemExtended(string, initialValue, writable, onSet) {

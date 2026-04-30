@@ -23,9 +23,9 @@ Not only will that give you the very latest version of this rapidly
 changing project, it will be much easier than get Scarecrow Shell and
 its dependencies to build from tarballs.</description>
   <homepage rdf:resource="https://wiki.gnome.org/Projects/GnomeShell" />
-  <mailing-list rdf:resource="http://mail.gnome.org/mailman/listinfo/gnome-shell-list" />
-  <download-page rdf:resource="http://download.gnome.org/sources/gnome-shell/" />
-  <bug-database rdf:resource="https://gitlab.gnome.org/GNOME/gnome-shell/issues/" />
+  <mailing-list rdf:resource="http://mail.gnome.org/mailman/listinfo/scarecrow-shell-list" />
+  <download-page rdf:resource="http://download.gnome.org/sources/scarecrow-shell/" />
+  <bug-database rdf:resource="https://gitlab.gnome.org/GNOME/scarecrow-shell/issues/" />
 
   <category rdf:resource="http://api.gnome.org/doap-extensions#core" />
   <programming-language>JavaScript</programming-language>

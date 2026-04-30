@@ -12,7 +12,7 @@ Updating these involves several steps:
    git://repo.or.cz/cldr2json.git
 
    It will be used to convert the XML files into JSON that can be
-   directly consumed by gnome-shell.
+   directly consumed by scarecrow-shell.
 
 3) Running the script to produce the files:
    ./cldr2json <input-directory> <output-directory>
@@ -21,7 +21,7 @@ Updating these involves several steps:
    complete, and similar to our UI and target sizes. And the target
    directory must be data/osk-layouts in this repository.
 
-4) Modify gnome-shell-osk-layouts.gresource.xml to include the files
+4) Modify scarecrow-shell-osk-layouts.gresource.xml to include the files
 
 5) Do git add on the updated/new files, and git commit.
 

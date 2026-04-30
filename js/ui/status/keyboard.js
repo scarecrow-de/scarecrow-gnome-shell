@@ -461,7 +461,7 @@ var InputSourceManager = class {
         // 'set-content-type' signal is received.
         // E.g. Focusing on a password entry in a popup in Xorg Firefox
         // will emit 'set-content-type' signal.
-        // https://gitlab.gnome.org/GNOME/gnome-shell/issues/391
+        // https://gitlab.gnome.org/GNOME/scarecrow-shell/issues/391
         if (!this._reloading)
             KeyboardManager.holdKeyboard();
         this._keyboardManager.apply(is.xkbId);

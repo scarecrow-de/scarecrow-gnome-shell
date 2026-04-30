@@ -394,7 +394,7 @@ var WorkspaceThumbnail = GObject.registerClass({
                     this._doAddWindow(metaWin);
                 return GLib.SOURCE_REMOVE;
             });
-            GLib.Source.set_name_by_id(id, '[gnome-shell] this._doAddWindow');
+            GLib.Source.set_name_by_id(id, '[scarecrow-shell] this._doAddWindow');
             return;
         }
 

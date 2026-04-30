@@ -30,7 +30,7 @@
  *
  * In moving it to Scarecrow Shell:
  *  - Renamed again to StTheme
- *  - Reformatted to match the gnome-shell coding style
+ *  - Reformatted to match the scarecrow-shell coding style
  *  - Removed notion of "theme engine" from hippo-canvas
  *  - pseudo-class matching changed from link enum to strings
  *  - Some code simplification

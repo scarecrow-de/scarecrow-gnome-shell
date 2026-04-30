@@ -3,7 +3,7 @@
                 group="system"
                 name="System"
                 wm_name="Scarecrow Shell"
-                package="gnome-shell">
+                package="scarecrow-shell">
 
 	<KeyListEntry name="toggle-message-tray"
                       description="Show the notification list"/>

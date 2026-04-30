@@ -530,7 +530,7 @@ var Dash = GObject.registerClass({
                         this._showLabelTimeoutId = 0;
                         return GLib.SOURCE_REMOVE;
                     });
-                GLib.Source.set_name_by_id(this._showLabelTimeoutId, '[gnome-shell] item.showLabel');
+                GLib.Source.set_name_by_id(this._showLabelTimeoutId, '[scarecrow-shell] item.showLabel');
                 if (this._resetHoverTimeoutId > 0) {
                     GLib.source_remove(this._resetHoverTimeoutId);
                     this._resetHoverTimeoutId = 0;
@@ -548,7 +548,7 @@ var Dash = GObject.registerClass({
                         this._resetHoverTimeoutId = 0;
                         return GLib.SOURCE_REMOVE;
                     });
-                GLib.Source.set_name_by_id(this._resetHoverTimeoutId, '[gnome-shell] this._labelShowing');
+                GLib.Source.set_name_by_id(this._resetHoverTimeoutId, '[scarecrow-shell] this._labelShowing');
             }
         }
     }

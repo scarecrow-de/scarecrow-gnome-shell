@@ -149,7 +149,7 @@ class OsdWindow extends St.Widget {
             GLib.source_remove(this._hideTimeoutId);
         this._hideTimeoutId = GLib.timeout_add(
             GLib.PRIORITY_DEFAULT, HIDE_TIMEOUT, this._hide.bind(this));
-        GLib.Source.set_name_by_id(this._hideTimeoutId, '[gnome-shell] this._hide');
+        GLib.Source.set_name_by_id(this._hideTimeoutId, '[scarecrow-shell] this._hide');
     }
 
     cancel() {

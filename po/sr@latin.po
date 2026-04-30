@@ -1,7 +1,7 @@
-# Serbian translation for gnome-shell.
+# Serbian translation for scarecrow-shell.
 # Courtesy of Prevod.org team (http://prevod.org/) -- 2010—2017.
-# Copyright (C) 2010 gnome-shell's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-shell package.
+# Copyright (C) 2010 scarecrow-shell's COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-shell package.
 # Translators:
 # Miloš Popović <gpopac@gmail.com>, 2010—2011.
 # Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2011—2017.
@@ -9,8 +9,8 @@
 # Borisav Živanović <borisavzivanovic@gmail.com>, 2017—2018.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-shell/issues\n"
+"Project-Id-Version: scarecrow-shell master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-shell/issues\n"
 "POT-Creation-Date: 2018-02-19 12:41+0000\n"
 "PO-Revision-Date: 2018-02-19 18:00+0100\n"
 "Last-Translator: Borisav Živanović <borisavzivanovic@gmail.com>\n"
@@ -25,36 +25,36 @@ msgstr ""
 "X-Poedit-Bookmarks: -1,167,-1,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 2.0.4\n"
 
-#: data/50-gnome-shell-system.xml:6
+#: data/50-scarecrow-shell-system.xml:6
 msgid "System"
 msgstr "Sistem"
 
-#: data/50-gnome-shell-system.xml:9
+#: data/50-scarecrow-shell-system.xml:9
 msgid "Show the notification list"
 msgstr "Prikažite spisak obaveštenja"
 
-#: data/50-gnome-shell-system.xml:12
+#: data/50-scarecrow-shell-system.xml:12
 msgid "Focus the active notification"
 msgstr "Postavite u žižu aktivno obaveštenje"
 
-#: data/50-gnome-shell-system.xml:15
+#: data/50-scarecrow-shell-system.xml:15
 msgid "Show the overview"
 msgstr "Prikaži pregled"
 
-#: data/50-gnome-shell-system.xml:18
+#: data/50-scarecrow-shell-system.xml:18
 msgid "Show all applications"
 msgstr "Prikaži sve programe"
 
-#: data/50-gnome-shell-system.xml:21
+#: data/50-scarecrow-shell-system.xml:21
 msgid "Open the application menu"
 msgstr "Otvorite izbornik programa"
 
-#: data/gnome-shell-extension-prefs.desktop.in.in:4
+#: data/scarecrow-shell-extension-prefs.desktop.in.in:4
 #: js/extensionPrefs/main.js:152
 msgid "Shell Extensions"
 msgstr "Proširenja školjke"
 
-#: data/gnome-shell-extension-prefs.desktop.in.in:5
+#: data/scarecrow-shell-extension-prefs.desktop.in.in:5
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "Podesite proširenja Gnomove školjke"
 

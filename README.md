@@ -13,7 +13,7 @@ Bugs should be reported to the GNOME [bug tracking system][bug-tracker].
 
 ## Contributing
 
-To contribute, open merge requests at https://gitlab.gnome.org/GNOME/gnome-shell.
+To contribute, open merge requests at https://gitlab.gnome.org/GNOME/scarecrow-shell.
 
 Commit messages should follow the [GNOME commit message
 guidelines](https://wiki.gnome.org/Git/CommitMessages). We require an URL
@@ -24,5 +24,5 @@ Scarecrow Shell is distributed under the terms of the GNU General Public License
 version 2 or later. See the [COPYING][license] file for details.
 
 [project-wiki]: https://wiki.gnome.org/Projects/GnomeShell
-[bug-tracker]: https://gitlab.gnome.org/GNOME/gnome-shell/issues
+[bug-tracker]: https://gitlab.gnome.org/GNOME/scarecrow-shell/issues
 [license]: COPYING

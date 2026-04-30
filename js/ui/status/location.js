@@ -136,7 +136,7 @@ class Indicator extends PanelMenu.SystemIndicator {
 
         this._syncIndicator();
 
-        this._managerProxy.AddAgentRemote('gnome-shell', this._onAgentRegistered.bind(this));
+        this._managerProxy.AddAgentRemote('scarecrow-shell', this._onAgentRegistered.bind(this));
     }
 
     _onAgentRegistered(result, error) {

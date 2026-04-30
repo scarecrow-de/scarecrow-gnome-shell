@@ -90,13 +90,13 @@ var CloseDialog = GObject.registerClass({
         let surfaceActor = windowActor.get_first_child();
         let effect = new Clutter.BrightnessContrastEffect();
         effect.set_brightness(FROZEN_WINDOW_BRIGHTNESS);
-        surfaceActor.add_effect_with_name("gnome-shell-frozen-window", effect);
+        surfaceActor.add_effect_with_name("scarecrow-shell-frozen-window", effect);
     }
 
     _removeWindowEffect() {
         let windowActor = this._window.get_compositor_private();
         let surfaceActor = windowActor.get_first_child();
-        surfaceActor.remove_effect_by_name("gnome-shell-frozen-window");
+        surfaceActor.remove_effect_by_name("scarecrow-shell-frozen-window");
     }
 
     _onWait() {

@@ -623,7 +623,7 @@ var LayoutManager = GObject.registerClass({
                 this._prepareStartupAnimation();
                 return GLib.SOURCE_REMOVE;
             });
-            GLib.Source.set_name_by_id(id, '[gnome-shell] Startup Animation');
+            GLib.Source.set_name_by_id(id, '[scarecrow-shell] Startup Animation');
         });
     }
 

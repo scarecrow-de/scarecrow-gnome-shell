@@ -1,6 +1,6 @@
 custom_target('man page',
-  input: 'gnome-shell.xml',
-  output: 'gnome-shell.1',
+  input: 'scarecrow-shell.xml',
+  output: 'scarecrow-shell.1',
   command: [
     xsltproc,
     '-o', '@OUTPUT@',

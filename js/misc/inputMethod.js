@@ -53,7 +53,7 @@ class InputMethod extends Clutter.InputMethod {
         this._cancellable = new Gio.Cancellable();
         try {
             this._context = await this._ibus.create_input_context_async(
-                'gnome-shell', -1, this._cancellable);
+                'scarecrow-shell', -1, this._cancellable);
         } catch (e) {
             if (!e.matches(Gio.IOErrorEnum, Gio.IOErrorEnum.CANCELLED)) {
                 logError(e);

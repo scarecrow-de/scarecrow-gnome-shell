@@ -339,7 +339,7 @@ class AppSwitcherPopup extends SwitcherPopup.SwitcherPopup {
                 GLib.PRIORITY_DEFAULT,
                 THUMBNAIL_POPUP_TIME,
                 this._timeoutPopupThumbnails.bind(this));
-            GLib.Source.set_name_by_id(this._thumbnailTimeoutId, '[gnome-shell] this._timeoutPopupThumbnails');
+            GLib.Source.set_name_by_id(this._thumbnailTimeoutId, '[scarecrow-shell] this._timeoutPopupThumbnails');
         }
     }
 
@@ -800,7 +800,7 @@ class AppSwitcher extends SwitcherPopup.SwitcherList {
                     this._mouseTimeOutId = 0;
                     return GLib.SOURCE_REMOVE;
                 });
-            GLib.Source.set_name_by_id(this._mouseTimeOutId, '[gnome-shell] this._enterItem');
+            GLib.Source.set_name_by_id(this._mouseTimeOutId, '[scarecrow-shell] this._enterItem');
         } else {
             this._itemEntered(index);
         }

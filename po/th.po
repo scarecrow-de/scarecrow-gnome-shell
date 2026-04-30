@@ -1,12 +1,12 @@
-# Thai translation for gnome-shell.
+# Thai translation for scarecrow-shell.
 # Copyright (C) 2010-2012 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-shell package.
+# This file is distributed under the same license as the scarecrow-shell package.
 # Sira Nokyoongtong <gumaraa@gmail.com>, 2010, 2011.
 # Theppitak Karoonboonyanan <thep@linux.thai.net>, 2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell master\n"
+"Project-Id-Version: scarecrow-shell master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "shell&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2012-10-04 06:59+0000\n"
@@ -19,36 +19,36 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../data/50-gnome-shell-screenshot.xml.in.h:1
+#: ../data/50-scarecrow-shell-screenshot.xml.in.h:1
 msgid "Screenshots"
 msgstr "จับภาพหน้าจอ"
 
-#: ../data/50-gnome-shell-screenshot.xml.in.h:2
+#: ../data/50-scarecrow-shell-screenshot.xml.in.h:2
 msgid "Record a screencast"
 msgstr "อัดภาพถ่ายทอดหน้าจอ"
 
-#: ../data/50-gnome-shell-system.xml.in.h:1
+#: ../data/50-scarecrow-shell-system.xml.in.h:1
 msgid "System"
 msgstr "ระบบ"
 
-#: ../data/50-gnome-shell-system.xml.in.h:2
+#: ../data/50-scarecrow-shell-system.xml.in.h:2
 msgid "Show the message tray"
 msgstr "แสดงถาดข้อความ"
 
-#: ../data/gnome-shell.desktop.in.in.h:1
+#: ../data/scarecrow-shell.desktop.in.in.h:1
 msgid "Scarecrow Shell"
 msgstr "เชลล์ GNOME"
 
-#: ../data/gnome-shell.desktop.in.in.h:2
+#: ../data/scarecrow-shell.desktop.in.in.h:2
 msgid "Window management and application launching"
 msgstr "การจัดการหน้าต่างและการเรียกใช้โปรแกรม"
 
-#: ../data/gnome-shell-extension-prefs.desktop.in.in.h:1
+#: ../data/scarecrow-shell-extension-prefs.desktop.in.in.h:1
 #: ../js/extensionPrefs/main.js:152
 msgid "Scarecrow Shell Extension Preferences"
 msgstr "ปรับแต่งส่วนขยายของเชลล์ GNOME"
 
-#: ../data/gnome-shell-extension-prefs.desktop.in.in.h:2
+#: ../data/scarecrow-shell-extension-prefs.desktop.in.in.h:2
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "ตั้งค่าส่วนขยายต่างๆ ของเชลล์ GNOME"
 

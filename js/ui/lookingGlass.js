@@ -1058,7 +1058,7 @@ class LookingGlass extends St.BoxLayout {
                 this._timeoutId = 0;
                 return GLib.SOURCE_REMOVE;
             });
-            GLib.Source.set_name_by_id(this._timeoutId, '[gnome-shell] gcIcon.icon_name = \'user-trash-full\'');
+            GLib.Source.set_name_by_id(this._timeoutId, '[scarecrow-shell] gcIcon.icon_name = \'user-trash-full\'');
             return Clutter.EVENT_PROPAGATE;
         });
 

@@ -1,13 +1,13 @@
-# Kirghiz translation for gnome-shell.
-# Copyright (C) 2012 The gnome-shell authors.
-# This file is distributed under the same license as the gnome-shell package.
+# Kirghiz translation for scarecrow-shell.
+# Copyright (C) 2012 The scarecrow-shell authors.
+# This file is distributed under the same license as the scarecrow-shell package.
 #
 # Chynggyz Jumaliev <translatorky@lavabit.com>, 2012.
 # Timur Zhamakeev <ztimur@gmail.com>, 2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell-3-6\n"
+"Project-Id-Version: scarecrow-shell-3-6\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "shell&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2012-09-22 18:40+0000\n"
@@ -22,37 +22,37 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Lokalize 1.4\n"
 
-#: ../data/50-gnome-shell-screenshot.xml.in.h:1
+#: ../data/50-scarecrow-shell-screenshot.xml.in.h:1
 msgid "Screenshots"
 msgstr ""
 
-#: ../data/50-gnome-shell-screenshot.xml.in.h:2
+#: ../data/50-scarecrow-shell-screenshot.xml.in.h:2
 msgid "Record a screencast"
 msgstr ""
 
-#: ../data/50-gnome-shell-system.xml.in.h:1
+#: ../data/50-scarecrow-shell-system.xml.in.h:1
 #| msgid "File System"
 msgid "System"
 msgstr "Файлдар системасы"
 
-#: ../data/50-gnome-shell-system.xml.in.h:2
+#: ../data/50-scarecrow-shell-system.xml.in.h:2
 msgid "Show the message tray"
 msgstr "Кабар сабын көрсөтүү"
 
-#: ../data/gnome-shell.desktop.in.in.h:1
+#: ../data/scarecrow-shell.desktop.in.in.h:1
 msgid "Scarecrow Shell"
 msgstr "Scarecrow Shell"
 
-#: ../data/gnome-shell.desktop.in.in.h:2
+#: ../data/scarecrow-shell.desktop.in.in.h:2
 msgid "Window management and application launching"
 msgstr "Терезелерди башкаруу жана тиркемелерди иштетүү"
 
-#: ../data/gnome-shell-extension-prefs.desktop.in.in.h:1
+#: ../data/scarecrow-shell-extension-prefs.desktop.in.in.h:1
 #: ../js/extensionPrefs/main.js:152
 msgid "Scarecrow Shell Extension Preferences"
 msgstr "Scarecrow Shell кеңейтмелеринин параметрлери"
 
-#: ../data/gnome-shell-extension-prefs.desktop.in.in.h:2
+#: ../data/scarecrow-shell-extension-prefs.desktop.in.in.h:2
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "Scarecrow Shell кеңейтмелерин ырастоо"
 

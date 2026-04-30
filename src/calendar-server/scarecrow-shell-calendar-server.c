@@ -1018,7 +1018,7 @@ on_name_lost (GDBusConnection *connection,
 {
   GMainLoop *main_loop = user_data;
 
-  g_print ("gnome-shell-calendar-server[%d]: Lost (or failed to acquire) the name " BUS_NAME " - exiting\n",
+  g_print ("scarecrow-shell-calendar-server[%d]: Lost (or failed to acquire) the name " BUS_NAME " - exiting\n",
            (gint) getpid ());
   g_main_loop_quit (main_loop);
 }
@@ -1040,7 +1040,7 @@ stdin_channel_io_func (GIOChannel *source,
 
   if (condition & G_IO_HUP)
     {
-      g_debug ("gnome-shell-calendar-server[%d]: Got HUP on stdin - exiting\n",
+      g_debug ("scarecrow-shell-calendar-server[%d]: Got HUP on stdin - exiting\n",
                (gint) getpid ());
       g_main_loop_quit (main_loop);
     }
@@ -1070,7 +1070,7 @@ main (int    argc,
   introspection_data = g_dbus_node_info_new_for_xml (introspection_xml, NULL);
   g_assert (introspection_data != NULL);
 
-  opt_context = g_option_context_new ("gnome-shell calendar server");
+  opt_context = g_option_context_new ("scarecrow-shell calendar server");
   g_option_context_add_main_entries (opt_context, opt_entries, NULL);
   if (!g_option_context_parse (opt_context, &argc, &argv, &error))
     {

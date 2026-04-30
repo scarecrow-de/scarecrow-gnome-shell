@@ -1149,7 +1149,7 @@ var MessageTray = GObject.registerClass({
             // That gives the user more time to mouse away from the notification and mouse back in in order to expand it.
             let timeout = this._useLongerNotificationLeftTimeout ? LONGER_HIDE_TIMEOUT : HIDE_TIMEOUT;
             this._notificationLeftTimeoutId = GLib.timeout_add(GLib.PRIORITY_DEFAULT, timeout, this._onNotificationLeftTimeout.bind(this));
-            GLib.Source.set_name_by_id(this._notificationLeftTimeoutId, '[gnome-shell] this._onNotificationLeftTimeout');
+            GLib.Source.set_name_by_id(this._notificationLeftTimeoutId, '[scarecrow-shell] this._onNotificationLeftTimeout');
         }
     }
 
@@ -1181,7 +1181,7 @@ var MessageTray = GObject.registerClass({
                 GLib.PRIORITY_DEFAULT,
                 LONGER_HIDE_TIMEOUT,
                 this._onNotificationLeftTimeout.bind(this));
-            GLib.Source.set_name_by_id(this._notificationLeftTimeoutId, '[gnome-shell] this._onNotificationLeftTimeout');
+            GLib.Source.set_name_by_id(this._notificationLeftTimeoutId, '[scarecrow-shell] this._onNotificationLeftTimeout');
         } else {
             this._notificationLeftTimeoutId = 0;
             this._useLongerNotificationLeftTimeout = false;
@@ -1365,7 +1365,7 @@ var MessageTray = GObject.registerClass({
             this._notificationTimeoutId =
                 GLib.timeout_add(GLib.PRIORITY_DEFAULT, timeout,
                     this._notificationTimeout.bind(this));
-            GLib.Source.set_name_by_id(this._notificationTimeoutId, '[gnome-shell] this._notificationTimeout');
+            GLib.Source.set_name_by_id(this._notificationTimeoutId, '[scarecrow-shell] this._notificationTimeout');
         }
     }
 

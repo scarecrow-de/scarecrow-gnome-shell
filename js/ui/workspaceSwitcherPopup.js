@@ -199,7 +199,7 @@ class WorkspaceSwitcherPopup extends St.Widget {
         if (this._timeoutId != 0)
             GLib.source_remove(this._timeoutId);
         this._timeoutId = GLib.timeout_add(GLib.PRIORITY_DEFAULT, DISPLAY_TIMEOUT, this._onTimeout.bind(this));
-        GLib.Source.set_name_by_id(this._timeoutId, '[gnome-shell] this._onTimeout');
+        GLib.Source.set_name_by_id(this._timeoutId, '[scarecrow-shell] this._onTimeout');
         this._show();
     }
 

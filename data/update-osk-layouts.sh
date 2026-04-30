@@ -6,7 +6,7 @@ WORKDIR=".osk-layout-workbench"
 CLDR2JSON="cldr2json/cldr2json.py"
 SRCDIR="$WORKDIR/keyboards/android"
 DESTDIR="osk-layouts"
-GRESOURCE_FILE="gnome-shell-osk-layouts.gresource.xml"
+GRESOURCE_FILE="scarecrow-shell-osk-layouts.gresource.xml"
 TMP_GRESOURCE_FILE=".$GRESOURCE_FILE.tmp"
 
 cd `dirname $0`

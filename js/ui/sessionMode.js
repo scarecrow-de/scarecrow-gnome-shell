@@ -15,8 +15,8 @@ const DEFAULT_MODE = 'restrictive';
 const _modes = {
     'restrictive': {
         parentMode: null,
-        stylesheetName: 'gnome-shell.css',
-        themeResourceName: 'gnome-shell-theme.gresource',
+        stylesheetName: 'scarecrow-shell.css',
+        themeResourceName: 'scarecrow-shell-theme.gresource',
         hasOverview: false,
         showCalendarEvents: false,
         allowSettings: false,
@@ -137,7 +137,7 @@ function listModes() {
         }
         loop.quit();
     });
-    GLib.Source.set_name_by_id(id, '[gnome-shell] listModes');
+    GLib.Source.set_name_by_id(id, '[scarecrow-shell] listModes');
     loop.run();
 }
 

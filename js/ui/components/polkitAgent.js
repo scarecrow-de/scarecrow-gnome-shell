@@ -125,7 +125,7 @@ var AuthenticationDialog = GObject.registerClass({
 
         /* text is intentionally non-blank otherwise the height is not the same as for
          * infoMessage and errorMessageLabel - but it is still invisible because
-         * gnome-shell.css sets the color to be transparent
+         * scarecrow-shell.css sets the color to be transparent
          */
         this._nullMessageLabel = new St.Label({ style_class: 'prompt-dialog-null-label' });
         this._nullMessageLabel.clutter_text.ellipsize = Pango.EllipsizeMode.NONE;
@@ -340,7 +340,7 @@ var AuthenticationDialog = GObject.registerClass({
 
         if (delay) {
             this._sessionRequestTimeoutId = GLib.timeout_add(GLib.PRIORITY_DEFAULT, delay, resetDialog);
-            GLib.Source.set_name_by_id(this._sessionRequestTimeoutId, '[gnome-shell] this._sessionRequestTimeoutId');
+            GLib.Source.set_name_by_id(this._sessionRequestTimeoutId, '[scarecrow-shell] this._sessionRequestTimeoutId');
         } else {
             resetDialog();
         }
