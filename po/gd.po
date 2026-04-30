@@ -50,11 +50,11 @@ msgid "Shell Extensions"
 msgstr "Leudachain na slige"
 
 #: data/gnome-shell-extension-prefs.desktop.in.in:5
-msgid "Configure GNOME Shell Extensions"
+msgid "Configure Scarecrow Shell Extensions"
 msgstr "Rèitich leudachain Slige GNOME"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr "Slige GNOME"
 
 #: data/org.gnome.Shell.desktop.in.in:5
@@ -77,7 +77,7 @@ msgstr "UUIDs nan leudachan ri an cur an comas"
 
 #: data/org.gnome.shell.gschema.xml.in:17
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
@@ -99,7 +99,7 @@ msgstr "Cuiridh seo à comas dearbhadh na co-chòrdalachd airson tionndadh nan l
 
 #: data/org.gnome.shell.gschema.xml.in:35
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr "Cha luchdaich Slige GNOME ach leudachain a dh’innseas gu bheil iad co-chòrdail leis an tionndadh a tha ’ga ruith. Ma chuireas tu an roghainn seo an comas, thèid an dearbhadh a chur à comas agus feuchaidh sinn ris a h-uile leudachan a luchdadh ge b’ e dè na tionndaidhean ris an cuir iad taic dhan rèir-san."
@@ -259,7 +259,7 @@ msgstr "Ceangail còmhradh mòdach ris an uinneag-pàrant"
 #: data/org.gnome.shell.gschema.xml.in:224
 #: data/org.gnome.shell.gschema.xml.in:232
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr "Tar-àithnidh an iuchair seo an iuchair ann an org.gnome.mutter nuair a thèid Slige GNOME a ruith."
 
 #: data/org.gnome.shell.gschema.xml.in:207
@@ -2197,7 +2197,7 @@ msgstr "Fuaimean an t-siostaim"
 #~ msgid "Switch user"
 #~ msgstr "Dèan suids eadar cleachdaichean"
 
-#~ msgid "GNOME Shell Extension Preferences"
+#~ msgid "Scarecrow Shell Extension Preferences"
 #~ msgstr "Roghainnean airson leudachain na Slige GNOME"
 
 #~ msgid "Web Authentication Redirect"
@@ -2230,5 +2230,5 @@ msgstr "Fuaimean an t-siostaim"
 #~ msgid "Use as Internet connection"
 #~ msgstr "Cleachd e mar cheangal ris an eadar-lìon"
 
-#~ msgid "GNOME Shell (wayland compositor)"
+#~ msgid "Scarecrow Shell (wayland compositor)"
 #~ msgstr "Slige GNOME (co-dhèanadair wayland)"

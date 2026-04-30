@@ -55,11 +55,11 @@ msgid "Shell Extensions"
 msgstr "Proširenja školjke"
 
 #: data/gnome-shell-extension-prefs.desktop.in.in:5
-msgid "Configure GNOME Shell Extensions"
+msgid "Configure Scarecrow Shell Extensions"
 msgstr "Podesite proširenja Gnomove školjke"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr "Gnomova školjka"
 
 #: data/org.gnome.Shell.desktop.in.in:5
@@ -84,7 +84,7 @@ msgstr "JUIB-ovi proširenja za uključivanje"
 
 #: data/org.gnome.shell.gschema.xml.in:17
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
@@ -112,7 +112,7 @@ msgstr "Isključuje potvrđivanje saglasnosti izdanja proširenja"
 
 #: data/org.gnome.shell.gschema.xml.in:35
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
@@ -298,7 +298,7 @@ msgstr "Prikačinje prozorče roditeljskom prozoru"
 #: data/org.gnome.shell.gschema.xml.in:223
 #: data/org.gnome.shell.gschema.xml.in:231
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr ""
 "Ovaj ključ prevazilazi ključ u „org.gnome.mutter“ kada pokreće Gnomovu školjku."
 
@@ -2276,7 +2276,7 @@ msgstr "Sistemski zvuci"
 #~ msgid "Media"
 #~ msgstr "Mediji"
 
-#~ msgid "GNOME Shell Extension Preferences"
+#~ msgid "Scarecrow Shell Extension Preferences"
 #~ msgstr "Postavke proširenja Gnomove školjke"
 
 #~ msgid "Web Authentication Redirect"
@@ -2300,7 +2300,7 @@ msgstr "Sistemski zvuci"
 #~ msgid "%s is requesting access to your location."
 #~ msgstr "„%s“ zahteva pristup vašem mestu."
 
-#~ msgid "GNOME Shell (wayland compositor)"
+#~ msgid "Scarecrow Shell (wayland compositor)"
 #~ msgstr "Gnomova školjka (vajland sastavljač)"
 
 #~ msgid "%d Connected Device"
@@ -2559,7 +2559,7 @@ msgstr "Sistemski zvuci"
 
 #~ msgid ""
 #~ "This key overrides the key in org.gnome.desktop.wm.preferences when "
-#~ "running GNOME Shell."
+#~ "running Scarecrow Shell."
 #~ msgstr ""
 #~ "Ovaj ključ prevazilazi ključ u „org.gnome.desktop.wm.preferences“ kada "
 #~ "pokreće Gnomovu školjku."

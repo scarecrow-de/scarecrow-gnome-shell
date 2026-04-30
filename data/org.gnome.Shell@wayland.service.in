@@ -1,5 +1,5 @@
 [Unit]
-Description=GNOME Shell on Wayland
+Description=Scarecrow Shell on Wayland
 # On wayland, force a session shutdown
 OnFailure=org.gnome.Shell-disable-extensions.service gnome-session-shutdown.target
 OnFailureJobMode=replace-irreversibly

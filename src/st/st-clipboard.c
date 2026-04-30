@@ -339,7 +339,7 @@ st_clipboard_set_text (StClipboard     *clipboard,
  *
  * Sets the #MetaSelection of the default #StClipboard.
  *
- * This function is called during the initialization of GNOME Shell.
+ * This function is called during the initialization of Scarecrow Shell.
  */
 void
 st_clipboard_set_selection (MetaSelection *selection)

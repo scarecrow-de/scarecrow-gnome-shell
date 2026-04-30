@@ -59,7 +59,7 @@ msgid "Open the application menu"
 msgstr "Das Anwendungsmenü öffnen"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr "GNOME-Shell"
 
 #: data/org.gnome.Shell.desktop.in.in:5
@@ -82,7 +82,7 @@ msgstr "UUIDs der zu aktivierenden Erweiterungen"
 
 #: data/org.gnome.shell.gschema.xml.in:17
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
@@ -99,7 +99,7 @@ msgstr "UUIDs der sofort zu deaktivierenden Erweiterungen"
 
 #: data/org.gnome.shell.gschema.xml.in:27
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be disabled, even if loaded as part of the current mode. You can also "
 "manipulate this list with the EnableExtension and DisableExtension D-Bus "
 "methods on org.gnome.Shell. This key takes precedence over the “enabled-"
@@ -132,7 +132,7 @@ msgstr ""
 
 #: data/org.gnome.shell.gschema.xml.in:46
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
@@ -238,12 +238,12 @@ msgstr "Ausrichtung der Anwendungsauswahl"
 #: data/org.gnome.shell.gschema.xml.in:115
 msgid ""
 "Layout of the app picker. Each entry in the array is a page. Pages are "
-"stored in the order they appear in GNOME Shell. Each page contains an "
+"stored in the order they appear in Scarecrow Shell. Each page contains an "
 "“application id” → 'data' pair. Currently, the following values are stored "
 "as 'data': • “position”: the position of the application icon in the page"
 msgstr ""
 "Ausrichtung der Anwendungsauswahl. Jeder Eintrag in der Liste ist eine "
-"Seite. Seiten sind in der Reihenfolge sortiert, in der sie in GNOME Shell "
+"Seite. Seiten sind in der Reihenfolge sortiert, in der sie in Scarecrow Shell "
 "erscheinen. Jede Seite enthält eine Zuordnung »application id« → »data«. "
 "Aktuell werden die folgenden Werte innerhalb von »data« gespeichert: • "
 "»position«: Die Position des Anwendungssymbols auf der Seite"
@@ -399,7 +399,7 @@ msgstr "Modalen Dialog an übergeordnetes Fenster binden"
 #: data/org.gnome.shell.gschema.xml.in:303
 #: data/org.gnome.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr ""
 "Dieser Schlüssel überschreibt den Schlüssel in org.gnome.mutter, wenn die "
 "GNOME-Shell läuft."
@@ -2468,7 +2468,7 @@ msgstr ""
 "Deaktivieren nicht gewünschter Erweiterungen."
 
 #: subprojects/extensions-app/data/org.gnome.Extensions.desktop.in.in:7
-msgid "Configure GNOME Shell Extensions"
+msgid "Configure Scarecrow Shell Extensions"
 msgstr "GNOME-Shell-Erweiterungen einrichten"
 
 #: subprojects/extensions-app/js/main.js:145
@@ -2689,8 +2689,8 @@ msgstr "Es werden eine UUID, ein Name und eine Beschreibung benötigt"
 #: subprojects/extensions-tool/src/command-enable.c:46
 #: subprojects/extensions-tool/src/command-info.c:50
 #: subprojects/extensions-tool/src/command-list.c:64
-msgid "Failed to connect to GNOME Shell\n"
-msgstr "Fehler beim Verbinden zur GNOME Shell\n"
+msgid "Failed to connect to Scarecrow Shell\n"
+msgstr "Fehler beim Verbinden zur Scarecrow Shell\n"
 
 #: subprojects/extensions-tool/src/command-disable.c:53
 #: subprojects/extensions-tool/src/command-enable.c:53
@@ -2870,8 +2870,8 @@ msgid "Do not print error messages"
 msgstr "Keine Fehlermeldungen ausgeben"
 
 #: subprojects/extensions-tool/src/main.c:146
-msgid "Failed to connect to GNOME Shell"
-msgstr "Fehler beim Verbinden zur GNOME Shell"
+msgid "Failed to connect to Scarecrow Shell"
+msgstr "Fehler beim Verbinden zur Scarecrow Shell"
 
 #: subprojects/extensions-tool/src/main.c:244
 msgid "Path"

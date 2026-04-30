@@ -45,7 +45,7 @@ msgid "Open the application menu"
 msgstr "បើក​ម៉ឺនុយ​កម្មវិធី"
 
 #: ../data/gnome-shell.desktop.in.in.h:1
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr "GNOME សែល"
 
 #: ../data/gnome-shell.desktop.in.in.h:2
@@ -55,15 +55,15 @@ msgstr "ការ​គ្រប់គ្រង​វីនដូ និង​�
 
 #: ../data/gnome-shell-extension-prefs.desktop.in.in.h:1
 #: ../js/extensionPrefs/main.js:155
-msgid "GNOME Shell Extension Preferences"
+msgid "Scarecrow Shell Extension Preferences"
 msgstr "ចំណូលចិត្ត​ផ្នែក​បន្ថែម​របស់ GNOME សែល"
 
 #: ../data/gnome-shell-extension-prefs.desktop.in.in.h:2
-msgid "Configure GNOME Shell Extensions"
+msgid "Configure Scarecrow Shell Extensions"
 msgstr "កំណត់​រចនាសម្ព័ន្ធ​ផ្នែក​បន្ថែម​របស់ GNOME សែល"
 
 #: ../data/gnome-shell-wayland.desktop.in.in.h:1
-msgid "GNOME Shell (wayland compositor)"
+msgid "Scarecrow Shell (wayland compositor)"
 msgstr "GNOME សែល (wayland compositor)"
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:1
@@ -82,7 +82,7 @@ msgstr "UUIDs នៃ​ផ្នែក​បន្ថែម​ដែល​ត្
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:4
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
@@ -98,7 +98,7 @@ msgstr "បិទ​សុពលកម្ម​នៃ​ភាព​ឆបគ្
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:6
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
@@ -248,7 +248,7 @@ msgstr "ភ្ជាប់​ប្រអប់​បែបបទ​ទៅ​ប
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:34
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr "ពាក្យ​គន្លឹះ​នេះ​បដិសេធ​ពាក្យ​គន្លឹះ​នៅ​ក្នុង org.gnome.mutter ពេល​ដំណើរការ GNOME សែល។"
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:35
@@ -258,7 +258,7 @@ msgstr "ការ​រៀបចំ​ប៊ូតុង​នៅ​លើ​រ
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:36
 msgid ""
 "This key overrides the key in org.gnome.desktop.wm.preferences when running "
-"GNOME Shell."
+"Scarecrow Shell."
 msgstr ""
 "ពាក្យ​គន្លឹះ​នេះ​បដិសេធ​ពាក្យ​គន្លឹះ​នៅ​ក្នុង org.gnome.desktop.wm.preferences ពេល​ដំណើរការ "
 "GNOME សែល។"

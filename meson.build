@@ -67,7 +67,7 @@ keybindings_dep = dependency('gnome-keybindings', required: false)
 if keybindings_dep.found()
   keysdir = keybindings_dep.get_pkgconfig_variable('keysdir', define_variable: ['datadir', datadir])
 else
-  keysdir = join_paths(datadir, 'gnome-control-center', 'keybindings')
+  keysdir = join_paths(datadir, 'scarecrow-control-center', 'keybindings')
 endif
 
 atk_bridge_dep = dependency('atk-bridge-2.0')

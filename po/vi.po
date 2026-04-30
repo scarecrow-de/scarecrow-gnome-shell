@@ -51,11 +51,11 @@ msgid "Shell Extensions"
 msgstr "Phần mở rộng Hệ vỏ"
 
 #: data/gnome-shell-extension-prefs.desktop.in.in:5
-msgid "Configure GNOME Shell Extensions"
+msgid "Configure Scarecrow Shell Extensions"
 msgstr "Cấu hình phần mở rộng Hệ vỏ GNOME"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr "Hệ vỏ GNOME"
 
 #: data/org.gnome.Shell.desktop.in.in:5
@@ -80,7 +80,7 @@ msgstr "Mã số thiết bị của phần mở rộng cần bật"
 
 #: data/org.gnome.shell.gschema.xml.in:17
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
@@ -108,7 +108,7 @@ msgstr "Tắt kiểm tra tương thích phiên bản của phần mở rộng"
 
 #: data/org.gnome.shell.gschema.xml.in:35
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
@@ -340,7 +340,7 @@ msgstr "Gắn hộp thoại dạng modal vào cửa sổ mẹ"
 #: data/org.gnome.shell.gschema.xml.in:268
 #: data/org.gnome.shell.gschema.xml.in:276
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr ""
 "Khóa này sẽ đè lên khóa có trong org.gnome.mutter khi chạy hệ vỏ GNOME."
 
@@ -2291,7 +2291,7 @@ msgstr "Âm thanh hệ thống"
 #~ msgid "Status Icons"
 #~ msgstr "Biểu tượng trạng thái"
 
-#~ msgid "GNOME Shell Extension Preferences"
+#~ msgid "Scarecrow Shell Extension Preferences"
 #~ msgstr "Cá nhân hóa phần mở rộng hệ vỏ GNOME"
 
 #~ msgid "Web Authentication Redirect"
@@ -2324,7 +2324,7 @@ msgstr "Âm thanh hệ thống"
 #~ msgid "Use as Internet connection"
 #~ msgstr "Dùng làm kết nối internet"
 
-#~ msgid "GNOME Shell (wayland compositor)"
+#~ msgid "Scarecrow Shell (wayland compositor)"
 #~ msgstr "Hệ vỏ GNOME (wayland compositor)"
 
 #~ msgid "%d Connected Device"
@@ -2594,7 +2594,7 @@ msgstr "Âm thanh hệ thống"
 #~ msgstr "Tốc độ khung hình sẽ dùng khi ghi screencast."
 
 #~ msgid ""
-#~ "The framerate of the resulting screencast recordered by GNOME Shell's "
+#~ "The framerate of the resulting screencast recordered by Scarecrow Shell's "
 #~ "screencast recorder in frames-per-second."
 #~ msgstr ""
 #~ "Tốc độ khung hình của screencast được ghi bởi bộ thu Hệ vỏ GNOME tính "
@@ -2643,7 +2643,7 @@ msgstr "Âm thanh hệ thống"
 
 #~ msgid ""
 #~ "This key overrides the key in org.gnome.desktop.wm.preferences when "
-#~ "running GNOME Shell."
+#~ "running Scarecrow Shell."
 #~ msgstr ""
 #~ "Khóa này đè lên khóa có trong org.gnome.desktop.wm.preferences khi chạy "
 #~ "hệ vỏ GNOME."
@@ -2868,7 +2868,7 @@ msgstr "Âm thanh hệ thống"
 #~ "you may want to disable this for privacy reasons. Please note that doing "
 #~ "so won't remove already saved data."
 #~ msgstr ""
-#~ "GNOME Shell bình thường sẽ theo dõi các ứng dụng tích cực để thể hiện phù "
+#~ "Scarecrow Shell bình thường sẽ theo dõi các ứng dụng tích cực để thể hiện phù "
 #~ "hợp (ví dụ, bộ phóng). Mặc dù thông tin này là riêng tư, bạn vẫn có thể "
 #~ "tắt vì lý do cá nhân. Chú ý là làm vậy sẽ không xóa bỏ những dữ liệu đã "
 #~ "có."
@@ -3041,11 +3041,11 @@ msgstr "Âm thanh hệ thống"
 #~ msgstr "MỤC GẦN ĐÂY"
 
 #~ msgid ""
-#~ "GNOME Shell extensions have a uuid property; this key lists extensions "
+#~ "Scarecrow Shell extensions have a uuid property; this key lists extensions "
 #~ "which should be loaded. disabled-extensions overrides this setting for "
 #~ "extensions that appear in both lists."
 #~ msgstr ""
-#~ "Phần mở rộng GNOME Shell có thuộc tính uuid. Khóa này liệt kê danh sách "
+#~ "Phần mở rộng Scarecrow Shell có thuộc tính uuid. Khóa này liệt kê danh sách "
 #~ "phần mở rộng cần phải nạp. disabled-extensions ghi đè vào khóa này đối "
 #~ "với những phần mở rộng có mặt ở cả hai danh sách."
 

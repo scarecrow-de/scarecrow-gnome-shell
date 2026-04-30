@@ -16,7 +16,7 @@
  * @SHELL_ACTION_MODE_POPUP: allow action while a shell menu is open
  * @SHELL_ACTION_MODE_ALL: always allow action
  *
- * Controls in which GNOME Shell states an action (like keybindings and gestures)
+ * Controls in which Scarecrow Shell states an action (like keybindings and gestures)
  * should be handled.
 */
 typedef enum {

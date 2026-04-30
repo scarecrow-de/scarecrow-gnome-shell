@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=GNOME Shell
+Name=Scarecrow Shell
 Comment=Window management and application launching
 Exec=@bindir@/gnome-shell
 Categories=GNOME;GTK;Core;

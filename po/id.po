@@ -49,8 +49,8 @@ msgid "Open the application menu"
 msgstr "Buka menu aplikasi"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
-msgstr "GNOME Shell"
+msgid "Scarecrow Shell"
+msgstr "Scarecrow Shell"
 
 #: data/org.gnome.Shell.desktop.in.in:5
 msgid "Window management and application launching"
@@ -76,12 +76,12 @@ msgstr "UUID ekstensi yang akan difungsikan"
 
 #: data/org.gnome.shell.gschema.xml.in:17
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
 msgstr ""
-"Ekstensi GNOME Shell memiliki properti UUID; kunci ini memuat daftar "
+"Ekstensi Scarecrow Shell memiliki properti UUID; kunci ini memuat daftar "
 "ekstensi yang mesti dimuat. Sebarang ekstensi yang ingin dimuat perlu berada "
 "dalam daftar ini. Anda juga dapat memanipulasi daftar ini dengan metoda D-"
 "Bus EnableExtension dan DisableExtension pada org.gnome.Shell."
@@ -92,13 +92,13 @@ msgstr "UUID ekstensi untuk memaksa penonaktifan"
 
 #: data/org.gnome.shell.gschema.xml.in:27
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be disabled, even if loaded as part of the current mode. You can also "
 "manipulate this list with the EnableExtension and DisableExtension D-Bus "
 "methods on org.gnome.Shell. This key takes precedence over the “enabled-"
 "extensions” setting."
 msgstr ""
-"Ekstensi GNOME Shell memiliki properti UUID; kunci ini memuat daftar "
+"Ekstensi Scarecrow Shell memiliki properti UUID; kunci ini memuat daftar "
 "ekstensi yang harus dinonaktifkan, meskipun dimuat sebagai bagian dari mode "
 "saat ini. Anda juga dapat memanipulasi daftar ini dengan metode D-Bus "
 "EnableExtension dan DisableExtension pada org.gnome.Shell."
@@ -121,11 +121,11 @@ msgstr "Menonaktifkan validasi kompatibilitas versi ekstensi"
 
 #: data/org.gnome.shell.gschema.xml.in:46
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
-"GNOME Shell hanya akan memuat ekstensi yang mengklaim mendukung versi "
+"Scarecrow Shell hanya akan memuat ekstensi yang mengklaim mendukung versi "
 "berjalan saat ini. Memfungsikan opsi ini akan menonaktifkan pemeriksaan ini "
 "dan mencoba memuat semua ekstensi tanpa peduli versi yang mereka klaim "
 "didukung."
@@ -228,12 +228,12 @@ msgstr "Tata letak pemilih aplikasi"
 #: data/org.gnome.shell.gschema.xml.in:115
 msgid ""
 "Layout of the app picker. Each entry in the array is a page. Pages are "
-"stored in the order they appear in GNOME Shell. Each page contains an "
+"stored in the order they appear in Scarecrow Shell. Each page contains an "
 "“application id” → 'data' pair. Currently, the following values are stored "
 "as 'data': • “position”: the position of the application icon in the page"
 msgstr ""
 "Tata letak pemilih aplikasi. Setiap entri dalam array adalah halaman. "
-"Halaman disimpan dalam urutan yang muncul di GNOME Shell. Setiap halaman "
+"Halaman disimpan dalam urutan yang muncul di Scarecrow Shell. Setiap halaman "
 "berisi pasangan “application id” → 'data'. Saat ini, nilai berikut disimpan "
 "sebagai 'data': • \"position\": posisi ikon aplikasi di halaman"
 
@@ -385,7 +385,7 @@ msgstr "Mencantolkan dialog modal ke jendela induk"
 #: data/org.gnome.shell.gschema.xml.in:303
 #: data/org.gnome.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr ""
 "Kunci ini menimpa kunci dalam org.gnome.mutter ketika menjalankan GNOME "
 "Shell."
@@ -2435,8 +2435,8 @@ msgstr ""
 "ekstensi, dan menghapus atau menonaktifkan ekstensi yang tidak diinginkan."
 
 #: subprojects/extensions-app/data/org.gnome.Extensions.desktop.in.in:7
-msgid "Configure GNOME Shell Extensions"
-msgstr "Konfigurasi Ekstensi GNOME Shell"
+msgid "Configure Scarecrow Shell Extensions"
+msgstr "Konfigurasi Ekstensi Scarecrow Shell"
 
 #: subprojects/extensions-app/js/main.js:145
 #, javascript-format
@@ -2656,8 +2656,8 @@ msgstr "Diperlukan UUID, nama, dan deskripsi"
 #: subprojects/extensions-tool/src/command-enable.c:46
 #: subprojects/extensions-tool/src/command-info.c:50
 #: subprojects/extensions-tool/src/command-list.c:64
-msgid "Failed to connect to GNOME Shell\n"
-msgstr "Gagal terhubung ke GNOME Shell\n"
+msgid "Failed to connect to Scarecrow Shell\n"
+msgstr "Gagal terhubung ke Scarecrow Shell\n"
 
 #: subprojects/extensions-tool/src/command-disable.c:53
 #: subprojects/extensions-tool/src/command-enable.c:53
@@ -2837,8 +2837,8 @@ msgid "Do not print error messages"
 msgstr "Jangan cetak pesan kesalahan"
 
 #: subprojects/extensions-tool/src/main.c:146
-msgid "Failed to connect to GNOME Shell"
-msgstr "Gagal terhubung ke GNOME Shell"
+msgid "Failed to connect to Scarecrow Shell"
+msgstr "Gagal terhubung ke Scarecrow Shell"
 
 #: subprojects/extensions-tool/src/main.c:244
 msgid "Path"

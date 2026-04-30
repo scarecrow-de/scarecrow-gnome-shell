@@ -44,16 +44,16 @@ msgstr "Кушодани феҳристи барномаҳо"
 
 #: data/gnome-shell-extension-prefs.desktop.in.in:4
 #: js/extensionPrefs/main.js:216
-#| msgid "GNOME Shell Extensions"
+#| msgid "Scarecrow Shell Extensions"
 msgid "Shell Extensions"
 msgstr "Васеъшавиҳои восит"
 
 #: data/gnome-shell-extension-prefs.desktop.in.in:5
-msgid "Configure GNOME Shell Extensions"
+msgid "Configure Scarecrow Shell Extensions"
 msgstr "Танзимоти васеъшавиҳои восити GNOME"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr "Восити GNOME"
 
 #: data/org.gnome.Shell.desktop.in.in:5
@@ -73,8 +73,8 @@ msgid "UUIDs of extensions to enable"
 msgstr "Рамзҳои UUID барои пасвандҳои фаъолшаванда"
 
 #: data/org.gnome.shell.gschema.xml.in:17
-msgid "GNOME Shell extensions have a UUID property; this key lists extensions which should be loaded. Any extension that wants to be loaded needs to be in this list. You can also manipulate this list with the EnableExtension and DisableExtension D-Bus methods on org.gnome.Shell."
-msgstr "Пасвандҳои GNOME Shell хусусияти UUID доранд; ин калид пасвандҳоеро, ки бояд бор карда шаванд, номбар мекунад. Ҳар як пасванде, ки бояд бор карда шавад, бояд дар ин рӯйхат бошад. Шумо инчунин метавонед ин рӯйхатро тавассути усулҳои DisableExtension D-Bus ва EnableExtension дар org.gnome.Shell таҳрир кунед."
+msgid "Scarecrow Shell extensions have a UUID property; this key lists extensions which should be loaded. Any extension that wants to be loaded needs to be in this list. You can also manipulate this list with the EnableExtension and DisableExtension D-Bus methods on org.gnome.Shell."
+msgstr "Пасвандҳои Scarecrow Shell хусусияти UUID доранд; ин калид пасвандҳоеро, ки бояд бор карда шаванд, номбар мекунад. Ҳар як пасванде, ки бояд бор карда шавад, бояд дар ин рӯйхат бошад. Шумо инчунин метавонед ин рӯйхатро тавассути усулҳои DisableExtension D-Bus ва EnableExtension дар org.gnome.Shell таҳрир кунед."
 
 #: data/org.gnome.shell.gschema.xml.in:26
 msgid "Disable user extensions"
@@ -89,7 +89,7 @@ msgid "Disables the validation of extension version compatibility"
 msgstr "Тафтиши пасванди мувофиқати версияро ғайрифаъол мекунад"
 
 #: data/org.gnome.shell.gschema.xml.in:35
-msgid "GNOME Shell will only load extensions that claim to support the current running version. Enabling this option will disable this check and try to load all extensions regardless of the versions they claim to support."
+msgid "Scarecrow Shell will only load extensions that claim to support the current running version. Enabling this option will disable this check and try to load all extensions regardless of the versions they claim to support."
 msgstr "Восити GNOME танҳо пасвандҳоеро, ки версияи ҷориро дастгирӣ мекунанд, бор мекунад. Фаъолсозии ин имкон, байракчаи ҷориро ғайрифаъол мекунад ва ҳамаи пасвандҳоро новобаста аз версияҳои дастгиришаванда бор мекунад."
 
 #: data/org.gnome.shell.gschema.xml.in:43
@@ -282,8 +282,8 @@ msgstr "Замима кардани равзанаи гуфтугӯи модал
 #: data/org.gnome.shell.gschema.xml.in:260
 #: data/org.gnome.shell.gschema.xml.in:268
 #: data/org.gnome.shell.gschema.xml.in:276
-msgid "This key overrides the key in org.gnome.mutter when running GNOME Shell."
-msgstr "Ин калид ҳангоми иҷроиши GNOME Shell калиди дар org.gnome.mutter ҷойгирбударо бекор мекунад."
+msgid "This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
+msgstr "Ин калид ҳангоми иҷроиши Scarecrow Shell калиди дар org.gnome.mutter ҷойгирбударо бекор мекунад."
 
 #: data/org.gnome.shell.gschema.xml.in:251
 msgid "Enable edge tiling when dropping windows on screen edges"
@@ -2247,10 +2247,10 @@ msgstr "Садоҳои низом"
 #~ msgid "Status Icons"
 #~ msgstr "Нишонаҳои вазъият"
 
-#~ msgid "GNOME Shell Extension Preferences"
+#~ msgid "Scarecrow Shell Extension Preferences"
 #~ msgstr "Хусусиятҳои пасвандҳои восити GNOME"
 
-#~ msgid "GNOME Shell (wayland compositor)"
+#~ msgid "Scarecrow Shell (wayland compositor)"
 #~ msgstr "Восити GNOME (созандаи wayland)"
 
 #~ msgid "Show the week date in the calendar"
@@ -2309,8 +2309,8 @@ msgstr "Садоҳои низом"
 #~ msgid "Arrangement of buttons on the titlebar"
 #~ msgstr "Мураттабсозии тугмаҳо дар сарлавҳаи равзана"
 
-#~ msgid "This key overrides the key in org.gnome.desktop.wm.preferences when running GNOME Shell."
-#~ msgstr "Ин калид ҳангоми иҷроиши GNOME Shell калиди дар org.gnome.desktop.wm.preferences ҷойгирбударо бекор мекунад."
+#~ msgid "This key overrides the key in org.gnome.desktop.wm.preferences when running Scarecrow Shell."
+#~ msgstr "Ин калид ҳангоми иҷроиши Scarecrow Shell калиди дар org.gnome.desktop.wm.preferences ҷойгирбударо бекор мекунад."
 
 #~ msgid "Extension"
 #~ msgstr "Пасванд"
@@ -2639,8 +2639,8 @@ msgstr "Садоҳои низом"
 #~ msgid "Framerate used for recording screencasts."
 #~ msgstr "Миқдори кадрҳо дар сония, ки барои сабти рӯйдодҳои экран истифода мешавад."
 
-#~ msgid "The framerate of the resulting screencast recordered by GNOME Shell's screencast recorder in frames-per-second."
-#~ msgstr "Миқдори кадрҳо дар як сония барои сабти рӯйдодҳои экран, ки бо сабткунандаи рӯйдодҳои экрани GNOME Shell сабт шудааст, дар кадрҳо дар як сония."
+#~ msgid "The framerate of the resulting screencast recordered by Scarecrow Shell's screencast recorder in frames-per-second."
+#~ msgstr "Миқдори кадрҳо дар як сония барои сабти рӯйдодҳои экран, ки бо сабткунандаи рӯйдодҳои экрани Scarecrow Shell сабт шудааст, дар кадрҳо дар як сония."
 
 #~ msgid "The gstreamer pipeline used to encode the screencast"
 #~ msgstr "Лӯламаҷрои gstreamer, ки барои рамзӣ кардани рӯйдодҳои экран истифода мешавад"

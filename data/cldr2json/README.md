@@ -2,7 +2,7 @@ cldr2json
 =========
 
 This script converts Unicode CLDR android keyboard layouts to JSON usable by
-GNOME Shell.
+Scarecrow Shell.
 
 CLDR keyboard layouts can be found at
 <http://www.unicode.org/Public/cldr/latest/keyboards.zip>

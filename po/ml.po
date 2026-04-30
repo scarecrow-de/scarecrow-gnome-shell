@@ -52,11 +52,11 @@ msgid "Shell Extensions"
 msgstr "ഷെല്‍ എക്സ്റ്റെന്‍ഷനുകള്‍"
 
 #: data/gnome-shell-extension-prefs.desktop.in.in:5
-msgid "Configure GNOME Shell Extensions"
+msgid "Configure Scarecrow Shell Extensions"
 msgstr "ഗ്നോം ഷെല്‍ എക്സ്റ്റെന്‍ഷനുകള്‍ ക്രമീകരിയ്ക്കുക"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr "ഗ്നോം ഷെല്‍"
 
 #: data/org.gnome.Shell.desktop.in.in:5
@@ -77,7 +77,7 @@ msgstr "പ്രവര്‍ത്തന സജ്ജമാക്കുന്�
 
 #: data/org.gnome.shell.gschema.xml.in:17
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which should be loaded. Any extension "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which should be loaded. Any extension "
 "that wants to be loaded needs to be in this list. You can also manipulate this list with the EnableExtension "
 "and DisableExtension D-Bus methods on org.gnome.Shell."
 msgstr ""
@@ -99,7 +99,7 @@ msgstr "എക്സ്റ്റന്‍ഷന്റെ വെര്‍ഷന�
 
 #: data/org.gnome.shell.gschema.xml.in:35
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current running version. Enabling this "
+"Scarecrow Shell will only load extensions that claim to support the current running version. Enabling this "
 "option will disable this check and try to load all extensions regardless of the versions they claim to "
 "support."
 msgstr ""
@@ -257,7 +257,7 @@ msgstr "പേരന്റ് ജാലകത്തിലേക്കു് ഡ�
 #: data/org.gnome.shell.gschema.xml.in:199 data/org.gnome.shell.gschema.xml.in:208
 #: data/org.gnome.shell.gschema.xml.in:216 data/org.gnome.shell.gschema.xml.in:224
 #: data/org.gnome.shell.gschema.xml.in:232
-msgid "This key overrides the key in org.gnome.mutter when running GNOME Shell."
+msgid "This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr "ഗ്നോം ഷെല്‍ പ്രവര്‍ത്തിയ്ക്കുമ്പോള്‍ org.gnome.mutter-ലുള്ള കീ ഈ കീ തിരുത്തിയെഴുതുന്നു."
 
 #: data/org.gnome.shell.gschema.xml.in:207
@@ -2158,7 +2158,7 @@ msgstr "സിസ്റ്റം ശബ്ദങ്ങള്‍"
 #~ msgid "Show the message tray"
 #~ msgstr "സന്ദേശത്തിന്റെ ട്രേ കാണിയ്ക്കുക"
 
-#~ msgid "GNOME Shell Extension Preferences"
+#~ msgid "Scarecrow Shell Extension Preferences"
 #~ msgstr "ഗ്നോം ഷെല്‍ എക്സ്റ്റെന്‍ഷന്‍ മുന്‍ഗണനകള്‍"
 
 #~ msgid "Whether to collect stats about applications usage"
@@ -2212,7 +2212,7 @@ msgstr "സിസ്റ്റം ശബ്ദങ്ങള്‍"
 #~ msgstr "സ്ക്രീന്‍കാസ്റ്റുകള്‍ റിക്കോര്‍ഡ് ചെയ്യുന്നതിനുള്ള ഫ്രെയിം റേറ്റ്."
 
 #~ msgid ""
-#~ "The framerate of the resulting screencast recordered by GNOME Shell's screencast recorder in frames-per-"
+#~ "The framerate of the resulting screencast recordered by Scarecrow Shell's screencast recorder in frames-per-"
 #~ "second."
 #~ msgstr ""
 #~ "ഗ്നോം ഷെല്ലിന്റെ സ്ക്രീന്‍കാസ്റ്റ് റിക്കോര്‍ഡര്‍ റീക്കോര്‍ഡ് ചെയ്തിട്ടുള്ള സ്ക്രീന്‍കാസ്റ്റിന്റെ ഫ്രെയിംറേറ്റ്, ഒരു സെക്കന്‍ഡില്‍ ഒരു ഫ്രെയിം."
@@ -2247,7 +2247,7 @@ msgstr "സിസ്റ്റം ശബ്ദങ്ങള്‍"
 #~ msgid "Arrangement of buttons on the titlebar"
 #~ msgstr "തലക്കെട്ടിനുള്ള ബാറില്‍ ബട്ടണുകളുടെ ക്രമീകരണം"
 
-#~ msgid "This key overrides the key in org.gnome.desktop.wm.preferences when running GNOME Shell."
+#~ msgid "This key overrides the key in org.gnome.desktop.wm.preferences when running Scarecrow Shell."
 #~ msgstr "ഗ്നോം ഷെല്‍ പ്രവര്‍ത്തിയ്ക്കുമ്പോള്‍ org.gnome.desktop.wm.preferences-ലുള്ള കീ ഈ കീ തിരുത്തിയെഴുതുന്നു."
 
 #~ msgid "Select an extension to configure using the combobox above."

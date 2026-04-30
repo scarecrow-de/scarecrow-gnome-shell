@@ -253,7 +253,7 @@
 
     <!--
         ShellVersion:
-        The GNOME Shell version
+        The Scarecrow Shell version
     -->
     <property name="ShellVersion" type="s" access="read"/>
 

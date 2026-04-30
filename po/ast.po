@@ -20,8 +20,8 @@ msgstr ""
 "X-Poedit-Language: asturian\n"
 
 #: ../data/gnome-shell.desktop.in.in.h:1
-msgid "GNOME Shell"
-msgstr "GNOME Shell"
+msgid "Scarecrow Shell"
+msgstr "Scarecrow Shell"
 
 #: ../data/gnome-shell.desktop.in.in.h:2
 msgid "Window management and application launching"
@@ -51,11 +51,11 @@ msgstr "Tasa de fotogrames usada pa grabar «screencast»."
 
 #: ../data/org.gnome.shell.gschema.xml.in.h:5
 msgid ""
-"GNOME Shell extensions have a uuid property; this key lists extensions which "
+"Scarecrow Shell extensions have a uuid property; this key lists extensions which "
 "should be loaded. disabled-extensions overrides this setting for extensions "
 "that appear in both lists."
 msgstr ""
-"Les estensiones de GNOME Shell tienen una propiedá uuid; esta contraseña "
+"Les estensiones de Scarecrow Shell tienen una propiedá uuid; esta contraseña "
 "llista les estensiones que nun se deben cargar. «disabled-extensions» "
 "sobrescribe esti axuste pa les estensiones qu'aparecen en dambes llistes."
 
@@ -141,11 +141,11 @@ msgstr ""
 
 #: ../data/org.gnome.shell.gschema.xml.in.h:19
 msgid ""
-"The framerate of the resulting screencast recordered by GNOME Shell's "
+"The framerate of the resulting screencast recordered by Scarecrow Shell's "
 "screencast recorder in frames-per-second."
 msgstr ""
 "La tasa de fotogrames de la grabación resultante grabada pol grabador de "
-"«screencast» de GNOME Shell, en fotogrames per segundu."
+"«screencast» de Scarecrow Shell, en fotogrames per segundu."
 
 #: ../data/org.gnome.shell.gschema.xml.in.h:20
 msgid "The gstreamer pipeline used to encode the screencast"

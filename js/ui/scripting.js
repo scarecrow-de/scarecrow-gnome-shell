@@ -337,7 +337,7 @@ async function _runPerfScript(scriptModule, outputFile) {
  * if @outputFile is not provided, logged.
  *
  * After running the script and collecting statistics from the
- * event log, GNOME Shell will exit.
+ * event log, Scarecrow Shell will exit.
  **/
 function runPerfScript(scriptModule, outputFile) {
     Shell.PerfLog.get_default().set_enabled(true);

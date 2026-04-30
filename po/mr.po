@@ -44,7 +44,7 @@ msgid "Open the application menu"
 msgstr "ॲप्लिकेशन मेन्यु उघडा"
 
 #: ../data/gnome-shell.desktop.in.in.h:1
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr "GNOME शेल"
 
 #: ../data/gnome-shell.desktop.in.in.h:2
@@ -53,15 +53,15 @@ msgid "Window management and application launching"
 msgstr "पटल व्यवस्थापन व ॲप्लिकेशन सुरू करणे"
 
 #: ../data/gnome-shell-extension-prefs.desktop.in.in.h:1
-msgid "GNOME Shell Extension Preferences"
+msgid "Scarecrow Shell Extension Preferences"
 msgstr "GNOME शेल एक्सटेंशन पसंती"
 
 #: ../data/gnome-shell-extension-prefs.desktop.in.in.h:2
-msgid "Configure GNOME Shell Extensions"
+msgid "Configure Scarecrow Shell Extensions"
 msgstr "GNOME शेल एक्सटेंशन्स् संरचीत करा"
 
 #: ../data/gnome-shell-wayland.desktop.in.in.h:1
-msgid "GNOME Shell (wayland compositor)"
+msgid "Scarecrow Shell (wayland compositor)"
 msgstr "GNOME शेल (वेलँड कम्पोजिटर)"
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:1
@@ -81,12 +81,12 @@ msgstr "सुरू करण्याजोगी एक्सटेंशन�
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:4
 #| msgid ""
-#| "GNOME Shell extensions have a uuid property; this key lists extensions "
+#| "Scarecrow Shell extensions have a uuid property; this key lists extensions "
 #| "which should be loaded. Any extension that wants to be loaded needs to be "
 #| "in this list. You can also manipulate this list with the EnableExtension "
 #| "and DisableExtension DBus methods on org.gnome.Shell."
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
@@ -104,7 +104,7 @@ msgstr "एक्सटेंशन आवृत्ती सहत्वता�
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:6
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
@@ -279,7 +279,7 @@ msgstr "पॅरेंट पटलाला मोडल संवाद ज�
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:38
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr "GNOME शेल चालवतेवेळी हि कि org.gnome.mutter मधील कि खोडून पुनः लिहते."
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:39
@@ -308,8 +308,8 @@ msgid "There was an error loading the preferences dialog for %s:"
 msgstr "%s करीता पसंती संवाद लोड करतेवेळी त्रुटी आढळली:"
 
 #: ../js/extensionPrefs/main.js:155
-#| msgid "Configure GNOME Shell Extensions"
-msgid "GNOME Shell Extensions"
+#| msgid "Configure Scarecrow Shell Extensions"
+msgid "Scarecrow Shell Extensions"
 msgstr "GNOME शेल एक्सटेंशन्स"
 
 #: ../js/gdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:143
@@ -1925,7 +1925,7 @@ msgstr "ओळख पटवा संवाद वापरकर्त्या
 #~ msgstr "स्क्रिनकास्ट्स् रेकॉर्ड करण्यासाठी वापरलेले फ्रेमरेट."
 
 #~ msgid ""
-#~ "The framerate of the resulting screencast recordered by GNOME Shell's "
+#~ "The framerate of the resulting screencast recordered by Scarecrow Shell's "
 #~ "screencast recorder in frames-per-second."
 #~ msgstr ""
 #~ "फ्रेम्स्-दर-सेकंदमध्ये GNOME शेलच्या सक्रीनकास्ट रेकॉर्डरद्वारे रेकॉर्ड केलेल्या परिणामक "
@@ -1974,7 +1974,7 @@ msgstr "ओळख पटवा संवाद वापरकर्त्या
 
 #~ msgid ""
 #~ "This key overrides the key in org.gnome.desktop.wm.preferences when "
-#~ "running GNOME Shell."
+#~ "running Scarecrow Shell."
 #~ msgstr ""
 #~ "GNOME शेल चालवतेवेळी हि कि org.gnome.desktop.wm.preferences मधील कि खोडून पुनः "
 #~ "लिहते."
@@ -2401,7 +2401,7 @@ msgstr "ओळख पटवा संवाद वापरकर्त्या
 #~ msgstr "बाहेर पडा..."
 
 #~ msgid ""
-#~ "GNOME Shell extensions have a uuid property; this key lists extensions "
+#~ "Scarecrow Shell extensions have a uuid property; this key lists extensions "
 #~ "which should not be loaded."
 #~ msgstr ""
 #~ "GNOME शेल एक्सटेंशन्स्मध्ये uuid गुणधर्म आढळते; या किमध्ये एक्सटेंशन्स् आहेत ज्यांना लोड "

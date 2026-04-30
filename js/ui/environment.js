@@ -248,7 +248,7 @@ function _easeActorProperty(actor, propName, target, params) {
 
 function _loggingFunc(...args) {
     let fields = { 'MESSAGE': args.join(', ') };
-    let domain = "GNOME Shell";
+    let domain = "Scarecrow Shell";
 
     // If the caller is an extension, add it as metadata
     let extension = imports.misc.extensionUtils.getCurrentExtension();

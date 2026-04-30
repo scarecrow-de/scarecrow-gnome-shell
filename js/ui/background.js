@@ -6,7 +6,7 @@
 // also objects inside Mutter. They all have a role.
 //
 // BackgroundManager
-//   The only object that other parts of GNOME Shell deal with; a
+//   The only object that other parts of Scarecrow Shell deal with; a
 //   BackgroundManager creates background actors and adds them to
 //   the specified container. When the background is changed by the
 //   user it will fade out the old actor and fade in the new actor.

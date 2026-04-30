@@ -20,7 +20,7 @@ msgstr ""
 "X-Generator: Virtaal 0.6.1\n"
 
 #: ../data/gnome-shell.desktop.in.in.h:1
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr ""
 
 #: ../data/gnome-shell.desktop.in.in.h:2
@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../data/org.gnome.shell.gschema.xml.in.h:5
 msgid ""
-"GNOME Shell extensions have a uuid property; this key lists extensions which "
+"Scarecrow Shell extensions have a uuid property; this key lists extensions which "
 "should be loaded. disabled-extensions overrides this setting for extensions "
 "that appear in both lists."
 msgstr ""
@@ -118,7 +118,7 @@ msgstr ""
 
 #: ../data/org.gnome.shell.gschema.xml.in.h:19
 msgid ""
-"The framerate of the resulting screencast recordered by GNOME Shell's "
+"The framerate of the resulting screencast recordered by Scarecrow Shell's "
 "screencast recorder in frames-per-second."
 msgstr ""
 

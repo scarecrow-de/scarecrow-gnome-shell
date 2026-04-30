@@ -24,8 +24,8 @@ msgstr ""
 "X-Poedit-Country: NORWAY\n"
 
 #: ../data/gnome-shell.desktop.in.in.h:1
-msgid "GNOME Shell"
-msgstr "GNOME Shell"
+msgid "Scarecrow Shell"
+msgstr "Scarecrow Shell"
 
 #: ../data/gnome-shell.desktop.in.in.h:2
 msgid "Window management and application launching"
@@ -33,11 +33,11 @@ msgstr "Vindaugshandsaming og programstarting"
 
 #: ../data/gnome-shell-extension-prefs.desktop.in.in.h:1
 #: ../js/extensionPrefs/main.js:153
-msgid "GNOME Shell Extension Preferences"
+msgid "Scarecrow Shell Extension Preferences"
 msgstr ""
 
 #: ../data/gnome-shell-extension-prefs.desktop.in.in.h:2
-msgid "Configure GNOME Shell Extensions"
+msgid "Configure Scarecrow Shell Extensions"
 msgstr ""
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:1
@@ -59,12 +59,12 @@ msgstr "Uuid-ar til utvidingar som skal slåast på"
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:4
 #, fuzzy
 msgid ""
-"GNOME Shell extensions have a uuid property; this key lists extensions which "
+"Scarecrow Shell extensions have a uuid property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension DBus methods on org.gnome.Shell."
 msgstr ""
-"GNOME Shell-utvidingar har ein uuid-eigenskap. Denne nøkkelen viser ei liste "
+"Scarecrow Shell-utvidingar har ein uuid-eigenskap. Denne nøkkelen viser ei liste "
 "over utvidingane som skal lastast. disabled-extensions overstyrer denne "
 "innstillinga for utvidingar som finst i begge listene."
 
@@ -158,11 +158,11 @@ msgstr "Biletrate brukt for filming av skjermvideo."
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:23
 msgid ""
-"The framerate of the resulting screencast recordered by GNOME Shell's "
+"The framerate of the resulting screencast recordered by Scarecrow Shell's "
 "screencast recorder in frames-per-second."
 msgstr ""
 "Biletfrekvensen til den ferdige skjermvideoen, teken opp med "
-"skjermvideoopptakaren i GNOME Shell, i bilete per sekund."
+"skjermvideoopptakaren i Scarecrow Shell, i bilete per sekund."
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:24
 msgid "The gstreamer pipeline used to encode the screencast"

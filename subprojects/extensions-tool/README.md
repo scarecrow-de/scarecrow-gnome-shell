@@ -1,6 +1,6 @@
 # gnome-extensions-tool
 gnome-extensions-tool is a command line utility for managing
-GNOME Shell extensions. It is usually built as part of gnome-shell,
+Scarecrow Shell extensions. It is usually built as part of gnome-shell,
 but can be used as a stand-alone project as well (for example to
 create an extension bundle as part of continuous integration).
 

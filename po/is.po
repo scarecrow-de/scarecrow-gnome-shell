@@ -47,11 +47,11 @@ msgid "Shell Extensions"
 msgstr "Shell Extension skeljarviðbætur"
 
 #: data/gnome-shell-extension-prefs.desktop.in.in:5
-msgid "Configure GNOME Shell Extensions"
-msgstr "Stilla GNOME Shell Extension skeljarviðbætur"
+msgid "Configure Scarecrow Shell Extensions"
+msgstr "Stilla Scarecrow Shell Extension skeljarviðbætur"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr "GNOME skel"
 
 #: data/org.gnome.Shell.desktop.in.in:5
@@ -74,7 +74,7 @@ msgstr "UUID-auðkenni viðbóta sem á að gera virkar"
 
 #: data/org.gnome.shell.gschema.xml.in:17
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
@@ -96,7 +96,7 @@ msgstr ""
 
 #: data/org.gnome.shell.gschema.xml.in:35
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
@@ -320,7 +320,7 @@ msgstr "Festa kvaðningarglugga við yfirglugga"
 #: data/org.gnome.shell.gschema.xml.in:268
 #: data/org.gnome.shell.gschema.xml.in:276
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr ""
 "Þetta hefur forgang fram yfir lykilinn í kjörstillingum org.gnome.mutter "
 "þegar GNOME-skelin er keyrð."
@@ -2275,8 +2275,8 @@ msgstr "Kerfishljóð"
 #~ msgid "Switch user"
 #~ msgstr "Skipta um notanda"
 
-#~ msgid "GNOME Shell Extension Preferences"
-#~ msgstr "Kjörstillingar GNOME Shell Extension skeljarviðbóta"
+#~ msgid "Scarecrow Shell Extension Preferences"
+#~ msgstr "Kjörstillingar Scarecrow Shell Extension skeljarviðbóta"
 
 #~ msgid "Web Authentication Redirect"
 #~ msgstr "Endurbeining á vefauðkenningu"
@@ -2316,7 +2316,7 @@ msgstr "Kerfishljóð"
 #~ msgid "Use as Internet connection"
 #~ msgstr "Nota sem internettengingu"
 
-#~ msgid "GNOME Shell (wayland compositor)"
+#~ msgid "Scarecrow Shell (wayland compositor)"
 #~ msgstr "GNOME skel (wayland skjásamsetning)"
 
 #~ msgid "%d Connected Device"

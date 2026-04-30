@@ -20,7 +20,7 @@ msgstr ""
 "X-Generator: Lokalize 1.2\n"
 
 #: ../data/gnome-shell.desktop.in.in.h:1
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr "GNOME ශෙල්"
 
 #: ../data/gnome-shell.desktop.in.in.h:2
@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../data/org.gnome.shell.gschema.xml.in.h:5
 msgid ""
-"GNOME Shell extensions have a uuid property; this key lists extensions which "
+"Scarecrow Shell extensions have a uuid property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension DBus methods on org.gnome.Shell."
@@ -119,7 +119,7 @@ msgstr ""
 
 #: ../data/org.gnome.shell.gschema.xml.in.h:19
 msgid ""
-"The framerate of the resulting screencast recordered by GNOME Shell's "
+"The framerate of the resulting screencast recordered by Scarecrow Shell's "
 "screencast recorder in frames-per-second."
 msgstr ""
 

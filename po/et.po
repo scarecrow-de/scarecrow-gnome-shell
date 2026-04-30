@@ -54,12 +54,12 @@ msgid "Shell Extensions"
 msgstr "Shelli laiendused"
 
 #: data/gnome-shell-extension-prefs.desktop.in.in:5
-msgid "Configure GNOME Shell Extensions"
-msgstr "GNOME Shelli laienduste seadistamine"
+msgid "Configure Scarecrow Shell Extensions"
+msgstr "Scarecrow Shelli laienduste seadistamine"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
-msgstr "GNOME Shell"
+msgid "Scarecrow Shell"
+msgstr "Scarecrow Shell"
 
 #: data/org.gnome.Shell.desktop.in.in:5
 msgid "Window management and application launching"
@@ -84,12 +84,12 @@ msgstr "Lubatavate laienduste UUID-d"
 
 #: data/org.gnome.shell.gschema.xml.in:17
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
 msgstr ""
-"GNOME Shelli laiendustel on UUID omadus; selles võtmes loetletud laiendused "
+"Scarecrow Shelli laiendustel on UUID omadus; selles võtmes loetletud laiendused "
 "tuleks laadida. Seda loendit saab muuta kasutades EnableExtension ja "
 "DisableExtension DBus-i meetodit kohas org.gnome.Shell."
 
@@ -109,7 +109,7 @@ msgstr ""
 
 #: data/org.gnome.shell.gschema.xml.in:35
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
@@ -326,7 +326,7 @@ msgstr "Modaaldialoog kuulub vanemakna juurde"
 #: data/org.gnome.shell.gschema.xml.in:268
 #: data/org.gnome.shell.gschema.xml.in:276
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr ""
 "See võti on ülimuslik võtme org.gnome.mutter suhtes, kui kasutatakse GNOME "
 "Shelli."
@@ -2273,11 +2273,11 @@ msgstr "Süsteemi helid"
 #~ msgid "Show the message tray"
 #~ msgstr "Teateala näitamine"
 
-#~ msgid "GNOME Shell Extension Preferences"
-#~ msgstr "GNOME Shelli laienduste eelistused"
+#~ msgid "Scarecrow Shell Extension Preferences"
+#~ msgstr "Scarecrow Shelli laienduste eelistused"
 
-#~ msgid "GNOME Shell (wayland compositor)"
-#~ msgstr "GNOME Shell (waylandi komposiitor)"
+#~ msgid "Scarecrow Shell (wayland compositor)"
+#~ msgstr "Scarecrow Shell (waylandi komposiitor)"
 
 #~ msgid "List of categories that should be displayed as folders"
 #~ msgstr "Kategooriad, mida tuleb kuvada kaustadena"
@@ -2300,10 +2300,10 @@ msgstr "Süsteemi helid"
 
 #~ msgid ""
 #~ "This key overrides the key in org.gnome.desktop.wm.preferences when "
-#~ "running GNOME Shell."
+#~ "running Scarecrow Shell."
 #~ msgstr ""
 #~ "See võti on ülimuslik võtme org.gnome.desktop.wm.preferences suhtes, kui "
-#~ "kasutatakse GNOME Shelli."
+#~ "kasutatakse Scarecrow Shelli."
 
 #~ msgid "Select an extension to configure using the combobox above."
 #~ msgstr "Vali seadistatav laiendus kasutades ülemist valikukasti."
@@ -2603,10 +2603,10 @@ msgstr "Süsteemi helid"
 #~ msgstr "Ekraanivideo lindistamisel kasutatav kaadrikiirus."
 
 #~ msgid ""
-#~ "The framerate of the resulting screencast recordered by GNOME Shell's "
+#~ "The framerate of the resulting screencast recordered by Scarecrow Shell's "
 #~ "screencast recorder in frames-per-second."
 #~ msgstr ""
-#~ "GNOME Shelli lindistatava ekraanivideo kaadrisagedus (kaadrit sekundis)."
+#~ "Scarecrow Shelli lindistatava ekraanivideo kaadrisagedus (kaadrit sekundis)."
 
 #~ msgid "The gstreamer pipeline used to encode the screencast"
 #~ msgstr "GStreameri toru, mida ekraanivideo kodeerimiseks kasutatakse"

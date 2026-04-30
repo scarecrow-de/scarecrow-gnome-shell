@@ -61,7 +61,7 @@ list_extensions (ListFilterFlags filter, DisplayFormat format)
                                      &error);
   if (response == NULL)
     {
-      g_printerr (_("Failed to connect to GNOME Shell\n"));
+      g_printerr (_("Failed to connect to Scarecrow Shell\n"));
       return FALSE;
     }
 

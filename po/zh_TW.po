@@ -44,8 +44,8 @@ msgid "Open the application menu"
 msgstr "開啟應用程式選單"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
-msgstr "GNOME Shell"
+msgid "Scarecrow Shell"
+msgstr "Scarecrow Shell"
 
 #: data/org.gnome.Shell.desktop.in.in:5
 msgid "Window management and application launching"
@@ -67,12 +67,12 @@ msgstr "要啟用的擴充套件 UUID"
 
 #: data/org.gnome.shell.gschema.xml.in:17
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
 msgstr ""
-"GNOME Shell 擴充套件有 UUID 屬性；這個設定鍵列出應載入的擴充套件。任何要載入"
+"Scarecrow Shell 擴充套件有 UUID 屬性；這個設定鍵列出應載入的擴充套件。任何要載入"
 "的擴充套件都要出現在這個清單中。您也可以用 org.gnome.Shell 中的 "
 "EnableExtension 和 DisableExtension D-Bus 方法來操作這個清單。"
 
@@ -82,13 +82,13 @@ msgstr "強制停用的擴充套件 UUID"
 
 #: data/org.gnome.shell.gschema.xml.in:27
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be disabled, even if loaded as part of the current mode. You can also "
 "manipulate this list with the EnableExtension and DisableExtension D-Bus "
 "methods on org.gnome.Shell. This key takes precedence over the “enabled-"
 "extensions” setting."
 msgstr ""
-"GNOME Shell 擴充套件有 UUID 屬性；這個設定鍵列出應停用的擴充套件，即使它是做"
+"Scarecrow Shell 擴充套件有 UUID 屬性；這個設定鍵列出應停用的擴充套件，即使它是做"
 "為目前模式的一部分載入的。您也可以用 org.gnome.Shell 中的 EnableExtension 和 "
 "DisableExtension D-Bus 方法來操作這個清單。這個設定鍵會優先於「enabled-"
 "extensions」設定值。"
@@ -109,11 +109,11 @@ msgstr "停用擴充套件版本相容性的驗證"
 
 #: data/org.gnome.shell.gschema.xml.in:46
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
-"GNOME Shell 只會載入宣稱支援目前運行中版本的擴充套件。啟用此選項會停用這項檢"
+"Scarecrow Shell 只會載入宣稱支援目前運行中版本的擴充套件。啟用此選項會停用這項檢"
 "查，並嘗試載入所有的擴充套件，而不去管它們所宣稱支援的版本為何。"
 
 #: data/org.gnome.shell.gschema.xml.in:54
@@ -201,11 +201,11 @@ msgstr "程式挑選器的配置"
 #: data/org.gnome.shell.gschema.xml.in:115
 msgid ""
 "Layout of the app picker. Each entry in the array is a page. Pages are "
-"stored in the order they appear in GNOME Shell. Each page contains an "
+"stored in the order they appear in Scarecrow Shell. Each page contains an "
 "“application id” → 'data' pair. Currently, the following values are stored "
 "as 'data': • “position”: the position of the application icon in the page"
 msgstr ""
-"程式挑選器的配置。陣列中的每個條目是一頁。各頁以其儲存順序出現在 GNOME Shell "
+"程式挑選器的配置。陣列中的每個條目是一頁。各頁以其儲存順序出現在 Scarecrow Shell "
 "中。每一頁包含“application id” → 'data' pair' 鍵值對。目前，下列值以 'data': "
 "• “position” 方式儲存：一頁中該應用程式圖示的位置"
 
@@ -354,8 +354,8 @@ msgstr "情態對話盒附連母視窗"
 #: data/org.gnome.shell.gschema.xml.in:303
 #: data/org.gnome.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
-msgstr "這個設定鍵會在執行 GNOME Shell 時覆蓋 org.gnome.mutter 中的設定鍵。"
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
+msgstr "這個設定鍵會在執行 Scarecrow Shell 時覆蓋 org.gnome.mutter 中的設定鍵。"
 
 #: data/org.gnome.shell.gschema.xml.in:286
 msgid "Enable edge tiling when dropping windows on screen edges"
@@ -2345,7 +2345,7 @@ msgstr "擴充套件"
 #: subprojects/extensions-app/data/metainfo/org.gnome.Extensions.metainfo.xml.in:6
 #: subprojects/extensions-app/js/main.js:184
 msgid "Manage your GNOME Extensions"
-msgstr "管理 GNOME Shell 擴充套件"
+msgstr "管理 Scarecrow Shell 擴充套件"
 
 #: subprojects/extensions-app/data/metainfo/org.gnome.Extensions.metainfo.xml.in:17
 msgid "The GNOME Project"
@@ -2360,8 +2360,8 @@ msgstr ""
 "的擴充套件等。"
 
 #: subprojects/extensions-app/data/org.gnome.Extensions.desktop.in.in:7
-msgid "Configure GNOME Shell Extensions"
-msgstr "設定 GNOME Shell 擴充套件"
+msgid "Configure Scarecrow Shell Extensions"
+msgstr "設定 Scarecrow Shell 擴充套件"
 
 #: subprojects/extensions-app/js/main.js:145
 #, javascript-format
@@ -2570,8 +2570,8 @@ msgstr "UUID、名稱及描述皆必填"
 #: subprojects/extensions-tool/src/command-enable.c:46
 #: subprojects/extensions-tool/src/command-info.c:50
 #: subprojects/extensions-tool/src/command-list.c:64
-msgid "Failed to connect to GNOME Shell\n"
-msgstr "無法連接到 GNOME Shell\n"
+msgid "Failed to connect to Scarecrow Shell\n"
+msgstr "無法連接到 Scarecrow Shell\n"
 
 #: subprojects/extensions-tool/src/command-disable.c:53
 #: subprojects/extensions-tool/src/command-enable.c:53
@@ -2751,8 +2751,8 @@ msgid "Do not print error messages"
 msgstr "無法列出錯誤訊息"
 
 #: subprojects/extensions-tool/src/main.c:146
-msgid "Failed to connect to GNOME Shell"
-msgstr "無法連接至 GNOME Shell"
+msgid "Failed to connect to Scarecrow Shell"
+msgstr "無法連接至 Scarecrow Shell"
 
 #: subprojects/extensions-tool/src/main.c:244
 msgid "Path"
@@ -3046,8 +3046,8 @@ msgstr "系統音效"
 #~ msgid "%s is requesting access to your location."
 #~ msgstr "%s 要求存取您的位置。"
 
-#~ msgid "GNOME Shell (wayland compositor)"
-#~ msgstr "GNOME Shell (wayland 組合器)"
+#~ msgid "Scarecrow Shell (wayland compositor)"
+#~ msgstr "Scarecrow Shell (wayland 組合器)"
 
 #~ msgid "%d Connected Device"
 #~ msgid_plural "%d Connected Devices"
@@ -3306,9 +3306,9 @@ msgstr "系統音效"
 
 #~ msgid ""
 #~ "This key overrides the key in org.gnome.desktop.wm.preferences when "
-#~ "running GNOME Shell."
+#~ "running Scarecrow Shell."
 #~ msgstr ""
-#~ "這個設定鍵會在執行 GNOME Shell 時覆蓋 org.gnome.desktop.wm.preferences 中"
+#~ "這個設定鍵會在執行 Scarecrow Shell 時覆蓋 org.gnome.desktop.wm.preferences 中"
 #~ "的設定鍵。"
 
 #~ msgid "Select an extension to configure using the combobox above."

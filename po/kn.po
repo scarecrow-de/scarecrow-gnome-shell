@@ -46,7 +46,7 @@ msgid "Open the application menu"
 msgstr "ಅನ್ವಯಗಳ ಮೆನುವನ್ನು ತೆರೆ"
 
 #: ../data/gnome-shell.desktop.in.in.h:1
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr "GNOME ಶೆಲ್‌"
 
 #: ../data/gnome-shell.desktop.in.in.h:2
@@ -55,15 +55,15 @@ msgid "Window management and application launching"
 msgstr "ಕಿಟಕಿ ನಿರ್ವಹಣೆ ಹಾಗು ಅನ್ವಯವನ್ನು ಆರಂಭಿಸುವಿಕೆ"
 
 #: ../data/gnome-shell-extension-prefs.desktop.in.in.h:1
-msgid "GNOME Shell Extension Preferences"
+msgid "Scarecrow Shell Extension Preferences"
 msgstr "GNOME ಶೆಲ್ ಎಕ್ಸ‍ಟೆನ್ಶನ್‍ ಆದ್ಯತೆಗಳು"
 
 #: ../data/gnome-shell-extension-prefs.desktop.in.in.h:2
-msgid "Configure GNOME Shell Extensions"
+msgid "Configure Scarecrow Shell Extensions"
 msgstr "GNOME ಶೆಲ್ ಎಕ್ಸ‍ಟೆನ್ಶನ್ಸ್ ಅನ್ನು ಸಂರಚಿಸಿ"
 
 #: ../data/gnome-shell-wayland.desktop.in.in.h:1
-msgid "GNOME Shell (wayland compositor)"
+msgid "Scarecrow Shell (wayland compositor)"
 msgstr "GNOME ಶೆಲ್‌ (ವೇಲ್ಯಾಂಡ್‌ ) ಸಂಯೋಜಕ"
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:1
@@ -87,7 +87,7 @@ msgstr "ಸಕ್ರಿಯಗೊಳಿಸಬೇಕಿರುವ ವಿಸ್ತ�
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:4
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
@@ -104,7 +104,7 @@ msgstr "ವಿಸ್ತರಣೆ ಆವೃತ್ತಿಯ ಹೊಂದಾಣಿ�
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:6
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
@@ -287,7 +287,7 @@ msgstr "ಮೂಲ ಕಿಟಕಿಗೆ ಮೋಡಲ್ ಸಂವಾದವನ್
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:38
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr ""
 "ಈ ಕೀಲಿಯು GNOME ಶೆಲ್‌ ಅನ್ನು ಚಲಾಯಿಸುವಾಗ org.gnome.mutter ನಲ್ಲಿನ ಕೀಲಿಯನ್ನು "
 "ಅತಿಕ್ರಮಿಸುತ್ತದೆ."
@@ -320,7 +320,7 @@ msgid "There was an error loading the preferences dialog for %s:"
 msgstr "%s ಗಾಗಿ ಆದ್ಯತೆಗಳ ಸಂವಾದವನ್ನು ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ ಉಂಟಾಗಿದೆ:"
 
 #: ../js/extensionPrefs/main.js:155
-msgid "GNOME Shell Extensions"
+msgid "Scarecrow Shell Extensions"
 msgstr "GNOME ಶೆಲ್ ಎಕ್ಸ‍ಟೆನ್ಶನ್ಸ್"
 
 #: ../js/gdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:143
@@ -1903,7 +1903,7 @@ msgstr "ದೃಢೀಕರಣದ ಸಂವಾದವನ್ನು ಬಳಕೆದ�
 #~ msgstr "ಸ್ಕ್ರೀನ್‌ಕ್ಯಾಸ್ಟುಗಳನ್ನು ರೆಕಾರ್ಡು ಮಾಡಲು ಬಳಸಲಾಗುವ ಫ್ರೇಮ್‌ದರಗಳು."
 
 #~ msgid ""
-#~ "The framerate of the resulting screencast recordered by GNOME Shell's "
+#~ "The framerate of the resulting screencast recordered by Scarecrow Shell's "
 #~ "screencast recorder in frames-per-second."
 #~ msgstr ""
 #~ "ಪ್ರತಿ ಸೆಕೆಂಡಿನ ಫ್ರೇಮ್‌ಗಳಲ್ಲಿನ GNOME ಶೆಲ್‌ನ ಸ್ಕ್ರೀನ್‌ಕ್ಯಾಸ್ಟ್‍ ರೆಕಾರ್ಡರಿನಿಂದ ರೆಕಾರ್ಡು "
@@ -1955,7 +1955,7 @@ msgstr "ದೃಢೀಕರಣದ ಸಂವಾದವನ್ನು ಬಳಕೆದ�
 
 #~ msgid ""
 #~ "This key overrides the key in org.gnome.desktop.wm.preferences when "
-#~ "running GNOME Shell."
+#~ "running Scarecrow Shell."
 #~ msgstr ""
 #~ "ಈ ಕೀಲಿಯು GNOME ಶೆಲ್‌ ಅನ್ನು ಚಲಾಯಿಸುವಾಗ org.gnome.desktop.wm.preferences ನಲ್ಲಿನ "
 #~ "ಕೀಲಿಯನ್ನು ಅತಿಕ್ರಮಿಸುತ್ತದೆ."

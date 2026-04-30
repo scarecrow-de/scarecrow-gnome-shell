@@ -29,8 +29,8 @@ extern GType gnome_shell_plugin_get_type (void);
 #define SHELL_DBUS_SERVICE "org.gnome.Shell"
 #define MAGNIFIER_DBUS_SERVICE "org.gnome.Magnifier"
 
-#define WM_NAME "GNOME Shell"
-#define GNOME_WM_KEYBINDINGS "Mutter,GNOME Shell"
+#define WM_NAME "Scarecrow Shell"
+#define GNOME_WM_KEYBINDINGS "Mutter,Scarecrow Shell"
 
 static gboolean is_gdm_mode = FALSE;
 static char *session_mode = NULL;
@@ -451,7 +451,7 @@ print_version (const gchar    *option_name,
                gpointer        data,
                GError        **error)
 {
-  g_print ("GNOME Shell %s\n", VERSION);
+  g_print ("Scarecrow Shell %s\n", VERSION);
   exit (0);
 }
 

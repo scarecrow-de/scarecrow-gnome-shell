@@ -45,16 +45,16 @@ msgid "Open the application menu"
 msgstr "Дастур менюсини очиш"
 
 #: data/gnome-shell-extension-prefs.desktop.in.in:4
-msgid "GNOME Shell Extension Preferences"
-msgstr "GNOME Shell кенгайтма мосламалари"
+msgid "Scarecrow Shell Extension Preferences"
+msgstr "Scarecrow Shell кенгайтма мосламалари"
 
 #: data/gnome-shell-extension-prefs.desktop.in.in:5
-msgid "Configure GNOME Shell Extensions"
-msgstr "GNOME Shell кенгайтмаларини созлаш"
+msgid "Configure Scarecrow Shell Extensions"
+msgstr "Scarecrow Shell кенгайтмаларини созлаш"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
-msgstr "GNOME Shell"
+msgid "Scarecrow Shell"
+msgstr "Scarecrow Shell"
 
 #: data/org.gnome.Shell.desktop.in.in:5
 msgid "Window management and application launching"
@@ -78,12 +78,12 @@ msgstr "Ёқиладиган кенгайтма UUIDлари"
 
 #: data/org.gnome.shell.gschema.xml.in:17
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
 msgstr ""
-"GNOME Shell кенгайтмаларининг UUID хоссаси бор; бу калит юкланиши керак "
+"Scarecrow Shell кенгайтмаларининг UUID хоссаси бор; бу калит юкланиши керак "
 "бўлган кенгайтмаларни рўйхатда кўрсатади. Юкланишни истайдиган кенгайтма "
 "ушбу рўйхатда бўлиши керак. Сиз бу рўйхатни  org.gnome.Shellдаги D-Busнинг "
 "EnableExtension ва DisableExtension функциялари орақли ҳам бошқаришингиз "
@@ -95,11 +95,11 @@ msgstr "Кенгайтма версияси мослигини текшириш�
 
 #: data/org.gnome.shell.gschema.xml.in:27
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
-"GNOME Shell ушбу ишлаётган версияни қўллашини билдирган кенгайтмаларнигина "
+"Scarecrow Shell ушбу ишлаётган версияни қўллашини билдирган кенгайтмаларнигина "
 "юклайди. Ушбу танловни белгиласангиз бу текширув ўчириб қўйилади ва, қайси "
 "версияни қўллашидан қатъий назар, барча кенгайтмалар юкланади."
 
@@ -158,7 +158,7 @@ msgid ""
 "'Remember Password' checkbox will be present. This key sets the default "
 "state of the checkbox."
 msgstr ""
-"GNOME Shell шифрланган ёки масофавий файл системаларини улаганда махфий "
+"Scarecrow Shell шифрланган ёки масофавий файл системаларини улаганда махфий "
 "сўзни сўрайди. Агар махфий сўз келажакда ишлатиш учун сақлаб бўлинса "
 "\"Махфий сўзни эслаб қолиш\" белгилаш катакчаси кўрсатилади. Ушбу калит ўша "
 "белгилаш катакчасининг сукут ҳолатини ўрнатади."
@@ -282,9 +282,9 @@ msgstr "Модал диалог ойнани бош ойнасига маҳка�
 #: data/org.gnome.shell.gschema.xml.in:215
 #: data/org.gnome.shell.gschema.xml.in:223
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr ""
-"GNOME Shell ишга тушганида ушбу калит org.gnome.mutterдаги калитни бошқадан "
+"Scarecrow Shell ишга тушганида ушбу калит org.gnome.mutterдаги калитни бошқадан "
 "белгилайди."
 
 #: data/org.gnome.shell.gschema.xml.in:198
@@ -321,8 +321,8 @@ msgid "There was an error loading the preferences dialog for %s:"
 msgstr "%s учун параметрлар диалог ойнасини юклашда хатолик содир бўлди:"
 
 #: js/extensionPrefs/main.js:149
-msgid "GNOME Shell Extensions"
-msgstr "GNOME Shell кенгайтмалари"
+msgid "Scarecrow Shell Extensions"
+msgstr "Scarecrow Shell кенгайтмалари"
 
 #: js/gdm/authPrompt.js:147 js/ui/audioDeviceSelection.js:71
 #: js/ui/components/networkAgent.js:145 js/ui/components/polkitAgent.js:179
@@ -1747,8 +1747,8 @@ msgstr "Ҳақиқийлигини аниқловчи диалог ойна фо
 #~ msgid "Show the message tray"
 #~ msgstr "Хабарлар панелини кўрсатиш"
 
-#~ msgid "GNOME Shell (wayland compositor)"
-#~ msgstr "GNOME Shell (wayland улагичи)"
+#~ msgid "Scarecrow Shell (wayland compositor)"
+#~ msgstr "Scarecrow Shell (wayland улагичи)"
 
 #~ msgid "Show the week date in the calendar"
 #~ msgstr "Тақвимда ҳафта тартибини кўрсатиш"

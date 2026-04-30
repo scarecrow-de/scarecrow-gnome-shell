@@ -14,7 +14,7 @@
 #   - VPN: 가상사설망
 #   - pairing (bluetooth 관련): 페어링
 #   - Wayland: 웨일랜드로 음역
-#   - Night Light: 야간 모드 (gnome-control-center와 일치)
+#   - Night Light: 야간 모드 (scarecrow-control-center와 일치)
 #
 msgid ""
 msgstr ""
@@ -55,7 +55,7 @@ msgid "Open the application menu"
 msgstr "프로그램 메뉴 열기"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr "그놈 셸"
 
 #: data/org.gnome.Shell.desktop.in.in:5
@@ -78,7 +78,7 @@ msgstr "사용할 확장의 UUID 목록"
 
 #: data/org.gnome.shell.gschema.xml.in:17
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
@@ -93,7 +93,7 @@ msgstr "사용하지 않도록 강제한 확장의 UUID 목록"
 
 #: data/org.gnome.shell.gschema.xml.in:27
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be disabled, even if loaded as part of the current mode. You can also "
 "manipulate this list with the EnableExtension and DisableExtension D-Bus "
 "methods on org.gnome.Shell. This key takes precedence over the “enabled-"
@@ -123,7 +123,7 @@ msgstr "확장의 버전 호환성 검사 하지 않기"
 
 #: data/org.gnome.shell.gschema.xml.in:46
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
@@ -221,7 +221,7 @@ msgstr "프로그램 고르기의 배치"
 #: data/org.gnome.shell.gschema.xml.in:115
 msgid ""
 "Layout of the app picker. Each entry in the array is a page. Pages are "
-"stored in the order they appear in GNOME Shell. Each page contains an "
+"stored in the order they appear in Scarecrow Shell. Each page contains an "
 "“application id” → 'data' pair. Currently, the following values are stored "
 "as 'data': • “position”: the position of the application icon in the page"
 msgstr "프로그램 고르기의 배치. 배열의 각 항목은 페이지입니다. 페이지는 그놈 셸에 나타나는 순서로 저장됩니다. 각 페이지에는 “application id” → 'data'의 쌍이 하나 들어 있습니다. 현재 다음 값이 'data'로 저장됩니다: • “position”: 페이지에서 프로그램 아이콘의 위치"
@@ -371,7 +371,7 @@ msgstr "상위 창에 모달 대화창 붙이기"
 #: data/org.gnome.shell.gschema.xml.in:303
 #: data/org.gnome.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr "그놈 셸을 실행할 때 org.gnome.mutter의 키 대신 사용됩니다."
 
 #: data/org.gnome.shell.gschema.xml.in:286
@@ -2391,7 +2391,7 @@ msgstr ""
 "장 기능 제거 또는 사용 중지를 처리합니다."
 
 #: subprojects/extensions-app/data/org.gnome.Extensions.desktop.in.in:7
-msgid "Configure GNOME Shell Extensions"
+msgid "Configure Scarecrow Shell Extensions"
 msgstr "그놈 셸 확장을 설정합니다"
 
 #: subprojects/extensions-app/js/main.js:145
@@ -2606,7 +2606,7 @@ msgstr "UUID, 이름, 설명이 필요합니다"
 #: subprojects/extensions-tool/src/command-enable.c:46
 #: subprojects/extensions-tool/src/command-info.c:50
 #: subprojects/extensions-tool/src/command-list.c:64
-msgid "Failed to connect to GNOME Shell\n"
+msgid "Failed to connect to Scarecrow Shell\n"
 msgstr "그놈 셸 연결에 실패했습니다\n"
 
 #: subprojects/extensions-tool/src/command-disable.c:53
@@ -2787,7 +2787,7 @@ msgid "Do not print error messages"
 msgstr "오류 메시지를 인쇄하지 않습니다"
 
 #: subprojects/extensions-tool/src/main.c:146
-msgid "Failed to connect to GNOME Shell"
+msgid "Failed to connect to Scarecrow Shell"
 msgstr "그놈 셸 연결에 실패했습니다"
 
 #: subprojects/extensions-tool/src/main.c:244

@@ -4,9 +4,9 @@
          xmlns:gnome="http://api.gnome.org/doap-extensions#"
          xmlns="http://usefulinc.com/ns/doap#">
 
-  <name xml:lang="en">GNOME Shell Sass</name>
-  <shortdesc xml:lang="en">Sass sources of GNOME Shell</shortdesc>
-  <description>GNOME Shell Sass is a project intended to allow the sharing of the
+  <name xml:lang="en">Scarecrow Shell Sass</name>
+  <shortdesc xml:lang="en">Sass sources of Scarecrow Shell</shortdesc>
+  <description>Scarecrow Shell Sass is a project intended to allow the sharing of the
  sass theme sources between gnome-shell and other projects like gnome-shell-extensions.</description>
 
   <category rdf:resource="http://api.gnome.org/doap-extensions#core" />

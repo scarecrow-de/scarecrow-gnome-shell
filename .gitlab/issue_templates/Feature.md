@@ -6,14 +6,14 @@ first to ensure that you create a clear and specific issue.
 ### Feature summary
 
 <!-- 
-Describe what you would like to be able to do with GNOME Shell
+Describe what you would like to be able to do with Scarecrow Shell
 that you currently cannot do.
 -->
 
 ### How would you like it to work
 
 <!-- 
-If you can think of a way GNOME Shell might be able to do this,
+If you can think of a way Scarecrow Shell might be able to do this,
 let us know here.
 -->
 

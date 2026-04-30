@@ -178,7 +178,7 @@ you to inherit from a type to use it, you can do so:
 
 ## Translatable strings, `environment.js`
 
-We use gettext to translate the GNOME Shell into all the languages that GNOME
+We use gettext to translate the Scarecrow Shell into all the languages that GNOME
 supports. The `gettext` function is aliased globally as `_`, you do not need to
 explicitly import it. This is done through some magic in the
 [environment.js](http://git.gnome.org/browse/gnome-shell/tree/js/ui/environment.js)

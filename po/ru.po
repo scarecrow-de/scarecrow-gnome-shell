@@ -60,12 +60,12 @@ msgid "Extensions"
 msgstr "Расширения"
 
 #: data/org.gnome.Extensions.desktop.in.in:7
-msgid "Configure GNOME Shell Extensions"
-msgstr "Настроить расширения GNOME Shell"
+msgid "Configure Scarecrow Shell Extensions"
+msgstr "Настроить расширения Scarecrow Shell"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
-msgstr "GNOME Shell"
+msgid "Scarecrow Shell"
+msgstr "Scarecrow Shell"
 
 #: data/org.gnome.Shell.desktop.in.in:5
 msgid "Window management and application launching"
@@ -89,12 +89,12 @@ msgstr "UUID включённых расширений"
 
 #: data/org.gnome.shell.gschema.xml.in:17
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
 msgstr ""
-"У расширений GNOME Shell есть свойство UUID; в этом ключе перечислены "
+"У расширений Scarecrow Shell есть свойство UUID; в этом ключе перечислены "
 "расширения, которые должны быть загружены. Этим списком также можно "
 "управлять через методы DBus EnableExtension и DisableExtension сервиса org."
 "gnome.Shell."
@@ -105,13 +105,13 @@ msgstr "UUID расширений для принудительного откл
 
 #: data/org.gnome.shell.gschema.xml.in:27
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be disabled, even if loaded as part of the current mode. You can also "
 "manipulate this list with the EnableExtension and DisableExtension D-Bus "
 "methods on org.gnome.Shell. This key takes precedence over the “enabled-"
 "extensions” setting."
 msgstr ""
-"У расширений GNOME Shell есть свойство UUID; в этом ключе перечислены "
+"У расширений Scarecrow Shell есть свойство UUID; в этом ключе перечислены "
 "расширения, которые должны быть отключены, если загружены как часть текущего "
 "режима. Этим списком также можно управлять через методы DBus EnableExtension "
 "и DisableExtension сервиса org.gnome.Shell."
@@ -134,11 +134,11 @@ msgstr "Отключает проверку совместимости верс�
 
 #: data/org.gnome.shell.gschema.xml.in:46
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
-"GNOME Shell будет загружать только те расширения, у которых заявлена "
+"Scarecrow Shell будет загружать только те расширения, у которых заявлена "
 "поддержка текущей версии. Включение этой опции отключит эту проверку и "
 "попробует загрузить все расширения вне зависимости от версии, которую они "
 "поддерживают."
@@ -198,7 +198,7 @@ msgid ""
 "“Remember Password” checkbox will be present. This key sets the default "
 "state of the checkbox."
 msgstr ""
-"Gnome Shell запросит пароль при подключении зашифрованного устройства или "
+"Scarecrow Shell запросит пароль при подключении зашифрованного устройства или "
 "удаленной файловой системы. Если пароль можно сохранить для последующего "
 "использования, будет установлен флажок «Запомнить пароль». Этот ключ "
 "устанавливает состояние по умолчанию для флажка."
@@ -230,7 +230,7 @@ msgid ""
 "shell."
 msgstr ""
 "Включает D-Bus API, который позволяет анализировать состояние приложения "
-"gnome shell."
+"Scarecrow Shell."
 
 #: data/org.gnome.shell.gschema.xml.in:119
 msgid "Keybinding to open the application menu"
@@ -380,9 +380,9 @@ msgstr "Прикреплять модальное диалоговое окно 
 #: data/org.gnome.shell.gschema.xml.in:292
 #: data/org.gnome.shell.gschema.xml.in:300
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr ""
-"Этот ключ переопределяет ключ в org.gnome.mutter при запуске GNOME Shell."
+"Этот ключ переопределяет ключ в org.gnome.mutter при запуске Scarecrow Shell."
 
 #: data/org.gnome.shell.gschema.xml.in:275
 msgid "Enable edge tiling when dropping windows on screen edges"
@@ -437,7 +437,7 @@ msgstr "Stas Solovey <whats_up@tut.by>, 2011-2020."
 
 #: js/extensionPrefs/main.js:219
 msgid "Manage your GNOME Extensions"
-msgstr "Управление расширениями GNOME Shell"
+msgstr "Управление расширениями Scarecrow Shell"
 
 #: js/extensionPrefs/main.js:261 js/extensionPrefs/ui/extensions-window.ui:222
 msgid "Something’s gone wrong"
@@ -2267,7 +2267,7 @@ msgstr "Экран общедоступен"
 msgid "Turn off"
 msgstr "Выключить"
 
-# Нужно максимально коротко, иначе не влазит в меню gnome shell
+# Нужно максимально коротко, иначе не влазит в меню Scarecrow Shell
 #. The menu only appears when airplane mode is on, so just
 #. statically build it as if it was on, rather than dynamically
 #. changing the menu contents.
@@ -2675,13 +2675,13 @@ msgstr ""
 #, fuzzy
 #| msgid "Shell Extensions"
 msgid "Show user-installed extensions"
-msgstr "Расширения GNOME Shell"
+msgstr "Расширения Scarecrow Shell"
 
 #: subprojects/extensions-tool/src/command-list.c:128
 #, fuzzy
 #| msgid "Shell Extensions"
 msgid "Show system-installed extensions"
-msgstr "Расширения GNOME Shell"
+msgstr "Расширения Scarecrow Shell"
 
 #: subprojects/extensions-tool/src/command-list.c:131
 msgid "Show enabled extensions"
@@ -2855,7 +2855,7 @@ msgstr "Создать расширение"
 #, fuzzy
 #| msgid "Shell Extensions"
 msgid "Package extension"
-msgstr "Расширения GNOME Shell"
+msgstr "Расширения Scarecrow Shell"
 
 #: subprojects/extensions-tool/src/main.c:260
 #, fuzzy
@@ -3028,8 +3028,8 @@ msgstr "Системные звуки"
 #~ msgid "%s is requesting access to your location."
 #~ msgstr "%s запрашивает доступ к вашему положению."
 
-#~ msgid "GNOME Shell (wayland compositor)"
-#~ msgstr "GNOME Shell (компоновщик wayland)"
+#~ msgid "Scarecrow Shell (wayland compositor)"
+#~ msgstr "Scarecrow Shell (компоновщик wayland)"
 
 #~ msgid "%d Connected Device"
 #~ msgid_plural "%d Connected Devices"

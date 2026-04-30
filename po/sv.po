@@ -47,7 +47,7 @@ msgid "Open the application menu"
 msgstr "Öppna programmenyn"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr "GNOME-skal"
 
 #: data/org.gnome.Shell.desktop.in.in:5
@@ -73,7 +73,7 @@ msgstr "UUID:n för tillägg att aktivera"
 
 #: data/org.gnome.shell.gschema.xml.in:17
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
@@ -89,7 +89,7 @@ msgstr "UUID:n för tillägg att tvinga att inaktiveras"
 
 #: data/org.gnome.shell.gschema.xml.in:27
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be disabled, even if loaded as part of the current mode. You can also "
 "manipulate this list with the EnableExtension and DisableExtension D-Bus "
 "methods on org.gnome.Shell. This key takes precedence over the “enabled-"
@@ -119,7 +119,7 @@ msgstr "Slår av valideringen av versionskompatibilitet för tillägg"
 
 #: data/org.gnome.shell.gschema.xml.in:46
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
@@ -224,7 +224,7 @@ msgstr "Layout för programväljaren"
 #: data/org.gnome.shell.gschema.xml.in:115
 msgid ""
 "Layout of the app picker. Each entry in the array is a page. Pages are "
-"stored in the order they appear in GNOME Shell. Each page contains an "
+"stored in the order they appear in Scarecrow Shell. Each page contains an "
 "“application id” → 'data' pair. Currently, the following values are stored "
 "as 'data': • “position”: the position of the application icon in the page"
 msgstr ""
@@ -379,7 +379,7 @@ msgstr "Fäst modal dialog till föräldrafönstret"
 #: data/org.gnome.shell.gschema.xml.in:303
 #: data/org.gnome.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr ""
 "Denna nyckel åsidosätter nyckeln i org.gnome.mutter när GNOME-skalet körs."
 
@@ -2424,7 +2424,7 @@ msgstr ""
 "inställningar för tillägg samt att ta bort eller inaktivera oönskade tillägg."
 
 #: subprojects/extensions-app/data/org.gnome.Extensions.desktop.in.in:7
-msgid "Configure GNOME Shell Extensions"
+msgid "Configure Scarecrow Shell Extensions"
 msgstr "Konfigurera tillägg för GNOME-skal"
 
 #: subprojects/extensions-app/js/main.js:145
@@ -2643,7 +2643,7 @@ msgstr "UUID, namn och beskrivning krävs"
 #: subprojects/extensions-tool/src/command-enable.c:46
 #: subprojects/extensions-tool/src/command-info.c:50
 #: subprojects/extensions-tool/src/command-list.c:64
-msgid "Failed to connect to GNOME Shell\n"
+msgid "Failed to connect to Scarecrow Shell\n"
 msgstr "Misslyckades med att ansluta till GNOME-skalet\n"
 
 #: subprojects/extensions-tool/src/command-disable.c:53
@@ -2824,7 +2824,7 @@ msgid "Do not print error messages"
 msgstr "Skriv inte ut felmeddelanden"
 
 #: subprojects/extensions-tool/src/main.c:146
-msgid "Failed to connect to GNOME Shell"
+msgid "Failed to connect to Scarecrow Shell"
 msgstr "Misslyckades med att ansluta till GNOME-skalet"
 
 #: subprojects/extensions-tool/src/main.c:244
@@ -3134,7 +3134,7 @@ msgstr "Systemljud"
 #~ msgid "%s is requesting access to your location."
 #~ msgstr "%s begär åtkomst till din plats."
 
-#~ msgid "GNOME Shell (wayland compositor)"
+#~ msgid "Scarecrow Shell (wayland compositor)"
 #~ msgstr "GNOME-skal (wayland-compositor)"
 
 #~ msgid "%d Connected Device"

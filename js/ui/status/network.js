@@ -954,7 +954,7 @@ class NMWirelessDialog extends ModalDialog.ModalDialog {
             if ((accessPoints[0]._secType == NMAccessPointSecurity.WPA2_ENT) ||
                 (accessPoints[0]._secType == NMAccessPointSecurity.WPA_ENT)) {
                 // 802.1x-enabled APs require further configuration, so they're
-                // handled in gnome-control-center
+                // handled in scarecrow-control-center
                 launchSettingsPanel('wifi', 'connect-8021x-wifi',
                     this._device.get_path(), accessPoints[0].get_path());
             } else {

@@ -139,8 +139,8 @@ function loadRemoteSearchProviders(searchSettings, callback) {
 
     let sortOrder = searchSettings.get_strv('sort-order');
 
-    // Special case gnome-control-center to be always active and always first
-    sortOrder.unshift('gnome-control-center.desktop');
+    // Special case scarecrow-control-center to be always active and always first
+    sortOrder.unshift('scarecrow-control-center.desktop');
 
     loadedProviders = loadedProviders.filter(provider => {
         let appId = provider.appInfo.get_id();

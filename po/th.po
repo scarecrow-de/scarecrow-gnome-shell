@@ -36,7 +36,7 @@ msgid "Show the message tray"
 msgstr "แสดงถาดข้อความ"
 
 #: ../data/gnome-shell.desktop.in.in.h:1
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr "เชลล์ GNOME"
 
 #: ../data/gnome-shell.desktop.in.in.h:2
@@ -45,11 +45,11 @@ msgstr "การจัดการหน้าต่างและการเ
 
 #: ../data/gnome-shell-extension-prefs.desktop.in.in.h:1
 #: ../js/extensionPrefs/main.js:152
-msgid "GNOME Shell Extension Preferences"
+msgid "Scarecrow Shell Extension Preferences"
 msgstr "ปรับแต่งส่วนขยายของเชลล์ GNOME"
 
 #: ../data/gnome-shell-extension-prefs.desktop.in.in.h:2
-msgid "Configure GNOME Shell Extensions"
+msgid "Configure Scarecrow Shell Extensions"
 msgstr "ตั้งค่าส่วนขยายต่างๆ ของเชลล์ GNOME"
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:1
@@ -68,7 +68,7 @@ msgstr "UUID ของส่วนขยายที่จะเปิดใช�
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:4
 msgid ""
-"GNOME Shell extensions have a uuid property; this key lists extensions which "
+"Scarecrow Shell extensions have a uuid property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension DBus methods on org.gnome.Shell."
@@ -175,7 +175,7 @@ msgstr "อัตราเฟรมที่จะใช้อัดภาพถ
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:24
 msgid ""
-"The framerate of the resulting screencast recordered by GNOME Shell's "
+"The framerate of the resulting screencast recordered by Scarecrow Shell's "
 "screencast recorder in frames-per-second."
 msgstr ""
 "อัตราเฟรมของภาพถ่ายทอดหน้าจอที่จะอัดด้วยเครื่องมืออัดภาพถ่ายทอดหน้าจอของเชลล์ GNOME "
@@ -1748,7 +1748,7 @@ msgstr "กล่องโต้ตอบยืนยันตัวบุคค
 #~ msgstr "บ้าน"
 
 #~ msgid ""
-#~ "GNOME Shell extensions have a uuid property; this key lists extensions "
+#~ "Scarecrow Shell extensions have a uuid property; this key lists extensions "
 #~ "which should not be loaded."
 #~ msgstr ""
 #~ "ส่วนขยายต่างๆ ของเชลล์ GNOME จะมี uuid ประจำตัว "

@@ -53,8 +53,8 @@ msgid "Open the application menu"
 msgstr "Toepassingenmenu openen"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
-msgstr "Gnome Shell"
+msgid "Scarecrow Shell"
+msgstr "Scarecrow Shell"
 
 #: data/org.gnome.Shell.desktop.in.in:5
 msgid "Window management and application launching"
@@ -80,12 +80,12 @@ msgstr "UUIDs van in te schakelen uitbreidingen"
 
 #: data/org.gnome.shell.gschema.xml.in:17
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
 msgstr ""
-"Gnome Shell-uitbreidingen hebben een UUID-eigenschap; deze instelling somt "
+"Scarecrow Shell-uitbreidingen hebben een UUID-eigenschap; deze instelling somt "
 "de uitbreidingen op die geladen moeten worden. Alle te laden uitbreiden "
 "moeten in deze lijst voorkomen. Deze lijst is ook te manipuleren met de DBus-"
 "methodes ‘EnableExtension’ en ‘DisableExtension’ op org.gnome.Shell."
@@ -96,13 +96,13 @@ msgstr "UUIDs van gedwongen uit te schakelen uitbreidingen"
 
 #: data/org.gnome.shell.gschema.xml.in:27
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be disabled, even if loaded as part of the current mode. You can also "
 "manipulate this list with the EnableExtension and DisableExtension D-Bus "
 "methods on org.gnome.Shell. This key takes precedence over the “enabled-"
 "extensions” setting."
 msgstr ""
-"Gnome Shell-uitbreidingen hebben een UUID-eigenschap; deze instelling somt "
+"Scarecrow Shell-uitbreidingen hebben een UUID-eigenschap; deze instelling somt "
 "de uitbreidingen op die uitgeschakeld moeten worden, zelfs indien ze als "
 "onderdeel van de huidige modus geladen zijn. Deze lijst is ook te "
 "manipuleren met de DBus-methodes ‘EnableExtension’ en ‘DisableExtension’ op "
@@ -127,11 +127,11 @@ msgstr "Schakelt de validatie van versiecompatibiliteit voor uitbreidingen uit"
 
 #: data/org.gnome.shell.gschema.xml.in:46
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
-"Gnome Shell zal alleen uitbreidingen laden die aangeven de huidige versie te "
+"Scarecrow Shell zal alleen uitbreidingen laden die aangeven de huidige versie te "
 "ondersteunen. Door deze optie in te schakelen wordt deze controle "
 "overgeslagen en worden alle uitbreidingen geladen, ongeacht de versies die "
 "ze zouden moeten ondersteunen."
@@ -234,12 +234,12 @@ msgstr "Weergave van de toepassingskiezer"
 #: data/org.gnome.shell.gschema.xml.in:115
 msgid ""
 "Layout of the app picker. Each entry in the array is a page. Pages are "
-"stored in the order they appear in GNOME Shell. Each page contains an "
+"stored in the order they appear in Scarecrow Shell. Each page contains an "
 "“application id” → 'data' pair. Currently, the following values are stored "
 "as 'data': • “position”: the position of the application icon in the page"
 msgstr ""
 "Weergave van de toepassingskiezer. Elke ingave in de array is een pagina. "
-"Pagina’s worden opgeslagen in de volgorde waarin ze in Gnome Shell "
+"Pagina’s worden opgeslagen in de volgorde waarin ze in Scarecrow Shell "
 "voorkomen. Elke pagina bevat een paar ‘toepassings-ID’ → ‘data’. Momenteel "
 "worden de huidige waarden opgeslagen als ‘data’: • “position”: de positie "
 "van het toepassingspictogram op de pagina"
@@ -391,8 +391,8 @@ msgstr "Modale dialoogvensters aan hoofdvenster vastmaken"
 #: data/org.gnome.shell.gschema.xml.in:303
 #: data/org.gnome.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
-msgstr "Deze waarde overschrijft de waarde in org.gnome.mutter in Gnome Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
+msgstr "Deze waarde overschrijft de waarde in org.gnome.mutter in Scarecrow Shell."
 
 #: data/org.gnome.shell.gschema.xml.in:286
 msgid "Enable edge tiling when dropping windows on screen edges"
@@ -2447,8 +2447,8 @@ msgstr ""
 "te schakelen."
 
 #: subprojects/extensions-app/data/org.gnome.Extensions.desktop.in.in:7
-msgid "Configure GNOME Shell Extensions"
-msgstr "Gnome Shell-uitbreidingen configureren"
+msgid "Configure Scarecrow Shell Extensions"
+msgstr "Scarecrow Shell-uitbreidingen configureren"
 
 #: subprojects/extensions-app/js/main.js:145
 #, javascript-format
@@ -2666,8 +2666,8 @@ msgstr "UUID, naam en beschrijving zijn vereist"
 #: subprojects/extensions-tool/src/command-enable.c:46
 #: subprojects/extensions-tool/src/command-info.c:50
 #: subprojects/extensions-tool/src/command-list.c:64
-msgid "Failed to connect to GNOME Shell\n"
-msgstr "Verbinden met Gnome Shell mislukt\n"
+msgid "Failed to connect to Scarecrow Shell\n"
+msgstr "Verbinden met Scarecrow Shell mislukt\n"
 
 #: subprojects/extensions-tool/src/command-disable.c:53
 #: subprojects/extensions-tool/src/command-enable.c:53
@@ -2847,8 +2847,8 @@ msgid "Do not print error messages"
 msgstr "Foutberichten niet tonen"
 
 #: subprojects/extensions-tool/src/main.c:146
-msgid "Failed to connect to GNOME Shell"
-msgstr "Verbinden met Gnome Shell mislukt"
+msgid "Failed to connect to Scarecrow Shell"
+msgstr "Verbinden met Scarecrow Shell mislukt"
 
 #: subprojects/extensions-tool/src/main.c:244
 msgid "Path"

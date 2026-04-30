@@ -1,5 +1,5 @@
 [Unit]
-Description=GNOME Shell
+Description=Scarecrow Shell
 DefaultDependencies=no
 
 Requisite=gnome-session-initialized.target

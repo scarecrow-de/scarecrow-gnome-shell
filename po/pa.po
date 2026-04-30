@@ -48,11 +48,11 @@ msgid "Extensions"
 msgstr "ਇਕਸਟੈਸ਼ਨ"
 
 #: data/org.gnome.Extensions.desktop.in.in:7
-msgid "Configure GNOME Shell Extensions"
+msgid "Configure Scarecrow Shell Extensions"
 msgstr "ਗਨੋਮ ਸ਼ੈਲ ਇਕਸਟੈਸ਼ਨ ਸੰਰਚਨਾ"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr "ਗਨੋਮ ਸ਼ੈਲ"
 
 #: data/org.gnome.Shell.desktop.in.in:5
@@ -77,7 +77,7 @@ msgstr "ਚਾਲੂ ਕਰਨ ਲਈ ਇਕਟੈਨਸ਼ਨ ਦੀ UUID"
 
 #: data/org.gnome.shell.gschema.xml.in:17
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
@@ -96,7 +96,7 @@ msgstr "ਧੱਕੇ ਨਾਲ ਅਸਮਰੱਥ ਕਰਨ ਲਈ ਇਕਟੈ�
 
 #: data/org.gnome.shell.gschema.xml.in:27
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be disabled, even if loaded as part of the current mode. You can also "
 "manipulate this list with the EnableExtension and DisableExtension D-Bus "
 "methods on org.gnome.Shell. This key takes precedence over the “enabled-"
@@ -129,7 +129,7 @@ msgstr "ਇਕਸਟੈਨਸ਼ਨ ਵਰਜਨ ਅਨੁਕੂਲਤਾ ਦੀ �
 
 #: data/org.gnome.shell.gschema.xml.in:46
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
@@ -376,7 +376,7 @@ msgstr "ਮੂਲ ਵਿੰਡੋ ਵਿੱਚ ਮਾਡਲ ਡਾਈਲਾਗ �
 #: data/org.gnome.shell.gschema.xml.in:292
 #: data/org.gnome.shell.gschema.xml.in:300
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr ""
 "ਇਹ ਕੁੰਜੀ ਗਨੋਮ ਸ਼ੈੱਲ ਚੱਲਣ ਦੇ ਦੌਰਾਨ  org.gnome.mutter ਕੁੰਜੀ ਨੂੰ ਅਣਡਿੱਠਾ ਕਰਦੀ ਹੈ।"
 
@@ -433,7 +433,7 @@ msgstr ""
 "Punjabi OpenSource Team (POST)"
 
 #: js/extensionPrefs/main.js:219
-#| msgid "Configure GNOME Shell Extensions"
+#| msgid "Configure Scarecrow Shell Extensions"
 msgid "Manage your GNOME Extensions"
 msgstr "ਗਨੋਮ ਇਕਸਟੈਸ਼ਨਾਂ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ"
 
@@ -2978,7 +2978,7 @@ msgstr "ਸਿਸਟਮ ਸਾਊਂਡ"
 #~ msgid "Use as Internet connection"
 #~ msgstr "ਇੰਟਰਨੈੱਟ ਕੁਨੈਕਸ਼ਨ ਵਜੋਂ ਵਰਤੋਂ"
 
-#~ msgid "GNOME Shell (wayland compositor)"
+#~ msgid "Scarecrow Shell (wayland compositor)"
 #~ msgstr "ਗਨੋਮ ਸ਼ੈਲ (ਵੇਲੈਂਡ ਨਿਰਮਾਤਾ)"
 
 #~ msgid "%d Connected Device"
@@ -3226,7 +3226,7 @@ msgstr "ਸਿਸਟਮ ਸਾਊਂਡ"
 
 #~ msgid ""
 #~ "This key overrides the key in org.gnome.desktop.wm.preferences when "
-#~ "running GNOME Shell."
+#~ "running Scarecrow Shell."
 #~ msgstr ""
 #~ "ਇਹ ਕੁੰਜੀ ਗਨੋਮ ਸ਼ੈੱਲ ਚੱਲਣ ਦੇ ਦੌਰਾਨ  org.gnome.desktop.wm.preference ਕੁੰਜੀ ਨੂੰ ਅਣਡਿੱਠਾ "
 #~ "ਕਰਦੀ ਹੈ।"
@@ -3382,7 +3382,7 @@ msgstr "ਸਿਸਟਮ ਸਾਊਂਡ"
 #~ msgstr "ਸਕਰੀਨਕਾਸਟ ਰਿਕਾਰਡ ਕਰਨ ਲਈ ਫਰੇਮਰੇਟ ਹੈ।"
 
 #~ msgid ""
-#~ "The framerate of the resulting screencast recordered by GNOME Shell's "
+#~ "The framerate of the resulting screencast recordered by Scarecrow Shell's "
 #~ "screencast recorder in frames-per-second."
 #~ msgstr ""
 #~ "ਗਨੋਮ ਸ਼ੈੱਲ ਦੇ ਸਕਰੀਨਕਾਸਟ ਰਿਕਾਰਡਰ ਵਲੋਂ ਰਿਕਾਰਡ ਕਰਕੇ ਬਣਾਈ ਗਈ ਸਕਰੀਨਕਾਸਟ ਦਾ ਫਰੇਮਰੇਟ ਫਰੇਮ "
@@ -3732,7 +3732,7 @@ msgstr "ਸਿਸਟਮ ਸਾਊਂਡ"
 #~ msgstr "...ਲਾਗਆਉਟ"
 
 #~ msgid ""
-#~ "GNOME Shell extensions have a uuid property; this key lists extensions "
+#~ "Scarecrow Shell extensions have a uuid property; this key lists extensions "
 #~ "which should be loaded. disabled-extensions overrides this setting for "
 #~ "extensions that appear in both lists."
 #~ msgstr ""

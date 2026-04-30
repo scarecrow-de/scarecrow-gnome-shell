@@ -49,7 +49,7 @@ const ParentalControlsManager = imports.misc.parentalControlsManager;
 
 const A11Y_SCHEMA = 'org.gnome.desktop.a11y.keyboard';
 const STICKY_KEYS_ENABLE = 'stickykeys-enable';
-const LOG_DOMAIN = 'GNOME Shell';
+const LOG_DOMAIN = 'Scarecrow Shell';
 const GNOMESHELL_STARTED_MESSAGE_ID = 'f3ea493c22934e26811cd62abe8e203a';
 
 var componentManager = null;
@@ -284,7 +284,7 @@ function _initializeUI() {
         if (sessionMode.currentMode != 'gdm' &&
             sessionMode.currentMode != 'initial-setup') {
             GLib.log_structured(LOG_DOMAIN, GLib.LogLevelFlags.LEVEL_MESSAGE, {
-                'MESSAGE': 'GNOME Shell started at %s'.format(_startDate),
+                'MESSAGE': 'Scarecrow Shell started at %s'.format(_startDate),
                 'MESSAGE_ID': GNOMESHELL_STARTED_MESSAGE_ID,
             });
         }

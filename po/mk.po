@@ -18,8 +18,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural= n==1 || n%10==1 ? 0 : 1;\n"
 
 #: ../data/gnome-shell.desktop.in.in.h:1
-msgid "GNOME Shell"
-msgstr "GNOME Shell"
+msgid "Scarecrow Shell"
+msgstr "Scarecrow Shell"
 
 #: ../data/gnome-shell.desktop.in.in.h:2
 msgid "Window management and application launching"
@@ -42,8 +42,8 @@ msgid "Framerate used for recording screencasts."
 msgstr "Рата на рамки која се користи при снимање на снимки од екран."
 
 #: ../data/org.gnome.shell.gschema.xml.in.h:5
-msgid "GNOME Shell extensions have a uuid property; this key lists extensions which should be loaded. Any extension that wants to be loaded needs to be in this list. You can also manipulate this list with the EnableExtension and DisableExtension DBus methods on org.gnome.Shell."
-msgstr "Додатоците за Gnome Shell имаат uuid својство; овој клуч ги листа додатоците кои ќе се вчитаат. Секој додаток кој треба да биде вчитан мора да стои во оваа листа. Можете да манипулирате со оваа листа со DBus методите EnableExtension и DisableExtension на org.gnome.Shell."
+msgid "Scarecrow Shell extensions have a uuid property; this key lists extensions which should be loaded. Any extension that wants to be loaded needs to be in this list. You can also manipulate this list with the EnableExtension and DisableExtension DBus methods on org.gnome.Shell."
+msgstr "Додатоците за Scarecrow Shell имаат uuid својство; овој клуч ги листа додатоците кои ќе се вчитаат. Секој додаток кој треба да биде вчитан мора да стои во оваа листа. Можете да манипулирате со оваа листа со DBus методите EnableExtension и DisableExtension на org.gnome.Shell."
 
 #: ../data/org.gnome.shell.gschema.xml.in.h:6
 msgid "History for command (Alt-F2) dialog"
@@ -95,8 +95,8 @@ msgid "The filename for recorded screencasts will be a unique filename based on 
 msgstr "Името на датотеката за зачуваните снимки од екранот ќе бидее уникатно според тековниот датум и ќе ја има оваа наставка. Таа треба да се промени кога снимањето се прави со различен формат на контејнерот. "
 
 #: ../data/org.gnome.shell.gschema.xml.in.h:19
-msgid "The framerate of the resulting screencast recordered by GNOME Shell's screencast recorder in frames-per-second."
-msgstr "Ратата на рамки, во рамки/секунда, на добиената снимка на екранот снимана од алатката за правење снимки од екранот на GNOME Shell."
+msgid "The framerate of the resulting screencast recordered by Scarecrow Shell's screencast recorder in frames-per-second."
+msgstr "Ратата на рамки, во рамки/секунда, на добиената снимка на екранот снимана од алатката за правење снимки од екранот на Scarecrow Shell."
 
 #: ../data/org.gnome.shell.gschema.xml.in.h:20
 msgid "The gstreamer pipeline used to encode the screencast"

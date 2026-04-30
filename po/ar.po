@@ -51,11 +51,11 @@ msgid "Shell Extensions"
 msgstr "امتدادات الصدفة"
 
 #: data/gnome-shell-extension-prefs.desktop.in.in:5
-msgid "Configure GNOME Shell Extensions"
+msgid "Configure Scarecrow Shell Extensions"
 msgstr "اضبط امتدادات صدفة جنوم"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr "صدفة جنوم"
 
 #: data/org.gnome.Shell.desktop.in.in:5
@@ -80,7 +80,7 @@ msgstr "معرّفات الامتدادات التي ستُفعّل"
 
 #: data/org.gnome.shell.gschema.xml.in:17
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
@@ -102,7 +102,7 @@ msgstr ""
 
 #: data/org.gnome.shell.gschema.xml.in:35
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
@@ -317,7 +317,7 @@ msgstr ""
 #: data/org.gnome.shell.gschema.xml.in:268
 #: data/org.gnome.shell.gschema.xml.in:276
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr ""
 
 #: data/org.gnome.shell.gschema.xml.in:251
@@ -2353,7 +2353,7 @@ msgstr "أصوات النظام"
 #~ msgid "Status Icons"
 #~ msgstr "أيقونات الحالة"
 
-#~ msgid "GNOME Shell Extension Preferences"
+#~ msgid "Scarecrow Shell Extension Preferences"
 #~ msgstr "تفضيلات امتدادات صدفة جنوم"
 
 #~ msgid "Web Authentication Redirect"
@@ -2386,7 +2386,7 @@ msgstr "أصوات النظام"
 #~ msgid "%s is requesting access to your location."
 #~ msgstr "يطلب %s صلاحية معرفة مكانك."
 
-#~ msgid "GNOME Shell (wayland compositor)"
+#~ msgid "Scarecrow Shell (wayland compositor)"
 #~ msgstr "صدفة جنوم (وايلاند)"
 
 #~ msgid "%d Connected Device"

@@ -64,8 +64,8 @@ msgid "Open the application menu"
 msgstr "Avaa sovellusvalikko"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
-msgstr "Gnome Shell"
+msgid "Scarecrow Shell"
+msgstr "Scarecrow Shell"
 
 #: data/org.gnome.Shell.desktop.in.in:5
 msgid "Window management and application launching"
@@ -91,12 +91,12 @@ msgstr "Käyttöön otettavien laajennusten UUID:t"
 #: data/org.gnome.shell.gschema.xml.in:17
 #, fuzzy
 #| msgid ""
-#| "GNOME Shell extensions have a uuid property; this key lists extensions "
+#| "Scarecrow Shell extensions have a uuid property; this key lists extensions "
 #| "which should be loaded. Any extension that wants to be loaded needs to be "
 #| "in this list. You can also manipulate this list with the EnableExtension "
 #| "and DisableExtension DBus methods on org.gnome.Shell."
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
@@ -113,12 +113,12 @@ msgstr "Käytöstä pakotetusti estettyjen laajennusten UUID:t"
 #: data/org.gnome.shell.gschema.xml.in:27
 #, fuzzy
 #| msgid ""
-#| "GNOME Shell extensions have a uuid property; this key lists extensions "
+#| "Scarecrow Shell extensions have a uuid property; this key lists extensions "
 #| "which should be loaded. Any extension that wants to be loaded needs to be "
 #| "in this list. You can also manipulate this list with the EnableExtension "
 #| "and DisableExtension DBus methods on org.gnome.Shell."
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be disabled, even if loaded as part of the current mode. You can also "
 "manipulate this list with the EnableExtension and DisableExtension D-Bus "
 "methods on org.gnome.Shell. This key takes precedence over the “enabled-"
@@ -147,11 +147,11 @@ msgstr "Poistaa käytöstä laajennusten versioyhteensopivuuden tarkistuksen"
 
 #: data/org.gnome.shell.gschema.xml.in:46
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
-"Gnome Shell lataa vain ne laajennukset, jotka väittävät tukevan käytössä "
+"Scarecrow Shell lataa vain ne laajennukset, jotka väittävät tukevan käytössä "
 "olevaa Shell-versiota. Tämä valinta poistaa tarkistuksen käytöstä ja yrittää "
 "ladata kaikki laajennukset siitä huolimatta, mitä versiota laajennukset "
 "väittävät tukevansa."
@@ -246,7 +246,7 @@ msgstr "Sovellusvalitsimen asettelu"
 #: data/org.gnome.shell.gschema.xml.in:115
 msgid ""
 "Layout of the app picker. Each entry in the array is a page. Pages are "
-"stored in the order they appear in GNOME Shell. Each page contains an "
+"stored in the order they appear in Scarecrow Shell. Each page contains an "
 "“application id” → 'data' pair. Currently, the following values are stored "
 "as 'data': • “position”: the position of the application icon in the page"
 msgstr ""
@@ -404,9 +404,9 @@ msgstr "Kiinnitä modaali-ikkuna isäntäikkunaan"
 #: data/org.gnome.shell.gschema.xml.in:303
 #: data/org.gnome.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr ""
-"Tämä avain syrjäyttää avaimen org.gnome.mutter Gnome Shelliä käyttäessä."
+"Tämä avain syrjäyttää avaimen org.gnome.mutter Scarecrow Shelliä käyttäessä."
 
 #: data/org.gnome.shell.gschema.xml.in:286
 msgid "Enable edge tiling when dropping windows on screen edges"
@@ -2452,8 +2452,8 @@ msgstr ""
 "kokonaan järjestelmästä."
 
 #: subprojects/extensions-app/data/org.gnome.Extensions.desktop.in.in:7
-msgid "Configure GNOME Shell Extensions"
-msgstr "Hallitse Gnome Shell -laajennuksia"
+msgid "Configure Scarecrow Shell Extensions"
+msgstr "Hallitse Scarecrow Shell -laajennuksia"
 
 #: subprojects/extensions-app/js/main.js:145
 #, javascript-format
@@ -2668,8 +2668,8 @@ msgstr "UUID, nimi ja kuvaus ovat pakollisia tietoja"
 #: subprojects/extensions-tool/src/command-enable.c:46
 #: subprojects/extensions-tool/src/command-info.c:50
 #: subprojects/extensions-tool/src/command-list.c:64
-msgid "Failed to connect to GNOME Shell\n"
-msgstr "Gnome Shelliin yhdistäminen epäonnistui\n"
+msgid "Failed to connect to Scarecrow Shell\n"
+msgstr "Scarecrow Shelliin yhdistäminen epäonnistui\n"
 
 #: subprojects/extensions-tool/src/command-disable.c:53
 #: subprojects/extensions-tool/src/command-enable.c:53
@@ -2849,8 +2849,8 @@ msgid "Do not print error messages"
 msgstr "Älä tulosta virheviestejä"
 
 #: subprojects/extensions-tool/src/main.c:146
-msgid "Failed to connect to GNOME Shell"
-msgstr "Gnome Shelliin yhdistäminen epäonnistui"
+msgid "Failed to connect to Scarecrow Shell"
+msgstr "Scarecrow Shelliin yhdistäminen epäonnistui"
 
 #: subprojects/extensions-tool/src/main.c:244
 msgid "Path"
@@ -3146,8 +3146,8 @@ msgstr "Järjestelmän äänet"
 #~ msgid "Use as Internet connection"
 #~ msgstr "Käytä internetyhteytenä"
 
-#~ msgid "GNOME Shell (wayland compositor)"
-#~ msgstr "Gnome Shell (Wayland-komposiointi)"
+#~ msgid "Scarecrow Shell (wayland compositor)"
+#~ msgstr "Scarecrow Shell (Wayland-komposiointi)"
 
 #~ msgid "%d Connected Device"
 #~ msgid_plural "%d Connected Devices"
@@ -3369,7 +3369,7 @@ msgstr "Järjestelmän äänet"
 
 #~ msgid ""
 #~ "This key overrides the key in org.gnome.desktop.wm.preferences when "
-#~ "running GNOME Shell."
+#~ "running Scarecrow Shell."
 #~ msgstr ""
 #~ "Tämä avain syrjäyttää avaimen org.gnome.desktop.wm.preferences Gnome "
 #~ "Shelliä käyttäessä."
@@ -3483,7 +3483,7 @@ msgstr "Järjestelmän äänet"
 #~ msgstr "Kuvakaappausvideoiden kuvataajuus."
 
 #~ msgid ""
-#~ "The framerate of the resulting screencast recordered by GNOME Shell's "
+#~ "The framerate of the resulting screencast recordered by Scarecrow Shell's "
 #~ "screencast recorder in frames-per-second."
 #~ msgstr ""
 #~ "Nauhoituksesta tuloksena saatavan kuvakaappausvideon kuvataajuus kun "

@@ -40,8 +40,8 @@ msgid "Show the message tray"
 msgstr "Кабар сабын көрсөтүү"
 
 #: ../data/gnome-shell.desktop.in.in.h:1
-msgid "GNOME Shell"
-msgstr "GNOME Shell"
+msgid "Scarecrow Shell"
+msgstr "Scarecrow Shell"
 
 #: ../data/gnome-shell.desktop.in.in.h:2
 msgid "Window management and application launching"
@@ -49,12 +49,12 @@ msgstr "Терезелерди башкаруу жана тиркемелерд�
 
 #: ../data/gnome-shell-extension-prefs.desktop.in.in.h:1
 #: ../js/extensionPrefs/main.js:152
-msgid "GNOME Shell Extension Preferences"
-msgstr "GNOME Shell кеңейтмелеринин параметрлери"
+msgid "Scarecrow Shell Extension Preferences"
+msgstr "Scarecrow Shell кеңейтмелеринин параметрлери"
 
 #: ../data/gnome-shell-extension-prefs.desktop.in.in.h:2
-msgid "Configure GNOME Shell Extensions"
-msgstr "GNOME Shell кеңейтмелерин ырастоо"
+msgid "Configure Scarecrow Shell Extensions"
+msgstr "Scarecrow Shell кеңейтмелерин ырастоо"
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:1
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
@@ -72,7 +72,7 @@ msgstr "Күйгүзүлгөн кеңейтмелердин uuid'ри"
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:4
 msgid ""
-"GNOME Shell extensions have a uuid property; this key lists extensions which "
+"Scarecrow Shell extensions have a uuid property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension DBus methods on org.gnome.Shell."
@@ -170,7 +170,7 @@ msgstr "Скринкасттарды жазыш үчүн кадр жыштыгы
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:24
 msgid ""
-"The framerate of the resulting screencast recordered by GNOME Shell's "
+"The framerate of the resulting screencast recordered by Scarecrow Shell's "
 "screencast recorder in frames-per-second."
 msgstr ""
 

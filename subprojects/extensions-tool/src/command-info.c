@@ -47,7 +47,7 @@ show_extension_info (const char *uuid)
                                      &error);
   if (response == NULL)
     {
-      g_printerr (_("Failed to connect to GNOME Shell\n"));
+      g_printerr (_("Failed to connect to Scarecrow Shell\n"));
       return FALSE;
     }
 

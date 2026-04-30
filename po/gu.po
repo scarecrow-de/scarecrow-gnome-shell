@@ -45,7 +45,7 @@ msgid "Open the application menu"
 msgstr "કાર્યક્રમ મેનુને ખોલો"
 
 #: ../data/gnome-shell.desktop.in.in.h:1
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr "GNOME શેલ"
 
 #: ../data/gnome-shell.desktop.in.in.h:2
@@ -54,16 +54,16 @@ msgid "Window management and application launching"
 msgstr "વિન્ડો સંચાલન અને કાર્યક્રમ શરૂઆત"
 
 #: ../data/gnome-shell-extension-prefs.desktop.in.in.h:1
-msgid "GNOME Shell Extension Preferences"
-msgstr "GNOME Shell ઍક્સટેન્શન પસંદગીઓ"
+msgid "Scarecrow Shell Extension Preferences"
+msgstr "Scarecrow Shell ઍક્સટેન્શન પસંદગીઓ"
 
 #: ../data/gnome-shell-extension-prefs.desktop.in.in.h:2
-msgid "Configure GNOME Shell Extensions"
-msgstr "GNOME Shell ઍક્સટેન્શનને રૂપરેખાંકિત કરો"
+msgid "Configure Scarecrow Shell Extensions"
+msgstr "Scarecrow Shell ઍક્સટેન્શનને રૂપરેખાંકિત કરો"
 
 #: ../data/gnome-shell-wayland.desktop.in.in.h:1
-msgid "GNOME Shell (wayland compositor)"
-msgstr "GNOME Shell (વેલૅન્ડ કંપોઝીટર)"
+msgid "Scarecrow Shell (wayland compositor)"
+msgstr "Scarecrow Shell (વેલૅન્ડ કંપોઝીટર)"
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:1
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
@@ -81,17 +81,17 @@ msgstr "સક્રિય કરવા માટે એક્સટેન્શ
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:4
 #| msgid ""
-#| "GNOME Shell extensions have a uuid property; this key lists extensions "
+#| "Scarecrow Shell extensions have a uuid property; this key lists extensions "
 #| "which should be loaded. Any extension that wants to be loaded needs to be "
 #| "in this list. You can also manipulate this list with the EnableExtension "
 #| "and DisableExtension DBus methods on org.gnome.Shell."
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
 msgstr ""
-"GNOME Shell ઍક્સટેન્શન પાસે UUID ગુણધર્મ છે; આ કી ઍક્સટેન્શનની યાદી કરે છે કે જેને લાવેલ હોવુ "
+"Scarecrow Shell ઍક્સટેન્શન પાસે UUID ગુણધર્મ છે; આ કી ઍક્સટેન્શનની યાદી કરે છે કે જેને લાવેલ હોવુ "
 "જોઇએ. કોઇપણ ઍક્સટેન્શન કે જેને આ યાદીમાં લાવવાની જરૂર છે. તમે પણ org.gnome.Shell પર "
 "EnableExtension અને DisableExtension DBus પદ્દતિઓ સાથે આ યાદીને કુશળતાપૂર્વક વાપરી "
 "શકો છો."
@@ -102,11 +102,11 @@ msgstr "ઍક્સટેન્શન આવૃત્તિ સુસંગત�
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:6
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
-"GNOME Shell એ ફક્ત ઍક્સટેન્શનને લાવશે કે જે હાલની ચાલતી આવૃત્તિને આધાર આપવા માટે દાવો કરે છે. "
+"Scarecrow Shell એ ફક્ત ઍક્સટેન્શનને લાવશે કે જે હાલની ચાલતી આવૃત્તિને આધાર આપવા માટે દાવો કરે છે. "
 "આ વિકલ્પને સક્રિય કરવાનું આ ચકાસણીને નિષ્ક્રિય કરશે અને આવૃત્તિને બાદ કરતા બધા ઍક્સટેન્શનને "
 "લાવવાનો પ્રયત્ન કરે છે જે તેઓ આધાર આપવા માટે દાવો કરે છે."
 
@@ -266,8 +266,8 @@ msgid "Attach modal dialog to the parent window"
 msgstr "મુખ્ય વિન્ડોમાં મોડલ સંવાદને જોડો"
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:38
-msgid "This key overrides the key in org.gnome.mutter when running GNOME Shell."
-msgstr "આ કી org.gnome.mutter માં કી ઉપર લખાઇ જશે જ્યારે GNOME Shell ચાલી રહ્યુ હોય."
+msgid "This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
+msgstr "આ કી org.gnome.mutter માં કી ઉપર લખાઇ જશે જ્યારે Scarecrow Shell ચાલી રહ્યુ હોય."
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:39
 msgid "Enable edge tiling when dropping windows on screen edges"
@@ -295,8 +295,8 @@ msgid "There was an error loading the preferences dialog for %s:"
 msgstr "ત્યાં %s માટે પસંદગી સંવાદને લાવવામાં ભૂલ હતી:"
 
 #: ../js/extensionPrefs/main.js:155
-msgid "GNOME Shell Extensions"
-msgstr "GNOME Shell ઍક્સટેન્શન"
+msgid "Scarecrow Shell Extensions"
+msgstr "Scarecrow Shell ઍક્સટેન્શન"
 
 #: ../js/gdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:143
 #: ../js/ui/components/polkitAgent.js:166 ../js/ui/endSessionDialog.js:452
@@ -1857,10 +1857,10 @@ msgstr "સત્તાધિકરણ વપરાશકર્તા દ્દ�
 #~ msgstr "રેકોર્ડીંગ સ્ક્રીનકાસ્ટ માટે વાપરેલ ફ્રેમરેટ."
 
 #~ msgid ""
-#~ "The framerate of the resulting screencast recordered by GNOME Shell's "
+#~ "The framerate of the resulting screencast recordered by Scarecrow Shell's "
 #~ "screencast recorder in frames-per-second."
 #~ msgstr ""
-#~ "પરિણામી સ્ક્રીનકાસ્ટની framerate એ દરેક સેકંડે ફ્રેમમાં GNOME Shell નાં સ્ક્રીનકાસ્ટ "
+#~ "પરિણામી સ્ક્રીનકાસ્ટની framerate એ દરેક સેકંડે ફ્રેમમાં Scarecrow Shell નાં સ્ક્રીનકાસ્ટ "
 #~ "રેકોર્ડર દ્દારા અહેવાલ થયેલ છે."
 
 #~ msgid "The gstreamer pipeline used to encode the screencast"
@@ -1907,7 +1907,7 @@ msgstr "સત્તાધિકરણ વપરાશકર્તા દ્દ�
 
 #~ msgid ""
 #~ "This key overrides the key in org.gnome.desktop.wm.preferences when "
-#~ "running GNOME Shell."
+#~ "running Scarecrow Shell."
 #~ msgstr ""
 #~ "આ કી  org.gnome.desktop.wm.preferences માં કી ઉપર લખાઇ જશે જ્યારે GNOME શેલ "
 #~ "ચાલી રહ્યુ હોય."

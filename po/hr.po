@@ -44,7 +44,7 @@ msgid "Open the application menu"
 msgstr "Otvori izbornik aplikacija"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr "GNOME ljuska"
 
 #: data/org.gnome.Shell.desktop.in.in:5
@@ -71,7 +71,7 @@ msgstr "UUID-ovi proširenja za omogućavanje"
 
 #: data/org.gnome.shell.gschema.xml.in:17
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
@@ -87,7 +87,7 @@ msgstr "UUID-ovi proširenja za prisilno onemogućavanje"
 
 #: data/org.gnome.shell.gschema.xml.in:27
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be disabled, even if loaded as part of the current mode. You can also "
 "manipulate this list with the EnableExtension and DisableExtension D-Bus "
 "methods on org.gnome.Shell. This key takes precedence over the “enabled-"
@@ -117,7 +117,7 @@ msgstr "Onemogućuje provjeru kompatibilnosti inačice proširenja"
 
 #: data/org.gnome.shell.gschema.xml.in:46
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
@@ -220,7 +220,7 @@ msgstr "Raspored odabira aplikacije"
 #: data/org.gnome.shell.gschema.xml.in:115
 msgid ""
 "Layout of the app picker. Each entry in the array is a page. Pages are "
-"stored in the order they appear in GNOME Shell. Each page contains an "
+"stored in the order they appear in Scarecrow Shell. Each page contains an "
 "“application id” → 'data' pair. Currently, the following values are stored "
 "as 'data': • “position”: the position of the application icon in the page"
 msgstr ""
@@ -381,7 +381,7 @@ msgstr "Pričvrsti prozore dijaloga na nadređeni prozor"
 #: data/org.gnome.shell.gschema.xml.in:303
 #: data/org.gnome.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr ""
 "Ova vrijednost zaobilazi org.gnome.mutter kada je pokrenuta GNOME ljuska."
 
@@ -2434,7 +2434,7 @@ msgstr ""
 "proširenja i uklanjanjem ili onemogućavanjem neželjenih proširenja."
 
 #: subprojects/extensions-app/data/org.gnome.Extensions.desktop.in.in:7
-msgid "Configure GNOME Shell Extensions"
+msgid "Configure Scarecrow Shell Extensions"
 msgstr "Podesi proširenja GNOME ljuske"
 
 #: subprojects/extensions-app/js/main.js:145
@@ -2661,7 +2661,7 @@ msgstr "UUID, naziv i opis su potrebni"
 #: subprojects/extensions-tool/src/command-enable.c:46
 #: subprojects/extensions-tool/src/command-info.c:50
 #: subprojects/extensions-tool/src/command-list.c:64
-msgid "Failed to connect to GNOME Shell\n"
+msgid "Failed to connect to Scarecrow Shell\n"
 msgstr "Neuspjelo povezivanje s GNOME ljuskom\n"
 
 #: subprojects/extensions-tool/src/command-disable.c:53
@@ -2842,7 +2842,7 @@ msgid "Do not print error messages"
 msgstr "Ne ispisuj poruke greške"
 
 #: subprojects/extensions-tool/src/main.c:146
-msgid "Failed to connect to GNOME Shell"
+msgid "Failed to connect to Scarecrow Shell"
 msgstr "Neuspjelo povezivanje s GNOME ljuskom"
 
 #: subprojects/extensions-tool/src/main.c:244

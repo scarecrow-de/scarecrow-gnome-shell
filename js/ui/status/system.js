@@ -84,7 +84,7 @@ class Indicator extends PanelMenu.SystemIndicator {
         });
 
         let app = this._settingsApp = Shell.AppSystem.get_default().lookup_app(
-            'gnome-control-center.desktop');
+            'scarecrow-control-center.desktop');
         if (app && app.app_info) {
             const [icon] = app.app_info.get_icon().names;
             const name = app.app_info.get_name();

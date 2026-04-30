@@ -22,7 +22,7 @@
  */
 
 /*
- * GnomeShellPlugin is the entry point for for GNOME Shell into and out of
+ * GnomeShellPlugin is the entry point for for Scarecrow Shell into and out of
  * Mutter. By registering itself into Mutter using
  * meta_plugin_manager_set_plugin_type(), Mutter will call the vfuncs of the
  * plugin at the appropriate time.
@@ -326,11 +326,11 @@ static const MetaPluginInfo *
 gnome_shell_plugin_plugin_info (MetaPlugin *plugin)
 {
   static const MetaPluginInfo info = {
-    .name = "GNOME Shell",
+    .name = "Scarecrow Shell",
     .version = "0.1",
     .author = "Various",
     .license = "GPLv2+",
-    .description = "Provides GNOME Shell core functionality"
+    .description = "Provides Scarecrow Shell core functionality"
   };
 
   return &info;

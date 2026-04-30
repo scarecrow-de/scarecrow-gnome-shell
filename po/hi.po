@@ -48,7 +48,7 @@ msgid "Open the application menu"
 msgstr "अनुप्रयोग मेन्यू खोलें"
 
 #: ../data/gnome-shell.desktop.in.in.h:1
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr "गनोम शेल"
 
 #: ../data/gnome-shell.desktop.in.in.h:2
@@ -57,15 +57,15 @@ msgid "Window management and application launching"
 msgstr "विंडो प्रबंधन और अनुप्रयोग लॉन्चिंग"
 
 #: ../data/gnome-shell-extension-prefs.desktop.in.in.h:1
-msgid "GNOME Shell Extension Preferences"
+msgid "Scarecrow Shell Extension Preferences"
 msgstr "गनोम शेल एक्सटेंशन वरीयताएँ"
 
 #: ../data/gnome-shell-extension-prefs.desktop.in.in.h:2
-msgid "Configure GNOME Shell Extensions"
+msgid "Configure Scarecrow Shell Extensions"
 msgstr "गनोम शेल एक्सटेंशन विन्यस्त करें"
 
 #: ../data/gnome-shell-wayland.desktop.in.in.h:1
-msgid "GNOME Shell (wayland compositor)"
+msgid "Scarecrow Shell (wayland compositor)"
 msgstr "गनोम शेल (wayland compositor)"
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:1
@@ -86,7 +86,7 @@ msgstr "एक्सटेंशन का UUIDs सक्रिय किया
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:4
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
@@ -105,7 +105,7 @@ msgstr "विस्तार संस्करण संगतता के �
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:6
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
@@ -281,7 +281,7 @@ msgstr "जनक विंडो में मोडल संवाद सं�
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:38
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr ""
 "यह कुँजी org.gnome.mutter में कुँजी को अधिरोहित करता है जब गनोम शेल को चला "
 "रहा हो."
@@ -313,7 +313,7 @@ msgid "There was an error loading the preferences dialog for %s:"
 msgstr "%s के लिए वरीयता संवाद लोड करने में एक त्रुटि थी:"
 
 #: ../js/extensionPrefs/main.js:155
-msgid "GNOME Shell Extensions"
+msgid "Scarecrow Shell Extensions"
 msgstr "गनोम शेल एक्सटेंशन"
 
 #: ../js/gdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:143
@@ -1883,7 +1883,7 @@ msgstr "सत्यापन संवाद को उपयोक्ता �
 #~ msgstr "screencasts के लिए फ्रेमरेट रिकॉर्डिंग इस्तेमाल किया."
 
 #~ msgid ""
-#~ "The framerate of the resulting screencast recordered by GNOME Shell's "
+#~ "The framerate of the resulting screencast recordered by Scarecrow Shell's "
 #~ "screencast recorder in frames-per-second."
 #~ msgstr ""
 #~ " गनोम शैल के स्क्रीनकास्ट रिकॉर्डर द्वारा परिणामस्वरूप रिकॉर्ड किये गए स्क्रीनकास्ट का "
@@ -1933,7 +1933,7 @@ msgstr "सत्यापन संवाद को उपयोक्ता �
 
 #~ msgid ""
 #~ "This key overrides the key in org.gnome.desktop.wm.preferences when "
-#~ "running GNOME Shell."
+#~ "running Scarecrow Shell."
 #~ msgstr ""
 #~ "यह कुँजी org.gnome.desktop.wm.preferences में कुँजी को अधिरोहित करता है जब गनोम "
 #~ "शेल को चला रहा हो."

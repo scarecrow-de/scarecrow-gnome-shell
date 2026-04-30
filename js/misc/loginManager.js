@@ -191,7 +191,7 @@ var LoginManagerSystemd = class {
     async inhibit(reason, callback) {
         try {
             const inVariant = new GLib.Variant('(ssss)',
-                ['sleep', 'GNOME Shell', reason, 'delay']);
+                ['sleep', 'Scarecrow Shell', reason, 'delay']);
             const [outVariant_, fdList] =
                 await this._proxy.call_with_unix_fd_list('Inhibit',
                     inVariant, 0, -1, null, null);

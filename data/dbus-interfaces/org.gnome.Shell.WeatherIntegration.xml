@@ -4,7 +4,7 @@
       org.gnome.Shell.WeatherIntegration:
       @short_description: Weather integration interface
 
-      The interface used for exporting location settings to GNOME Shell's
+      The interface used for exporting location settings to Scarecrow Shell's
       weather integration.
   -->
   <interface name="org.gnome.Shell.WeatherIntegration">

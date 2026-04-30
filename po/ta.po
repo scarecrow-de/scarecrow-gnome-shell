@@ -48,7 +48,7 @@ msgid "Open the application menu"
 msgstr "செயலிகள் பட்டியை திறக்க விசைபிணைப்பு"
 
 #: ../data/gnome-shell.desktop.in.in.h:1
-msgid "GNOME Shell"
+msgid "Scarecrow Shell"
 msgstr "க்னோம் ஷெல்"
 
 #: ../data/gnome-shell.desktop.in.in.h:2
@@ -57,15 +57,15 @@ msgid "Window management and application launching"
 msgstr "சாளர மேலாண்மை மற்றும் பயன்பாடு துவக்கம்"
 
 #: ../data/gnome-shell-extension-prefs.desktop.in.in.h:1
-msgid "GNOME Shell Extension Preferences"
+msgid "Scarecrow Shell Extension Preferences"
 msgstr "க்னோம் ஷெல் நீட்சி விருப்பங்கள்"
 
 #: ../data/gnome-shell-extension-prefs.desktop.in.in.h:2
-msgid "Configure GNOME Shell Extensions"
+msgid "Configure Scarecrow Shell Extensions"
 msgstr "க்னோம் ஷெல் நீட்சிகளை வடிவமை"
 
 #: ../data/gnome-shell-wayland.desktop.in.in.h:1
-msgid "GNOME Shell (wayland compositor)"
+msgid "Scarecrow Shell (wayland compositor)"
 msgstr "GNOME ஷெல் (வேலேன்ட் கம்ப்போசிட்டர்)"
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:1
@@ -90,7 +90,7 @@ msgstr "செயல்படுத்த வேண்டிய நீட்ச�
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:4
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
@@ -109,7 +109,7 @@ msgstr "நீட்சிப் பதிப்பு இணக்கத்த�
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:6
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
@@ -294,7 +294,7 @@ msgstr "தாய் சாளரத்துக்கு மாதிரி உ
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:38
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr ""
 "இந்த விசை org.gnome.mutter இல் உள்ள விசையை க்னோம் ஷெல்லை இயக்கும்போது "
 "வன்மீறல் செய்கிறது."
@@ -327,8 +327,8 @@ msgid "There was an error loading the preferences dialog for %s:"
 msgstr "%s க்கு விருப்பங்கள் உரையாடலை ஏற்றுகையில் பிழை நேர்ந்தது:"
 
 #: ../js/extensionPrefs/main.js:155
-#| msgid "Configure GNOME Shell Extensions"
-msgid "GNOME Shell Extensions"
+#| msgid "Configure Scarecrow Shell Extensions"
+msgid "Scarecrow Shell Extensions"
 msgstr "GNOME ஷெல் நீட்சிகள்"
 
 #: ../js/gdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:143
@@ -1881,7 +1881,7 @@ msgstr "பயனர் உறுதிப்படுத்தல் உரை�
 
 #~ msgid ""
 #~ "This key overrides the key in org.gnome.desktop.wm.preferences when "
-#~ "running GNOME Shell."
+#~ "running Scarecrow Shell."
 #~ msgstr ""
 #~ "இந்த விசை org.gnome.desktop.wm.preferences ஐ க்னோம் ஷெல்லை இயக்கும்போது வன்மீறல் "
 #~ "செய்கிறது."
@@ -2027,7 +2027,7 @@ msgstr "பயனர் உறுதிப்படுத்தல் உரை�
 #~ msgstr "திரைநிகழ்வை பதிவு செய்ய சட்டவிகிதம் ."
 
 #~ msgid ""
-#~ "The framerate of the resulting screencast recordered by GNOME Shell's "
+#~ "The framerate of the resulting screencast recordered by Scarecrow Shell's "
 #~ "screencast recorder in frames-per-second."
 #~ msgstr ""
 #~ "க்னோம்ஷெல் இன் ஸ்க்ரீன்காஸ்ட் பதிவரில் ஸ்க்ரீன்காட் ஐ பதிகையில் வினாடிக்கு சட்டங்களின் விகிதம்."

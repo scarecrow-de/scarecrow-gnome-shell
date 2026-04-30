@@ -26,13 +26,13 @@ def reload_extension(uuid):
 def main():
     parser = optparse.OptionParser()
     parser.add_option("-d", "--disable-extension", dest="disable",
-                      help="Disable a GNOME Shell extension")
+                      help="Disable a Scarecrow Shell extension")
     parser.add_option("-e", "--enable-extension", dest="enable",
-                      help="Enable a GNOME Shell extension")
+                      help="Enable a Scarecrow Shell extension")
     parser.add_option("-c", "--create-extension", dest="create", action="store_true",
-                      help="Create a new GNOME Shell extension")
+                      help="Create a new Scarecrow Shell extension")
     parser.add_option("-r", "--reload-extension", dest="reload",
-                      help="Reload a GNOME Shell extension")
+                      help="Reload a Scarecrow Shell extension")
     options, args = parser.parse_args()
 
     if args:

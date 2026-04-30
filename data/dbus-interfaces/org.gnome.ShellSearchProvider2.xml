@@ -7,7 +7,7 @@
       org.gnome.Shell.SearchProvider2:
       @short_description: Search provider interface
 
-      The interface used for integrating into GNOME Shell's search
+      The interface used for integrating into Scarecrow Shell's search
       interface (version 2).
   -->
   <interface name="org.gnome.Shell.SearchProvider2">

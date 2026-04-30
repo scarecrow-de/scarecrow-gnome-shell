@@ -61,8 +61,8 @@ msgid "Open the application menu"
 msgstr "Abrir o menu do aplicativo"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
-msgstr "GNOME Shell"
+msgid "Scarecrow Shell"
+msgstr "Scarecrow Shell"
 
 #: data/org.gnome.Shell.desktop.in.in:5
 msgid "Window management and application launching"
@@ -88,12 +88,12 @@ msgstr "UUIDs das extensões para habilitar"
 
 #: data/org.gnome.shell.gschema.xml.in:17
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
 msgstr ""
-"As extensões do GNOME Shell possuem uma propriedade UUID; esta chave lista "
+"As extensões do Scarecrow Shell possuem uma propriedade UUID; esta chave lista "
 "as extensões que devem ser carregadas. Qualquer extensão que quiser ser "
 "carregada precisa estar nesta lista. Você também pode manipular esta lista "
 "com os métodos do DBus EnableExtension e DisableExtensions em org.gnome."
@@ -105,13 +105,13 @@ msgstr "UUIDs das extensões para forçar a desabilitação"
 
 #: data/org.gnome.shell.gschema.xml.in:27
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be disabled, even if loaded as part of the current mode. You can also "
 "manipulate this list with the EnableExtension and DisableExtension D-Bus "
 "methods on org.gnome.Shell. This key takes precedence over the “enabled-"
 "extensions” setting."
 msgstr ""
-"As extensões do GNOME Shell possuem uma propriedade UUID; esta chave lista "
+"As extensões do Scarecrow Shell possuem uma propriedade UUID; esta chave lista "
 "as extensões que devem ser desabilitadas, mesmo se carregadas como parte do "
 "modo atual. Você também pode manipular esta lista com os métodos do DBus "
 "EnableExtension e DisableExtensions em org.gnome.Shell. Essa chave leva "
@@ -135,11 +135,11 @@ msgstr "Desabilita a validação de compatibilidade da versão da extensão"
 
 #: data/org.gnome.shell.gschema.xml.in:46
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
-"O GNOME Shell somente carregará extensões que declaram possuir suporte a "
+"O Scarecrow Shell somente carregará extensões que declaram possuir suporte a "
 "versão atual em execução. Ao habilitar esta opção, esta verificação será "
 "desabilitada e haverá tentativas de carregar todas as extensões independente "
 "das versões que estas declaram suportar."
@@ -244,12 +244,12 @@ msgstr "Layout do seletor de aplicativo"
 #: data/org.gnome.shell.gschema.xml.in:115
 msgid ""
 "Layout of the app picker. Each entry in the array is a page. Pages are "
-"stored in the order they appear in GNOME Shell. Each page contains an "
+"stored in the order they appear in Scarecrow Shell. Each page contains an "
 "“application id” → 'data' pair. Currently, the following values are stored "
 "as 'data': • “position”: the position of the application icon in the page"
 msgstr ""
 "Layout do seletor de aplicativo. Cada entrada na matriz é uma página. As "
-"páginas são armazenadas na ordem em que aparecem no GNOME Shell. Cada página "
+"páginas são armazenadas na ordem em que aparecem no Scarecrow Shell. Cada página "
 "contém um par “id do aplicativo” → “dados”. Atualmente, os seguintes valores "
 "são armazenados como “dados”: • “posição”: a posição do ícone do aplicativo "
 "na página"
@@ -404,9 +404,9 @@ msgstr "Anexar diálogo modal à janela pai"
 #: data/org.gnome.shell.gschema.xml.in:303
 #: data/org.gnome.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr ""
-"Esta chave sobrescreve a chave em org.gnome.mutter ao executar o GNOME Shell."
+"Esta chave sobrescreve a chave em org.gnome.mutter ao executar o Scarecrow Shell."
 
 #: data/org.gnome.shell.gschema.xml.in:286
 msgid "Enable edge tiling when dropping windows on screen edges"
@@ -2456,8 +2456,8 @@ msgstr ""
 "indesejadas."
 
 #: subprojects/extensions-app/data/org.gnome.Extensions.desktop.in.in:7
-msgid "Configure GNOME Shell Extensions"
-msgstr "Configure extensões do GNOME Shell"
+msgid "Configure Scarecrow Shell Extensions"
+msgstr "Configure extensões do Scarecrow Shell"
 
 #: subprojects/extensions-app/js/main.js:145
 #, javascript-format
@@ -2672,8 +2672,8 @@ msgstr "UUID, nome e descrição são necessários"
 #: subprojects/extensions-tool/src/command-enable.c:46
 #: subprojects/extensions-tool/src/command-info.c:50
 #: subprojects/extensions-tool/src/command-list.c:64
-msgid "Failed to connect to GNOME Shell\n"
-msgstr "Falha ao conectar ao GNOME Shell\n"
+msgid "Failed to connect to Scarecrow Shell\n"
+msgstr "Falha ao conectar ao Scarecrow Shell\n"
 
 #: subprojects/extensions-tool/src/command-disable.c:53
 #: subprojects/extensions-tool/src/command-enable.c:53
@@ -2853,8 +2853,8 @@ msgid "Do not print error messages"
 msgstr "Não exibir mensagens de erro"
 
 #: subprojects/extensions-tool/src/main.c:146
-msgid "Failed to connect to GNOME Shell"
-msgstr "Falha ao conectar ao GNOME Shell"
+msgid "Failed to connect to Scarecrow Shell"
+msgstr "Falha ao conectar ao Scarecrow Shell"
 
 #: subprojects/extensions-tool/src/main.c:244
 msgid "Path"
@@ -3164,8 +3164,8 @@ msgstr "Sons do sistema"
 #~ msgstr "%s está solicitando acesso à sua localização."
 
 # Traduções do Xfce e da Microsoft usam compositor --Enrico
-#~ msgid "GNOME Shell (wayland compositor)"
-#~ msgstr "GNOME Shell (compositor wayland)"
+#~ msgid "Scarecrow Shell (wayland compositor)"
+#~ msgstr "Scarecrow Shell (compositor wayland)"
 
 #~ msgid "%d Connected Device"
 #~ msgid_plural "%d Connected Devices"

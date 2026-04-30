@@ -51,8 +51,8 @@ msgid "Open the application menu"
 msgstr "Aperir le menu de applicationes"
 
 #: ../data/gnome-shell.desktop.in.in.h:1
-msgid "GNOME Shell"
-msgstr "GNOME Shell"
+msgid "Scarecrow Shell"
+msgstr "Scarecrow Shell"
 
 #: ../data/gnome-shell.desktop.in.in.h:2
 msgid "Window management and application launching"
@@ -60,12 +60,12 @@ msgstr "Gestion de fenestras e lanceamento de applicationes"
 
 #: ../data/gnome-shell-extension-prefs.desktop.in.in.h:1
 #: ../js/extensionPrefs/main.js:153
-msgid "GNOME Shell Extension Preferences"
-msgstr "Preferentias pro le extensiones GNOME Shell"
+msgid "Scarecrow Shell Extension Preferences"
+msgstr "Preferentias pro le extensiones Scarecrow Shell"
 
 #: ../data/gnome-shell-extension-prefs.desktop.in.in.h:2
-msgid "Configure GNOME Shell Extensions"
-msgstr "Configurar le extensiones GNOME Shell"
+msgid "Configure Scarecrow Shell Extensions"
+msgstr "Configurar le extensiones Scarecrow Shell"
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:1
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
@@ -88,12 +88,12 @@ msgstr "Identificatores UUID del extensiones a activar"
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:4
 msgid ""
-"GNOME Shell extensions have a uuid property; this key lists extensions which "
+"Scarecrow Shell extensions have a uuid property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension DBus methods on org.gnome.Shell."
 msgstr ""
-"Le extensiones GNOME Shell ha un proprietate UUID. Iste clave enumera le "
+"Le extensiones Scarecrow Shell ha un proprietate UUID. Iste clave enumera le "
 "extensiones que debe ser cargate. Tote le extensiones que vole ser cargate "
 "debe adjungar se a iste lista. Il pote anque manipular iste lista con le "
 "methodos DBus EnableExtension e DisableExtension de org.gnome.Shell."
@@ -109,7 +109,7 @@ msgid ""
 "want to disable this for privacy reasons. Please note that doing so won't "
 "remove already saved data."
 msgstr ""
-"Normalmente GNOME Shell survelia le applicationes active a fin de presentar "
+"Normalmente Scarecrow Shell survelia le applicationes active a fin de presentar "
 "le plus utilisate (per ex. in le lanceatores). Ben que le datos se guarda in "
 "privato, on pote disactivar iste functionalitate per le ration de "
 "confidentialitate. Remarca que iste disactivation non removera le datos jam "
@@ -273,11 +273,11 @@ msgstr "Rata de quadros usate pro registrar le video de schermo."
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:36
 msgid ""
-"The framerate of the resulting screencast recordered by GNOME Shell's "
+"The framerate of the resulting screencast recordered by Scarecrow Shell's "
 "screencast recorder in frames-per-second."
 msgstr ""
 "Le numero de imagines per secunda in le video de schermo registrate per le "
-"registrator incorporate in GNOME Shell."
+"registrator incorporate in Scarecrow Shell."
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:37
 msgid "The gstreamer pipeline used to encode the screencast"
@@ -344,9 +344,9 @@ msgstr "Attaccar le dialogo modal al fenestra parental"
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:45
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr ""
-"Iste clave supplanta le clave in org.gnome.mutter quando GNOME Shell es "
+"Iste clave supplanta le clave in org.gnome.mutter quando Scarecrow Shell es "
 "lanceate."
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:46
@@ -356,10 +356,10 @@ msgstr "Arrangiamento de buttones sur le barra de titulo"
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:47
 msgid ""
 "This key overrides the key in org.gnome.desktop.wm.preferences when running "
-"GNOME Shell."
+"Scarecrow Shell."
 msgstr ""
 "Iste clave supplanta le clave in org.gnome.desktop.wm.preferences quando "
-"GNOME Shell es lanceate."
+"Scarecrow Shell es lanceate."
 
 #: ../data/org.gnome.shell.gschema.xml.in.in.h:48
 msgid "Enable edge tiling when dropping windows on screen edges"

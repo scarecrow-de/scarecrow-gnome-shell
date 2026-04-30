@@ -1,5 +1,5 @@
 [Unit]
-Description=GNOME Shell on X11
+Description=Scarecrow Shell on X11
 # On X11, try to show the GNOME Session Failed screen
 OnFailure=org.gnome.Shell-disable-extensions.service gnome-session-failed.target
 OnFailureJobMode=replace

@@ -46,8 +46,8 @@ msgid "Open the application menu"
 msgstr "Obre el menú d'aplicació"
 
 #: data/org.gnome.Shell.desktop.in.in:4
-msgid "GNOME Shell"
-msgstr "GNOME Shell"
+msgid "Scarecrow Shell"
+msgstr "Scarecrow Shell"
 
 #: data/org.gnome.Shell.desktop.in.in:5
 msgid "Window management and application launching"
@@ -74,12 +74,12 @@ msgstr ""
 
 #: data/org.gnome.shell.gschema.xml.in:17
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
 msgstr ""
-"Les extensions del GNOME Shell tenen un identificador universal. Aquesta "
+"Les extensions del Scarecrow Shell tenen un identificador universal. Aquesta "
 "clau conté una llista de les extensions que s'han de carregar. Qualsevol "
 "extensió que s'hagi de carregar ha de ser a la llista. Podeu modificar "
 "aquesta llista amb els mètodes de D-Bus «EnableExtension» (activa una "
@@ -92,13 +92,13 @@ msgstr ""
 
 #: data/org.gnome.shell.gschema.xml.in:27
 msgid ""
-"GNOME Shell extensions have a UUID property; this key lists extensions which "
+"Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be disabled, even if loaded as part of the current mode. You can also "
 "manipulate this list with the EnableExtension and DisableExtension D-Bus "
 "methods on org.gnome.Shell. This key takes precedence over the “enabled-"
 "extensions” setting."
 msgstr ""
-"Les extensions del GNOME Shell tenen un identificador universal. Aquesta "
+"Les extensions del Scarecrow Shell tenen un identificador universal. Aquesta "
 "clau conté una llista de les extensions que s'han de carregar. Qualsevol "
 "extensió que s'hagi de carregar ha de ser a la llista. Podeu modificar "
 "aquesta llista amb els mètodes de D-Bus «EnableExtension» (activa una "
@@ -123,11 +123,11 @@ msgstr "Desactiva la validació de la compatibilitat de versió d'extensions"
 
 #: data/org.gnome.shell.gschema.xml.in:46
 msgid ""
-"GNOME Shell will only load extensions that claim to support the current "
+"Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
-"El GNOME Shell només carregarà extensions que afirmin ser compatibles amb la "
+"El Scarecrow Shell només carregarà extensions que afirmin ser compatibles amb la "
 "versió en execució. Si s'activa aquesta opció, es desactivarà la comprovació "
 "i es provarà de carregar totes les extensions sense tenir en compte les "
 "versions amb què afirmin ser compatibles."
@@ -161,7 +161,7 @@ msgstr "Historial de les ordres utilitzades en el diàleg de l'Alt+F2"
 #. Translators: looking glass is a debugger and inspector tool, see https://wiki.gnome.org/Projects/GnomeShell/LookingGlass
 #: data/org.gnome.shell.gschema.xml.in:74
 msgid "History for the looking glass dialog"
-msgstr "Historial del depurador del GNOME Shell"
+msgstr "Historial del depurador del Scarecrow Shell"
 
 #: data/org.gnome.shell.gschema.xml.in:78
 msgid "Always show the “Log out” menu item in the user menu."
@@ -189,7 +189,7 @@ msgid ""
 "“Remember Password” checkbox will be present. This key sets the default "
 "state of the checkbox."
 msgstr ""
-"El GNOME Shell us demanarà la contrasenya quan es munti un dispositiu xifrat "
+"El Scarecrow Shell us demanarà la contrasenya quan es munti un dispositiu xifrat "
 "o un sistema de fitxers remot. Si es pot desar la contrasenya per a "
 "utilitzar-la en el futur, es mostrarà la casella de selecció «Recorda la "
 "contrasenya». Aquesta clau estableix el valor per defecte d'aquesta casella "
@@ -233,7 +233,7 @@ msgstr "Disposició del selector d'aplicacions"
 #: data/org.gnome.shell.gschema.xml.in:115
 msgid ""
 "Layout of the app picker. Each entry in the array is a page. Pages are "
-"stored in the order they appear in GNOME Shell. Each page contains an "
+"stored in the order they appear in Scarecrow Shell. Each page contains an "
 "“application id” → 'data' pair. Currently, the following values are stored "
 "as 'data': • “position”: the position of the application icon in the page"
 msgstr ""
@@ -394,9 +394,9 @@ msgstr "Adjunta el diàleg modal a la finestra pare"
 #: data/org.gnome.shell.gschema.xml.in:303
 #: data/org.gnome.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in org.gnome.mutter when running GNOME Shell."
+"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
 msgstr ""
-"Si s'executa el GNOME Shell, aquesta clau sobreescriu la clau «org.gnome."
+"Si s'executa el Scarecrow Shell, aquesta clau sobreescriu la clau «org.gnome."
 "mutter»."
 
 #: data/org.gnome.shell.gschema.xml.in:286
@@ -2436,7 +2436,7 @@ msgstr "Extensions"
 #: subprojects/extensions-app/data/metainfo/org.gnome.Extensions.metainfo.xml.in:6
 #: subprojects/extensions-app/js/main.js:184
 msgid "Manage your GNOME Extensions"
-msgstr "Gestioneu les extensions del GNOME Shell"
+msgstr "Gestioneu les extensions del Scarecrow Shell"
 
 #: subprojects/extensions-app/data/metainfo/org.gnome.Extensions.metainfo.xml.in:17
 msgid "The GNOME Project"
@@ -2452,8 +2452,8 @@ msgstr ""
 "extensions no desitjades."
 
 #: subprojects/extensions-app/data/org.gnome.Extensions.desktop.in.in:7
-msgid "Configure GNOME Shell Extensions"
-msgstr "Configureu les extensions del GNOME Shell"
+msgid "Configure Scarecrow Shell Extensions"
+msgstr "Configureu les extensions del Scarecrow Shell"
 
 #: subprojects/extensions-app/js/main.js:145
 #, javascript-format
@@ -2671,8 +2671,8 @@ msgstr "Calen l'UUID, el nom i la descripció"
 #: subprojects/extensions-tool/src/command-enable.c:46
 #: subprojects/extensions-tool/src/command-info.c:50
 #: subprojects/extensions-tool/src/command-list.c:64
-msgid "Failed to connect to GNOME Shell\n"
-msgstr "Ha fallat la connexió amb el GNOME Shell\n"
+msgid "Failed to connect to Scarecrow Shell\n"
+msgstr "Ha fallat la connexió amb el Scarecrow Shell\n"
 
 #: subprojects/extensions-tool/src/command-disable.c:53
 #: subprojects/extensions-tool/src/command-enable.c:53
@@ -2852,8 +2852,8 @@ msgid "Do not print error messages"
 msgstr "No imprimeixis els missatges d'error"
 
 #: subprojects/extensions-tool/src/main.c:146
-msgid "Failed to connect to GNOME Shell"
-msgstr "Ha fallat la connexió amb el GNOME Shell"
+msgid "Failed to connect to Scarecrow Shell"
+msgstr "Ha fallat la connexió amb el Scarecrow Shell"
 
 #: subprojects/extensions-tool/src/main.c:244
 msgid "Path"
