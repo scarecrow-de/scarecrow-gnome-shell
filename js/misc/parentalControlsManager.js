@@ -2,7 +2,7 @@
 //
 // Copyright (C) 2018, 2019, 2020 Endless Mobile, Inc.
 //
-// This is a GNOME Shell component to wrap the interactions over
+// This is a Scarecrow Shell component to wrap the interactions over
 // D-Bus with the malcontent library.
 //
 // Licensed under the GNU General Public License Version 2
@@ -26,8 +26,9 @@
 const { Gio, GObject, Shell } = imports.gi;
 
 // We require libmalcontent ≥ 0.6.0
-const HAVE_MALCONTENT = imports.package.checkSymbol(
-    'Malcontent', '0', 'ManagerGetValueFlags');
+// Disable for now
+const HAVE_MALCONTENT = false; /* imports.package.checkSymbol(
+    'Malcontent', '0', 'ManagerGetValueFlags'); */
 
 var Malcontent = null;
 if (HAVE_MALCONTENT) {
