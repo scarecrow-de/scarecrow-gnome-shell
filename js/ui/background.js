@@ -94,6 +94,8 @@
 //     MetaBackgroundImage         MetaBackgroundImage
 //     MetaBackgroundImage         MetaBackgroundImage
 
+imports.gi.versions.GnomeDesktop = "3.0";
+
 const { Clutter, GDesktopEnums, Gio, GLib, GObject, GnomeDesktop, Meta } = imports.gi;
 const Signals = imports.signals;
 
