@@ -4,7 +4,7 @@ project('gnome-extensions-app',
   license: 'GPLv2+'
 )
 
-app_id = 'org.gnome.Extensions'
+app_id = 'io.github.scarecrow-de.Extensions'
 prgname = 'gnome-extensions-app'
 
 gnome = import('gnome')

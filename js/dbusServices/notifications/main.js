@@ -5,7 +5,7 @@ const { NotificationDaemon } = imports.notificationDaemon;
 
 function main() {
     const service = new DBusService(
-        'org.gnome.Shell.Notifications',
+        'io.github.scarecrow-de.Shell.Notifications',
         new NotificationDaemon());
     service.run();
 }

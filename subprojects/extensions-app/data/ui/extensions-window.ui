@@ -191,7 +191,7 @@
                   <object class="GtkImage">
                     <property name="visible">True</property>
                     <property name="pixel_size">96</property>
-                    <property name="icon_name">org.gnome.Extensions-symbolic</property>
+                    <property name="icon_name">io.github.scarecrow-de.Extensions-symbolic</property>
                   </object>
                 </child>
                 <child>

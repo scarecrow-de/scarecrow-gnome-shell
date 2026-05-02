@@ -43,7 +43,7 @@ function installExtension(uuid, invocation) {
     _httpSession.queue_message(message, () => {
         if (message.status_code != Soup.KnownStatusCode.OK) {
             Main.extensionManager.logExtensionError(uuid, 'downloading info: %d'.format(message.status_code));
-            invocation.return_dbus_error('org.gnome.Shell.DownloadInfoError', message.status_code.toString());
+            invocation.return_dbus_error('io.github.scarecrow-de.Shell.DownloadInfoError', message.status_code.toString());
             return;
         }
 
@@ -52,7 +52,7 @@ function installExtension(uuid, invocation) {
             info = JSON.parse(message.response_body.data);
         } catch (e) {
             Main.extensionManager.logExtensionError(uuid, 'parsing info: %s'.format(e.toString()));
-            invocation.return_dbus_error('org.gnome.Shell.ParseInfoError', e.toString());
+            invocation.return_dbus_error('io.github.scarecrow-de.Shell.ParseInfoError', e.toString());
             return;
         }
 
@@ -231,7 +231,7 @@ class InstallExtensionDialog extends ModalDialog.ModalDialog {
         let invocation = this._invocation;
         function errback(code, msg) {
             log('Error while installing %s: %s (%s)'.format(uuid, code, msg));
-            invocation.return_dbus_error('org.gnome.Shell.%s'.format(code), msg || '');
+            invocation.return_dbus_error('io.github.scarecrow-de.Shell.%s'.format(code), msg || '');
         }
 
         function callback() {

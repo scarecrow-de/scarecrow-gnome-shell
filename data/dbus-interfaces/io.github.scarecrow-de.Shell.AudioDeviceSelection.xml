@@ -1,0 +1,12 @@
+<node>
+  <interface name="io.github.scarecrow-de.Shell.AudioDeviceSelection">
+    <method name="Open">
+      <arg name="devices" direction="in" type="as"/>
+    </method>
+    <method name="Close">
+    </method>
+    <signal name="DeviceSelected">
+      <arg name="device" type="s"/>
+    </signal>
+  </interface>
+</node>

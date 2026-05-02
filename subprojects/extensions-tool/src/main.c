@@ -100,9 +100,9 @@ get_shell_proxy (GError **error)
   return g_dbus_proxy_new_for_bus_sync (G_BUS_TYPE_SESSION,
                                         G_DBUS_PROXY_FLAGS_NONE,
                                         NULL,
-                                        "org.gnome.Shell.Extensions",
-                                        "/org/gnome/Shell/Extensions",
-                                        "org.gnome.Shell.Extensions",
+                                        "io.github.scarecrow-de.Shell.Extensions",
+                                        "/io/github/scarecrow-de/Shell/Extensions",
+                                        "io.github.scarecrow-de.Shell.Extensions",
                                         NULL,
                                         error);
 }
@@ -115,7 +115,7 @@ get_shell_settings (void)
 
   schema_source = g_settings_schema_source_get_default ();
   schema = g_settings_schema_source_lookup (schema_source,
-                                            "org.gnome.shell",
+                                            "io.github.scarecrow-de.shell",
                                             TRUE);
 
   if (schema == NULL)

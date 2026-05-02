@@ -49,7 +49,7 @@ const TouchpadSwipeGesture = GObject.registerClass({
         super._init();
         this._allowedModes = allowedModes;
         this._touchpadSettings = new Gio.Settings({
-            schema_id: 'org.gnome.desktop.peripherals.touchpad',
+            schema_id: 'io.github.scarecrow-de.desktop.peripherals.touchpad',
         });
         this._orientation = Clutter.Orientation.VERTICAL;
         this._enabled = true;

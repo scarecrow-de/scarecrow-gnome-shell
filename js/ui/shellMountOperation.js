@@ -267,7 +267,7 @@ var ShellMountPasswordDialog = GObject.registerClass({
         let description = strings.shift() || null;
         super._init({ styleClass: 'prompt-dialog' });
 
-        let disksApp = Shell.AppSystem.get_default().lookup_app('org.gnome.DiskUtility.desktop');
+        let disksApp = Shell.AppSystem.get_default().lookup_app('io.github.scarecrow-de.DiskUtility.desktop');
 
         let content = new Dialog.MessageDialogContent({ title, description });
 
@@ -456,7 +456,7 @@ var ShellMountPasswordDialog = GObject.registerClass({
     }
 
     _onOpenDisksButton() {
-        let app = Shell.AppSystem.get_default().lookup_app('org.gnome.DiskUtility.desktop');
+        let app = Shell.AppSystem.get_default().lookup_app('io.github.scarecrow-de.DiskUtility.desktop');
         if (app) {
             app.activate();
         } else {

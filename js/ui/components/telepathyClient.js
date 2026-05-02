@@ -347,7 +347,7 @@ class ChatSource extends MessageTray.Source {
 
     _createPolicy() {
         if (this._account.protocol_name == 'irc')
-            return new MessageTray.NotificationApplicationPolicy('org.gnome.Polari');
+            return new MessageTray.NotificationApplicationPolicy('io.github.scarecrow-de.Polari');
         return new MessageTray.NotificationApplicationPolicy('empathy');
     }
 

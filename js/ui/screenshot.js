@@ -16,18 +16,18 @@ Gio._promisify(Shell.Screenshot.prototype,
 
 const { loadInterfaceXML } = imports.misc.fileUtils;
 
-const ScreenshotIface = loadInterfaceXML('org.gnome.Shell.Screenshot');
+const ScreenshotIface = loadInterfaceXML('io.github.scarecrow-de.Shell.Screenshot');
 
 var ScreenshotService = class {
     constructor() {
         this._dbusImpl = Gio.DBusExportedObject.wrapJSObject(ScreenshotIface, this);
-        this._dbusImpl.export(Gio.DBus.session, '/org/gnome/Shell/Screenshot');
+        this._dbusImpl.export(Gio.DBus.session, '/io/github/scarecrow-de/Shell/Screenshot');
 
         this._screenShooter = new Map();
 
-        this._lockdownSettings = new Gio.Settings({ schema_id: 'org.gnome.desktop.lockdown' });
+        this._lockdownSettings = new Gio.Settings({ schema_id: 'io.github.scarecrow-de.desktop.lockdown' });
 
-        Gio.DBus.session.own_name('org.gnome.Shell.Screenshot', Gio.BusNameOwnerFlags.REPLACE, null, null);
+        Gio.DBus.session.own_name('io.github.scarecrow-de.Shell.Screenshot', Gio.BusNameOwnerFlags.REPLACE, null, null);
     }
 
     _createScreenshot(invocation, needsDisk = true) {

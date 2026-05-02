@@ -95,8 +95,8 @@ class AppMenu extends PopupMenu.PopupMenu {
             let args = GLib.Variant.new('(ss)', [id, '']);
             const bus = await Gio.DBus.get(Gio.BusType.SESSION, null);
             bus.call(
-                'org.gnome.Software',
-                '/org/gnome/Software',
+                'io.github.scarecrow-de.Software',
+                '/io/github/scarecrow-de/Software',
                 'org.gtk.Actions', 'Activate',
                 new GLib.Variant('(sava{sv})', ['details', [args], null]),
                 null, 0, -1, null);
@@ -115,7 +115,7 @@ class AppMenu extends PopupMenu.PopupMenu {
     }
 
     _updateDetailsVisibility() {
-        let sw = this._appSystem.lookup_app('org.gnome.Software.desktop');
+        let sw = this._appSystem.lookup_app('io.github.scarecrow-de.Software.desktop');
         this._detailsItem.visible = sw != null;
     }
 

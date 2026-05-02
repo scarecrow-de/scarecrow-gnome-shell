@@ -571,7 +571,7 @@ var UnlockDialog = GObject.registerClass({
         this._otherUserButton.set_pivot_point(0.5, 0.5);
         this._otherUserButton.connect('clicked', this._otherUserClicked.bind(this));
 
-        this._screenSaverSettings = new Gio.Settings({ schema_id: 'org.gnome.desktop.screensaver' });
+        this._screenSaverSettings = new Gio.Settings({ schema_id: 'io.github.scarecrow-de.desktop.screensaver' });
 
         this._userSwitchEnabledId = this._screenSaverSettings.connect('changed::user-switch-enabled',
             this._updateUserSwitchVisibility.bind(this));

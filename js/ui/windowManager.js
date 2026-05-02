@@ -20,7 +20,7 @@ const IBusManager = imports.misc.ibusManager;
 
 const { loadInterfaceXML } = imports.misc.fileUtils;
 
-var SHELL_KEYBINDINGS_SCHEMA = 'org.gnome.shell.keybindings';
+var SHELL_KEYBINDINGS_SCHEMA = 'io.github.scarecrow-de.shell.keybindings';
 var MINIMIZE_WINDOW_ANIMATION_TIME = 200;
 var SHOW_WINDOW_ANIMATION_TIME = 150;
 var DIALOG_SHOW_WINDOW_ANIMATION_TIME = 100;
@@ -34,10 +34,10 @@ var APP_MOTION_THRESHOLD = 30;
 
 var ONE_SECOND = 1000; // in ms
 
-const GSD_WACOM_BUS_NAME = 'org.gnome.SettingsDaemon.Wacom';
-const GSD_WACOM_OBJECT_PATH = '/org/gnome/SettingsDaemon/Wacom';
+const GSD_WACOM_BUS_NAME = 'io.github.scarecrow-de.SettingsDaemon.Wacom';
+const GSD_WACOM_OBJECT_PATH = '/io/github/scarecrow-de/SettingsDaemon/Wacom';
 
-const GsdWacomIface = loadInterfaceXML('org.gnome.SettingsDaemon.Wacom');
+const GsdWacomIface = loadInterfaceXML('io.github.scarecrow-de.SettingsDaemon.Wacom');
 const GsdWacomProxy = Gio.DBusProxy.makeProxyWrapper(GsdWacomIface);
 
 const WINDOW_DIMMER_EFFECT_NAME = "scarecrow-shell-window-dimmer";
@@ -205,7 +205,7 @@ var WorkspaceTracker = class {
         global.display.connect('restacked',
                                this._windowsRestacked.bind(this));
 
-        this._workspaceSettings = new Gio.Settings({ schema_id: 'org.gnome.mutter' });
+        this._workspaceSettings = new Gio.Settings({ schema_id: 'io.github.scarecrow-de.mutter' });
         this._workspaceSettings.connect('changed::dynamic-workspaces', this._queueCheckWorkspaces.bind(this));
 
         this._nWorkspacesChanged();

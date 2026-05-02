@@ -18,7 +18,7 @@ var KEY_LONG_PRESS_TIME = 250;
 var PANEL_SWITCH_ANIMATION_TIME = 500;
 var PANEL_SWITCH_RELATIVE_DISTANCE = 1 / 3; /* A third of the actor width */
 
-const A11Y_APPLICATIONS_SCHEMA = 'org.gnome.desktop.a11y.applications';
+const A11Y_APPLICATIONS_SCHEMA = 'io.github.scarecrow-de.desktop.a11y.applications';
 const SHOW_KEYBOARD = 'screen-keyboard-enabled';
 
 /* KeyContainer puts keys in a grid where a 1:1 key takes this size */
@@ -531,7 +531,7 @@ var KeyboardModel = class {
     }
 
     _loadModel(groupName) {
-        let file = Gio.File.new_for_uri('resource:///org/gnome/shell/osk-layouts/%s.json'.format(groupName));
+        let file = Gio.File.new_for_uri('resource:///io/github/scarecrow-de/shell/osk-layouts/%s.json'.format(groupName));
         let [success_, contents] = file.load_contents(null);
         contents = ByteArray.toString(contents);
 
@@ -998,7 +998,7 @@ var EmojiSelection = GObject.registerClass({
     }
 
     _populateSections() {
-        let file = Gio.File.new_for_uri('resource:///org/gnome/shell/osk-layouts/emoji.json');
+        let file = Gio.File.new_for_uri('resource:///io/github/scarecrow-de/shell/osk-layouts/emoji.json');
         let [success_, contents] = file.load_contents(null);
 
         if (contents instanceof Uint8Array)

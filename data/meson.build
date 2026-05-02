@@ -1,12 +1,12 @@
 desktop_files = [
-  'org.gnome.Shell.desktop',
-  'org.gnome.Shell.Extensions.desktop',
+  'io.github.scarecrow-de.Shell.desktop',
+  'io.github.scarecrow-de.Shell.Extensions.desktop',
 ]
 service_files = []
 
 if have_networkmanager
-  desktop_files += 'org.gnome.Shell.PortalHelper.desktop'
-  service_files += 'org.gnome.Shell.PortalHelper.service'
+  desktop_files += 'io.github.scarecrow-de.Shell.PortalHelper.desktop'
+  service_files += 'io.github.scarecrow-de.Shell.PortalHelper.service'
 endif
 
 desktopconf = configuration_data()
@@ -80,12 +80,12 @@ install_data('50-scarecrow-shell-system.xml', install_dir: keysdir)
 schemaconf = configuration_data()
 schemaconf.set('GETTEXT_PACKAGE', meson.project_name())
 schema = configure_file(
-  input: 'org.gnome.shell.gschema.xml.in',
-  output: 'org.gnome.shell.gschema.xml',
+  input: 'io.github.scarecrow-de.shell.gschema.xml.in',
+  output: 'io.github.scarecrow-de.shell.gschema.xml',
   configuration: schemaconf,
   install_dir: schemadir
 )
-install_data('00_org.gnome.shell.gschema.override', install_dir: schemadir)
+install_data('00_io.github.scarecrow-de.shell.gschema.override', install_dir: schemadir)
 
 overrides_migration_conf = configuration_data()
 overrides_migration_conf.set('libexecdir', libexecdir)
@@ -101,21 +101,21 @@ if have_systemd
   unitconf.set('bindir', bindir)
 
   configure_file(
-    input: 'org.gnome.Shell@x11.service.in',
-    output: 'org.gnome.Shell@x11.service',
+    input: 'io.github.scarecrow-de.Shell@x11.service.in',
+    output: 'io.github.scarecrow-de.Shell@x11.service',
     configuration: unitconf,
     install_dir: systemduserunitdir
   )
 
   configure_file(
-    input: 'org.gnome.Shell@wayland.service.in',
-    output: 'org.gnome.Shell@wayland.service',
+    input: 'io.github.scarecrow-de.Shell@wayland.service.in',
+    output: 'io.github.scarecrow-de.Shell@wayland.service',
     configuration: unitconf,
     install_dir: systemduserunitdir
   )
 
-  units = files('org.gnome.Shell.target',
-                'org.gnome.Shell-disable-extensions.service')
+  units = files('io.github.scarecrow-de.Shell.target',
+                'io.github.scarecrow-de.Shell-disable-extensions.service')
 
   install_data(units, install_dir: systemduserunitdir)
 endif

@@ -26,7 +26,7 @@ const PortalHelperSecurityLevel = {
 const CONNECTIVITY_CHECK_HOST = 'nmcheck.gnome.org';
 const CONNECTIVITY_RECHECK_RATELIMIT_TIMEOUT = 30 * GLib.USEC_PER_SEC;
 
-const HelperDBusInterface = loadInterfaceXML('org.gnome.Shell.PortalHelper');
+const HelperDBusInterface = loadInterfaceXML('io.github.scarecrow-de.Shell.PortalHelper');
 
 var PortalHeaderBar = GObject.registerClass(
 class PortalHeaderBar extends Gtk.HeaderBar {
@@ -263,7 +263,7 @@ class PortalWindow extends Gtk.ApplicationWindow {
 var WebPortalHelper = GObject.registerClass(
 class WebPortalHelper extends Gtk.Application {
     _init() {
-        super._init({ application_id: 'org.gnome.Shell.PortalHelper',
+        super._init({ application_id: 'io.github.scarecrow-de.Shell.PortalHelper',
                       flags: Gio.ApplicationFlags.IS_SERVICE,
                       inactivity_timeout: 30000 });
 
@@ -289,7 +289,7 @@ class WebPortalHelper extends Gtk.Application {
     vfunc_activate() {
         // If launched manually (for example for testing), force a dummy authentication
         // session with the default url
-        this.Authenticate('/org/gnome/dummy', '', 0);
+        this.Authenticate('/io/github/scarecrow-de/dummy', '', 0);
     }
 
     Authenticate(connection, url, timestamp) {

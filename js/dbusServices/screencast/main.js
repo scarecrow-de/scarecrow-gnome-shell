@@ -5,7 +5,7 @@ const { ScreencastService } = imports.screencastService;
 
 function main() {
     const service = new DBusService(
-        'org.gnome.Shell.Screencast',
+        'io.github.scarecrow-de.Shell.Screencast',
         new ScreencastService());
     service.run();
 }

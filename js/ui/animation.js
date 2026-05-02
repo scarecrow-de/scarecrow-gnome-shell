@@ -144,7 +144,7 @@ class Spinner extends AnimatedIcon {
             animate: false,
             hideOnStop: false,
         });
-        let file = Gio.File.new_for_uri('resource:///org/gnome/shell/theme/process-working.svg');
+        let file = Gio.File.new_for_uri('resource:///io/github/scarecrow-de/shell/theme/process-working.svg');
         super._init(file, size);
 
         this.opacity = 0;

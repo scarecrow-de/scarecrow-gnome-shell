@@ -13,7 +13,7 @@
 
 #include <gtk/gtk.h>
 
-#define BUS_NAME "org.gnome.Shell.PerfHelper"
+#define BUS_NAME "io.github.scarecrow-de.Shell.PerfHelper"
 
 static void destroy_windows           (void);
 static void finish_wait_windows       (void);
@@ -21,7 +21,7 @@ static void check_finish_wait_windows (void);
 
 static const gchar introspection_xml[] =
 	  "<node>"
-	  "  <interface name='org.gnome.Shell.PerfHelper'>"
+	  "  <interface name='io.github.scarecrow-de.Shell.PerfHelper'>"
 	  "    <method name='Exit'/>"
 	  "    <method name='CreateWindow'>"
 	  "      <arg type='i' name='width' direction='in'/>"
@@ -316,7 +316,7 @@ on_bus_acquired (GDBusConnection *connection,
   GDBusNodeInfo *introspection_data = g_dbus_node_info_new_for_xml (introspection_xml, NULL);
 
   g_dbus_connection_register_object (connection,
-				     "/org/gnome/Shell/PerfHelper",
+				     "/io/github/scarecrow-de/Shell/PerfHelper",
 				     introspection_data->interfaces[0],
 				     &interface_vtable,
 				     NULL,  /* user_data */

@@ -222,7 +222,7 @@ function formatTime(time, params) {
     let format;
 
     if (_desktopSettings == null)
-        _desktopSettings = new Gio.Settings({ schema_id: 'org.gnome.desktop.interface' });
+        _desktopSettings = new Gio.Settings({ schema_id: 'io.github.scarecrow-de.desktop.interface' });
     let clockFormat = _desktopSettings.get_string('clock-format');
 
     params = Params.parse(params, {
@@ -302,7 +302,7 @@ function formatTime(time, params) {
 
 function createTimeLabel(date, params) {
     if (_desktopSettings == null)
-        _desktopSettings = new Gio.Settings({ schema_id: 'org.gnome.desktop.interface' });
+        _desktopSettings = new Gio.Settings({ schema_id: 'io.github.scarecrow-de.desktop.interface' });
 
     let label = new St.Label({ text: formatTime(date, params) });
     let id = _desktopSettings.connect('changed::clock-format', () => {

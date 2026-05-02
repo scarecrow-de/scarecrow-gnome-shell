@@ -9,10 +9,10 @@ const PopupMenu = imports.ui.popupMenu;
 
 const { loadInterfaceXML } = imports.misc.fileUtils;
 
-const BUS_NAME = 'org.gnome.SettingsDaemon.Rfkill';
-const OBJECT_PATH = '/org/gnome/SettingsDaemon/Rfkill';
+const BUS_NAME = 'io.github.scarecrow-de.SettingsDaemon.Rfkill';
+const OBJECT_PATH = '/io/github/scarecrow-de/SettingsDaemon/Rfkill';
 
-const RfkillManagerInterface = loadInterfaceXML('org.gnome.SettingsDaemon.Rfkill');
+const RfkillManagerInterface = loadInterfaceXML('io.github.scarecrow-de.SettingsDaemon.Rfkill');
 const RfkillManagerProxy = Gio.DBusProxy.makeProxyWrapper(RfkillManagerInterface);
 
 const HAD_BLUETOOTH_DEVICES_SETUP = 'had-bluetooth-devices-setup';

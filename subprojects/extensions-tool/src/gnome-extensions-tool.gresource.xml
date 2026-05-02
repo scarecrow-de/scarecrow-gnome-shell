@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/org/gnome/extensions-tool">
+  <gresource prefix="/io/github/scarecrow-de/extensions-tool">
     <file>templates/00-plain.desktop</file>
     <file>templates/indicator.desktop</file>
     <file>templates/indicator/extension.js</file>

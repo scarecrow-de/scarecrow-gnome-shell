@@ -103,7 +103,7 @@ const Params = imports.misc.params;
 
 var DEFAULT_BACKGROUND_COLOR = Clutter.Color.from_pixel(0x2e3436ff);
 
-const BACKGROUND_SCHEMA = 'org.gnome.desktop.background';
+const BACKGROUND_SCHEMA = 'io.github.scarecrow-de.desktop.background';
 const PRIMARY_COLOR_KEY = 'primary-color';
 const SECONDARY_COLOR_KEY = 'secondary-color';
 const COLOR_SHADING_TYPE_KEY = 'color-shading-type';

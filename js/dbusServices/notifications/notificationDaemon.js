@@ -18,7 +18,7 @@ var NotificationDaemon = class extends ServiceImplementation {
         this._autoShutdown = false;
 
         this._proxy = new NotificationsProxy(Gio.DBus.session,
-            'org.gnome.Shell',
+            'io.github.scarecrow-de.Shell',
             '/org/freedesktop/Notifications',
             (proxy, error) => {
                 if (error)

@@ -606,7 +606,7 @@ Signals.addSignalMethods(VPNRequestHandler.prototype);
 var NetworkAgent = class {
     constructor() {
         this._native = new Shell.NetworkAgent({
-            identifier: 'org.gnome.Shell.NetworkAgent',
+            identifier: 'io.github.scarecrow-de.Shell.NetworkAgent',
             capabilities: NM.SecretAgentCapabilities.VPN_HINTS,
             auto_register: false,
         });

@@ -16,11 +16,11 @@ const SmartcardManager = imports.misc.smartcardManager;
 
 const { adjustAnimationTime } = imports.ui.environment;
 
-const SCREENSAVER_SCHEMA = 'org.gnome.desktop.screensaver';
+const SCREENSAVER_SCHEMA = 'io.github.scarecrow-de.desktop.screensaver';
 const LOCK_ENABLED_KEY = 'lock-enabled';
 const LOCK_DELAY_KEY = 'lock-delay';
 
-const LOCKDOWN_SCHEMA = 'org.gnome.desktop.lockdown';
+const LOCKDOWN_SCHEMA = 'io.github.scarecrow-de.desktop.lockdown';
 const DISABLE_LOCK_KEY = 'disable-lock-screen';
 
 const LOCKED_STATE_STR = 'screenShield.locked';
@@ -35,10 +35,10 @@ var MANUAL_FADE_TIME = 300;
 var CURTAIN_SLIDE_TIME = 300;
 
 /**
- * If you are setting org.gnome.desktop.session.idle-delay directly in dconf,
+ * If you are setting io.github.scarecrow-de.desktop.session.idle-delay directly in dconf,
  * rather than through System Settings, you also need to set
- * org.gnome.settings-daemon.plugins.power.sleep-display-ac and
- * org.gnome.settings-daemon.plugins.power.sleep-display-battery to the same value.
+ * io.github.scarecrow-de.settings-daemon.plugins.power.sleep-display-ac and
+ * io.github.scarecrow-de.settings-daemon.plugins.power.sleep-display-battery to the same value.
  * This will ensure that the screen blanks at the right time when it fades out.
  * https://bugzilla.gnome.org/show_bug.cgi?id=668703 explains the dependency.
  */

@@ -10,7 +10,7 @@ const ParentalControlsManager = imports.misc.parentalControlsManager;
 const RemoteSearch = imports.ui.remoteSearch;
 const Util = imports.misc.util;
 
-const SEARCH_PROVIDERS_SCHEMA = 'org.gnome.desktop.search-providers';
+const SEARCH_PROVIDERS_SCHEMA = 'io.github.scarecrow-de.desktop.search-providers';
 
 var MAX_LIST_SEARCH_RESULTS_ROWS = 5;
 

@@ -35,7 +35,7 @@ var StreamSlider = class {
 
         this._slider = new Slider.Slider(0);
 
-        this._soundSettings = new Gio.Settings({ schema_id: 'org.gnome.desktop.sound' });
+        this._soundSettings = new Gio.Settings({ schema_id: 'io.github.scarecrow-de.desktop.sound' });
         this._soundSettings.connect('changed::%s'.format(ALLOW_AMPLIFIED_VOLUME_KEY), this._amplifySettingsChanged.bind(this));
         this._amplifySettingsChanged();
 
@@ -293,7 +293,7 @@ var InputStreamSlider = class extends StreamSlider {
             // skip gnome-volume-control and pavucontrol which appear
             // as recording because they show the input level
             let skippedApps = [
-                'org.gnome.VolumeControl',
+                'io.github.scarecrow-de.VolumeControl',
                 'org.PulseAudio.pavucontrol',
             ];
 

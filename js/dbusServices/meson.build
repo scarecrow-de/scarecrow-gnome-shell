@@ -4,13 +4,13 @@ launcherconf.set('prefix', prefix)
 launcherconf.set('libdir', libdir)
 
 dbus_services = {
-  'org.gnome.Shell.Extensions': 'extensions',
-  'org.gnome.Shell.Notifications': 'notifications',
+  'io.github.scarecrow-de.Shell.Extensions': 'extensions',
+  'io.github.scarecrow-de.Shell.Notifications': 'notifications',
 }
 
 if enable_recorder
   dbus_services += {
-    'org.gnome.Shell.Screencast': 'screencast',
+    'io.github.scarecrow-de.Shell.Screencast': 'screencast',
   }
 endif
 
