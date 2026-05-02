@@ -115,7 +115,7 @@ async function run() {
     Scripting.scriptEvent('desktopShown');
 
     let interfaceSettings = new Gio.Settings({
-        schema_id: 'io.github.scarecrow-de.desktop.interface',
+        schema_id: 'io.github.scarecrow_de.desktop.interface',
     });
     interfaceSettings.set_boolean('enable-animations', false);
 
@@ -188,7 +188,7 @@ async function run() {
     await Scripting.sleep(1000);
 
     let appSys = Shell.AppSystem.get_default();
-    let app = appSys.lookup_app('io.github.scarecrow-de.gedit.desktop');
+    let app = appSys.lookup_app('io.github.scarecrow_de.gedit.desktop');
 
     Scripting.scriptEvent('geditLaunch');
     app.activate();

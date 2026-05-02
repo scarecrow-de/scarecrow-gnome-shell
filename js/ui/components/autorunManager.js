@@ -10,7 +10,7 @@ const MessageTray = imports.ui.messageTray;
 const { loadInterfaceXML } = imports.misc.fileUtils;
 
 // GSettings keys
-const SETTINGS_SCHEMA = 'io.github.scarecrow-de.desktop.media-handling';
+const SETTINGS_SCHEMA = 'io.github.scarecrow_de.desktop.media-handling';
 const SETTING_DISABLE_AUTORUN = 'autorun-never';
 const SETTING_START_APP = 'autorun-x-content-start-app';
 const SETTING_IGNORE = 'autorun-x-content-ignore';
@@ -72,12 +72,12 @@ function startAppForMount(app, mount) {
     return retval;
 }
 
-const HotplugSnifferIface = loadInterfaceXML('io.github.scarecrow-de.Shell.HotplugSniffer');
+const HotplugSnifferIface = loadInterfaceXML('io.github.scarecrow_de.Shell.HotplugSniffer');
 const HotplugSnifferProxy = Gio.DBusProxy.makeProxyWrapper(HotplugSnifferIface);
 function HotplugSniffer() {
     return new HotplugSnifferProxy(Gio.DBus.session,
-                                   'io.github.scarecrow-de.Shell.HotplugSniffer',
-                                   '/io/github/scarecrow-de/Shell/HotplugSniffer');
+                                   'io.github.scarecrow_de.Shell.HotplugSniffer',
+                                   '/io/github/scarecrow_de/Shell/HotplugSniffer');
 }
 
 var ContentTypeDiscoverer = class {
@@ -292,7 +292,7 @@ class AutorunSource extends MessageTray.Source {
     }
 
     _createPolicy() {
-        return new MessageTray.NotificationApplicationPolicy('io.github.scarecrow-de.Nautilus');
+        return new MessageTray.NotificationApplicationPolicy('io.github.scarecrow_de.Nautilus');
     }
 });
 

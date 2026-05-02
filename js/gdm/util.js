@@ -28,7 +28,7 @@ var SMARTCARD_SERVICE_NAME = 'gdm-smartcard';
 var FADE_ANIMATION_TIME = 160;
 var CLONE_FADE_ANIMATION_TIME = 250;
 
-var LOGIN_SCREEN_SCHEMA = 'io.github.scarecrow-de.login-screen';
+var LOGIN_SCREEN_SCHEMA = 'io.github.scarecrow_de.login-screen';
 var PASSWORD_AUTHENTICATION_KEY = 'enable-password-authentication';
 var FINGERPRINT_AUTHENTICATION_KEY = 'enable-fingerprint-authentication';
 var SMARTCARD_AUTHENTICATION_KEY = 'enable-smartcard-authentication';

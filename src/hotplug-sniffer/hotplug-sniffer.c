@@ -26,12 +26,12 @@
 /* Set the environment variable HOTPLUG_SNIFFER_DEBUG to show debug */
 static void print_debug (const gchar *str, ...);
 
-#define BUS_NAME "io.github.scarecrow-de.Shell.HotplugSniffer"
+#define BUS_NAME "io.github.scarecrow_de.Shell.HotplugSniffer"
 #define AUTOQUIT_TIMEOUT 5
 
 static const gchar introspection_xml[] =
   "<node>"
-  "  <interface name='io.github.scarecrow-de.Shell.HotplugSniffer'>"
+  "  <interface name='io.github.scarecrow_de.Shell.HotplugSniffer'>"
   "    <method name='SniffURI'>"
   "      <arg type='s' name='uri' direction='in'/>"
   "      <arg type='as' name='content_types' direction='out'/>"
@@ -192,7 +192,7 @@ on_bus_acquired (GDBusConnection *connection,
   print_debug ("Connected to the session bus: %s", name);
 
   g_dbus_connection_register_object (connection,
-                                     "/io/github/scarecrow-de/Shell/HotplugSniffer",
+                                     "/io/github/scarecrow_de/Shell/HotplugSniffer",
                                      introspection_data->interfaces[0],
                                      &interface_vtable,
                                      NULL,

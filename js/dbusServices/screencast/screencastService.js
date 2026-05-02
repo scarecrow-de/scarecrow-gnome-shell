@@ -8,17 +8,17 @@ const { Gio, GLib, Gst, Gtk } = imports.gi;
 const { loadInterfaceXML, loadSubInterfaceXML } = imports.misc.fileUtils;
 const { ServiceImplementation } = imports.dbusService;
 
-const ScreencastIface = loadInterfaceXML('io.github.scarecrow-de.Shell.Screencast');
+const ScreencastIface = loadInterfaceXML('io.github.scarecrow_de.Shell.Screencast');
 
-const IntrospectIface = loadInterfaceXML('io.github.scarecrow-de.Shell.Introspect');
+const IntrospectIface = loadInterfaceXML('io.github.scarecrow_de.Shell.Introspect');
 const IntrospectProxy = Gio.DBusProxy.makeProxyWrapper(IntrospectIface);
 
 const ScreenCastIface = loadSubInterfaceXML(
-    'io.github.scarecrow-de.Mutter.ScreenCast', 'io.github.scarecrow-de.Mutter.ScreenCast');
+    'io.github.scarecrow_de.Mutter.ScreenCast', 'io.github.scarecrow_de.Mutter.ScreenCast');
 const ScreenCastSessionIface = loadSubInterfaceXML(
-    'io.github.scarecrow-de.Mutter.ScreenCast.Session', 'io.github.scarecrow-de.Mutter.ScreenCast');
+    'io.github.scarecrow_de.Mutter.ScreenCast.Session', 'io.github.scarecrow_de.Mutter.ScreenCast');
 const ScreenCastStreamIface = loadSubInterfaceXML(
-    'io.github.scarecrow-de.Mutter.ScreenCast.Stream', 'io.github.scarecrow-de.Mutter.ScreenCast');
+    'io.github.scarecrow_de.Mutter.ScreenCast.Stream', 'io.github.scarecrow_de.Mutter.ScreenCast');
 const ScreenCastProxy = Gio.DBusProxy.makeProxyWrapper(ScreenCastIface);
 const ScreenCastSessionProxy = Gio.DBusProxy.makeProxyWrapper(ScreenCastSessionIface);
 const ScreenCastStreamProxy = Gio.DBusProxy.makeProxyWrapper(ScreenCastStreamIface);
@@ -130,7 +130,7 @@ var Recorder = class {
 
     _initSession(sessionPath) {
         this._sessionProxy = new ScreenCastSessionProxy(Gio.DBus.session,
-            'io.github.scarecrow-de.Mutter.ScreenCast',
+            'io.github.scarecrow_de.Mutter.ScreenCast',
             sessionPath);
         this._sessionProxy.connectSignal('Closed', this._onSessionClosed.bind(this));
     }
@@ -160,7 +160,7 @@ var Recorder = class {
             });
 
         this._streamProxy = new ScreenCastStreamProxy(Gio.DBus.session,
-            'io.github.scarecrow-de.ScreenCast.Stream',
+            'io.github.scarecrow_de.ScreenCast.Stream',
             streamPath);
 
         this._streamProxy.connectSignal('PipeWireStreamAdded',
@@ -243,7 +243,7 @@ var Recorder = class {
 
 var ScreencastService = class extends ServiceImplementation {
     constructor() {
-        super(ScreencastIface, '/io/github/scarecrow-de/Shell/Screencast');
+        super(ScreencastIface, '/io/github/scarecrow_de/Shell/Screencast');
 
         Gst.init(null);
         Gtk.init(null);
@@ -252,16 +252,16 @@ var ScreencastService = class extends ServiceImplementation {
         this._senders = new Map();
 
         this._lockdownSettings = new Gio.Settings({
-            schema_id: 'io.github.scarecrow-de.desktop.lockdown',
+            schema_id: 'io.github.scarecrow_de.desktop.lockdown',
         });
 
         this._proxy = new ScreenCastProxy(Gio.DBus.session,
-            'io.github.scarecrow-de.Mutter.ScreenCast',
-            '/io/github/scarecrow-de/Mutter/ScreenCast');
+            'io.github.scarecrow_de.Mutter.ScreenCast',
+            '/io/github/scarecrow_de/Mutter/ScreenCast');
 
         this._introspectProxy = new IntrospectProxy(Gio.DBus.session,
-            'io.github.scarecrow-de.Shell.Introspect',
-            '/io/github/scarecrow-de/Shell/Introspect');
+            'io.github.scarecrow_de.Shell.Introspect',
+            '/io/github/scarecrow_de/Shell/Introspect');
     }
 
     _removeRecorder(sender) {

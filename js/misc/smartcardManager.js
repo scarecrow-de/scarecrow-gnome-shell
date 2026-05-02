@@ -8,7 +8,7 @@ const ObjectManager = imports.misc.objectManager;
 
 const SmartcardTokenIface = `
 <node>
-<interface name="io.github.scarecrow-de.SettingsDaemon.Smartcard.Token">
+<interface name="io.github.scarecrow_de.SettingsDaemon.Smartcard.Token">
   <property name="Name" type="s" access="read"/>
   <property name="Driver" type="o" access="read"/>
   <property name="IsInserted" type="b" access="read"/>
@@ -28,8 +28,8 @@ function getSmartcardManager() {
 var SmartcardManager = class {
     constructor() {
         this._objectManager = new ObjectManager.ObjectManager({ connection: Gio.DBus.session,
-                                                                name: "io.github.scarecrow-de.SettingsDaemon.Smartcard",
-                                                                objectPath: '/io/github/scarecrow-de/SettingsDaemon/Smartcard',
+                                                                name: "io.github.scarecrow_de.SettingsDaemon.Smartcard",
+                                                                objectPath: '/io/github/scarecrow_de/SettingsDaemon/Smartcard',
                                                                 knownInterfaces: [SmartcardTokenIface],
                                                                 onLoaded: this._onLoaded.bind(this) });
         this._insertedTokens = {};
@@ -37,18 +37,18 @@ var SmartcardManager = class {
     }
 
     _onLoaded() {
-        let tokens = this._objectManager.getProxiesForInterface('io.github.scarecrow-de.SettingsDaemon.Smartcard.Token');
+        let tokens = this._objectManager.getProxiesForInterface('io.github.scarecrow_de.SettingsDaemon.Smartcard.Token');
 
         for (let i = 0; i < tokens.length; i++)
             this._addToken(tokens[i]);
 
         this._objectManager.connect('interface-added', (objectManager, interfaceName, proxy) => {
-            if (interfaceName == 'io.github.scarecrow-de.SettingsDaemon.Smartcard.Token')
+            if (interfaceName == 'io.github.scarecrow_de.SettingsDaemon.Smartcard.Token')
                 this._addToken(proxy);
         });
 
         this._objectManager.connect('interface-removed', (objectManager, interfaceName, proxy) => {
-            if (interfaceName == 'io.github.scarecrow-de.SettingsDaemon.Smartcard.Token')
+            if (interfaceName == 'io.github.scarecrow_de.SettingsDaemon.Smartcard.Token')
                 this._removeToken(proxy);
         });
     }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/io/github/scarecrow-de/shell">
+  <gresource prefix="/io/github/scarecrow_de/Shell">
     <file>gdm/authPrompt.js</file>
     <file>gdm/batch.js</file>
     <file>gdm/fingerprint.js</file>

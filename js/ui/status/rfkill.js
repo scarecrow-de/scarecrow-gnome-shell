@@ -10,10 +10,10 @@ const PopupMenu = imports.ui.popupMenu;
 
 const { loadInterfaceXML } = imports.misc.fileUtils;
 
-const BUS_NAME = 'io.github.scarecrow-de.SettingsDaemon.Rfkill';
-const OBJECT_PATH = '/io/github/scarecrow-de/SettingsDaemon/Rfkill';
+const BUS_NAME = 'io.github.scarecrow_de.SettingsDaemon.Rfkill';
+const OBJECT_PATH = '/io/github/scarecrow_de/SettingsDaemon/Rfkill';
 
-const RfkillManagerInterface = loadInterfaceXML('io.github.scarecrow-de.SettingsDaemon.Rfkill');
+const RfkillManagerInterface = loadInterfaceXML('io.github.scarecrow_de.SettingsDaemon.Rfkill');
 const RfkillManagerProxy = Gio.DBusProxy.makeProxyWrapper(RfkillManagerInterface);
 
 var RfkillManager = class {

@@ -1,0 +1,10 @@
+[Unit]
+Description=Scarecrow Shell
+DefaultDependencies=no
+
+Requisite=gnome-session-initialized.target
+PartOf=gnome-session-initialized.target
+Before=gnome-session-initialized.target
+
+Wants=io.github.scarecrow_de.Shell@wayland.service
+Wants=io.github.scarecrow_de.Shell@x11.service

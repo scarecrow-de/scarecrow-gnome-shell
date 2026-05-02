@@ -210,7 +210,7 @@ class KeyringPrompter extends Gcr.SystemPrompter {
     enable() {
         if (!this._registered) {
             this.register(Gio.DBus.session);
-            this._dbusId = Gio.DBus.session.own_name('io.github.scarecrow-de.keyring.SystemPrompter',
+            this._dbusId = Gio.DBus.session.own_name('io.github.scarecrow_de.keyring.SystemPrompter',
                                                      Gio.BusNameOwnerFlags.ALLOW_REPLACEMENT, null, null);
             this._registered = true;
         }

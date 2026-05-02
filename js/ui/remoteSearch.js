@@ -9,7 +9,7 @@ const KEY_FILE_GROUP = 'Shell Search Provider';
 
 const SearchProviderIface = `
 <node>
-<interface name="io.github.scarecrow-de.Shell.SearchProvider">
+<interface name="io.github.scarecrow_de.Shell.SearchProvider">
 <method name="GetInitialResultSet">
     <arg type="as" direction="in" />
     <arg type="as" direction="out" />
@@ -31,7 +31,7 @@ const SearchProviderIface = `
 
 const SearchProvider2Iface = `
 <node>
-<interface name="io.github.scarecrow-de.Shell.SearchProvider2">
+<interface name="io.github.scarecrow_de.Shell.SearchProvider2">
 <method name="GetInitialResultSet">
     <arg type="as" direction="in" />
     <arg type="as" direction="out" />

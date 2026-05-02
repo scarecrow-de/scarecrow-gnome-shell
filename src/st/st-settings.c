@@ -354,15 +354,15 @@ on_a11y_settings_changed (GSettings   *g_settings,
 static void
 st_settings_init (StSettings *settings)
 {
-  settings->interface_settings = g_settings_new ("io.github.scarecrow-de.desktop.interface");
+  settings->interface_settings = g_settings_new ("io.github.scarecrow_de.desktop.interface");
   g_signal_connect (settings->interface_settings, "changed",
                     G_CALLBACK (on_interface_settings_changed), settings);
 
-  settings->mouse_settings = g_settings_new ("io.github.scarecrow-de.settings-daemon.peripherals.mouse");
+  settings->mouse_settings = g_settings_new ("io.github.scarecrow_de.settings-daemon.peripherals.mouse");
   g_signal_connect (settings->interface_settings, "changed",
                     G_CALLBACK (on_mouse_settings_changed), settings);
 
-  settings->a11y_settings = g_settings_new ("io.github.scarecrow-de.desktop.a11y.applications");
+  settings->a11y_settings = g_settings_new ("io.github.scarecrow_de.desktop.a11y.applications");
   g_signal_connect (settings->a11y_settings, "changed",
                     G_CALLBACK (on_a11y_settings_changed), settings);
 

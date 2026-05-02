@@ -296,7 +296,7 @@ var PadDiagram = GObject.registerClass({
     },
 }, class PadDiagram extends St.DrawingArea {
     _init(params) {
-        let file = Gio.File.new_for_uri('resource:///io/github/scarecrow-de/shell/theme/pad-osd.css');
+        let file = Gio.File.new_for_uri('resource:///io/github/scarecrow_de/Shell/theme/pad-osd.css');
         let [success_, css] = file.load_contents(null);
         css = ByteArray.toString(css);
         this._curEdited = null;
@@ -903,7 +903,7 @@ var PadOsd = GObject.registerClass({
         this._editedAction = { type, number, dir, mode };
 
         let settingsPath = this._settings.path + key + '/';
-        this._editedActionSettings = Gio.Settings.new_with_path('io.github.scarecrow-de.desktop.peripherals.tablet.pad-button',
+        this._editedActionSettings = Gio.Settings.new_with_path('io.github.scarecrow_de.desktop.peripherals.tablet.pad-button',
                                                                 settingsPath);
         this._actionEditor.setSettings(this._editedActionSettings, type);
         this._padDiagram.startEdition(type, number, dir);
@@ -958,13 +958,13 @@ var PadOsd = GObject.registerClass({
     }
 });
 
-const PadOsdIface = loadInterfaceXML('io.github.scarecrow-de.Shell.Wacom.PadOsd');
+const PadOsdIface = loadInterfaceXML('io.github.scarecrow_de.Shell.Wacom.PadOsd');
 
 var PadOsdService = class {
     constructor() {
         this._dbusImpl = Gio.DBusExportedObject.wrapJSObject(PadOsdIface, this);
-        this._dbusImpl.export(Gio.DBus.session, '/io/github/scarecrow-de/Shell/Wacom');
-        Gio.DBus.session.own_name('io.github.scarecrow-de.Shell.Wacom.PadOsd', Gio.BusNameOwnerFlags.REPLACE, null, null);
+        this._dbusImpl.export(Gio.DBus.session, '/io/github/scarecrow_de/Shell/Wacom');
+        Gio.DBus.session.own_name('io.github.scarecrow_de.Shell.Wacom.PadOsd', Gio.BusNameOwnerFlags.REPLACE, null, null);
     }
 
     ShowAsync(params, invocation) {

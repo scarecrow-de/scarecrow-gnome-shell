@@ -47,7 +47,7 @@ const LocatePointer = imports.ui.locatePointer;
 const PointerA11yTimeout = imports.ui.pointerA11yTimeout;
 const ParentalControlsManager = imports.misc.parentalControlsManager;
 
-const A11Y_SCHEMA = 'io.github.scarecrow-de.desktop.a11y.keyboard';
+const A11Y_SCHEMA = 'io.github.scarecrow_de.desktop.a11y.keyboard';
 const STICKY_KEYS_ENABLE = 'stickykeys-enable';
 const LOG_DOMAIN = 'Scarecrow Shell';
 const GNOMESHELL_STARTED_MESSAGE_ID = 'f3ea493c22934e26811cd62abe8e203a';
@@ -163,7 +163,7 @@ function start() {
     shellDBusService = new ShellDBus.GnomeShell();
     shellMountOpDBusService = new ShellMountOperation.GnomeShellMountOpHandler();
 
-    const watchId = Gio.DBus.session.watch_name('io.github.scarecrow-de.Shell.Notifications',
+    const watchId = Gio.DBus.session.watch_name('io.github.scarecrow_de.Shell.Notifications',
         Gio.BusNameWatcherFlags.AUTO_START,
         bus => bus.unwatch_name(watchId),
         bus => bus.unwatch_name(watchId));
@@ -339,7 +339,7 @@ async function _handleLockScreenWarning() {
 function _getStylesheet(name) {
     let stylesheet;
 
-    stylesheet = Gio.File.new_for_uri('resource:///io/github/scarecrow-de/shell/theme/%s'.format(name));
+    stylesheet = Gio.File.new_for_uri('resource:///io/github/scarecrow_de/Shell/theme/%s'.format(name));
     if (stylesheet.query_exists(null))
         return stylesheet;
 

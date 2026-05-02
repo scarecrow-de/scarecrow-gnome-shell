@@ -62,10 +62,10 @@ function waitLeisure() {
     });
 }
 
-const PerfHelperIface = loadInterfaceXML('io.github.scarecrow-de.Shell.PerfHelper');
+const PerfHelperIface = loadInterfaceXML('io.github.scarecrow_de.Shell.PerfHelper');
 var PerfHelperProxy = Gio.DBusProxy.makeProxyWrapper(PerfHelperIface);
 function PerfHelper() {
-    return new PerfHelperProxy(Gio.DBus.session, 'io.github.scarecrow-de.Shell.PerfHelper', '/io/github/scarecrow-de/Shell/PerfHelper');
+    return new PerfHelperProxy(Gio.DBus.session, 'io.github.scarecrow_de.Shell.PerfHelper', '/io/github/scarecrow_de/Shell/PerfHelper');
 }
 
 let _perfHelper = null;
@@ -344,7 +344,7 @@ function runPerfScript(scriptModule, outputFile) {
     _spawnPerfHelper();
 
     Gio.bus_watch_name(Gio.BusType.SESSION,
-        'io.github.scarecrow-de.Shell.PerfHelper',
+        'io.github.scarecrow_de.Shell.PerfHelper',
         Gio.BusNameWatcherFlags.NONE,
         () => _runPerfScript(scriptModule, outputFile),
         null);

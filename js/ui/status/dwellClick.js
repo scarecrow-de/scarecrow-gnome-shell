@@ -4,7 +4,7 @@ const { Clutter, Gio, GLib, GObject, St } = imports.gi;
 const PanelMenu = imports.ui.panelMenu;
 const PopupMenu = imports.ui.popupMenu;
 
-const MOUSE_A11Y_SCHEMA       = 'io.github.scarecrow-de.desktop.a11y.mouse';
+const MOUSE_A11Y_SCHEMA       = 'io.github.scarecrow_de.desktop.a11y.mouse';
 const KEY_DWELL_CLICK_ENABLED = 'dwell-click-enabled';
 const KEY_DWELL_MODE          = 'dwell-mode';
 const DWELL_MODE_WINDOW       = 'window';

@@ -1,0 +1,13 @@
+<node>
+  <interface name="io.github.scarecrow_de.Shell.PerfHelper">
+    <method name="CreateWindow">
+      <arg type="i" direction="in"/>
+      <arg type="i" direction="in"/>
+      <arg type="b" direction="in"/>
+      <arg type="b" direction="in"/>
+      <arg type="b" direction="in"/>
+    </method>
+    <method name="WaitWindows"/>
+    <method name="DestroyWindows"/>
+  </interface>
+</node>

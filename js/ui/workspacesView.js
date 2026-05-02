@@ -16,7 +16,7 @@ var AnimationType = {
     FADE: 1,
 };
 
-const MUTTER_SCHEMA = 'io.github.scarecrow-de.mutter';
+const MUTTER_SCHEMA = 'io.github.scarecrow_de.mutter';
 
 var WorkspacesViewBase = GObject.registerClass({
     GTypeFlags: GObject.TypeFlags.ABSTRACT,

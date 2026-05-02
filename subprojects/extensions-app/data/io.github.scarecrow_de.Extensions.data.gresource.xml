@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/io/github/scarecrow_de/Extensions">
+    <file>css/application.css</file>
+
+    <file>dbus-interfaces/io.github.scarecrow_de.Shell.Extensions.xml</file>
+
+    <file>ui/extension-row.ui</file>
+    <file>ui/extensions-window.ui</file>
+  </gresource>
+</gresources>

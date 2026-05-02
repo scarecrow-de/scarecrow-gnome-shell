@@ -6,16 +6,16 @@ openPrefs() {
     gnome-extensions prefs $1
   else
     gdbus call --session \
-      --dest=io.github.scarecrow-de.Shell.Extensions \
-      --object-path=/io/github/scarecrow-de/Shell/Extensions \
-      --method=io.github.scarecrow-de.Shell.Extensions.OpenExtensionPrefs $1 '' '{}'
+      --dest=io.github.scarecrow_de.Shell.Extensions \
+      --object-path=/io/github/scarecrow_de/Shell/Extensions \
+      --method=io.github.scarecrow_de.Shell.Extensions.OpenExtensionPrefs $1 '' '{}'
   fi
 }
 
 cat >&2 <<EOT
 scarecrow-shell-extension-prefs is deprecated
 
-Install https://flathub.org/apps/details/io.github.scarecrow-de.Extensions for extension
+Install https://flathub.org/apps/details/io.github.scarecrow_de.Extensions for extension
 management, or use the gnome-extensions command line tool.
 
 Extensions can use the ExtensionUtils.openPrefs() method.
@@ -27,5 +27,5 @@ if [ "$UUID" ]
 then
   openPrefs $UUID
 else
-  gapplication launch io.github.scarecrow-de.Extensions
+  gapplication launch io.github.scarecrow_de.Extensions
 fi

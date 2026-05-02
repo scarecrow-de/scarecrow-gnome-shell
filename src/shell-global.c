@@ -375,7 +375,7 @@ shell_global_init (ShellGlobal *global)
   global->runtime_state_path = g_file_new_for_path (path);
   g_free (path);
 
-  global->settings = g_settings_new ("io.github.scarecrow-de.shell");
+  global->settings = g_settings_new ("io.github.scarecrow_de.Shell");
 
   if (shell_js)
     {
@@ -410,7 +410,7 @@ shell_global_init (ShellGlobal *global)
   else
     {
       search_path = g_malloc0 (2 * sizeof (char *));
-      search_path[0] = g_strdup ("resource:///io/github/scarecrow-de/shell");
+      search_path[0] = g_strdup ("resource:///io/github/scarecrow_de/Shell");
     }
 
   global->js_context = g_object_new (GJS_TYPE_CONTEXT,

@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=io.github.scarecrow-de.Shell.HotplugSniffer
-Exec=@libexecdir@/scarecrow-shell-hotplug-sniffer

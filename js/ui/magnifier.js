@@ -17,7 +17,7 @@ var NO_CHANGE = 0.0;
 var POINTER_REST_TIME = 1000; // milliseconds
 
 // Settings
-const MAGNIFIER_SCHEMA          = 'io.github.scarecrow-de.desktop.a11y.magnifier';
+const MAGNIFIER_SCHEMA          = 'io.github.scarecrow_de.desktop.a11y.magnifier';
 const SCREEN_POSITION_KEY       = 'screen-position';
 const MAG_FACTOR_KEY            = 'mag-factor';
 const INVERT_LIGHTNESS_KEY      = 'invert-lightness';

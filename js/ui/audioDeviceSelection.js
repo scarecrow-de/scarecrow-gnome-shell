@@ -13,7 +13,7 @@ var AudioDevice = {
     MICROPHONE: 1 << 2,
 };
 
-const AudioDeviceSelectionIface = loadInterfaceXML('io.github.scarecrow-de.Shell.AudioDeviceSelection');
+const AudioDeviceSelectionIface = loadInterfaceXML('io.github.scarecrow_de.Shell.AudioDeviceSelection');
 
 var AudioDeviceSelectionDialog = GObject.registerClass({
     Signals: { 'device-selected': { param_types: [GObject.TYPE_UINT] } },
@@ -140,9 +140,9 @@ var AudioDeviceSelectionDBus = class AudioDeviceSelectionDBus {
         this._audioSelectionDialog = null;
 
         this._dbusImpl = Gio.DBusExportedObject.wrapJSObject(AudioDeviceSelectionIface, this);
-        this._dbusImpl.export(Gio.DBus.session, '/io/github/scarecrow-de/Shell/AudioDeviceSelection');
+        this._dbusImpl.export(Gio.DBus.session, '/io/github/scarecrow_de/Shell/AudioDeviceSelection');
 
-        Gio.DBus.session.own_name('io.github.scarecrow-de.Shell.AudioDeviceSelection', Gio.BusNameOwnerFlags.REPLACE, null, null);
+        Gio.DBus.session.own_name('io.github.scarecrow_de.Shell.AudioDeviceSelection', Gio.BusNameOwnerFlags.REPLACE, null, null);
     }
 
     _onDialogClosed() {

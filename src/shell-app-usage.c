@@ -39,7 +39,7 @@
  * minutes to signify idle.
  */
 
-#define PRIVACY_SCHEMA "io.github.scarecrow-de.desktop.privacy"
+#define PRIVACY_SCHEMA "io.github.scarecrow_de.desktop.privacy"
 #define ENABLE_MONITORING_KEY "remember-app-usage"
 
 #define FOCUS_TIME_MIN_SECONDS 7 /* Need 7 continuous seconds of focus */
@@ -71,7 +71,7 @@
  * remove it */
 #define SCORE_MIN (SCORE_MAX >> 3)
 
-/* http://www.gnome.org/~mccann/gnome-session/docs/gnome-session.html#io.github.scarecrow-de.SessionManager.Presence */
+/* http://www.gnome.org/~mccann/gnome-session/docs/gnome-session.html#io.github.scarecrow_de.SessionManager.Presence */
 #define GNOME_SESSION_STATUS_IDLE 3
 
 typedef struct UsageData UsageData;
@@ -297,9 +297,9 @@ shell_app_usage_init (ShellAppUsage *self)
   self->session_proxy = g_dbus_proxy_new_sync (session_bus,
                                                G_DBUS_PROXY_FLAGS_NONE,
                                                NULL, /* interface info */
-                                               "io.github.scarecrow-de.SessionManager",
-                                               "/io/github/scarecrow-de/SessionManager/Presence",
-                                               "io.github.scarecrow-de.SessionManager",
+                                               "io.github.scarecrow_de.SessionManager",
+                                               "/io/github/scarecrow_de/SessionManager/Presence",
+                                               "io.github.scarecrow_de.SessionManager",
                                                NULL, /* cancellable */
                                                NULL /* error */);
   g_signal_connect (self->session_proxy, "g-signal", G_CALLBACK (session_proxy_signal), self);

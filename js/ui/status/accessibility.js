@@ -6,23 +6,23 @@ const { Gio, GLib, GObject, St } = imports.gi;
 const PanelMenu = imports.ui.panelMenu;
 const PopupMenu = imports.ui.popupMenu;
 
-const A11Y_SCHEMA                   = 'io.github.scarecrow-de.desktop.a11y';
+const A11Y_SCHEMA                   = 'io.github.scarecrow_de.desktop.a11y';
 const KEY_ALWAYS_SHOW               = 'always-show-universal-access-status';
 
-const A11Y_KEYBOARD_SCHEMA          = 'io.github.scarecrow-de.desktop.a11y.keyboard';
+const A11Y_KEYBOARD_SCHEMA          = 'io.github.scarecrow_de.desktop.a11y.keyboard';
 const KEY_STICKY_KEYS_ENABLED       = 'stickykeys-enable';
 const KEY_BOUNCE_KEYS_ENABLED       = 'bouncekeys-enable';
 const KEY_SLOW_KEYS_ENABLED         = 'slowkeys-enable';
 const KEY_MOUSE_KEYS_ENABLED        = 'mousekeys-enable';
 
-const APPLICATIONS_SCHEMA           = 'io.github.scarecrow-de.desktop.a11y.applications';
+const APPLICATIONS_SCHEMA           = 'io.github.scarecrow_de.desktop.a11y.applications';
 
 var DPI_FACTOR_LARGE              = 1.25;
 
-const WM_SCHEMA                     = 'io.github.scarecrow-de.desktop.wm.preferences';
+const WM_SCHEMA                     = 'io.github.scarecrow_de.desktop.wm.preferences';
 const KEY_VISUAL_BELL               = 'visual-bell';
 
-const DESKTOP_INTERFACE_SCHEMA      = 'io.github.scarecrow-de.desktop.interface';
+const DESKTOP_INTERFACE_SCHEMA      = 'io.github.scarecrow_de.desktop.interface';
 const KEY_GTK_THEME                 = 'gtk-theme';
 const KEY_ICON_THEME                = 'icon-theme';
 const KEY_TEXT_SCALING_FACTOR       = 'text-scaling-factor';

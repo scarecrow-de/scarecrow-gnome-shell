@@ -12,7 +12,7 @@
 int
 main (int argc, char *argv[])
 {
-  const char *search_path[] = { "resource:///io/github/scarecrow-de/shell", NULL };
+  const char *search_path[] = { "resource:///io/github/scarecrow_de/Shell", NULL };
   GError *error = NULL;
   GjsContext *context;
   int status;

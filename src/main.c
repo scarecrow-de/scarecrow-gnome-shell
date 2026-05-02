@@ -26,8 +26,8 @@
 
 extern GType gnome_shell_plugin_get_type (void);
 
-#define SHELL_DBUS_SERVICE "io.github.scarecrow-de.Shell"
-#define MAGNIFIER_DBUS_SERVICE "io.github.scarecrow-de.Magnifier"
+#define SHELL_DBUS_SERVICE "io.github.scarecrow_de.Shell"
+#define MAGNIFIER_DBUS_SERVICE "io.github.scarecrow_de.Magnifier"
 
 #define WM_NAME "Scarecrow Shell"
 #define GNOME_WM_KEYBINDINGS "Mutter,Scarecrow Shell"
@@ -157,9 +157,9 @@ shell_dbus_init (gboolean replace)
 
   shell_dbus_acquire_names (bus,
                             request_name_flags,
-  /* Also grab io.github.scarecrow-de.Panel to replace any existing panel process */
-                            "io.github.scarecrow-de.Panel", TRUE,
-  /* ...and the io.github.scarecrow-de.Magnifier service. */
+  /* Also grab io.github.scarecrow_de.Panel to replace any existing panel process */
+                            "io.github.scarecrow_de.Panel", TRUE,
+  /* ...and the io.github.scarecrow_de.Magnifier service. */
                             MAGNIFIER_DBUS_SERVICE, FALSE,
                             NULL);
   g_object_unref (bus);

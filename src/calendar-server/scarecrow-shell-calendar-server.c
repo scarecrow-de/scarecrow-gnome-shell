@@ -41,11 +41,11 @@ G_GNUC_END_IGNORE_DEPRECATIONS
 
 #include "calendar-sources.h"
 
-#define BUS_NAME "io.github.scarecrow-de.Shell.CalendarServer"
+#define BUS_NAME "io.github.scarecrow_de.Shell.CalendarServer"
 
 static const gchar introspection_xml[] =
   "<node>"
-  "  <interface name='io.github.scarecrow-de.Shell.CalendarServer'>"
+  "  <interface name='io.github.scarecrow_de.Shell.CalendarServer'>"
   "    <method name='SetTimeRange'>"
   "      <arg type='x' name='since' direction='in'/>"
   "      <arg type='x' name='until' direction='in'/>"
@@ -411,8 +411,8 @@ app_notify_events_added (App *app)
 
   g_dbus_connection_emit_signal (app->connection,
                                  NULL, /* destination_bus_name */
-                                 "/io/github/scarecrow-de/Shell/CalendarServer",
-                                 "io.github.scarecrow-de.Shell.CalendarServer",
+                                 "/io/github/scarecrow_de/Shell/CalendarServer",
+                                 "io.github.scarecrow_de.Shell.CalendarServer",
                                  "EventsAddedOrUpdated",
                                  g_variant_new ("(a(ssbxxa{sv}))", &builder),
                                  NULL);
@@ -446,8 +446,8 @@ app_notify_events_removed (App *app)
 
   g_dbus_connection_emit_signal (app->connection,
                                  NULL, /* destination_bus_name */
-                                 "/io/github/scarecrow-de/Shell/CalendarServer",
-                                 "io.github.scarecrow-de.Shell.CalendarServer",
+                                 "/io/github/scarecrow_de/Shell/CalendarServer",
+                                 "io.github.scarecrow_de.Shell.CalendarServer",
                                  "EventsRemoved",
                                  g_variant_new ("(as)", &builder),
                                  NULL);
@@ -665,11 +665,11 @@ app_notify_has_calendars (App *app)
 
   g_dbus_connection_emit_signal (app->connection,
                                  NULL,
-                                 "/io/github/scarecrow-de/Shell/CalendarServer",
+                                 "/io/github/scarecrow_de/Shell/CalendarServer",
                                  "org.freedesktop.DBus.Properties",
                                  "PropertiesChanged",
                                  g_variant_new ("(sa{sv}as)",
-                                                "io.github.scarecrow-de.Shell.CalendarServer",
+                                                "io.github.scarecrow_de.Shell.CalendarServer",
                                                 &dict_builder,
                                                 NULL),
                                  NULL);
@@ -789,8 +789,8 @@ on_client_disappeared_cb (CalendarSources *sources,
 
           g_dbus_connection_emit_signal (app->connection,
                                          NULL, /* destination_bus_name */
-                                         "/io/github/scarecrow-de/Shell/CalendarServer",
-                                         "io.github.scarecrow-de.Shell.CalendarServer",
+                                         "/io/github/scarecrow_de/Shell/CalendarServer",
+                                         "io.github.scarecrow_de.Shell.CalendarServer",
                                          "ClientDisappeared",
                                          g_variant_new ("(s)", source_uid),
                                          NULL);
@@ -887,7 +887,7 @@ handle_method_call (GDBusConnection       *connection,
       if (until < since)
         {
           g_dbus_method_invocation_return_dbus_error (invocation,
-                                                      "io.github.scarecrow-de.Shell.CalendarServer.Error.Failed",
+                                                      "io.github.scarecrow_de.Shell.CalendarServer.Error.Failed",
                                                       "until cannot be before since");
           goto out;
         }
@@ -914,11 +914,11 @@ handle_method_call (GDBusConnection       *connection,
                                  "Since", g_variant_new_int64 (app->since));
           g_dbus_connection_emit_signal (app->connection,
                                          NULL, /* destination_bus_name */
-                                         "/io/github/scarecrow-de/Shell/CalendarServer",
+                                         "/io/github/scarecrow_de/Shell/CalendarServer",
                                          "org.freedesktop.DBus.Properties",
                                          "PropertiesChanged",
                                          g_variant_new ("(sa{sv}as)",
-                                                        "io.github.scarecrow-de.Shell.CalendarServer",
+                                                        "io.github.scarecrow_de.Shell.CalendarServer",
                                                         builder,
                                                         invalidated_builder),
                                          NULL); /* GError** */
@@ -992,7 +992,7 @@ on_bus_acquired (GDBusConnection *connection,
   _global_app = app_new (connection);
 
   registration_id = g_dbus_connection_register_object (connection,
-                                                       "/io/github/scarecrow-de/Shell/CalendarServer",
+                                                       "/io/github/scarecrow_de/Shell/CalendarServer",
                                                        introspection_data->interfaces[0],
                                                        &interface_vtable,
                                                        _global_app,

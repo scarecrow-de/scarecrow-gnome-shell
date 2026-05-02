@@ -4,7 +4,7 @@ const { Clutter, Gio, GObject } = imports.gi;
 const Dialog = imports.ui.dialog;
 const ModalDialog = imports.ui.modalDialog;
 
-const KEYBOARD_A11Y_SCHEMA    = 'io.github.scarecrow-de.desktop.a11y.keyboard';
+const KEYBOARD_A11Y_SCHEMA    = 'io.github.scarecrow_de.desktop.a11y.keyboard';
 const KEY_STICKY_KEYS_ENABLED = 'stickykeys-enable';
 const KEY_SLOW_KEYS_ENABLED   = 'slowkeys-enable';
 

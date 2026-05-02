@@ -14,7 +14,7 @@ function main() {
     pkg.initFormat();
 
     const service = new DBusService(
-        'io.github.scarecrow-de.Shell.Extensions',
+        'io.github.scarecrow_de.Shell.Extensions',
         new ExtensionsService());
     service.run();
 }

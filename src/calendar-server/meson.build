@@ -18,7 +18,7 @@ calendar_server = executable('scarecrow-shell-calendar-server', calendar_sources
   install: true
 )
 
-service_file = 'io.github.scarecrow-de.Shell.CalendarServer.service'
+service_file = 'io.github.scarecrow_de.Shell.CalendarServer.service'
 
 configure_file(
   input: service_file + '.in',

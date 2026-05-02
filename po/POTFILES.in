@@ -1,9 +1,9 @@
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
 data/50-scarecrow-shell-system.xml
-data/io.github.scarecrow-de.Shell.desktop.in.in
-data/io.github.scarecrow-de.shell.gschema.xml.in
-data/io.github.scarecrow-de.Shell.PortalHelper.desktop.in.in
+data/io.github.scarecrow_de.Shell.desktop.in.in
+data/io.github.scarecrow_de.shell.gschema.xml.in
+data/io.github.scarecrow_de.Shell.PortalHelper.desktop.in.in
 js/dbusServices/extensions/ui/extension-prefs-dialog.ui
 js/gdm/authPrompt.js
 js/gdm/loginDialog.js
@@ -78,8 +78,8 @@ src/shell-global.c
 src/shell-keyring-prompt.c
 src/shell-polkit-authentication-agent.c
 src/shell-util.c
-subprojects/extensions-app/data/metainfo/io.github.scarecrow-de.Extensions.metainfo.xml.in
-subprojects/extensions-app/data/io.github.scarecrow-de.Extensions.desktop.in.in
+subprojects/extensions-app/data/metainfo/io.github.scarecrow_de.Extensions.metainfo.xml.in
+subprojects/extensions-app/data/io.github.scarecrow_de.Extensions.desktop.in.in
 subprojects/extensions-app/js/main.js
 subprojects/extensions-app/data/ui/extension-row.ui
 subprojects/extensions-app/data/ui/extensions-window.ui

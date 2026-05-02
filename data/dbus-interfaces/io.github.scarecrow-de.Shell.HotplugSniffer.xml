@@ -1,8 +1,0 @@
-<node>
-  <interface name="io.github.scarecrow-de.Shell.HotplugSniffer">
-    <method name="SniffURI">
-      <arg type="s" direction="in"/>
-      <arg type="as" direction="out"/>
-    </method>
-  </interface>
-</node>

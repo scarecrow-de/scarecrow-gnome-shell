@@ -81,7 +81,7 @@ function ensureIfaceResource() {
 function loadInterfaceXML(iface) {
     ensureIfaceResource();
 
-    let uri = `resource:///io/github/scarecrow-de/shell/dbus-interfaces/${iface}.xml`;
+    let uri = `resource:///io/github/scarecrow_de/Shell/dbus-interfaces/${iface}.xml`;
     let f = Gio.File.new_for_uri(uri);
 
     try {
