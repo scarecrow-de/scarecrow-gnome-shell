@@ -229,7 +229,7 @@ var NotificationApplicationPolicy = GObject.registerClass({
         this._masterSettings = new Gio.Settings({ schema_id: 'io.github.scarecrow_de.desktop.notifications' });
         this._settings = new Gio.Settings({
             schema_id: 'io.github.scarecrow_de.desktop.notifications.application',
-            path: '/io/github/scarecrow_de/desktop/notifications/application/%s/'.format(this._canonicalId),
+            path: '/org/gnome/desktop/notifications/application/%s/'.format(this._canonicalId),
         });
 
         this._masterSettings.connect('changed', this._changed.bind(this));
