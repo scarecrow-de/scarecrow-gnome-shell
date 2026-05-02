@@ -254,7 +254,7 @@ var InputSourceSessionSettings = class extends InputSourceSettings {
     constructor() {
         super();
 
-        this._DESKTOP_INPUT_SOURCES_SCHEMA = 'io.github.scarecrow_de.desktop.input-sources';
+        this._DESKTOP_INPUT_SOURCES_SCHEMA = 'org.gnome.desktop.input-sources';
         this._KEY_INPUT_SOURCES = 'sources';
         this._KEY_MRU_SOURCES = 'mru-sources';
         this._KEY_KEYBOARD_OPTIONS = 'xkb-options';
@@ -318,13 +318,13 @@ var InputSourceManager = class {
         this._mruSourcesBackup = null;
         this._keybindingAction =
             Main.wm.addKeybinding('switch-input-source',
-                                  new Gio.Settings({ schema_id: "io.github.scarecrow_de.desktop.wm.keybindings" }),
+                                  new Gio.Settings({ schema_id: "org.gnome.desktop.wm.keybindings" }),
                                   Meta.KeyBindingFlags.NONE,
                                   Shell.ActionMode.ALL,
                                   this._switchInputSource.bind(this));
         this._keybindingActionBackward =
             Main.wm.addKeybinding('switch-input-source-backward',
-                                  new Gio.Settings({ schema_id: "io.github.scarecrow_de.desktop.wm.keybindings" }),
+                                  new Gio.Settings({ schema_id: "org.gnome.desktop.wm.keybindings" }),
                                   Meta.KeyBindingFlags.IS_REVERSED,
                                   Shell.ActionMode.ALL,
                                   this._switchInputSource.bind(this));

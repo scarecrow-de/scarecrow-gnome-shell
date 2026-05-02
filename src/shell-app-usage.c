@@ -39,7 +39,7 @@
  * minutes to signify idle.
  */
 
-#define PRIVACY_SCHEMA "io.github.scarecrow_de.desktop.privacy"
+#define PRIVACY_SCHEMA "org.gnome.desktop.privacy"
 #define ENABLE_MONITORING_KEY "remember-app-usage"
 
 #define FOCUS_TIME_MIN_SECONDS 7 /* Need 7 continuous seconds of focus */

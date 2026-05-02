@@ -252,7 +252,7 @@ var ScreencastService = class extends ServiceImplementation {
         this._senders = new Map();
 
         this._lockdownSettings = new Gio.Settings({
-            schema_id: 'io.github.scarecrow_de.desktop.lockdown',
+            schema_id: 'org.gnome.desktop.lockdown',
         });
 
         this._proxy = new ScreenCastProxy(Gio.DBus.session,

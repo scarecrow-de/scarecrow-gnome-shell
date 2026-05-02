@@ -903,7 +903,7 @@ var PadOsd = GObject.registerClass({
         this._editedAction = { type, number, dir, mode };
 
         let settingsPath = this._settings.path + key + '/';
-        this._editedActionSettings = Gio.Settings.new_with_path('io.github.scarecrow_de.desktop.peripherals.tablet.pad-button',
+        this._editedActionSettings = Gio.Settings.new_with_path('org.gnome.desktop.peripherals.tablet.pad-button',
                                                                 settingsPath);
         this._actionEditor.setSettings(this._editedActionSettings, type);
         this._padDiagram.startEdition(type, number, dir);

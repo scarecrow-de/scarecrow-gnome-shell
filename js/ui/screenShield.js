@@ -16,11 +16,11 @@ const SmartcardManager = imports.misc.smartcardManager;
 
 const { adjustAnimationTime } = imports.ui.environment;
 
-const SCREENSAVER_SCHEMA = 'io.github.scarecrow_de.desktop.screensaver';
+const SCREENSAVER_SCHEMA = 'org.gnome.desktop.screensaver';
 const LOCK_ENABLED_KEY = 'lock-enabled';
 const LOCK_DELAY_KEY = 'lock-delay';
 
-const LOCKDOWN_SCHEMA = 'io.github.scarecrow_de.desktop.lockdown';
+const LOCKDOWN_SCHEMA = 'org.gnome.desktop.lockdown';
 const DISABLE_LOCK_KEY = 'disable-lock-screen';
 
 const LOCKED_STATE_STR = 'screenShield.locked';
@@ -35,7 +35,7 @@ var MANUAL_FADE_TIME = 300;
 var CURTAIN_SLIDE_TIME = 300;
 
 /**
- * If you are setting io.github.scarecrow_de.desktop.session.idle-delay directly in dconf,
+ * If you are setting org.gnome.desktop.session.idle-delay directly in dconf,
  * rather than through System Settings, you also need to set
  * io.github.scarecrow_de.settings-daemon.plugins.power.sleep-display-ac and
  * io.github.scarecrow_de.settings-daemon.plugins.power.sleep-display-battery to the same value.

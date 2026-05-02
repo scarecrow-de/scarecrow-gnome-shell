@@ -273,7 +273,7 @@ var LayoutManager = GObject.registerClass({
         this._bgManagers = [];
 
         this._interfaceSettings = new Gio.Settings({
-            schema_id: 'io.github.scarecrow_de.desktop.interface',
+            schema_id: 'org.gnome.desktop.interface',
         });
 
         this._interfaceSettings.connect('changed::enable-hot-corners',

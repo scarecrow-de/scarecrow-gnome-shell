@@ -5,7 +5,7 @@ const GnomeSession = imports.misc.gnomeSession;
 const LoginManager = imports.misc.loginManager;
 const Main = imports.ui.main;
 
-const LOCKDOWN_SCHEMA = 'io.github.scarecrow_de.desktop.lockdown';
+const LOCKDOWN_SCHEMA = 'org.gnome.desktop.lockdown';
 const LOGIN_SCREEN_SCHEMA = 'io.github.scarecrow_de.login-screen';
 const DISABLE_USER_SWITCH_KEY = 'disable-user-switching';
 const DISABLE_LOCK_SCREEN_KEY = 'disable-lock-screen';

@@ -25,7 +25,7 @@ mkdir -p $PKG_DATA_DIR
 for k in `gsettings list-keys $OVERRIDE_SCHEMA`
 do
   if [ $k = button-layout ]; then
-    orig_schema=io.github.scarecrow_de.desktop.wm.preferences
+    orig_schema=org.gnome.desktop.wm.preferences
   else
     orig_schema=io.github.scarecrow_de.mutter
   fi

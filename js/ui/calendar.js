@@ -378,7 +378,7 @@ var Calendar = GObject.registerClass({
 }, class Calendar extends St.Widget {
     _init() {
         this._weekStart = Shell.util_get_week_start();
-        this._settings = new Gio.Settings({ schema_id: 'io.github.scarecrow_de.desktop.calendar' });
+        this._settings = new Gio.Settings({ schema_id: 'org.gnome.desktop.calendar' });
 
         this._settings.connect('changed::%s'.format(SHOW_WEEKDATE_KEY), this._onSettingsChange.bind(this));
         this._useWeekdate = this._settings.get_boolean(SHOW_WEEKDATE_KEY);
@@ -902,7 +902,7 @@ const DoNotDisturbSwitch = GObject.registerClass(
 class DoNotDisturbSwitch extends PopupMenu.Switch {
     _init() {
         this._settings = new Gio.Settings({
-            schema_id: 'io.github.scarecrow_de.desktop.notifications',
+            schema_id: 'org.gnome.desktop.notifications',
         });
 
         super._init(this._settings.get_boolean('show-banners'));

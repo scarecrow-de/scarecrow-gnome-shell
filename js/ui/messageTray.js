@@ -194,7 +194,7 @@ var NotificationGenericPolicy = GObject.registerClass({
         super._init();
         this.id = 'generic';
 
-        this._masterSettings = new Gio.Settings({ schema_id: 'io.github.scarecrow_de.desktop.notifications' });
+        this._masterSettings = new Gio.Settings({ schema_id: 'org.gnome.desktop.notifications' });
         this._masterSettings.connect('changed', this._changed.bind(this));
     }
 
@@ -226,9 +226,9 @@ var NotificationApplicationPolicy = GObject.registerClass({
         this.id = id;
         this._canonicalId = this._canonicalizeId(id);
 
-        this._masterSettings = new Gio.Settings({ schema_id: 'io.github.scarecrow_de.desktop.notifications' });
+        this._masterSettings = new Gio.Settings({ schema_id: 'org.gnome.desktop.notifications' });
         this._settings = new Gio.Settings({
-            schema_id: 'io.github.scarecrow_de.desktop.notifications.application',
+            schema_id: 'org.gnome.desktop.notifications.application',
             path: '/org/gnome/desktop/notifications/application/%s/'.format(this._canonicalId),
         });
 

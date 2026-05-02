@@ -673,7 +673,7 @@ class MessagesIndicator extends St.Icon {
         this._count = 0;
 
         this._settings = new Gio.Settings({
-            schema_id: 'io.github.scarecrow_de.desktop.notifications',
+            schema_id: 'org.gnome.desktop.notifications',
         });
         this._settings.connect('changed::show-banners', this._sync.bind(this));
 

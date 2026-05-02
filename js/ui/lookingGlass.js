@@ -1009,7 +1009,7 @@ class LookingGlass extends St.BoxLayout {
         // Sort of magic, but...eh.
         this._maxItems = 150;
 
-        this._interfaceSettings = new Gio.Settings({ schema_id: 'io.github.scarecrow_de.desktop.interface' });
+        this._interfaceSettings = new Gio.Settings({ schema_id: 'org.gnome.desktop.interface' });
         this._interfaceSettings.connect('changed::monospace-font-name',
                                         this._updateFont.bind(this));
         this._updateFont();

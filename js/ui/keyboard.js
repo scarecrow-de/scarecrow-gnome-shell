@@ -18,7 +18,7 @@ var KEY_LONG_PRESS_TIME = 250;
 var PANEL_SWITCH_ANIMATION_TIME = 500;
 var PANEL_SWITCH_RELATIVE_DISTANCE = 1 / 3; /* A third of the actor width */
 
-const A11Y_APPLICATIONS_SCHEMA = 'io.github.scarecrow_de.desktop.a11y.applications';
+const A11Y_APPLICATIONS_SCHEMA = 'org.gnome.desktop.a11y.applications';
 const SHOW_KEYBOARD = 'screen-keyboard-enabled';
 
 /* KeyContainer puts keys in a grid where a 1:1 key takes this size */

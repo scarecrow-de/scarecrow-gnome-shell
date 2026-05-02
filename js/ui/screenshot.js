@@ -25,7 +25,7 @@ var ScreenshotService = class {
 
         this._screenShooter = new Map();
 
-        this._lockdownSettings = new Gio.Settings({ schema_id: 'io.github.scarecrow_de.desktop.lockdown' });
+        this._lockdownSettings = new Gio.Settings({ schema_id: 'org.gnome.desktop.lockdown' });
 
         Gio.DBus.session.own_name('io.github.scarecrow_de.Shell.Screenshot', Gio.BusNameOwnerFlags.REPLACE, null, null);
     }
