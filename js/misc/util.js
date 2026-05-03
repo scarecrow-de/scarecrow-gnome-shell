@@ -3,7 +3,7 @@
             formatTime, formatTimeSpan, createTimeLabel, insertSorted,
             ensureActorVisibleInScrollView, wiggle */
 
-const { Clutter, Gio, GLib, Shell, St, GnomeDesktop } = imports.gi;
+const { Clutter, Gio, GLib, Shell, St, ScarecrowDesktop } = imports.gi;
 const Gettext = imports.gettext;
 
 const Main = imports.ui.main;
@@ -132,7 +132,7 @@ function trySpawn(argv) {
     }
 
     // Async call, we don't need the reply though
-    GnomeDesktop.start_systemd_scope(argv[0], pid, null, null, null, () => {});
+    ScarecrowDesktop.start_systemd_scope(argv[0], pid, null, null, null, () => {});
 
     // Dummy child watch; we don't want to double-fork internally
     // because then we lose the parent-child relationship, which

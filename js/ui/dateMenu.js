@@ -1,7 +1,7 @@
 // -*- mode: js; js-indent-level: 4; indent-tabs-mode: nil -*-
 /* exported DateMenuButton */
 
-const { Clutter, Gio, GLib, GnomeDesktop,
+const { Clutter, Gio, GLib, ScarecrowDesktop,
         GObject, GWeather, Pango, Shell, St } = imports.gi;
 
 const Util = imports.misc.util;
@@ -278,7 +278,7 @@ class WorldClocksSection extends St.Button {
             can_focus: true,
             x_expand: true,
         });
-        this._clock = new GnomeDesktop.WallClock();
+        this._clock = new ScarecrowDesktop.WallClock();
         this._clockNotifyId = 0;
         this._tzNotifyId = 0;
 
@@ -874,7 +874,7 @@ class DateMenuButton extends PanelMenu.Button {
 
         // Done with hbox for calendar and event list
 
-        this._clock = new GnomeDesktop.WallClock();
+        this._clock = new ScarecrowDesktop.WallClock();
         this._clock.bind_property('clock', this._clockDisplay, 'text', GObject.BindingFlags.SYNC_CREATE);
         this._clock.connect('notify::timezone', this._updateTimeZone.bind(this));
 

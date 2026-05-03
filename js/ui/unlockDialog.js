@@ -2,7 +2,7 @@
 /* exported UnlockDialog */
 
 const { AccountsService, Atk, Clutter, Gdm, Gio,
-        GnomeDesktop, GLib, GObject, Meta, Shell, St } = imports.gi;
+        ScarecrowDesktop, GLib, GObject, Meta, Shell, St } = imports.gi;
 
 const Background = imports.ui.background;
 const Layout = imports.ui.layout;
@@ -337,7 +337,7 @@ class UnlockDialogClock extends St.BoxLayout {
         this.add_child(this._date);
         this.add_child(this._hint);
 
-        this._wallClock = new GnomeDesktop.WallClock({ time_only: true });
+        this._wallClock = new ScarecrowDesktop.WallClock({ time_only: true });
         this._wallClock.connect('notify::clock', this._updateClock.bind(this));
 
         this._seat = Clutter.get_default_backend().get_default_seat();

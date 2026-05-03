@@ -1,7 +1,7 @@
 // -*- mode: js; js-indent-level: 4; indent-tabs-mode: nil -*-
 /* exported getKeyboardManager, holdKeyboard, releaseKeyboard */
 
-const { GLib, GnomeDesktop } = imports.gi;
+const { GLib, ScarecrowDesktop } = imports.gi;
 
 const Main = imports.ui.main;
 
@@ -13,7 +13,7 @@ let _xkbInfo = null;
 
 function getXkbInfo() {
     if (_xkbInfo == null)
-        _xkbInfo = new GnomeDesktop.XkbInfo();
+        _xkbInfo = new ScarecrowDesktop.XkbInfo();
     return _xkbInfo;
 }
 
@@ -129,9 +129,9 @@ var KeyboardManager = class {
         if (!locale.includes('_'))
             locale = DEFAULT_LOCALE;
 
-        let [found, , id] = GnomeDesktop.get_input_source_from_locale(locale);
+        let [found, , id] = ScarecrowDesktop.get_input_source_from_locale(locale);
         if (!found)
-            [, , id] = GnomeDesktop.get_input_source_from_locale(DEFAULT_LOCALE);
+            [, , id] = ScarecrowDesktop.get_input_source_from_locale(DEFAULT_LOCALE);
 
         let _layout, _variant;
         [found, , , _layout, _variant] = this._xkbInfo.get_layout_info(id);

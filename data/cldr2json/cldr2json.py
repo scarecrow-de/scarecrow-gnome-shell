@@ -28,8 +28,8 @@ import sys
 import xml.etree.ElementTree
 
 import gi
-gi.require_version('GnomeDesktop', '3.0')   # NOQA: E402
-from gi.repository import GnomeDesktop
+gi.require_version('ScarecrowDesktop', '3.0')   # NOQA: E402
+from gi.repository import ScarecrowDesktop
 
 ESCAPE_PATTERN = re.compile(r'\\u\{([0-9A-Fa-f]+?)\}')
 ISO_PATTERN = re.compile(r'[A-E]([0-9]+)')
@@ -176,7 +176,7 @@ def convert_file(source_file, destination_path):
 
 
 def load_xkb_mappings():
-    xkb = GnomeDesktop.XkbInfo()
+    xkb = ScarecrowDesktop.XkbInfo()
     layouts = xkb.get_all_layouts()
     name_to_xkb = {}
 

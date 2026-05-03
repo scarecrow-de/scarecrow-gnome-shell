@@ -37,7 +37,7 @@
 //
 // Animation
 //   A helper object that handles loading a XML-based animation; it is a
-//   wrapper for GnomeDesktop.BGSlideShow
+//   wrapper for ScarecrowDesktop.BGSlideShow
 //
 // MetaBackgroundActor
 //   An actor that draws the background for a single monitor
@@ -94,7 +94,7 @@
 //     MetaBackgroundImage         MetaBackgroundImage
 //     MetaBackgroundImage         MetaBackgroundImage
 
-const { Clutter, GDesktopEnums, Gio, GLib, GObject, GnomeDesktop, Meta } = imports.gi;
+const { Clutter, GDesktopEnums, Gio, GLib, GObject, ScarecrowDesktop, Meta } = imports.gi;
 const Signals = imports.signals;
 
 const LoginManager = imports.misc.loginManager;
@@ -242,7 +242,7 @@ var Background = GObject.registerClass({
         this._cancellable = new Gio.Cancellable();
         this.isLoaded = false;
 
-        this._clock = new GnomeDesktop.WallClock();
+        this._clock = new ScarecrowDesktop.WallClock();
         this._timezoneChangedId = this._clock.connect('notify::timezone',
             () => {
                 if (this._animation)
@@ -615,7 +615,7 @@ var BackgroundSource = class BackgroundSource {
 };
 
 var Animation = GObject.registerClass(
-class Animation extends GnomeDesktop.BGSlideShow {
+class Animation extends ScarecrowDesktop.BGSlideShow {
     _init(params) {
         super._init(params);
 

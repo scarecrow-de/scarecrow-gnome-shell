@@ -89,7 +89,7 @@ libXcomposite: f:libXcomposite-devel d:libxcomposite-dev # cogl mutter
 libXcursor: f:libXcursor-devel libxcursor-dev # mousetweaks
 libXdamage: f:libXdamage-devel m:libxdamage-devel d:libxdamage-dev # cogl mutter
 libXi: f:libXi-devel d:libxi-dev # gtk+
-libXrandr: f:libXrandr-devel d:libxrandr-dev # gnome-desktop
+libXrandr: f:libXrandr-devel d:libxrandr-dev # scarecrow-desktop
 libXrender: f:libXrender-devel d: libxrender-dev # cairo WebKit
 libXt: f:libXt-devel d:libxt-dev # WebKit
 libXtst: f:libXtst-devel d:libxtst-dev # caribou
