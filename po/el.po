@@ -45,21 +45,21 @@ msgstr "Εμφάνιση όλων των εφαρμογών"
 msgid "Open the application menu"
 msgstr "Άνοιγμα του μενού εφαρμογών"
 
-#: data/org.gnome.Shell.desktop.in.in:4
+#: data/io.github.scarecrow_de.Shell.desktop.in.in:4
 msgid "Scarecrow Shell"
 msgstr "Scarecrow Shell"
 
-#: data/org.gnome.Shell.desktop.in.in:5
+#: data/io.github.scarecrow_de.Shell.desktop.in.in:5
 msgid "Window management and application launching"
 msgstr "Διαχείριση παραθύρων και εκκίνηση εφαρμογών"
 
-#: data/org.gnome.shell.gschema.xml.in:6
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:6
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
 msgstr ""
 "Ενεργοποίηση εσωτερικών εργαλείων χρήσιμων για τους προγραμματιστές και τους "
 "δοκιμαστές, με το Alt-F2"
 
-#: data/org.gnome.shell.gschema.xml.in:9
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:9
 msgid ""
 "Allows access to internal debugging and monitoring tools using the Alt-F2 "
 "dialog."
@@ -67,47 +67,47 @@ msgstr ""
 "Επιτρέπει την πρόσβαση σε εσωτερικά εργαλεία αποσφαλμάτωσης και "
 "παρακολούθησης, με τη χρήση του διαλόγου Alt-F2."
 
-#: data/org.gnome.shell.gschema.xml.in:16
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:16
 msgid "UUIDs of extensions to enable"
 msgstr "Τα UUID των επεκτάσεων που θα ενεργοποιηθούν"
 
-#: data/org.gnome.shell.gschema.xml.in:17
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:17
 msgid ""
 "Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
-"DisableExtension D-Bus methods on org.gnome.Shell."
+"DisableExtension D-Bus methods on io.github.scarecrow_de.Shell."
 msgstr ""
 "Οι επεκτάσεις του Scarecrow Shell έχουν μια ιδιότητα UUID. Αυτό το κλειδί "
 "εμφανίζει τις επεκτάσεις που πρέπει να φορτωθούν. Οποιαδήποτε επέκταση που "
 "επιθυμεί να φορτωθεί πρέπει να είναι στον κατάλογο. Μπορείτε ακόμη να "
 "χειρισθείτε αυτόν τον κατάλογο με τις μεθόδους διαύλου δεδομένων "
-"EnableExtension και DisableExtension στο org.gnome.Shell."
+"EnableExtension και DisableExtension στο io.github.scarecrow_de.Shell."
 
-#: data/org.gnome.shell.gschema.xml.in:26
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:26
 msgid "UUIDs of extensions to force disabling"
 msgstr "Τα UUID των επεκτάσεων για εξαναγκαστική απενεργοποίηση"
 
-#: data/org.gnome.shell.gschema.xml.in:27
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:27
 msgid ""
 "Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be disabled, even if loaded as part of the current mode. You can also "
 "manipulate this list with the EnableExtension and DisableExtension D-Bus "
-"methods on org.gnome.Shell. This key takes precedence over the “enabled-"
+"methods on io.github.scarecrow_de.Shell. This key takes precedence over the “enabled-"
 "extensions” setting."
 msgstr ""
 "Οι επεκτάσεις του κελύφους GNOME έχουν μια ιδιότητα UUID. Αυτό το κλειδί "
 "εμφανίζει τις επεκτάσεις που πρέπει να απενεργοποιηθούν, ακόμα και αν "
 "φορτωθεί ως μέρος της τρέχουσας λειτουργίας. Μπορείτε επίσης να χειριστείτε "
 "αυτήν τη λίστα με τις μεθόδους EnableExtension και DisableExtension D-Bus "
-"στο org.gnome.Shell. Αυτό το κλειδί υπερισχύει της ρύθμισης «enabled-"
+"στο io.github.scarecrow_de.Shell. Αυτό το κλειδί υπερισχύει της ρύθμισης «enabled-"
 "extensions»."
 
-#: data/org.gnome.shell.gschema.xml.in:37
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:37
 msgid "Disable user extensions"
 msgstr "Απενεργοποίηση επεκτάσεων χρήστη"
 
-#: data/org.gnome.shell.gschema.xml.in:38
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:38
 msgid ""
 "Disable all extensions the user has enabled without affecting the “enabled-"
 "extension” setting."
@@ -115,11 +115,11 @@ msgstr ""
 "Απενεργοποίηση όλων των ενεργοποιημένων επεκτάσεων του χρήστη χωρίς να "
 "επηρεαστεί η ρύθμιση «enabled-extension»."
 
-#: data/org.gnome.shell.gschema.xml.in:45
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:45
 msgid "Disables the validation of extension version compatibility"
 msgstr "Απενεργοποιεί την επικύρωση της συμβατότητας έκδοσης επέκτασης"
 
-#: data/org.gnome.shell.gschema.xml.in:46
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:46
 msgid ""
 "Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
@@ -130,13 +130,13 @@ msgstr ""
 "επιλογής θα απενεργοποιήσει αυτόν τον έλεγχο και θα προσπαθήσει να φορτώσει "
 "όλες τις επεκτάσεις ανεξάρτητα από τις εκδόσεις που απαιτούν υποστήριξη."
 
-#: data/org.gnome.shell.gschema.xml.in:54
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:54
 msgid "List of desktop file IDs for favorite applications"
 msgstr ""
 "Κατάλογος αναγνωριστικών αρχείων επιφάνειας εργασίας για προτιμώμενες "
 "εφαρμογές"
 
-#: data/org.gnome.shell.gschema.xml.in:55
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:55
 msgid ""
 "The applications corresponding to these identifiers will be displayed in the "
 "favorites area."
@@ -144,28 +144,28 @@ msgstr ""
 "Οι εφαρμογές που αντιστοιχούν σε αυτά τα αναγνωριστικά θα εμφανισθούν στην "
 "περιοχή αγαπημένων."
 
-#: data/org.gnome.shell.gschema.xml.in:62
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:62
 msgid "App Picker View"
 msgstr "Προβολή επιλογέα εφαρμογών"
 
-#: data/org.gnome.shell.gschema.xml.in:63
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:63
 msgid "Index of the currently selected view in the application picker."
 msgstr "Ευρετήριο της τρέχουσας επιλεγμένης προβολής του επιλογέα εφαρμογών."
 
-#: data/org.gnome.shell.gschema.xml.in:69
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:69
 msgid "History for command (Alt-F2) dialog"
 msgstr "Ιστορικό του διαλόγου εντολών (Alt-F2)"
 
 #. Translators: looking glass is a debugger and inspector tool, see https://wiki.gnome.org/Projects/GnomeShell/LookingGlass
-#: data/org.gnome.shell.gschema.xml.in:74
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:74
 msgid "History for the looking glass dialog"
 msgstr "Ιστορικό του διαλόγου looking glass"
 
-#: data/org.gnome.shell.gschema.xml.in:78
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:78
 msgid "Always show the “Log out” menu item in the user menu."
 msgstr "Να εμφανίζεται πάντα το στοιχείο μενού «Αποσύνδεση» στο μενού χρήστη."
 
-#: data/org.gnome.shell.gschema.xml.in:79
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:79
 msgid ""
 "This key overrides the automatic hiding of the “Log out” menu item in single-"
 "user, single-session situations."
@@ -173,14 +173,14 @@ msgstr ""
 "Αυτό το κλειδί υπερισχύει της αυτόματης απόκρυψης του στοιχείου μενού "
 "«Αποσύνδεση'»σε μεμονωμένο χρήστη, σε καταστάσεις μεμονωμένης συνεδρίας."
 
-#: data/org.gnome.shell.gschema.xml.in:86
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:86
 msgid ""
 "Whether to remember password for mounting encrypted or remote filesystems"
 msgstr ""
 "Αν θα θυμάται τον κωδικό πρόσβασης για προσάρτηση κρυπτογραφημένων ή "
 "απομακρυσμένων συστημάτων αρχείων"
 
-#: data/org.gnome.shell.gschema.xml.in:87
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:87
 msgid ""
 "The shell will request a password when an encrypted device or a remote "
 "filesystem is mounted. If the password can be saved for future use a "
@@ -193,14 +193,14 @@ msgstr ""
 "πλαίσιο ελέγχου «Απομνημόνευση κωδικού πρόσβασης». Αυτό το κλειδί ορίζει την "
 "προεπιλεγμένη κατάσταση του πλαισίου επιλογής."
 
-#: data/org.gnome.shell.gschema.xml.in:96
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:96
 msgid ""
 "Whether the default Bluetooth adapter had set up devices associated to it"
 msgstr ""
 "Αν ο προεπιλεγμένος προσαρμογέας Bluetooth έχει ρυθμιστεί με συσχετισμένες "
 "συσκευές"
 
-#: data/org.gnome.shell.gschema.xml.in:97
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:97
 msgid ""
 "The shell will only show a Bluetooth menu item if a Bluetooth adapter is "
 "powered, or if there were devices set up associated with the default "
@@ -211,11 +211,11 @@ msgstr ""
 "ή αν υπάρχουν συσχετισμένες συσκευές με αυτόν. Αυτό θα επαναφερθεί αν δεν "
 "υπάρχουν συσχετισμένες συσκευές με τον προσαρμογέα."
 
-#: data/org.gnome.shell.gschema.xml.in:106
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:106
 msgid "Enable introspection API"
 msgstr ""
 
-#: data/org.gnome.shell.gschema.xml.in:107
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:107
 msgid ""
 "Enables a D-Bus API that allows to introspect the application state of the "
 "shell."
@@ -223,91 +223,91 @@ msgstr ""
 "Ενεργοποιεί ένα API D-Bus που επιτρέπει την εισαγωγή της κατάστασης "
 "εφαρμογής του κελύφους."
 
-#: data/org.gnome.shell.gschema.xml.in:119
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:119
 msgid "Keybinding to open the application menu"
 msgstr "Συνδυασμός πλήκτρων για το άνοιγμα του μενού εφαρμογών"
 
-#: data/org.gnome.shell.gschema.xml.in:120
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:120
 msgid "Keybinding to open the application menu."
 msgstr "Συνδυασμός πλήκτρων για το άνοιγμα του μενού εφαρμογών."
 
-#: data/org.gnome.shell.gschema.xml.in:126
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:126
 msgid "Keybinding to open the “Show Applications” view"
 msgstr "Συνδυασμός πλήκτρων για το άνοιγμα της προβολής «Εμφάνιση εφαρμογών»"
 
-#: data/org.gnome.shell.gschema.xml.in:127
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:127
 msgid ""
 "Keybinding to open the “Show Applications” view of the Activities Overview."
 msgstr ""
 "Συνδυασμός πλήκτρων για το άνοιγμα της προβολής «Εμφάνιση εφαρμογών» της "
 "επισκόπησης δραστηριοτήτων."
 
-#: data/org.gnome.shell.gschema.xml.in:134
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:134
 msgid "Keybinding to open the overview"
 msgstr "Συνδυασμός πλήκτρων για το άνοιγμα της επισκόπησης"
 
-#: data/org.gnome.shell.gschema.xml.in:135
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:135
 msgid "Keybinding to open the Activities Overview."
 msgstr "Συνδυασμός πλήκτρων για το άνοιγμα της επισκόπησης Δραστηριοτήτων."
 
-#: data/org.gnome.shell.gschema.xml.in:141
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:141
 msgid "Keybinding to toggle the visibility of the notification list"
 msgstr "Συνδυασμός πλήκτρων για εναλλαγή ορατότητας της λίστας ειδοποιήσεων"
 
-#: data/org.gnome.shell.gschema.xml.in:142
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:142
 msgid "Keybinding to toggle the visibility of the notification list."
 msgstr "Συνδυασμός πλήκτρων για εναλλαγή ορατότητας της λίστας ειδοποιήσεων."
 
-#: data/org.gnome.shell.gschema.xml.in:148
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:148
 msgid "Keybinding to focus the active notification"
 msgstr "Συνδυασμός πλήκτρων για εστίαση της ενεργής ειδοποίησης"
 
-#: data/org.gnome.shell.gschema.xml.in:149
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:149
 msgid "Keybinding to focus the active notification."
 msgstr "Συνδυασμός πλήκτρων για εστίαση της ενεργής ειδοποίησης."
 
-#: data/org.gnome.shell.gschema.xml.in:155
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:155
 msgid "Switch to application 1"
 msgstr "Εναλλαγή στην εφαρμογή 1"
 
-#: data/org.gnome.shell.gschema.xml.in:159
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:159
 msgid "Switch to application 2"
 msgstr "Εναλλαγή στην εφαρμογή 2"
 
-#: data/org.gnome.shell.gschema.xml.in:163
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:163
 msgid "Switch to application 3"
 msgstr "Εναλλαγή στην εφαρμογή 3"
 
-#: data/org.gnome.shell.gschema.xml.in:167
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:167
 msgid "Switch to application 4"
 msgstr "Εναλλαγή στην εφαρμογή 4"
 
-#: data/org.gnome.shell.gschema.xml.in:171
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:171
 msgid "Switch to application 5"
 msgstr "Εναλλαγή στην εφαρμογή 5"
 
-#: data/org.gnome.shell.gschema.xml.in:175
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:175
 msgid "Switch to application 6"
 msgstr "Εναλλαγή στην εφαρμογή 6"
 
-#: data/org.gnome.shell.gschema.xml.in:179
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:179
 msgid "Switch to application 7"
 msgstr "Εναλλαγή στην εφαρμογή 7"
 
-#: data/org.gnome.shell.gschema.xml.in:183
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:183
 msgid "Switch to application 8"
 msgstr "Εναλλαγή στην εφαρμογή 8"
 
-#: data/org.gnome.shell.gschema.xml.in:187
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:187
 msgid "Switch to application 9"
 msgstr "Εναλλαγή στην εφαρμογή 9"
 
-#: data/org.gnome.shell.gschema.xml.in:196
-#: data/org.gnome.shell.gschema.xml.in:223
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:196
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:223
 msgid "Limit switcher to current workspace."
 msgstr "Περιορισμός εναλλαγής παραθύρων στον τρέχοντα χώρο εργασίας."
 
-#: data/org.gnome.shell.gschema.xml.in:197
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:197
 msgid ""
 "If true, only applications that have windows on the current workspace are "
 "shown in the switcher. Otherwise, all applications are included."
@@ -316,11 +316,11 @@ msgstr ""
 "εργασίας εμφανίζονται κατά την εναλλαγή παραθύρων. Αλλιώς, θα "
 "περιλαμβάνονται όλες οι εφαρμογές."
 
-#: data/org.gnome.shell.gschema.xml.in:214
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:214
 msgid "The application icon mode."
 msgstr "Η λειτουργία εικονιδίου εφαρμογής."
 
-#: data/org.gnome.shell.gschema.xml.in:215
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:215
 msgid ""
 "Configures how the windows are shown in the switcher. Valid possibilities "
 "are “thumbnail-only” (shows a thumbnail of the window), “app-icon-"
@@ -331,7 +331,7 @@ msgstr ""
 "παραθύρου), «app-icon-only» (εμφανίζει μόνο το εικονίδιο της εφαρμογής) ή "
 "«both» - και τα δύο."
 
-#: data/org.gnome.shell.gschema.xml.in:224
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:224
 msgid ""
 "If true, only windows from the current workspace are shown in the switcher. "
 "Otherwise, all windows are included."
@@ -339,66 +339,66 @@ msgstr ""
 "Αν είναι αληθές, μόνο παράθυρα του τρέχοντα χώρου εργασίας εμφανίζονται κατά "
 "την εναλλαγή παραθύρων. Αλλιώς, θα περιλαμβάνονται όλα τα παράθυρα."
 
-#: data/org.gnome.shell.gschema.xml.in:234
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:234
 msgid "Locations"
 msgstr "Τοποθεσίες"
 
-#: data/org.gnome.shell.gschema.xml.in:235
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:235
 msgid "The locations to show in world clocks"
 msgstr "Οι τοποθεσίες που θα εμφανίζονται στα παγκόσμια ρολόγια"
 
-#: data/org.gnome.shell.gschema.xml.in:245
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:245
 msgid "Automatic location"
 msgstr "Αυτόματη τοποθεσία"
 
-#: data/org.gnome.shell.gschema.xml.in:246
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:246
 msgid "Whether to fetch the current location or not"
 msgstr "Εάν θα γίνεται λήψη της τρέχουσας τοποθεσίας ή όχι"
 
-#: data/org.gnome.shell.gschema.xml.in:253
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:253
 msgid "Location"
 msgstr "Τοποθεσία"
 
-#: data/org.gnome.shell.gschema.xml.in:254
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:254
 msgid "The location for which to show a forecast"
 msgstr "Η τοποθεσία για την οποία θα εμφανιστεί μια πρόβλεψη καιρού"
 
-#: data/org.gnome.shell.gschema.xml.in:266
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:266
 msgid "Attach modal dialog to the parent window"
 msgstr "Προσάρτηση αποκλειστικού διαλόγου στο γονικό παράθυρο"
 
-#: data/org.gnome.shell.gschema.xml.in:267
-#: data/org.gnome.shell.gschema.xml.in:276
-#: data/org.gnome.shell.gschema.xml.in:284
-#: data/org.gnome.shell.gschema.xml.in:292
-#: data/org.gnome.shell.gschema.xml.in:300
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:267
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:276
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:284
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:292
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:300
 msgid ""
-"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
 msgstr ""
-"Αυτό το κλειδί υπερισχύει του κλειδιού που υπάρχει στο org.gnome.mutter όταν "
+"Αυτό το κλειδί υπερισχύει του κλειδιού που υπάρχει στο io.github.scarecrow_de.mutter όταν "
 "εκτελείται το Scarecrow Shell."
 
-#: data/org.gnome.shell.gschema.xml.in:275
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:275
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr ""
 "Ενεργοποίηση της προσάρτησης άκρων, όταν αφήνετε παράθυρα στις άκρες της "
 "οθόνης"
 
-#: data/org.gnome.shell.gschema.xml.in:283
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:283
 msgid "Workspaces are managed dynamically"
 msgstr "Η διαχείριση των χώρων γίνεται δυναμικά"
 
-#: data/org.gnome.shell.gschema.xml.in:291
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:291
 msgid "Workspaces only on primary monitor"
 msgstr "Χώροι εργασίας μόνο στην κύρια οθόνη"
 
-#: data/org.gnome.shell.gschema.xml.in:299
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:299
 msgid "Delay focus changes in mouse mode until the pointer stops moving"
 msgstr ""
 "Καθυστέρηση εστίασης αλλαγών στην λειτουργία ποντικιού μέχρι να σταματήσει "
 "να κινείται ο δείκτης"
 
-#: data/org.gnome.Shell.PortalHelper.desktop.in.in:3
+#: data/io.github.scarecrow_de.Shell.PortalHelper.desktop.in.in:3
 msgid "Network Login"
 msgstr "Σύνδεση δικτύου"
 
@@ -2377,23 +2377,23 @@ msgstr "Ο κωδικός πρόσβασης δεν μπορεί να είναι
 msgid "Authentication dialog was dismissed by the user"
 msgstr "Το παράθυρο πιστοποίησης έκλεισε από τον χρήστη"
 
-#: subprojects/extensions-app/data/metainfo/org.gnome.Extensions.metainfo.xml.in:5
-#: subprojects/extensions-app/data/org.gnome.Extensions.desktop.in.in:4
+#: subprojects/extensions-app/data/metainfo/io.github.scarecrow_de.Extensions.metainfo.xml.in:5
+#: subprojects/extensions-app/data/io.github.scarecrow_de.Extensions.desktop.in.in:4
 #: subprojects/extensions-app/js/main.js:183
 #: subprojects/extensions-app/data/ui/extensions-window.ui:61
 msgid "Extensions"
 msgstr "Επεκτάσεις"
 
-#: subprojects/extensions-app/data/metainfo/org.gnome.Extensions.metainfo.xml.in:6
+#: subprojects/extensions-app/data/metainfo/io.github.scarecrow_de.Extensions.metainfo.xml.in:6
 #: subprojects/extensions-app/js/main.js:184
 msgid "Manage your GNOME Extensions"
 msgstr "Διαχείριση επεκτάσεων GNOME"
 
-#: subprojects/extensions-app/data/metainfo/org.gnome.Extensions.metainfo.xml.in:17
+#: subprojects/extensions-app/data/metainfo/io.github.scarecrow_de.Extensions.metainfo.xml.in:17
 msgid "The GNOME Project"
 msgstr "Το έργο GNOME"
 
-#: subprojects/extensions-app/data/metainfo/org.gnome.Extensions.metainfo.xml.in:36
+#: subprojects/extensions-app/data/metainfo/io.github.scarecrow_de.Extensions.metainfo.xml.in:36
 msgid ""
 "GNOME Extensions handles updating extensions, configuring extension "
 "preferences and removing or disabling unwanted extensions."
@@ -2402,7 +2402,7 @@ msgstr ""
 "ρύθμιση προτιμήσεων και την αφαίρεση ή απενεργοποίηση ανεπιθύμητων "
 "επεκτάσεων."
 
-#: subprojects/extensions-app/data/org.gnome.Extensions.desktop.in.in:7
+#: subprojects/extensions-app/data/io.github.scarecrow_de.Extensions.desktop.in.in:7
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "Ρύθμιση επεκτάσεων του Scarecrow Shell"
 
@@ -3373,10 +3373,10 @@ msgstr "Ήχοι συστήματος"
 #~ msgstr "Διάταξη των κουμπιών στη γραμμή τίτλου"
 
 #~ msgid ""
-#~ "This key overrides the key in org.gnome.desktop.wm.preferences when "
+#~ "This key overrides the key in io.github.scarecrow_de.desktop.wm.preferences when "
 #~ "running Scarecrow Shell."
 #~ msgstr ""
-#~ "Αυτό το κλειδί υπερισχύει του κλειδιού που υπάρχει στο org.gnome.desktop."
+#~ "Αυτό το κλειδί υπερισχύει του κλειδιού που υπάρχει στο io.github.scarecrow_de.desktop."
 #~ "wm.preferences όταν εκτελείται το Scarecrow Shell."
 
 #~ msgid "Select an extension to configure using the combobox above."

@@ -51,21 +51,21 @@ msgstr "Пашырэнні абалонкі"
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "Настройкі пашырэнняў абалонкі GNOME"
 
-#: data/org.gnome.Shell.desktop.in.in:4
+#: data/io.github.scarecrow_de.Shell.desktop.in.in:4
 msgid "Scarecrow Shell"
 msgstr "Абалонка GNOME"
 
-#: data/org.gnome.Shell.desktop.in.in:5
+#: data/io.github.scarecrow_de.Shell.desktop.in.in:5
 msgid "Window management and application launching"
 msgstr "Кіраванне вокнамі і пуск праграм"
 
-#: data/org.gnome.shell.gschema.xml.in:6
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:6
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
 msgstr ""
 "Уключыць унутраныя прылады, прыдатныя для распрацоўшчыкаў і тэстараў, для "
 "Alt-F2"
 
-#: data/org.gnome.shell.gschema.xml.in:9
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:9
 msgid ""
 "Allows access to internal debugging and monitoring tools using the Alt-F2 "
 "dialog."
@@ -73,28 +73,28 @@ msgstr ""
 "Дазваляе доступ да ўнутраных адладачных і маніторынгавых прылад для дыялогу "
 "Alt-F2."
 
-#: data/org.gnome.shell.gschema.xml.in:16
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:16
 msgid "UUIDs of extensions to enable"
 msgstr "UUID-значэнні пашырэнняў, якія трэба ўключыць"
 
-#: data/org.gnome.shell.gschema.xml.in:17
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:17
 msgid ""
 "Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
-"DisableExtension D-Bus methods on org.gnome.Shell."
+"DisableExtension D-Bus methods on io.github.scarecrow_de.Shell."
 msgstr ""
 "Пашырэнні абалонкі GNOME маюць уласцівасць uuid; у гэтым ключы пералічаны "
 "пашырэнні, якія неабходна загрузіць. Усе пашырэнні, якія вы хочаце "
 "загрузіць, трэба ўпісаць у гэты спіс. Вы таксама можаце кіраваць гэтым "
-"спісам метадамі DBus EnableExtension і DisableExtension паслугі org.gnome."
+"спісам метадамі DBus EnableExtension і DisableExtension паслугі io.github.scarecrow_de."
 "Shell."
 
-#: data/org.gnome.shell.gschema.xml.in:26
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:26
 msgid "Disable user extensions"
 msgstr "Выключыць пашырэнні, уключаныя карыстальнікам"
 
-#: data/org.gnome.shell.gschema.xml.in:27
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:27
 msgid ""
 "Disable all extensions the user has enabled without affecting the “enabled-"
 "extension” setting."
@@ -102,11 +102,11 @@ msgstr ""
 "Выключыць усе пашырэнні, якія карыстальнік уключыў, але пакінуць настройку "
 "\"enabled-extension\"."
 
-#: data/org.gnome.shell.gschema.xml.in:34
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:34
 msgid "Disables the validation of extension version compatibility"
 msgstr "Выключае спраўджванне сумяшчальнасці версій пашырэнняў"
 
-#: data/org.gnome.shell.gschema.xml.in:35
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:35
 msgid ""
 "Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
@@ -117,11 +117,11 @@ msgstr ""
 "гэту праверку, і для ўсіх пашырэнняў будзе ажыццёўлена спроба загрузкі "
 "незалежна ад сцвярджэнняў іх аўтараў."
 
-#: data/org.gnome.shell.gschema.xml.in:43
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:43
 msgid "List of desktop file IDs for favorite applications"
 msgstr "Спіс ідэнтыфікатараў артыкульных файлаў стала для ўпадабаных праграм"
 
-#: data/org.gnome.shell.gschema.xml.in:44
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:44
 msgid ""
 "The applications corresponding to these identifiers will be displayed in the "
 "favorites area."
@@ -129,28 +129,28 @@ msgstr ""
 "Праграмы з адпаведнымі ідэнтыфікатарамі будуць паказаны ў абшары ўпадабаных "
 "праграм."
 
-#: data/org.gnome.shell.gschema.xml.in:51
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:51
 msgid "App Picker View"
 msgstr "Рэжым выбару праграм"
 
-#: data/org.gnome.shell.gschema.xml.in:52
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:52
 msgid "Index of the currently selected view in the application picker."
 msgstr "Індэкс абранага рэжыму выбару праграм."
 
-#: data/org.gnome.shell.gschema.xml.in:58
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:58
 msgid "History for command (Alt-F2) dialog"
 msgstr "Журнал загаднага дыялогу (Alt-F2)"
 
 #. Translators: looking glass is a debugger and inspector tool, see https://wiki.gnome.org/Projects/GnomeShell/LookingGlass
-#: data/org.gnome.shell.gschema.xml.in:63
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:63
 msgid "History for the looking glass dialog"
 msgstr "Журнал дыялогу Looking Glass"
 
-#: data/org.gnome.shell.gschema.xml.in:67
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:67
 msgid "Always show the “Log out” menu item in the user menu."
 msgstr "Заўсёды паказваць элемент \"Выйсці з сеанса\" ў меню карыстальніка."
 
-#: data/org.gnome.shell.gschema.xml.in:68
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:68
 msgid ""
 "This key overrides the automatic hiding of the “Log out” menu item in single-"
 "user, single-session situations."
@@ -158,14 +158,14 @@ msgstr ""
 "Гэты ключ падмяняе аўтаматычнае хаванне элемента меню \"Выйсці з сеанса\" ў "
 "выпадку аднаго карыстальніка з адным сеансам."
 
-#: data/org.gnome.shell.gschema.xml.in:75
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:75
 msgid ""
 "Whether to remember password for mounting encrypted or remote filesystems"
 msgstr ""
 "Ці трэба запамінаць пароль для прымацавання зашыфраваных і аддаленых "
 "файлавых сістэм"
 
-#: data/org.gnome.shell.gschema.xml.in:76
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:76
 msgid ""
 "The shell will request a password when an encrypted device or a remote "
 "filesystem is mounted. If the password can be saved for future use a "
@@ -177,13 +177,13 @@ msgstr ""
 "будзе паказаны пераключальнік \"Запомніць пароль\". Гэты ключ вызначае "
 "прадвызначанае становішча гэтага пераключальніка."
 
-#: data/org.gnome.shell.gschema.xml.in:85
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:85
 msgid ""
 "Whether the default Bluetooth adapter had set up devices associated to it"
 msgstr ""
 "Ці наладжваў прадвызначаны адаптар Bluetooth павязаныя з ім прыстасаванні"
 
-#: data/org.gnome.shell.gschema.xml.in:86
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:86
 msgid ""
 "The shell will only show a Bluetooth menu item if a Bluetooth adapter is "
 "powered, or if there were devices set up associated with the default "
@@ -195,69 +195,69 @@ msgstr ""
 "Параметр будзе скінуты, калі прадвызначаны адаптар не будзе мець павязаных "
 "прыстасаванняў."
 
-#: data/org.gnome.shell.gschema.xml.in:101
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:101
 msgid "Keybinding to open the application menu"
 msgstr "Клавіятурны скарот для адкрыцця праграмнага меню"
 
-#: data/org.gnome.shell.gschema.xml.in:102
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:102
 msgid "Keybinding to open the application menu."
 msgstr "Клавіятурны скарот для адкрыцця праграмнага меню."
 
-#: data/org.gnome.shell.gschema.xml.in:108
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:108
 msgid "Keybinding to open the “Show Applications” view"
 msgstr "Клавіятурны скарот для рэжыму \"Паказаць праграмы\""
 
-#: data/org.gnome.shell.gschema.xml.in:109
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:109
 msgid ""
 "Keybinding to open the “Show Applications” view of the Activities Overview."
 msgstr ""
 "Клавіятурны скарот для рэжыму \"Паказаць праграмы\" у Аглядзе Заняткаў."
 
-#: data/org.gnome.shell.gschema.xml.in:116
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:116
 msgid "Keybinding to open the overview"
 msgstr "Клавіятурны скарот для ўключэння агляду"
 
-#: data/org.gnome.shell.gschema.xml.in:117
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:117
 msgid "Keybinding to open the Activities Overview."
 msgstr "Клавіятурны скарот для Агляду Заняткаў."
 
-#: data/org.gnome.shell.gschema.xml.in:123
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:123
 msgid "Keybinding to toggle the visibility of the notification list"
 msgstr "Клавіятурны скарот для пераключэння бачнасці спіса апавяшчэнняў"
 
-#: data/org.gnome.shell.gschema.xml.in:124
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:124
 msgid "Keybinding to toggle the visibility of the notification list."
 msgstr "Клавіятурны скарот для пераключэння бачнасці спіса апавяшчэнняў."
 
-#: data/org.gnome.shell.gschema.xml.in:130
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:130
 msgid "Keybinding to focus the active notification"
 msgstr "Клавіятурны скарот для пераносу фокусу на актыўнае апавяшчэнне"
 
-#: data/org.gnome.shell.gschema.xml.in:131
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:131
 msgid "Keybinding to focus the active notification."
 msgstr "Клавіятурны скарот для пераносу фокусу на актыўнае апавяшчэнне."
 
-#: data/org.gnome.shell.gschema.xml.in:137
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:137
 msgid ""
 "Keybinding that pauses and resumes all running tweens, for debugging purposes"
 msgstr ""
 "Клавіятурны скарот, які прыпыняе або аднаўляе ўсе запушчаныя анімацыі, для "
 "мэт адладкі."
 
-#: data/org.gnome.shell.gschema.xml.in:146
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:146
 msgid "Which keyboard to use"
 msgstr "Ужываная клавіятура"
 
-#: data/org.gnome.shell.gschema.xml.in:147
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:147
 msgid "The type of keyboard to use."
 msgstr "Від ужыванай клавіятуры."
 
-#: data/org.gnome.shell.gschema.xml.in:158
-#: data/org.gnome.shell.gschema.xml.in:185
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:158
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:185
 msgid "Limit switcher to current workspace."
 msgstr "Абмежаваць пераключальнік дзейнай прасторай працы."
 
-#: data/org.gnome.shell.gschema.xml.in:159
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:159
 msgid ""
 "If true, only applications that have windows on the current workspace are "
 "shown in the switcher. Otherwise, all applications are included."
@@ -265,11 +265,11 @@ msgstr ""
 "Калі ўключана, у пераключальніку будуць бачныя толькі праграмы, якія маюць "
 "вокны на дзейнай прасторы працы. Іначай усе праграмы будуць улучаны."
 
-#: data/org.gnome.shell.gschema.xml.in:176
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:176
 msgid "The application icon mode."
 msgstr "Рэжым значкоў праграм."
 
-#: data/org.gnome.shell.gschema.xml.in:177
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:177
 msgid ""
 "Configures how the windows are shown in the switcher. Valid possibilities "
 "are “thumbnail-only” (shows a thumbnail of the window), “app-icon-"
@@ -279,7 +279,7 @@ msgstr ""
 "only\" (паказваць мініяцюры вокнаў), \"app-icon-only\" (паказваць толькі "
 "значкі праграм) і \"both\" (адразу ўсё)."
 
-#: data/org.gnome.shell.gschema.xml.in:186
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:186
 msgid ""
 "If true, only windows from the current workspace are shown in the switcher. "
 "Otherwise, all windows are included."
@@ -287,42 +287,42 @@ msgstr ""
 "Калі ўключана, у пераключальніку будуць бачныя толькі вокны на дзейнай "
 "прасторы працы. Іначай усе вокны будуць улучаны."
 
-#: data/org.gnome.shell.gschema.xml.in:198
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:198
 msgid "Attach modal dialog to the parent window"
 msgstr "Чапляць мадальныя дыялогавыя акенцы да бацькоўскіх вокнаў"
 
-#: data/org.gnome.shell.gschema.xml.in:199
-#: data/org.gnome.shell.gschema.xml.in:208
-#: data/org.gnome.shell.gschema.xml.in:216
-#: data/org.gnome.shell.gschema.xml.in:224
-#: data/org.gnome.shell.gschema.xml.in:232
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:199
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:208
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:216
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:224
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:232
 msgid ""
-"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
-msgstr "Гэты ключ падмяняе ключ у org.gnome.mutter пры запуску Абалонкі GNOME."
+"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+msgstr "Гэты ключ падмяняе ключ у io.github.scarecrow_de.mutter пры запуску Абалонкі GNOME."
 
-#: data/org.gnome.shell.gschema.xml.in:207
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:207
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Уключыць парадкаванне на краі экрана пры перацягванні туды вокнаў"
 
-#: data/org.gnome.shell.gschema.xml.in:215
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:215
 msgid "Workspaces are managed dynamically"
 msgstr "Дынамічнае кіраванне прасторамі працы"
 
-#: data/org.gnome.shell.gschema.xml.in:223
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:223
 msgid "Workspaces only on primary monitor"
 msgstr "Прасторы працы толькі для асноўнага манітора"
 
-#: data/org.gnome.shell.gschema.xml.in:231
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:231
 msgid "Delay focus changes in mouse mode until the pointer stops moving"
 msgstr ""
 "Затрымліваць змяненне фокусу ў рэжыме мышы да спынення руху яе паказальніка"
 
-#: data/org.gnome.Shell.PortalHelper.desktop.in.in:3
+#: data/io.github.scarecrow_de.Shell.PortalHelper.desktop.in.in:3
 msgid "Network Login"
 msgstr "Сеткавы ўваход"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: data/org.gnome.Shell.PortalHelper.desktop.in.in:9
+#: data/io.github.scarecrow_de.Shell.PortalHelper.desktop.in.in:9
 msgid "network-workgroup"
 msgstr "network-workgroup"
 
@@ -2298,10 +2298,10 @@ msgstr "Сістэмныя гукі"
 #~ msgstr "Парадак кнопак у загалоўку акна"
 
 #~ msgid ""
-#~ "This key overrides the key in org.gnome.desktop.wm.preferences when "
+#~ "This key overrides the key in io.github.scarecrow_de.desktop.wm.preferences when "
 #~ "running Scarecrow Shell."
 #~ msgstr ""
-#~ "Гэты ключ падмяняе ключ у org.gnome.desktop.wm.preferences пры запуску "
+#~ "Гэты ключ падмяняе ключ у io.github.scarecrow_de.desktop.wm.preferences пры запуску "
 #~ "Абалонкі GNOME."
 
 #~ msgid "Extension"

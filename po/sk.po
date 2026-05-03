@@ -51,21 +51,21 @@ msgstr "Zobraziť všetky aplikácie"
 msgid "Open the application menu"
 msgstr "Otvoriť ponuku aplikácií"
 
-#: data/org.gnome.Shell.desktop.in.in:4
+#: data/io.github.scarecrow_de.Shell.desktop.in.in:4
 msgid "Scarecrow Shell"
 msgstr "Shell prostredia GNOME"
 
-#: data/org.gnome.Shell.desktop.in.in:5
+#: data/io.github.scarecrow_de.Shell.desktop.in.in:5
 msgid "Window management and application launching"
 msgstr "Správa okien a spúšťanie aplikácií"
 
-#: data/org.gnome.shell.gschema.xml.in:6
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:6
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
 msgstr ""
 "Povoliť vnútorné nástroje užitočné pre vývojárov a testerov z dialógového "
 "okna Alt-F2"
 
-#: data/org.gnome.shell.gschema.xml.in:9
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:9
 msgid ""
 "Allows access to internal debugging and monitoring tools using the Alt-F2 "
 "dialog."
@@ -73,16 +73,16 @@ msgstr ""
 "Umožňuje prístup k vnútorným ladiacim a sledovacím nástrojom pomocou "
 "dialógového okna Alt-F2."
 
-#: data/org.gnome.shell.gschema.xml.in:16
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:16
 msgid "UUIDs of extensions to enable"
 msgstr "Vlastnosť UUID rozšírení určených na povolenie"
 
-#: data/org.gnome.shell.gschema.xml.in:17
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:17
 msgid ""
 "Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
-"DisableExtension D-Bus methods on org.gnome.Shell."
+"DisableExtension D-Bus methods on io.github.scarecrow_de.Shell."
 msgstr ""
 "Rozšírenia pre Shell prostredia GNOME majú vlastnosť UUID; tento kľúč "
 "obsahuje zoznam rozšírení, ktoré by mali byť načítané. Každé rozšírenie, "
@@ -90,31 +90,31 @@ msgstr ""
 "upraviť aj ručne pomocou metód DBus EnableExtension a DisableExtension v org."
 "gnome.Shell."
 
-#: data/org.gnome.shell.gschema.xml.in:26
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:26
 msgid "UUIDs of extensions to force disabling"
 msgstr "Vlastnosť UUID rozšírení určených na nútené vypnutie"
 
-#: data/org.gnome.shell.gschema.xml.in:27
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:27
 msgid ""
 "Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be disabled, even if loaded as part of the current mode. You can also "
 "manipulate this list with the EnableExtension and DisableExtension D-Bus "
-"methods on org.gnome.Shell. This key takes precedence over the “enabled-"
+"methods on io.github.scarecrow_de.Shell. This key takes precedence over the “enabled-"
 "extensions” setting."
 msgstr ""
 "Rozšírenia pre prostredie Scarecrow Shell majú vlastnosť UUID; tento kľúč "
 "obsahuje zoznam rozšírení, ktoré by mali byť zakázané, aj keď sú načítané "
 "ako súčasť aktuálneho režimu. Tento zoznam môžete upraviť aj ručne pomocou "
-"metód D-Bus EnableExtension a DisableExtension v org.gnome.Shell. Tento kľúč "
+"metód D-Bus EnableExtension a DisableExtension v io.github.scarecrow_de.Shell. Tento kľúč "
 "má prednosť pred nastavením „enabled-extensions“."
 
 # summary
-#: data/org.gnome.shell.gschema.xml.in:37
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:37
 msgid "Disable user extensions"
 msgstr "Zakázať rozšírenia používateľa"
 
 # description
-#: data/org.gnome.shell.gschema.xml.in:38
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:38
 msgid ""
 "Disable all extensions the user has enabled without affecting the “enabled-"
 "extension” setting."
@@ -122,11 +122,11 @@ msgstr ""
 "Zakáže všetky rozšírenia povolené požívateľom bez vplyvu na nastavenie "
 "„enabled-extension“."
 
-#: data/org.gnome.shell.gschema.xml.in:45
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:45
 msgid "Disables the validation of extension version compatibility"
 msgstr "Zakáže kontrolu kompatibility verzií rozšírení"
 
-#: data/org.gnome.shell.gschema.xml.in:46
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:46
 msgid ""
 "Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
@@ -137,11 +137,11 @@ msgstr ""
 "kontrolu a umožníte načítanie všetkých rozšírení bez ohľadu na to, pre ktorú "
 "verziu prostredia deklarujú podporu."
 
-#: data/org.gnome.shell.gschema.xml.in:54
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:54
 msgid "List of desktop file IDs for favorite applications"
 msgstr "Zoznam identifikátorov súborov plochy pre obľúbené aplikácie"
 
-#: data/org.gnome.shell.gschema.xml.in:55
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:55
 msgid ""
 "The applications corresponding to these identifiers will be displayed in the "
 "favorites area."
@@ -150,31 +150,31 @@ msgstr ""
 "obľúbenými aplikáciami."
 
 # summary
-#: data/org.gnome.shell.gschema.xml.in:62
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:62
 msgid "App Picker View"
 msgstr "Zobrazenie výberu aplikácií"
 
 # desc
-#: data/org.gnome.shell.gschema.xml.in:63
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:63
 msgid "Index of the currently selected view in the application picker."
 msgstr "Číslo aktuálne vybraného zobrazenia vo výbere aplikácií."
 
-#: data/org.gnome.shell.gschema.xml.in:69
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:69
 msgid "History for command (Alt-F2) dialog"
 msgstr "História dialógového okna príkazov (Alt-F2)"
 
 # * https://live.gnome.org/GnomeShell/LookingGlass
 #. Translators: looking glass is a debugger and inspector tool, see https://wiki.gnome.org/Projects/GnomeShell/LookingGlass
-#: data/org.gnome.shell.gschema.xml.in:74
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:74
 msgid "History for the looking glass dialog"
 msgstr "História dialógového okna integrovaného odlaďovača"
 
-#: data/org.gnome.shell.gschema.xml.in:78
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:78
 msgid "Always show the “Log out” menu item in the user menu."
 msgstr "Vždy zobraziť položku „Odhlásiť sa“ v ponuke používateľa."
 
 # description
-#: data/org.gnome.shell.gschema.xml.in:79
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:79
 msgid ""
 "This key overrides the automatic hiding of the “Log out” menu item in single-"
 "user, single-session situations."
@@ -183,7 +183,7 @@ msgstr ""
 "s jedným používateľom alebo jednou reláciou."
 
 # summary
-#: data/org.gnome.shell.gschema.xml.in:86
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:86
 msgid ""
 "Whether to remember password for mounting encrypted or remote filesystems"
 msgstr ""
@@ -191,7 +191,7 @@ msgstr ""
 "prenosných súborových systémov"
 
 # description
-#: data/org.gnome.shell.gschema.xml.in:87
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:87
 msgid ""
 "The shell will request a password when an encrypted device or a remote "
 "filesystem is mounted. If the password can be saved for future use a "
@@ -203,12 +203,12 @@ msgstr ""
 "zobrazí sa zaškrtávacie pole „Zapamätať heslo“. Tento kľúč nastaví "
 "predvolený stav zaškrtávacieho poľa."
 
-#: data/org.gnome.shell.gschema.xml.in:96
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:96
 msgid ""
 "Whether the default Bluetooth adapter had set up devices associated to it"
 msgstr "Či má predvolený Bluetooth adaptér nastaviť jemu priradené zariadenia"
 
-#: data/org.gnome.shell.gschema.xml.in:97
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:97
 msgid ""
 "The shell will only show a Bluetooth menu item if a Bluetooth adapter is "
 "powered, or if there were devices set up associated with the default "
@@ -220,11 +220,11 @@ msgstr ""
 "adaptéru. Táto voľba bude vynulovaná, ak predvolený adaptér nemal nikdy "
 "priradené zariadenia."
 
-#: data/org.gnome.shell.gschema.xml.in:106
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:106
 msgid "Enable introspection API"
 msgstr "Povoliť sebapozorovacie API"
 
-#: data/org.gnome.shell.gschema.xml.in:107
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:107
 msgid ""
 "Enables a D-Bus API that allows to introspect the application state of the "
 "shell."
@@ -232,11 +232,11 @@ msgstr ""
 "Povolí D-Bus API, ktoré umožní sebapozorovanie stavu aplikácie prostredia "
 "shell."
 
-#: data/org.gnome.shell.gschema.xml.in:114
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:114
 msgid "Layout of the app picker"
 msgstr "Rozloženie nástroja na výber aplikácie"
 
-#: data/org.gnome.shell.gschema.xml.in:115
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:115
 msgid ""
 "Layout of the app picker. Each entry in the array is a page. Pages are "
 "stored in the order they appear in Scarecrow Shell. Each page contains an "
@@ -249,102 +249,102 @@ msgstr ""
 "sú nasledovné hodnoty uložené ako „údaje“: • “„pozícia“: pozícia ikony "
 "aplikácie na stránke."
 
-#: data/org.gnome.shell.gschema.xml.in:130
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:130
 msgid "Keybinding to open the application menu"
 msgstr "Klávesová skratka na otvorenie ponuky aplikácií"
 
-#: data/org.gnome.shell.gschema.xml.in:131
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:131
 msgid "Keybinding to open the application menu."
 msgstr "Klávesová skratka na otvorenie ponuky aplikácií."
 
-#: data/org.gnome.shell.gschema.xml.in:137
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:137
 msgid "Keybinding to open the “Show Applications” view"
 msgstr "Klávesová skratka na otvorenie pohľadu „Zobraziť aplikácie“"
 
-#: data/org.gnome.shell.gschema.xml.in:138
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:138
 msgid ""
 "Keybinding to open the “Show Applications” view of the Activities Overview."
 msgstr ""
 "Klávesová skratka na otvorenie pohľadu „Zobraziť aplikácie“ v prehľade "
 "aktivít."
 
-#: data/org.gnome.shell.gschema.xml.in:145
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:145
 msgid "Keybinding to open the overview"
 msgstr "Klávesová skratka na otvorenie prehľadu"
 
-#: data/org.gnome.shell.gschema.xml.in:146
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:146
 msgid "Keybinding to open the Activities Overview."
 msgstr "Klávesová skratka na otvorenie prehľadu aktivít."
 
-#: data/org.gnome.shell.gschema.xml.in:152
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:152
 msgid "Keybinding to toggle the visibility of the notification list"
 msgstr "Klávesová skratka na prepnutie viditeľnosti zoznamu s oznámeniami"
 
-#: data/org.gnome.shell.gschema.xml.in:153
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:153
 msgid "Keybinding to toggle the visibility of the notification list."
 msgstr "Klávesová skratka na prepnutie viditeľnosti zoznamu s oznámeniami."
 
-#: data/org.gnome.shell.gschema.xml.in:159
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:159
 msgid "Keybinding to focus the active notification"
 msgstr "Klávesová skratka na zameranie aktívnych oznámení"
 
-#: data/org.gnome.shell.gschema.xml.in:160
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:160
 msgid "Keybinding to focus the active notification."
 msgstr "Klávesová skratka, s ktorou sa zamerá na aktívne oznámenia."
 
 # tooltip
-#: data/org.gnome.shell.gschema.xml.in:166
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:166
 msgid "Switch to application 1"
 msgstr "Prepnúť na aplikáciu č. 1"
 
 # tooltip
-#: data/org.gnome.shell.gschema.xml.in:170
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:170
 msgid "Switch to application 2"
 msgstr "Prepnúť na aplikáciu č. 2"
 
 # tooltip
-#: data/org.gnome.shell.gschema.xml.in:174
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:174
 msgid "Switch to application 3"
 msgstr "Prepnúť na aplikáciu č. 3"
 
 # tooltip
-#: data/org.gnome.shell.gschema.xml.in:178
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:178
 msgid "Switch to application 4"
 msgstr "Prepnúť na aplikáciu č. 4"
 
 # tooltip
-#: data/org.gnome.shell.gschema.xml.in:182
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:182
 msgid "Switch to application 5"
 msgstr "Prepnúť na aplikáciu č. 5"
 
 # tooltip
-#: data/org.gnome.shell.gschema.xml.in:186
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:186
 msgid "Switch to application 6"
 msgstr "Prepnúť na aplikáciu č. 6"
 
 # tooltip
-#: data/org.gnome.shell.gschema.xml.in:190
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:190
 msgid "Switch to application 7"
 msgstr "Prepnúť na aplikáciu č. 7"
 
 # tooltip
-#: data/org.gnome.shell.gschema.xml.in:194
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:194
 msgid "Switch to application 8"
 msgstr "Prepnúť na aplikáciu č. 8"
 
 # tooltip
-#: data/org.gnome.shell.gschema.xml.in:198
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:198
 msgid "Switch to application 9"
 msgstr "Prepnúť na aplikáciu č. 9"
 
 # summary
-#: data/org.gnome.shell.gschema.xml.in:207
-#: data/org.gnome.shell.gschema.xml.in:234
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:207
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:234
 msgid "Limit switcher to current workspace."
 msgstr "Obmedziť prepínač na aktuálny pracovný priestor."
 
 # desc
-#: data/org.gnome.shell.gschema.xml.in:208
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:208
 msgid ""
 "If true, only applications that have windows on the current workspace are "
 "shown in the switcher. Otherwise, all applications are included."
@@ -352,11 +352,11 @@ msgstr ""
 "Ak je true, iba aplikácie, ktoré majú okná na aktuálnom pracovnom priestore "
 "budú zobrazené v prepínači. Inak budú zahrnuté všetky aplikácie."
 
-#: data/org.gnome.shell.gschema.xml.in:225
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:225
 msgid "The application icon mode."
 msgstr "Režim ikonizácie aplikácií."
 
-#: data/org.gnome.shell.gschema.xml.in:226
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:226
 msgid ""
 "Configures how the windows are shown in the switcher. Valid possibilities "
 "are “thumbnail-only” (shows a thumbnail of the window), “app-icon-"
@@ -367,7 +367,7 @@ msgstr ""
 "ikonu aplikácie) alebo „both“ (zobrazí oboje)."
 
 # desc
-#: data/org.gnome.shell.gschema.xml.in:235
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:235
 msgid ""
 "If true, only windows from the current workspace are shown in the switcher. "
 "Otherwise, all windows are included."
@@ -375,64 +375,64 @@ msgstr ""
 "Ak je true, iba okná z aktuálneho pracovného priestoru budú zobrazené v "
 "prepínači. Inak budú zahrnuté všetky okná."
 
-#: data/org.gnome.shell.gschema.xml.in:245
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:245
 msgid "Locations"
 msgstr "Umiestnenia"
 
-#: data/org.gnome.shell.gschema.xml.in:246
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:246
 msgid "The locations to show in world clocks"
 msgstr "Zobrazené umiestnenia v svetových časoch"
 
-#: data/org.gnome.shell.gschema.xml.in:256
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:256
 msgid "Automatic location"
 msgstr "Automatické umiestnenie"
 
-#: data/org.gnome.shell.gschema.xml.in:257
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:257
 msgid "Whether to fetch the current location or not"
 msgstr "Určuje, či sa má získať aktuálne umiestnenie alebo nie"
 
-#: data/org.gnome.shell.gschema.xml.in:264
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:264
 msgid "Location"
 msgstr "Umiestnenie"
 
-#: data/org.gnome.shell.gschema.xml.in:265
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:265
 msgid "The location for which to show a forecast"
 msgstr "Umiestnenie, pre ktoré zobraziť predpoveď"
 
-#: data/org.gnome.shell.gschema.xml.in:277
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:277
 msgid "Attach modal dialog to the parent window"
 msgstr "Pripojiť modálne dialógové okno k rodičovskému oknu"
 
-#: data/org.gnome.shell.gschema.xml.in:278
-#: data/org.gnome.shell.gschema.xml.in:287
-#: data/org.gnome.shell.gschema.xml.in:295
-#: data/org.gnome.shell.gschema.xml.in:303
-#: data/org.gnome.shell.gschema.xml.in:311
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:278
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:287
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:295
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:303
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
 msgstr ""
-"Tento kľúč preváži kľúč v org.gnome.mutter po spustení Shellu prostredia "
+"Tento kľúč preváži kľúč v io.github.scarecrow_de.mutter po spustení Shellu prostredia "
 "GNOME."
 
-#: data/org.gnome.shell.gschema.xml.in:286
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:286
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Povoliť natiahnutie k okraju pri pustení okien na okrajoch obrazovky"
 
-#: data/org.gnome.shell.gschema.xml.in:294
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:294
 msgid "Workspaces are managed dynamically"
 msgstr "Pracovné priestory sú spravované dynamicky"
 
-#: data/org.gnome.shell.gschema.xml.in:302
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:302
 msgid "Workspaces only on primary monitor"
 msgstr "Pracovné priestory sú iba na primárnom monitore"
 
 # summary
-#: data/org.gnome.shell.gschema.xml.in:310
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:310
 msgid "Delay focus changes in mouse mode until the pointer stops moving"
 msgstr ""
 "Oneskoriť pohyb zamerania v režime myši, až kým sa ukazovateľ nezastaví"
 
-#: data/org.gnome.Shell.PortalHelper.desktop.in.in:3
+#: data/io.github.scarecrow_de.Shell.PortalHelper.desktop.in.in:3
 msgid "Network Login"
 msgstr "Sieťové prihlásenie"
 
@@ -2476,23 +2476,23 @@ msgstr "Heslo nemôže byť prázdne"
 msgid "Authentication dialog was dismissed by the user"
 msgstr "Dialógové okno overenia totožnosti bolo zatvorené používateľom"
 
-#: subprojects/extensions-app/data/metainfo/org.gnome.Extensions.metainfo.xml.in:5
-#: subprojects/extensions-app/data/org.gnome.Extensions.desktop.in.in:4
+#: subprojects/extensions-app/data/metainfo/io.github.scarecrow_de.Extensions.metainfo.xml.in:5
+#: subprojects/extensions-app/data/io.github.scarecrow_de.Extensions.desktop.in.in:4
 #: subprojects/extensions-app/js/main.js:183
 #: subprojects/extensions-app/data/ui/extensions-window.ui:61
 msgid "Extensions"
 msgstr "Rozšírenia"
 
-#: subprojects/extensions-app/data/metainfo/org.gnome.Extensions.metainfo.xml.in:6
+#: subprojects/extensions-app/data/metainfo/io.github.scarecrow_de.Extensions.metainfo.xml.in:6
 #: subprojects/extensions-app/js/main.js:184
 msgid "Manage your GNOME Extensions"
 msgstr "Spravuje vaše rozšírenia prostredia GNOME"
 
-#: subprojects/extensions-app/data/metainfo/org.gnome.Extensions.metainfo.xml.in:17
+#: subprojects/extensions-app/data/metainfo/io.github.scarecrow_de.Extensions.metainfo.xml.in:17
 msgid "The GNOME Project"
 msgstr "Projekt GNOME"
 
-#: subprojects/extensions-app/data/metainfo/org.gnome.Extensions.metainfo.xml.in:36
+#: subprojects/extensions-app/data/metainfo/io.github.scarecrow_de.Extensions.metainfo.xml.in:36
 msgid ""
 "GNOME Extensions handles updating extensions, configuring extension "
 "preferences and removing or disabling unwanted extensions."
@@ -2500,7 +2500,7 @@ msgstr ""
 "Rozšírenia prostredia GNOME spravujú aktualizácie rozšírení, konfiguráciu "
 "predvolieb rozšírení a odstraňovanie alebo zakázanie nechcených rozšírení."
 
-#: subprojects/extensions-app/data/org.gnome.Extensions.desktop.in.in:7
+#: subprojects/extensions-app/data/io.github.scarecrow_de.Extensions.desktop.in.in:7
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "Nastavenie rozšírení pre Shell prostredia GNOME"
 
@@ -3078,8 +3078,8 @@ msgstr "Systémové zvuky"
 #~ msgstr "Skopírovať chybu"
 
 #~| msgid "Shell Extensions"
-#~ msgid "org.gnome.Extensions"
-#~ msgstr "org.gnome.Extensions"
+#~ msgid "io.github.scarecrow_de.Extensions"
+#~ msgstr "io.github.scarecrow_de.Extensions"
 
 #~ msgid "Logout…"
 #~ msgstr "Odhlásiť sa…"
@@ -3484,10 +3484,10 @@ msgstr "Systémové zvuky"
 #~ msgstr "Usporiadanie tlačidiel na titulku okna"
 
 #~ msgid ""
-#~ "This key overrides the key in org.gnome.desktop.wm.preferences when "
+#~ "This key overrides the key in io.github.scarecrow_de.desktop.wm.preferences when "
 #~ "running Scarecrow Shell."
 #~ msgstr ""
-#~ "Tento kľúč preváži kľúč v org.gnome.desktop.wm.preferences po spustení "
+#~ "Tento kľúč preváži kľúč v io.github.scarecrow_de.desktop.wm.preferences po spustení "
 #~ "Shellu prostredia GNOME."
 
 #~ msgid "Select an extension to configure using the combobox above."

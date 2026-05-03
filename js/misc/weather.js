@@ -9,13 +9,13 @@ const { loadInterfaceXML } = imports.misc.fileUtils;
 
 Gio._promisify(Geoclue.Simple, 'new', 'new_finish');
 
-const WeatherIntegrationIface = loadInterfaceXML('org.gnome.Shell.WeatherIntegration');
+const WeatherIntegrationIface = loadInterfaceXML('io.github.scarecrow_de.Shell.WeatherIntegration');
 
-const WEATHER_BUS_NAME = 'org.gnome.Weather';
-const WEATHER_OBJECT_PATH = '/org/gnome/Weather';
-const WEATHER_INTEGRATION_IFACE = 'org.gnome.Shell.WeatherIntegration';
+const WEATHER_BUS_NAME = 'io.github.scarecrow_de.Weather';
+const WEATHER_OBJECT_PATH = '/io/github/scarecrow_de/Weather';
+const WEATHER_INTEGRATION_IFACE = 'io.github.scarecrow_de.Shell.WeatherIntegration';
 
-const WEATHER_APP_ID = 'org.gnome.Weather.desktop';
+const WEATHER_APP_ID = 'io.github.scarecrow_de.Weather.desktop';
 
 // Minimum time between updates to show loading indication
 var UPDATE_THRESHOLD = 10 * GLib.TIME_SPAN_MINUTE;
@@ -62,7 +62,7 @@ var WeatherClient = class {
         this._permStore.connectSignal('Changed',
                                       this._onPermStoreChanged.bind(this));
 
-        this._locationSettings = new Gio.Settings({ schema_id: 'org.gnome.system.location' });
+        this._locationSettings = new Gio.Settings({ schema_id: 'io.github.scarecrow_de.system.location' });
         this._locationSettings.connect('changed::enabled',
                                        this._updateAutoLocation.bind(this));
 
@@ -84,7 +84,7 @@ var WeatherClient = class {
         this._createWeatherProxy();
 
         this._settings = new Gio.Settings({
-            schema_id: 'org.gnome.shell.weather',
+            schema_id: 'io.github.scarecrow_de.shell.weather',
         });
         this._settings.connect('changed::automatic-location',
             this._onAutomaticLocationChanged.bind(this));
@@ -248,7 +248,7 @@ var WeatherClient = class {
 
         try {
             this._gclueService = await Geoclue.Simple.new(
-                'org.gnome.Shell', Geoclue.AccuracyLevel.CITY, null);
+                'io.github.scarecrow_de.Shell', Geoclue.AccuracyLevel.CITY, null);
         } catch (e) {
             log(`Failed to connect to Geoclue2 service: ${e.message}`);
             this._setLocation(this._mostRecentLocation);
@@ -310,7 +310,7 @@ var WeatherClient = class {
         if (table != 'gnome' || id != 'geolocation')
             return;
 
-        let permission = perms['org.gnome.Weather'] || ['NONE'];
+        let permission = perms['io.github.scarecrow_de.Weather'] || ['NONE'];
         let [accuracy] = permission;
         this._weatherAuthorized = accuracy != 'NONE';
 

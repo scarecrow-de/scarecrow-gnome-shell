@@ -66,37 +66,37 @@ msgstr "កំណត់​រចនាសម្ព័ន្ធ​ផ្នែក
 msgid "Scarecrow Shell (wayland compositor)"
 msgstr "GNOME សែល (wayland compositor)"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:1
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
 msgstr "បើក​ឧបករណ៍​ខាងក្នុង មាន​ប្រយោជន៍​សម្រាប់​អ្នក​អភិវឌ្ឍន៍ និង​អ្នក​សាកល្បង​ចេញពី Alt-F2"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:2
 msgid ""
 "Allows access to internal debugging and monitoring tools using the Alt-F2 "
 "dialog."
 msgstr "អនុញ្ញាត​ឲ្យ​ចូល​ដំណើរការ​ឧបករណ៍​តាមដាន និង​ឧបករណ៍​បំបាត់​កំហុស​ខាងក្នុង​ដោយ​ប្រើ​ប្រអប់ Alt-F2 ។"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:3
 msgid "UUIDs of extensions to enable"
 msgstr "UUIDs នៃ​ផ្នែក​បន្ថែម​ដែល​ត្រូវ​បើក"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:4
 msgid ""
 "Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
-"DisableExtension D-Bus methods on org.gnome.Shell."
+"DisableExtension D-Bus methods on io.github.scarecrow_de.Shell."
 msgstr ""
 "ផ្នែក​បន្ថែម​របស់ GNOME សែល​ដែល​មាន​លក្ខណសម្បត្តិ UUID ។ ពាក្យ​គន្លឹះ​នេះ​គឺ​រាយ​ផ្នែក​បន្ថែម​ដែល​គួរ​ត្រូវ​"
 "បាន​ផ្ទុក។ ផ្នែក​បន្ថែម​ណា​ដែល​ត្រូវ​ផ្ទុក គឺ​ត្រូវតែ​នៅ​ក្នុង​បញ្ជី​នេះ។ អ្នក​ក៏​អាច​រៀបចំ​បញ្ជី​នេះ​ដោយ​ប្រើ​"
-"វិធីសាស្ត្រ EnableExtension និង DisableExtension D-Bus បាន​ផង​ដែរ​នៅ​លើ org.gnome."
+"វិធីសាស្ត្រ EnableExtension និង DisableExtension D-Bus បាន​ផង​ដែរ​នៅ​លើ io.github.scarecrow_de."
 "Shell ។"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:5
 msgid "Disables the validation of extension version compatibility"
 msgstr "បិទ​សុពលកម្ម​នៃ​ភាព​ឆបគ្នា​របស់​កំណែ​ផ្នែក​បន្ថែម"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:6
 msgid ""
 "Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
@@ -106,42 +106,42 @@ msgstr ""
 "ជម្រើស​នេះ គឺ​វា​នឹង​បិទ​ការ​ពិនិត្យមើល​នេះ ហើយ​ព្យាយាម​ផ្ទុក​ផ្នែក​បន្ថែម​ទាំងអស់​ដោយ​មិន​គិត​អំពី​កំណែ​ដែល​ពួកគេ​"
 "ប្រកាស​ដើម្បី​គាំទ្រ​ឡើយ។"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:7
 msgid "List of desktop file IDs for favorite applications"
 msgstr "បញ្ជី​លេខ​សម្គាល់​ឯកសារ​ផ្ទៃតុ​សម្រាប់​កម្មវិធី​សំណព្វ"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:8
 msgid ""
 "The applications corresponding to these identifiers will be displayed in the "
 "favorites area."
 msgstr "កម្មវិធី​ដែល​ត្រូវគ្នា​ជាមួយ​កម្មវិធី​កំណត់​អត្តសញ្ញាណ​ទាំងនេះ នឹង​ត្រូវ​បាន​បង្ហាញ​នៅ​ក្នុង​ផ្ទៃ​សំណព្វ។"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:9
 msgid "History for command (Alt-F2) dialog"
 msgstr "ប្រវត្តិ​សម្រាប់​ប្រអប់​ពាក្យ​បញ្ជា (Alt-F2)"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:10
 msgid "History for the looking glass dialog"
 msgstr "ប្រវត្តិ​សម្រាប់​ប្រអប់ looking glass"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:11
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:11
 msgid "Always show the 'Log out' menu item in the user menu."
 msgstr "បង្ហាញ​ធាតុ​ម៉ឺនុយ 'ចេញ' ជានិច្ច​នៅ​ក្នុង​ម៉ឺនុយ​អ្នកប្រើ។"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:12
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:12
 msgid ""
 "This key overrides the automatic hiding of the 'Log out' menu item in single-"
 "user, single-session situations."
 msgstr ""
 "ពាក្យ​គន្លឹះ​នេះ​បដិសេធ​ការ​លាក់​ធាតុ​ម៉ឺនុយ 'ចេញ' ស្វ័យប្រវត្តិ​នៅ​ក្នុង​ស្ថានភាព​អ្នកប្រើ​តែមួយ សម័យ​តែមួយ។"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:13
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:13
 msgid ""
 "Whether to remember password for mounting encrypted or remote filesystems"
 msgstr ""
 "ថា​តើ​ត្រូវ​ចងចាំ​ពាក្យសម្ងាត់​សម្រាប់​ការ​ម៉ោន​ប្រព័ន្ធ​ឯកសារ​ពី​ចម្ងាយ ឬ​ឯកសារ​ដែល​បាន​ដាក់​លេខ​កូដ​ដែរ​ឬទេ"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:14
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:14
 msgid ""
 "The shell will request a password when an encrypted device or a remote "
 "filesystem is mounted. If the password can be saved for future use a "
@@ -152,68 +152,68 @@ msgstr ""
 "ពាក្យសម្ងាត់​អាច​ត្រូវ​បាន​រក្សាទុក​សម្រាប់​ប្រើ​នៅ​ពេល​អនាគត ប្រអប់​ធីក 'ចងចាំ​ពាក្យសម្ងាត់' នឹង​បង្ហាញ។ "
 "ពាក្យ​គន្លឹះ​នេះ​កំណត់​សភាព​លំនាំដើម​នៃ​ប្រអប់​ធីក។"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:15
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:15
 msgid "Show the week date in the calendar"
 msgstr "បង្ហាញ​កាលបរិច្ឆេទ​សប្ដាហ៍​នៅ​ក្នុង​ប្រតិទិន"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:16
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:16
 msgid "If true, display the ISO week date in the calendar."
 msgstr "បើ​ពិត បង្ហាញ​កាលបរិច្ឆេទ​សប្ដាហ៍ ISO នៅ​ក្នុង​ប្រតិទិន។"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:17
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:17
 msgid "Keybinding to open the application menu"
 msgstr "បង្គំ​គ្រាប់ចុច​ដើម្បី​បើក​ម៉ឺនុយ​កម្មវិធី"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:18
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:18
 msgid "Keybinding to open the application menu."
 msgstr "បង្គំ​គ្រាប់ចុច​ដើម្បី​បើក​ម៉ឺនុយ​កម្មវិធី។"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:19
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:19
 msgid "Keybinding to open the \"Show Applications\" view"
 msgstr "បង្គំ​គ្រាប់ចុច​ដើម្បី​បើក​ទិដ្ឋភាព \"កម្មវិធី​បង្ហាញ\""
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:20
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:20
 msgid ""
 "Keybinding to open the \"Show Applications\" view of the Activities Overview."
 msgstr "បង្គំ​គ្រាប់ចុច​ដើម្បី​បើក​ទិដ្ឋភាព \"កម្មវិធី​បង្ហាញ\" របស់​ទិដ្ឋភាព​សកម្មភាព។"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:21
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:21
 msgid "Keybinding to open the overview"
 msgstr "បង្គំ​គ្រាប់ចុច​ដើម្បី​បើក​ទិដ្ឋភាព​ទូទៅ"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:22
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:22
 msgid "Keybinding to open the Activities Overview."
 msgstr "បង្គំ​គ្រាប់ចុច​ដើម្បី​បើក​ទិដ្ឋភាព​សកម្មភាព។"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:23
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:23
 msgid "Keybinding to toggle the visibility of the message tray"
 msgstr "បង្គំ​គ្រាប់ចុច​ដើម្បី​បិទ/បើក​លទ្ធភាព​មើល​ឃើញ​របស់​ថាស​សារ"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:24
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:24
 msgid "Keybinding to toggle the visibility of the message tray."
 msgstr "បង្គំ​គ្រាប់ចុច​ដើម្បី​បិទ/បើក​លទ្ធភាព​មើល​ឃើញ​របស់​ថាស​សារ។"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:25
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:25
 msgid "Keybinding to focus the active notification"
 msgstr "បង្គំ​គ្រាប់ចុច​ដើម្បី​ផ្ដោត​លើ​ការ​ជូនដំណឹង​សកម្ម"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:26
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:26
 msgid "Keybinding to focus the active notification."
 msgstr "បង្គំ​គ្រាប់ចុច​ដើម្បី​ផ្ដោត​លើ​ការ​ជូនដំណឹង​សកម្ម។"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:27
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:27
 msgid "Which keyboard to use"
 msgstr "ក្ដារចុច​ដែល​ត្រូវ​ប្រើ"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:28
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:28
 msgid "The type of keyboard to use."
 msgstr "ប្រភេទ​ក្ដារចុច​ដែល​ត្រូវ​ប្រើ។"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:29
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:29
 msgid "The maximum accuracy level of location."
 msgstr "កម្រិត​សុក្រឹតភាព​អតិបរមា​នៃ​ទីតាំង។"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:30
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:30
 msgid ""
 "Configures the maximum level of location accuracy applications are allowed "
 "to see. Valid options are 'off' (disable location tracking), 'country', "
@@ -228,11 +228,11 @@ msgstr ""
 "មើល​ឃើញ ហើយ​ពួកគេ​អាច​រក​ឃើញ​ទីតាំង​របស់​អ្នកប្រើ​ដោយ​ប្រើ​ធនធាន​បណ្ដាញ​ផ្ទាល់ខ្លួន (សូម្បីតែ​សុក្រឹតភាព​កម្រិត​"
 "ផ្លូវ​ក៏​ល្អ​ដែរ)"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:31
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:31
 msgid "The application icon mode."
 msgstr "របៀប​រូបតំណាង​កម្មវិធី។"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:32
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:32
 msgid ""
 "Configures how the windows are shown in the switcher. Valid possibilities "
 "are 'thumbnail-only' (shows a thumbnail of the window), 'app-icon-"
@@ -242,40 +242,40 @@ msgstr ""
 "only' (បង្ហាញ​រូបភាព​តូច​របស់​បង្អួច), 'app-icon-only' (បង្ហាញ​តែ​រូបតំណាង​កម្មវិធី​ប៉ុណ្ណោះ) ឬ "
 "'both'។"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:33
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:33
 msgid "Attach modal dialog to the parent window"
 msgstr "ភ្ជាប់​ប្រអប់​បែបបទ​ទៅ​បង្អួច​មេ"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:34
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:34
 msgid ""
-"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
-msgstr "ពាក្យ​គន្លឹះ​នេះ​បដិសេធ​ពាក្យ​គន្លឹះ​នៅ​ក្នុង org.gnome.mutter ពេល​ដំណើរការ GNOME សែល។"
+"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+msgstr "ពាក្យ​គន្លឹះ​នេះ​បដិសេធ​ពាក្យ​គន្លឹះ​នៅ​ក្នុង io.github.scarecrow_de.mutter ពេល​ដំណើរការ GNOME សែល។"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:35
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:35
 msgid "Arrangement of buttons on the titlebar"
 msgstr "ការ​រៀបចំ​ប៊ូតុង​នៅ​លើ​របារ​ចំណងជើង"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:36
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:36
 msgid ""
-"This key overrides the key in org.gnome.desktop.wm.preferences when running "
+"This key overrides the key in io.github.scarecrow_de.desktop.wm.preferences when running "
 "Scarecrow Shell."
 msgstr ""
-"ពាក្យ​គន្លឹះ​នេះ​បដិសេធ​ពាក្យ​គន្លឹះ​នៅ​ក្នុង org.gnome.desktop.wm.preferences ពេល​ដំណើរការ "
+"ពាក្យ​គន្លឹះ​នេះ​បដិសេធ​ពាក្យ​គន្លឹះ​នៅ​ក្នុង io.github.scarecrow_de.desktop.wm.preferences ពេល​ដំណើរការ "
 "GNOME សែល។"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:37
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:37
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "បើក​គម្រប​គែម​ពេល​ទម្លាក់​បង្អួច​នៅ​លើ​គែម​អេក្រង់"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:38
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:38
 msgid "Workspaces are managed dynamically"
 msgstr "តំបន់​ធ្វើការ​ត្រូវ​បាន​គ្រប់គ្រង​ជា​ថាមវន្ត"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:39
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:39
 msgid "Workspaces only on primary monitor"
 msgstr "តំបន់​ធ្វើការ​មានតែ​នៅ​លើ​ម៉ូនីទ័រ​មេ​ប៉ុណ្ណោះ"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:40
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:40
 msgid "Delay focus changes in mouse mode until the pointer stops moving"
 msgstr "ប្ដូរ​ការ​ពន្យារពេល​ផ្ដោត​នៅ​ក្នុង​របៀប​កណ្ដុរ​រហូតដល់​ព្រួញ​កណ្ដុរ​លែង​ផ្លាស់ទី"
 

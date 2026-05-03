@@ -25,7 +25,7 @@ function main() {
     Gtk.init(null);
     Gdk.set_program_class('test-gjsgapp');
 
-    let app = new Gtk.Application({ application_id: 'org.gnome.Shell.GtkApplicationTest' });
+    let app = new Gtk.Application({ application_id: 'io.github.scarecrow_de.Shell.GtkApplicationTest' });
     app.connect('activate', () => {
         print ("Activated");
     });

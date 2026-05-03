@@ -66,33 +66,33 @@ msgstr "گىنوم Shell كېڭەيتمىسىنىڭ مايىللىقى"
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "گىنوم Shell كېڭەيتمىسىنى سەپلەش"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:1
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
 msgstr "ئىچكى قورال قوزغىتىلسا ئىجادكارلار ۋە سىنىغۇچىلارنىڭ Alt-F2 ئارقىلىق كىرىشىگە قۇلايلىق"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:2
 msgid ""
 "Allows access to internal debugging and monitoring tools using the Alt-F2 "
 "dialog."
 msgstr "ئىچكى سازلاش ۋە كۆزىتىش قورالىنى زىيارەت قىلىشتا  Alt-F2 ئىشلىتىشكە ئىجازەت."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:3
 msgid "Uuids of extensions to enable"
 msgstr "ئىناۋەتلىك قىلىدىغان كېڭەيتىلمىنىڭ Uuids سى"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:4
 msgid ""
 "Scarecrow Shell extensions have a uuid property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
-"DisableExtension DBus methods on org.gnome.Shell."
-msgstr "گىنوم Shell كېڭەيتىلمىسىنىڭ uuid خاسلىقى بولىدۇ. بۇ ئاچقۇچتا ئىناۋەتلىك قىلىنىدىغان كېڭەيتىلمىلەرنىڭ تىزىمى بار. ئوقۇلىدىغان كېڭەيتىلمىلەر چوقۇم مۇشۇ تىزىمدا بولۇشى كېرەك. بۇ تىزىمنى org.gnome.Shell دىكى DBus نىڭ EnableExtension ۋە DisableExtension دېگەن فۇنكسىيىلىرى(methods)  ئارقىلىق باشقۇرغىلى بولىدۇ."
+"DisableExtension DBus methods on io.github.scarecrow_de.Shell."
+msgstr "گىنوم Shell كېڭەيتىلمىسىنىڭ uuid خاسلىقى بولىدۇ. بۇ ئاچقۇچتا ئىناۋەتلىك قىلىنىدىغان كېڭەيتىلمىلەرنىڭ تىزىمى بار. ئوقۇلىدىغان كېڭەيتىلمىلەر چوقۇم مۇشۇ تىزىمدا بولۇشى كېرەك. بۇ تىزىمنى io.github.scarecrow_de.Shell دىكى DBus نىڭ EnableExtension ۋە DisableExtension دېگەن فۇنكسىيىلىرى(methods)  ئارقىلىق باشقۇرغىلى بولىدۇ."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:5
 msgid "Whether to collect stats about applications usage"
 msgstr "پروگراممىنىڭ ئىشلىتىلىشى ھەققىدىكى ستاتىستىكىنى توپلامدۇ يوق"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:6
 msgid ""
 "The shell normally monitors active applications in order to present the most "
 "used ones (e.g. in launchers). While this data will be kept private, you may "
@@ -100,62 +100,62 @@ msgid ""
 "remove already saved data."
 msgstr "چاپان (shell) ئادەتتىكى ئەھۋالدا كۆپ ئىشلىتىلىدىغان ئاكتىپ پروگراممىلار(مەسىلەن، ئىجرا قىلىنىۋاتقان)نى كۆزىتىدۇ. گەرچە بۇ سانلىق مەلۇماتلار مەخپىي ساقلانسىمۇ، شەخسىي سىر سەۋەبىدىن بۇنى چەكلىشىڭىز مۇمكىن. دىققەت بۇنداق قىلغاندا ئاللىبۇرۇن ساقلانغان سانلىق مەلۇماتلار چىقىرىۋېتىلمەيدۇ."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:7
 msgid "List of desktop file IDs for favorite applications"
 msgstr "ئامراق پروگراممىلارنىڭ ئۈستەلئۈستى ھۆججەت ID تىزىمى"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:8
 msgid ""
 "The applications corresponding to these identifiers will be displayed in the "
 "favorites area."
 msgstr "مۇناسىپ پروگرامما بەلگىسى يىغقۇچ رايونىدا كۆرسىتىلىدۇ."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:9
 msgid "List of categories that should be displayed as folders"
 msgstr "قىسقۇچ سۈپىتىدە كۆرسىتىلىدىغان كاتېگورىيەلەرنىڭ تىزىمى"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:10
 msgid ""
 "Each category name in this list will be represented as folder in the "
 "application view, rather than being displayed inline in the main view."
 msgstr "پروگرامما كۆرۈنۈشىدە ھەر بىر كاتېگورىيە ئاتى قىسقۇچ سۈپىتىدە ئىپادىلىنىدۇ، ئاساسىي كۆرۈنۈشتە كۆرسىتىلمەيدۇ."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:11
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:11
 msgid "History for command (Alt-F2) dialog"
 msgstr "بۇيرۇق (Alt-F2) سۆزلەشكۈنىڭ تارىخى"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:12
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:12
 msgid "History for the looking glass dialog"
 msgstr "looking glass سۆزلەشكۈنىڭ تارىخى"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:13
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:13
 msgid ""
 "Internally used to store the last IM presence explicitly set by the user. "
 "The value here is from the TpConnectionPresenceType enumeration."
 msgstr "ئىشلەتكۈچى تەرىپىدىن روشەن بەلگىلەنگەن ئەڭ يېڭى IM ھالىتى ساقلاش ئۈچۈن ئىچكى قىسىمدا ئىشلىتىلىدۇ. بۇ TpConnectionPresenceType نىڭ قىممىتى بولىدۇ."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:14
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:14
 msgid ""
 "Internally used to store the last session presence status for the user. The "
 "value here is from the GsmPresenceStatus enumeration."
 msgstr "ئىشلەتكۈچىنىڭ ئەڭ يېڭى ھالىتى ساقلاش ئۈچۈن ئىچكى قىسىمدا ئىشلىتىلىدۇ. بۇ GsmPresenceStatus نىڭ قىممىتى بولىدۇ."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:15
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:15
 msgid "Always show the 'Log out' menuitem in the user menu."
 msgstr "ئىشلەتكۈچى تىزىملىكىدە ھەمىشە ‹چىق› تىزىملىكىنى كۆرسىتىدۇ."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:16
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:16
 msgid ""
 "This key overrides the automatic hiding of the 'Log out' menuitem in single-"
 "user, single-session situations."
 msgstr "مەزكۇر ئاچقۇچ يەككە ئىشلەتكۈچى، يەككە ئەڭگىمە ھالىتىدە ‹چىق› دېگەن تىزىملىكنى قاپلىۋېتىدۇ."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:17
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:17
 msgid ""
 "Whether to remember password for mounting encrypted or remote filesystems"
 msgstr "شىفىرلانغان ياكى يىراقتىكى ھۆججەت سىستېمىسىنى ئېگەرلەشتە ئىمنى ئەستە تۇتسۇنمۇ"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:18
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:18
 msgid ""
 "The shell will request a password when an encrypted device or a remote "
 "filesystem is mounted. If the password can be saved for future use a "
@@ -163,78 +163,78 @@ msgid ""
 "state of the checkbox."
 msgstr "شىفىرلانغان ياكى يىراقتىكى ھۆججەت سىستېمىسىنى ئېگەرلەيدىغان ۋاقىتتا مەزكۇر shell ئىم تەلەپ قىلىدۇ. ئەگەر ‹ئىمنى ئەستە تۇت› دېگىنى تاللانسا، كېيىنلىك ئۈچۈن ئىمنى ساقلاپ قويىدۇ. بۇ ئاچقۇچ checkbox نىڭ كۆڭۈلدىكى ھالىتىنى بەلگىلەيدۇ."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:19
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:19
 msgid "Show the week date in the calendar"
 msgstr "يىلنامىدە ھەپتىنى كۆرسەتسۇن"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:20
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:20
 msgid "If true, display the ISO week date in the calendar."
 msgstr "ئەگەر راست(true) بولسا يىلنامىدىكى ISO ھەپتە چېسلانى كۆرسىتىدۇ."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:21
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:21
 msgid "Keybinding to open the application menu"
 msgstr "پروگرامما تىزىملىكىنى ئاچىدىغان كۇنۇپكا بىرىكمىسى"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:22
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:22
 msgid "Keybinding to open the application menu."
 msgstr "پروگرامما تىزىملىكىنى ئاچىدىغان كۇنۇپكا بىرىكمىسى."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:23
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:23
 msgid "Keybinding to open the \"Show Applications\" view"
 msgstr "«پروگراممىلارنى كۆرسەت» كۆرۈنۈشىنى ئاچىدىغان كۇنۇپكا بىرىكمىسى"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:24
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:24
 msgid ""
 "Keybinding to open the \"Show Applications\" view of the Activities Overview."
 msgstr "پائالىيەتلەر كۆرۈنۈشىدە «پروگراممىلارنى كۆرسەت» كۆرۈنۈشىنى ئاچىدىغان كۇنۇپكا بىرىكمىسى."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:25
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:25
 msgid "Keybinding to toggle the visibility of the message tray"
 msgstr "ئۇچۇر قوندىقىنى كۆرسىتىش-كۆرسەتمەسلىكنى ئالماشتۇرىدىغان كۇنۇپكا بىرىكمىسى"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:26
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:26
 msgid "Keybinding to toggle the visibility of the message tray."
 msgstr "ئۇچۇر قوندىقىنى كۆرسىتىش-كۆرسەتمەسلىكنى ئالماشتۇرىدىغان كۇنۇپكا بىرىكمىسى."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:27
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:27
 msgid "Keybinding to focus the active notification"
 msgstr "ئاكتىپ ئۇقتۇرۇشنى كۆرسىتىدىغان كۇنۇپكا بىرىكمىسى"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:28
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:28
 msgid "Keybinding to focus the active notification."
 msgstr "ئاكتىپ ئۇقتۇرۇشنى كۆرسىتىدىغان كۇنۇپكا بىرىكمىسى."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:29
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:29
 msgid "Keybinding to toggle the screen recorder"
 msgstr "ئېكراننى سۈرەتكە ئالغۇنى باشلايدىغان/توختىتىدىغان كۇنۇپكا بىرىكمىسى"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:30
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:30
 msgid "Keybinding to start/stop the builtin screen recorder."
 msgstr "سىڭدۈرۈۋېتىلگەن ئېكراننى سۈرەتكە ئالغۇنى باشلايدىغان/توختىتىدىغان كۇنۇپكا بىرىكمىسى."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:31
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:31
 msgid "Which keyboard to use"
 msgstr "ئىشلەتمەكچى بولغان كۇنۇپكا تاختىسى"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:32
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:32
 msgid "The type of keyboard to use."
 msgstr "ئىشلەتمەكچى بولغان كۇنۇپكا تاختىسى."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:33
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:33
 msgid "Framerate used for recording screencasts."
 msgstr "ئېكران كۆرۈنۈشى (screencasts) خاتىرىلەشتە ئىشلىتىلىدىغان كاندۇك تېزلىكى."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:34
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:34
 msgid ""
 "The framerate of the resulting screencast recordered by Scarecrow Shell's "
 "screencast recorder in frames-per-second."
 msgstr "گىنوم Shell ئېكران خاتىرىلىگۈچ ھەر سېكۇنتتا خاتىرىلەيدىغان ئېكران كۆرۈنۈشى كاندۇك سۈرىتى(ھەر سېكۇنتتىكى كاندۇك سانى)."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:35
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:35
 msgid "The gstreamer pipeline used to encode the screencast"
 msgstr "ئېكران كۆرۈنۈشىنى كودلاشتا ئىشلىتىلىدىغان gstreamer ئاقما لىنىيىسى"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:37
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:37
 #, no-c-format
 msgid ""
 "Sets the GStreamer pipeline used to encode recordings. It follows the syntax "
@@ -249,56 +249,56 @@ msgid ""
 "used as a placeholder for a guess at the optimal thread count on the system."
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:38
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:38
 msgid "File extension used for storing the screencast"
 msgstr "ئېكران كۆرۈنۈشى (screencasts) ساقلاشتا ئىشلىتىلىدىغان ھۆججەتنىڭ كېڭەيتىلگەن ئاتى"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:39
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:39
 msgid ""
 "The filename for recorded screencasts will be a unique filename based on the "
 "current date, and use this extension. It should be changed when recording to "
 "a different container format."
 msgstr "خاتىرىلەنگەن ئېكراننىڭ ھۆججەت ئاتى نۆۋەتتىكى چېسلا ئاساسىدا بىردىنبىر بولۇپ بۇ كېڭەيتىلگەن ئاتىنى ئىشلىتىدۇ. ئۇ ئۆزگەرسە ئوخشاش بولمىغان قاچا فورماتىدا خاتىرىلەيدۇ."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:40
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:40
 msgid "The application icon mode."
 msgstr "پروگرامما سىنبەلگە ھالىتى."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:41
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:41
 msgid ""
 "Configures how the windows are shown in the switcher. Valid possibilities "
 "are 'thumbnail-only' (shows a thumbnail of the window), 'app-icon-"
 "only' (shows only the application icon) or 'both'."
 msgstr "ئالماشتۇرغۇچتا پروگراممىلارنىڭ قانداق كۆرسىتىلىدىغانلىقىنى سەپلەيدۇ. قىممەتلەر: ‹thumbnail-only›(پەقەت كۆزنەكنىڭ كىچىك سۈرىتىنىلا كۆرسىتىدۇ)،‹app-icon-only›(پروگراممىنىڭ سىنبەلگىسىنىلا كۆرسىتىدۇ) ۋە ‹ئىككىلىسى›"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:42
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:42
 msgid "Attach modal dialog to the parent window"
 msgstr "ئاتا كۆزنەككە modal سۆزلەشكۈنى قات"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:43
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:43
 msgid ""
-"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
-msgstr "گىنوم Shell ئىجرا بولۇۋاتقاندا مەزكۇر ئاچقۇچ org.gnome.mutter نىڭ ئىچىدىكى ئاچقۇچنى قاپلىۋېتىدۇ."
+"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+msgstr "گىنوم Shell ئىجرا بولۇۋاتقاندا مەزكۇر ئاچقۇچ io.github.scarecrow_de.mutter نىڭ ئىچىدىكى ئاچقۇچنى قاپلىۋېتىدۇ."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:44
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:44
 msgid "Arrangement of buttons on the titlebar"
 msgstr "ماۋزۇ بالدىقىدىكى توپچىلارنىڭ ئورۇنلاشتۇرۇلۇشى"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:45
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:45
 msgid ""
-"This key overrides the key in org.gnome.desktop.wm.preferences when running "
+"This key overrides the key in io.github.scarecrow_de.desktop.wm.preferences when running "
 "Scarecrow Shell."
-msgstr "گىنوم Shell ئىجرا بولۇۋاتقاندا مەزكۇر ئاچقۇچ org.gnome.desktop.wm.preferences نىڭ ئىچىدىكى ئاچقۇچنى قاپلىۋېتىدۇ."
+msgstr "گىنوم Shell ئىجرا بولۇۋاتقاندا مەزكۇر ئاچقۇچ io.github.scarecrow_de.desktop.wm.preferences نىڭ ئىچىدىكى ئاچقۇچنى قاپلىۋېتىدۇ."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:46
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:46
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:47
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:47
 msgid "Workspaces are managed dynamically"
 msgstr "خىزمەت رايونلىرى جانلىق باشقۇرۇلسۇن"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:48
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:48
 msgid "Workspaces only on primary monitor"
 msgstr "ئاساسىي كۆزەتكۈچتىكى خىزمەت رايونلىرىلا"
 

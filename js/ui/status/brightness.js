@@ -9,10 +9,10 @@ const Slider = imports.ui.slider;
 
 const { loadInterfaceXML } = imports.misc.fileUtils;
 
-const BUS_NAME = 'org.gnome.SettingsDaemon.Power';
-const OBJECT_PATH = '/org/gnome/SettingsDaemon/Power';
+const BUS_NAME = 'io.github.scarecrow_de.SettingsDaemon.Power';
+const OBJECT_PATH = '/io/github/scarecrow_de/SettingsDaemon/Power';
 
-const BrightnessInterface = loadInterfaceXML('org.gnome.SettingsDaemon.Power.Screen');
+const BrightnessInterface = loadInterfaceXML('io.github.scarecrow_de.SettingsDaemon.Power.Screen');
 const BrightnessProxy = Gio.DBusProxy.makeProxyWrapper(BrightnessInterface);
 
 var Indicator = GObject.registerClass(

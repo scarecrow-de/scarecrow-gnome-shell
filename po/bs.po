@@ -66,11 +66,11 @@ msgstr "Podesi Scarecrow Shell proširenja"
 msgid "Scarecrow Shell (wayland compositor)"
 msgstr "GNOME školjka (wayland compositor)"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:1
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
 msgstr "Omogućite interne alate korisne za programere i testere iz Alt-F2"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:2
 msgid ""
 "Allows access to internal debugging and monitoring tools using the Alt-F2 "
 "dialog."
@@ -78,27 +78,27 @@ msgstr ""
 "Omogućava pristup internom ispravljanju grešaka i praćenje alata pomoću "
 "dijaloga Alt-F2."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:3
 msgid "UUIDs of extensions to enable"
 msgstr "UUID nastavci za omogućavanje"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:4
 msgid ""
 "Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
-"DisableExtension D-Bus methods on org.gnome.Shell."
+"DisableExtension D-Bus methods on io.github.scarecrow_de.Shell."
 msgstr ""
 "Scarecrow Shell ekstenzije imaju UUID osobinu; ovaj ključ prikazuje nastavke "
 "koji bi trebali biti učitani. Svaka se ekstenzija koja želi da se učita "
 "treba biti na ovom popisu. Također možete manipulirati ovim popisom sa "
-"OmogućiNastavke i OnemogućiNastavke D - Bus metodama na org.gnome.Shell."
+"OmogućiNastavke i OnemogućiNastavke D - Bus metodama na io.github.scarecrow_de.Shell."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:5
 msgid "Disables the validation of extension version compatibility"
 msgstr "Onemogućava validaciju kompatibilnosti verzije nastavaka"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:6
 msgid ""
 "Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
@@ -108,11 +108,11 @@ msgstr ""
 "verziju. Uključivanje ove opcije će onemogućiti ovu provjeru i pokušati "
 "učitati sve nastavke bez obzira na verzije koje podržavaju."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:7
 msgid "List of desktop file IDs for favorite applications"
 msgstr "Popis ID-desktop datoteke za omiljene aplikacije"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:8
 msgid ""
 "The applications corresponding to these identifiers will be displayed in the "
 "favorites area."
@@ -120,27 +120,27 @@ msgstr ""
 "Aplikacije koje odgovaraju ovim identifikatorima će biti prikazane u "
 "omiljenom području."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:9
 msgid "App Picker View"
 msgstr "Pregled birača aplikacije"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:10
 msgid "Index of the currently selected view in the application picker."
 msgstr "Indeks trenutno odabranog pregleda u biraču aplikacija."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:11
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:11
 msgid "History for command (Alt-F2) dialog"
 msgstr "Historija za dijalog komande (Alt-F2)."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:12
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:12
 msgid "History for the looking glass dialog"
 msgstr "Historija za ogledalo dijalog."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:13
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:13
 msgid "Always show the 'Log out' menu item in the user menu."
 msgstr "Uvijek prikaži 'Odjavi se' stavku menija u korisničkom meniju."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:14
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:14
 msgid ""
 "This key overrides the automatic hiding of the 'Log out' menu item in single-"
 "user, single-session situations."
@@ -148,12 +148,12 @@ msgstr ""
 "Ovaj ključ nadjačava automatsko skrivanje  'Odjava' stavke izbornika jednog "
 "korisnika,  u situacijama jedne sesije."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:15
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:15
 msgid ""
 "Whether to remember password for mounting encrypted or remote filesystems"
 msgstr "Bilo da zapamti lozinku šifrovanog ili udaljenog fajl sistema."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:16
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:16
 msgid ""
 "The shell will request a password when an encrypted device or a remote "
 "filesystem is mounted. If the password can be saved for future use a "
@@ -165,76 +165,76 @@ msgstr ""
 "prikazati kvadratić da oznacčte Zapamti lozinku. Ova tipka postavlja osnovno "
 "stanje kvadratića za označavanje."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:17
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:17
 msgid "Show the week date in the calendar"
 msgstr "Prikaži datum sedmice u kalendaru."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:18
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:18
 msgid "If true, display the ISO week date in the calendar."
 msgstr "Ako je tačno, prikazi ISO datum sedmice u kalendaru."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:19
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:19
 msgid "Keybinding to open the application menu"
 msgstr "Prečica za otvaranje aplikacijskog menija."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:20
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:20
 msgid "Keybinding to open the application menu."
 msgstr "Prečica za otvaranje aplikacijskog menija."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:21
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:21
 msgid "Keybinding to open the \"Show Applications\" view"
 msgstr "Prečica za otvaranje \"Prikaži aplikacije\" prikaza."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:22
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:22
 msgid ""
 "Keybinding to open the \"Show Applications\" view of the Activities Overview."
 msgstr ""
 "Prečica za otvaranje \"Prikaži aplikacije\" prikaza u pregledu aktivnosti."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:23
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:23
 msgid "Keybinding to open the overview"
 msgstr "Prečica za otvaranje pregleda."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:24
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:24
 msgid "Keybinding to open the Activities Overview."
 msgstr "Prečica za otvaranje pregleda aktivnosti."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:25
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:25
 msgid "Keybinding to toggle the visibility of the message tray"
 msgstr "Prečica za mijenjanje prikaza poruke."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:26
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:26
 msgid "Keybinding to toggle the visibility of the message tray."
 msgstr "Prečica za mijenjanje prikaza poruke."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:27
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:27
 msgid "Keybinding to focus the active notification"
 msgstr "Precica za fokusiranje aktivne obavijesti."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:28
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:28
 msgid "Keybinding to focus the active notification."
 msgstr "Precica za fokusiranje aktivne obavijesti."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:29
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:29
 msgid ""
 "Keybinding that pauses and resumes all running tweens, for debugging purposes"
 msgstr ""
 "Kratice tipkovnice koje pauziraju i nastavljaju sve pokrenute tweens, što za "
 "svrhu ima ispravljanje pogrešaka"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:30
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:30
 msgid "Which keyboard to use"
 msgstr "Koju tastaturu koristiti"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:31
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:31
 msgid "The type of keyboard to use."
 msgstr "Tip tastature za koristenje."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:32
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:32
 msgid "Limit switcher to current workspace."
 msgstr "Ograničite prebacivanje na trenutnom radnom prostoru."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:33
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:33
 msgid ""
 "If true, only applications that have windows on the current workspace are "
 "shown in the switcher. Otherwise, all applications are included."
@@ -242,11 +242,11 @@ msgstr ""
 "Ako je tačno, samo aplikacije koje imaju prozore na trenutnom radnom "
 "prostoru su prikazane u prekidaču. Inače, sve alpikacije su uključene."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:34
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:34
 msgid "The application icon mode."
 msgstr "Mod aplikacijske ikone."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:35
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:35
 msgid ""
 "Configures how the windows are shown in the switcher. Valid possibilities "
 "are 'thumbnail-only' (shows a thumbnail of the window), 'app-icon-"
@@ -256,7 +256,7 @@ msgstr ""
 "'slicicica-samo' (prikazuje slicicu prozora), 'app-icon- samo' (prikazuje "
 "samo aplikaciju) ili 'oboje'."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:36
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:36
 msgid ""
 "If true, only windows from the current workspace are shown in the switcher. "
 "Otherwise, all windows are included."
@@ -264,35 +264,35 @@ msgstr ""
 "Ako je tačno, samo forme na trenutnom radnom prostoru su prikazane u "
 "prekidaču. Inače, svi prozori su uključeni."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:37
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:37
 msgid "Attach modal dialog to the parent window"
 msgstr "Pričvrstite modalni dijalog na izvornom prozoru"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:38
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:38
 msgid ""
-"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
 msgstr ""
-"Ovaj ključ nadjačava ključ u org.gnome.mutter kada se izvodi GNOME školjka."
+"Ovaj ključ nadjačava ključ u io.github.scarecrow_de.mutter kada se izvodi GNOME školjka."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:39
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:39
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Omogući poravnanje rubova prilikom spuštanja prozora na rubove ekrana"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:40
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:40
 msgid "Workspaces are managed dynamically"
 msgstr "Radni prostor je upravljan dinamički"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:41
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:41
 msgid "Workspaces only on primary monitor"
 msgstr "Radni prostori samo na glavnom monitoru"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:42
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:42
 msgid "Delay focus changes in mouse mode until the pointer stops moving"
 msgstr ""
 "Kašnjenje fokusa  rezultuje promjenama  u načinu miša dok pokazivač prestaje "
 "s kretanjem"
 
-#: ../data/org.gnome.Shell.PortalHelper.desktop.in.h:1
+#: ../data/io.github.scarecrow_de.Shell.PortalHelper.desktop.in.h:1
 msgid "Network Login"
 msgstr "Mrežna prijava"
 
@@ -1726,10 +1726,10 @@ msgstr "Autentifikacijski dijalog ugašen od strane korisnika"
 msgid "Show the notification list"
 msgstr "Prikaži listu obavijesti"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:25
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:25
 msgid "Keybinding to toggle the visibility of the notification list"
 msgstr "Taster za izmjenu vidljivosti liste obavijesti"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:26
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:26
 msgid "Keybinding to toggle the visibility of the notification list."
 msgstr "Taster za izmjenu vidljivosti liste obavijesti"

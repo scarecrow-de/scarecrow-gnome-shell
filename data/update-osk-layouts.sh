@@ -29,7 +29,7 @@ $CLDR2JSON $SRCDIR $DESTDIR
 cat >$TMP_GRESOURCE_FILE <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/org/gnome/shell/osk-layouts">
+  <gresource prefix="/io/github/scarecrow_de/shell/osk-layouts">
 EOF
 
 for f in $DESTDIR/*.json

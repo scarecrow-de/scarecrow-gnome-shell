@@ -45,21 +45,21 @@ msgstr "Minden alkalmazás megjelenítése"
 msgid "Open the application menu"
 msgstr "Az alkalmazásmenü megnyitása"
 
-#: data/org.gnome.Shell.desktop.in.in:4
+#: data/io.github.scarecrow_de.Shell.desktop.in.in:4
 msgid "Scarecrow Shell"
 msgstr "Scarecrow Shell"
 
-#: data/org.gnome.Shell.desktop.in.in:5
+#: data/io.github.scarecrow_de.Shell.desktop.in.in:5
 msgid "Window management and application launching"
 msgstr "Ablakkezelés és alkalmazásindítás"
 
-#: data/org.gnome.shell.gschema.xml.in:6
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:6
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
 msgstr ""
 "Fejlesztők és tesztelők számára hasznos belső eszközök engedélyezése az Alt-"
 "F2 ablakból"
 
-#: data/org.gnome.shell.gschema.xml.in:9
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:9
 msgid ""
 "Allows access to internal debugging and monitoring tools using the Alt-F2 "
 "dialog."
@@ -67,32 +67,32 @@ msgstr ""
 "Belső hibakereső és megfigyelő eszközök elérésének engedélyezése az Alt-F2 "
 "ablak használatával."
 
-#: data/org.gnome.shell.gschema.xml.in:16
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:16
 msgid "UUIDs of extensions to enable"
 msgstr "Engedélyezendő kiterjesztések UUID azonosítói"
 
-#: data/org.gnome.shell.gschema.xml.in:17
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:17
 msgid ""
 "Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
-"DisableExtension D-Bus methods on org.gnome.Shell."
+"DisableExtension D-Bus methods on io.github.scarecrow_de.Shell."
 msgstr ""
 "A Scarecrow Shell kiterjesztések rendelkeznek egy UUID tulajdonsággal; ez a "
 "kulcs felsorolja a betöltendő kiterjesztéseket. Minden betöltendő "
-"kiterjesztésnek szerepelnie kell a listában. A listát az org.gnome.Shell "
+"kiterjesztésnek szerepelnie kell a listában. A listát az io.github.scarecrow_de.Shell "
 "EnableExtension és DisableExtension D-Bus metódusaival is manipulálhatja."
 
-#: data/org.gnome.shell.gschema.xml.in:26
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:26
 msgid "UUIDs of extensions to force disabling"
 msgstr "A kényszerítetten letiltandó kiterjesztések UUID azonosítói"
 
-#: data/org.gnome.shell.gschema.xml.in:27
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:27
 msgid ""
 "Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be disabled, even if loaded as part of the current mode. You can also "
 "manipulate this list with the EnableExtension and DisableExtension D-Bus "
-"methods on org.gnome.Shell. This key takes precedence over the “enabled-"
+"methods on io.github.scarecrow_de.Shell. This key takes precedence over the “enabled-"
 "extensions” setting."
 msgstr ""
 "A Scarecrow Shell kiterjesztések rendelkeznek egy UUID tulajdonsággal; ez a "
@@ -102,11 +102,11 @@ msgstr ""
 "manipulálhatja. Ez a kulcs elsőbbséget élvez az „enabled-extensions” "
 "beállítással szemben."
 
-#: data/org.gnome.shell.gschema.xml.in:37
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:37
 msgid "Disable user extensions"
 msgstr "Felhasználói kiterjesztések letiltása"
 
-#: data/org.gnome.shell.gschema.xml.in:38
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:38
 msgid ""
 "Disable all extensions the user has enabled without affecting the “enabled-"
 "extension” setting."
@@ -114,11 +114,11 @@ msgstr ""
 "Minden olyan kiterjesztés letiltása, amelyet a felhasználó az „enabled-"
 "extension” beállítást nem érintve engedélyezett."
 
-#: data/org.gnome.shell.gschema.xml.in:45
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:45
 msgid "Disables the validation of extension version compatibility"
 msgstr "Letiltja a kiterjesztés-verzió kompatibilitás ellenőrzését"
 
-#: data/org.gnome.shell.gschema.xml.in:46
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:46
 msgid ""
 "Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
@@ -129,11 +129,11 @@ msgstr ""
 "ellenőrzés kikapcsolható, és az összes kiterjesztés betöltésére kísérletet "
 "tesz, függetlenül attól, hogy melyik verziót támogatják."
 
-#: data/org.gnome.shell.gschema.xml.in:54
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:54
 msgid "List of desktop file IDs for favorite applications"
 msgstr "A kedvenc alkalmazások asztalifájl-azonosítóinak listája"
 
-#: data/org.gnome.shell.gschema.xml.in:55
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:55
 msgid ""
 "The applications corresponding to these identifiers will be displayed in the "
 "favorites area."
@@ -141,28 +141,28 @@ msgstr ""
 "Az itt felsorolt azonosítóknak megfelelő alkalmazások jelennek meg a "
 "kedvencek területen."
 
-#: data/org.gnome.shell.gschema.xml.in:62
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:62
 msgid "App Picker View"
 msgstr "Alkalmazásválasztó-nézet"
 
-#: data/org.gnome.shell.gschema.xml.in:63
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:63
 msgid "Index of the currently selected view in the application picker."
 msgstr "Az aktuálisan kiválasztott nézet indexe az alkalmazás-választóban."
 
-#: data/org.gnome.shell.gschema.xml.in:69
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:69
 msgid "History for command (Alt-F2) dialog"
 msgstr "A parancsablak (Alt-F2) előzményei"
 
 #. Translators: looking glass is a debugger and inspector tool, see https://wiki.gnome.org/Projects/GnomeShell/LookingGlass
-#: data/org.gnome.shell.gschema.xml.in:74
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:74
 msgid "History for the looking glass dialog"
 msgstr "A távcső ablak előzményei"
 
-#: data/org.gnome.shell.gschema.xml.in:78
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:78
 msgid "Always show the “Log out” menu item in the user menu."
 msgstr "Mindig jelenjen meg a „Kijelentkezés” menüelem a felhasználói menüben."
 
-#: data/org.gnome.shell.gschema.xml.in:79
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:79
 msgid ""
 "This key overrides the automatic hiding of the “Log out” menu item in single-"
 "user, single-session situations."
@@ -170,13 +170,13 @@ msgstr ""
 "Ez a kulcs felülbírálja a „Kijelentkezés” menüelem automatikus elrejtését "
 "egyfelhasználós, egyedüli munkamenet esetén."
 
-#: data/org.gnome.shell.gschema.xml.in:86
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:86
 msgid ""
 "Whether to remember password for mounting encrypted or remote filesystems"
 msgstr ""
 "Megjegyezze-e a jelszót a titkosított vagy távoli fájlrendszerek csatolásához"
 
-#: data/org.gnome.shell.gschema.xml.in:87
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:87
 msgid ""
 "The shell will request a password when an encrypted device or a remote "
 "filesystem is mounted. If the password can be saved for future use a "
@@ -188,12 +188,12 @@ msgstr ""
 "egy „Jelszó megjegyzése” jelölőmező. Ez a kulcs a jelölőnégyzet "
 "alapértelmezett állapotát állítja be."
 
-#: data/org.gnome.shell.gschema.xml.in:96
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:96
 msgid ""
 "Whether the default Bluetooth adapter had set up devices associated to it"
 msgstr "Az alapértelmezett Bluetooth adapterhez voltak-e hozzárendelt eszközök"
 
-#: data/org.gnome.shell.gschema.xml.in:97
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:97
 msgid ""
 "The shell will only show a Bluetooth menu item if a Bluetooth adapter is "
 "powered, or if there were devices set up associated with the default "
@@ -205,11 +205,11 @@ msgstr ""
 "eszközök. Ez visszaállításra kerül, ha az alapértelmezett adapter nem "
 "látható, vagy nincsenek hozzárendelt eszközök."
 
-#: data/org.gnome.shell.gschema.xml.in:106
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:106
 msgid "Enable introspection API"
 msgstr "Önelemző API engedélyezése"
 
-#: data/org.gnome.shell.gschema.xml.in:107
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:107
 msgid ""
 "Enables a D-Bus API that allows to introspect the application state of the "
 "shell."
@@ -217,11 +217,11 @@ msgstr ""
 "Egy olyan D-Bus API-t engedélyez, amely lehetővé teszi a parancsértelmező "
 "alkalmazás állapotának önellenőrzését."
 
-#: data/org.gnome.shell.gschema.xml.in:114
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:114
 msgid "Layout of the app picker"
 msgstr "Az alkalmazásválasztó elrendezése"
 
-#: data/org.gnome.shell.gschema.xml.in:115
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:115
 msgid ""
 "Layout of the app picker. Each entry in the array is a page. Pages are "
 "stored in the order they appear in Scarecrow Shell. Each page contains an "
@@ -234,91 +234,91 @@ msgstr ""
 " Jelenleg a következő értékek vannak tárolva „adatként”: • „pozíció”: az"
 " oldalon lévő alkalmazásikon pozíciója"
 
-#: data/org.gnome.shell.gschema.xml.in:130
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:130
 msgid "Keybinding to open the application menu"
 msgstr "Billentyűtársítás az alkalmazásmenü megnyitásához"
 
-#: data/org.gnome.shell.gschema.xml.in:131
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:131
 msgid "Keybinding to open the application menu."
 msgstr "Billentyűtársítás az alkalmazásmenü megnyitásához."
 
-#: data/org.gnome.shell.gschema.xml.in:137
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:137
 msgid "Keybinding to open the “Show Applications” view"
 msgstr "Billentyűtársítás az „Alkalmazások megjelenítése” nézet megnyitásához"
 
-#: data/org.gnome.shell.gschema.xml.in:138
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:138
 msgid ""
 "Keybinding to open the “Show Applications” view of the Activities Overview."
 msgstr ""
 "Billentyűtársítás a Tevékenységek áttekintés „Alkalmazások megjelenítése” "
 "nézetének megnyitásához."
 
-#: data/org.gnome.shell.gschema.xml.in:145
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:145
 msgid "Keybinding to open the overview"
 msgstr "Billentyűtársítás az áttekintés megnyitásához"
 
-#: data/org.gnome.shell.gschema.xml.in:146
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:146
 msgid "Keybinding to open the Activities Overview."
 msgstr "Billentyűtársítás a Tevékenységek áttekintés megnyitásához."
 
-#: data/org.gnome.shell.gschema.xml.in:152
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:152
 msgid "Keybinding to toggle the visibility of the notification list"
 msgstr "Billentyűtársítás az értesítési lista láthatóságának módosításához"
 
-#: data/org.gnome.shell.gschema.xml.in:153
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:153
 msgid "Keybinding to toggle the visibility of the notification list."
 msgstr "Billentyűtársítás az értesítési lista láthatóságának módosításához."
 
-#: data/org.gnome.shell.gschema.xml.in:159
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:159
 msgid "Keybinding to focus the active notification"
 msgstr "Billentyűtársítás az aktív értesítés fókuszálásához"
 
-#: data/org.gnome.shell.gschema.xml.in:160
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:160
 msgid "Keybinding to focus the active notification."
 msgstr "Billentyűtársítás az aktív értesítés fókuszálásához."
 
-#: data/org.gnome.shell.gschema.xml.in:166
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:166
 msgid "Switch to application 1"
 msgstr "Váltás az 1. alkalmazásra"
 
-#: data/org.gnome.shell.gschema.xml.in:170
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:170
 msgid "Switch to application 2"
 msgstr "Váltás a 2. alkalmazásra"
 
-#: data/org.gnome.shell.gschema.xml.in:174
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:174
 msgid "Switch to application 3"
 msgstr "Váltás a 3. alkalmazásra"
 
-#: data/org.gnome.shell.gschema.xml.in:178
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:178
 msgid "Switch to application 4"
 msgstr "Váltás a 4. alkalmazásra"
 
-#: data/org.gnome.shell.gschema.xml.in:182
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:182
 msgid "Switch to application 5"
 msgstr "Váltás az 5. alkalmazásra"
 
-#: data/org.gnome.shell.gschema.xml.in:186
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:186
 msgid "Switch to application 6"
 msgstr "Váltás a 6. alkalmazásra"
 
-#: data/org.gnome.shell.gschema.xml.in:190
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:190
 msgid "Switch to application 7"
 msgstr "Váltás a 7. alkalmazásra"
 
-#: data/org.gnome.shell.gschema.xml.in:194
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:194
 msgid "Switch to application 8"
 msgstr "Váltás a 8. alkalmazásra"
 
-#: data/org.gnome.shell.gschema.xml.in:198
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:198
 msgid "Switch to application 9"
 msgstr "Váltás a 9. alkalmazásra"
 
-#: data/org.gnome.shell.gschema.xml.in:207
-#: data/org.gnome.shell.gschema.xml.in:234
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:207
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:234
 msgid "Limit switcher to current workspace."
 msgstr "Váltó korlátozása a jelenlegi munkaterületre."
 
-#: data/org.gnome.shell.gschema.xml.in:208
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:208
 msgid ""
 "If true, only applications that have windows on the current workspace are "
 "shown in the switcher. Otherwise, all applications are included."
@@ -327,11 +327,11 @@ msgstr ""
 "amelyek ablakokkal rendelkeznek az aktuális munkaterületen. Egyébként minden "
 "alkalmazás fel van véve."
 
-#: data/org.gnome.shell.gschema.xml.in:225
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:225
 msgid "The application icon mode."
 msgstr "Az alkalmazás ikon mód."
 
-#: data/org.gnome.shell.gschema.xml.in:226
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:226
 msgid ""
 "Configures how the windows are shown in the switcher. Valid possibilities "
 "are “thumbnail-only” (shows a thumbnail of the window), “app-icon-"
@@ -341,7 +341,7 @@ msgstr ""
 "„thumbnail-only” (az ablak bélyegképének megjelenítése), „app-icon-only” (az "
 "alkalmazás ikonjának megjelenítése) vagy „both” (mindkettő)."
 
-#: data/org.gnome.shell.gschema.xml.in:235
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:235
 msgid ""
 "If true, only windows from the current workspace are shown in the switcher. "
 "Otherwise, all windows are included."
@@ -349,63 +349,63 @@ msgstr ""
 "Ha igaz, akkor csak az aktuális munkaterületről származó ablakok lesznek "
 "megjelenítve a váltón. Egyébként minden ablak fel lesz véve."
 
-#: data/org.gnome.shell.gschema.xml.in:245
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:245
 msgid "Locations"
 msgstr "Helyek"
 
-#: data/org.gnome.shell.gschema.xml.in:246
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:246
 msgid "The locations to show in world clocks"
 msgstr "A világórában megjelenítendő helyek"
 
-#: data/org.gnome.shell.gschema.xml.in:256
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:256
 msgid "Automatic location"
 msgstr "Automatikus hely"
 
-#: data/org.gnome.shell.gschema.xml.in:257
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:257
 msgid "Whether to fetch the current location or not"
 msgstr "Lekérje-e a jelenlegi helyet"
 
-#: data/org.gnome.shell.gschema.xml.in:264
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:264
 msgid "Location"
 msgstr "Hely"
 
-#: data/org.gnome.shell.gschema.xml.in:265
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:265
 msgid "The location for which to show a forecast"
 msgstr "A hely, amelyhez meg kell jeleníteni az előrejelzést"
 
-#: data/org.gnome.shell.gschema.xml.in:277
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:277
 msgid "Attach modal dialog to the parent window"
 msgstr "Kizárólagos párbeszédablak csatolása a szülő ablakhoz"
 
-#: data/org.gnome.shell.gschema.xml.in:278
-#: data/org.gnome.shell.gschema.xml.in:287
-#: data/org.gnome.shell.gschema.xml.in:295
-#: data/org.gnome.shell.gschema.xml.in:303
-#: data/org.gnome.shell.gschema.xml.in:311
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:278
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:287
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:295
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:303
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
 msgstr ""
-"Ez a kulcs felülbírálja az org.gnome.mutter helyen lévő kulcsot, amikor a "
+"Ez a kulcs felülbírálja az io.github.scarecrow_de.mutter helyen lévő kulcsot, amikor a "
 "Scarecrow Shell fut."
 
-#: data/org.gnome.shell.gschema.xml.in:286
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:286
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Szélek csempézésének engedélyezése ablakok képernyőszélekre ejtésekor"
 
-#: data/org.gnome.shell.gschema.xml.in:294
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:294
 msgid "Workspaces are managed dynamically"
 msgstr "Munkaterületek dinamikus kezelése"
 
-#: data/org.gnome.shell.gschema.xml.in:302
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:302
 msgid "Workspaces only on primary monitor"
 msgstr "Munkaterületek csak az elsődleges monitoron"
 
-#: data/org.gnome.shell.gschema.xml.in:310
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:310
 msgid "Delay focus changes in mouse mode until the pointer stops moving"
 msgstr ""
 "Fókuszváltozások késleltetése a mutató mozgásának megállásáig egér módban"
 
-#: data/org.gnome.Shell.PortalHelper.desktop.in.in:3
+#: data/io.github.scarecrow_de.Shell.PortalHelper.desktop.in.in:3
 msgid "Network Login"
 msgstr "Hálózati bejelentkezés"
 
@@ -2418,23 +2418,23 @@ msgstr "A jelszó nem lehet üres"
 msgid "Authentication dialog was dismissed by the user"
 msgstr "A hitelesítési ablakot a felhasználó bezárta"
 
-#: subprojects/extensions-app/data/metainfo/org.gnome.Extensions.metainfo.xml.in:5
-#: subprojects/extensions-app/data/org.gnome.Extensions.desktop.in.in:4
+#: subprojects/extensions-app/data/metainfo/io.github.scarecrow_de.Extensions.metainfo.xml.in:5
+#: subprojects/extensions-app/data/io.github.scarecrow_de.Extensions.desktop.in.in:4
 #: subprojects/extensions-app/js/main.js:183
 #: subprojects/extensions-app/data/ui/extensions-window.ui:61
 msgid "Extensions"
 msgstr "Kiterjesztések"
 
-#: subprojects/extensions-app/data/metainfo/org.gnome.Extensions.metainfo.xml.in:6
+#: subprojects/extensions-app/data/metainfo/io.github.scarecrow_de.Extensions.metainfo.xml.in:6
 #: subprojects/extensions-app/js/main.js:184
 msgid "Manage your GNOME Extensions"
 msgstr "Saját GNOME kiterjesztések kezelése"
 
-#: subprojects/extensions-app/data/metainfo/org.gnome.Extensions.metainfo.xml.in:17
+#: subprojects/extensions-app/data/metainfo/io.github.scarecrow_de.Extensions.metainfo.xml.in:17
 msgid "The GNOME Project"
 msgstr "A GNOME projekt"
 
-#: subprojects/extensions-app/data/metainfo/org.gnome.Extensions.metainfo.xml.in:36
+#: subprojects/extensions-app/data/metainfo/io.github.scarecrow_de.Extensions.metainfo.xml.in:36
 msgid ""
 "GNOME Extensions handles updating extensions, configuring extension "
 "preferences and removing or disabling unwanted extensions."
@@ -2443,7 +2443,7 @@ msgstr ""
 " kiterjesztésbeállítások konfigurálást és a nem kívánatos kiterjesztések"
 " eltávolítását vagy letiltását."
 
-#: subprojects/extensions-app/data/org.gnome.Extensions.desktop.in.in:7
+#: subprojects/extensions-app/data/io.github.scarecrow_de.Extensions.desktop.in.in:7
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "Scarecrow Shell kiterjesztések beállítása"
 

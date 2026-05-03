@@ -60,21 +60,21 @@ msgstr "Mostrar todos os aplicativos"
 msgid "Open the application menu"
 msgstr "Abrir o menu do aplicativo"
 
-#: data/org.gnome.Shell.desktop.in.in:4
+#: data/io.github.scarecrow_de.Shell.desktop.in.in:4
 msgid "Scarecrow Shell"
 msgstr "Scarecrow Shell"
 
-#: data/org.gnome.Shell.desktop.in.in:5
+#: data/io.github.scarecrow_de.Shell.desktop.in.in:5
 msgid "Window management and application launching"
 msgstr "Gerenciamento de janelas e lançador de aplicativos"
 
-#: data/org.gnome.shell.gschema.xml.in:6
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:6
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
 msgstr ""
 "Habilitar ferramentas internas úteis para desenvolvedores e testadores a "
 "partir do Alt-F2"
 
-#: data/org.gnome.shell.gschema.xml.in:9
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:9
 msgid ""
 "Allows access to internal debugging and monitoring tools using the Alt-F2 "
 "dialog."
@@ -82,46 +82,46 @@ msgstr ""
 "Permite acesso a ferramentas internas de depuração e monitoramento usando o "
 "diálogo Alt-F2."
 
-#: data/org.gnome.shell.gschema.xml.in:16
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:16
 msgid "UUIDs of extensions to enable"
 msgstr "UUIDs das extensões para habilitar"
 
-#: data/org.gnome.shell.gschema.xml.in:17
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:17
 msgid ""
 "Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
-"DisableExtension D-Bus methods on org.gnome.Shell."
+"DisableExtension D-Bus methods on io.github.scarecrow_de.Shell."
 msgstr ""
 "As extensões do Scarecrow Shell possuem uma propriedade UUID; esta chave lista "
 "as extensões que devem ser carregadas. Qualquer extensão que quiser ser "
 "carregada precisa estar nesta lista. Você também pode manipular esta lista "
-"com os métodos do DBus EnableExtension e DisableExtensions em org.gnome."
+"com os métodos do DBus EnableExtension e DisableExtensions em io.github.scarecrow_de."
 "Shell."
 
-#: data/org.gnome.shell.gschema.xml.in:26
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:26
 msgid "UUIDs of extensions to force disabling"
 msgstr "UUIDs das extensões para forçar a desabilitação"
 
-#: data/org.gnome.shell.gschema.xml.in:27
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:27
 msgid ""
 "Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be disabled, even if loaded as part of the current mode. You can also "
 "manipulate this list with the EnableExtension and DisableExtension D-Bus "
-"methods on org.gnome.Shell. This key takes precedence over the “enabled-"
+"methods on io.github.scarecrow_de.Shell. This key takes precedence over the “enabled-"
 "extensions” setting."
 msgstr ""
 "As extensões do Scarecrow Shell possuem uma propriedade UUID; esta chave lista "
 "as extensões que devem ser desabilitadas, mesmo se carregadas como parte do "
 "modo atual. Você também pode manipular esta lista com os métodos do DBus "
-"EnableExtension e DisableExtensions em org.gnome.Shell. Essa chave leva "
+"EnableExtension e DisableExtensions em io.github.scarecrow_de.Shell. Essa chave leva "
 "precedência sobre a configuração “enabled-extensions”."
 
-#: data/org.gnome.shell.gschema.xml.in:37
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:37
 msgid "Disable user extensions"
 msgstr "Desabilitar extensões do usuário"
 
-#: data/org.gnome.shell.gschema.xml.in:38
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:38
 msgid ""
 "Disable all extensions the user has enabled without affecting the “enabled-"
 "extension” setting."
@@ -129,11 +129,11 @@ msgstr ""
 "Desabilita todas as extensões que o usuário habilitou sem afetar a definição "
 "de “enabled-extension”."
 
-#: data/org.gnome.shell.gschema.xml.in:45
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:45
 msgid "Disables the validation of extension version compatibility"
 msgstr "Desabilita a validação de compatibilidade da versão da extensão"
 
-#: data/org.gnome.shell.gschema.xml.in:46
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:46
 msgid ""
 "Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
@@ -144,12 +144,12 @@ msgstr ""
 "desabilitada e haverá tentativas de carregar todas as extensões independente "
 "das versões que estas declaram suportar."
 
-#: data/org.gnome.shell.gschema.xml.in:54
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:54
 msgid "List of desktop file IDs for favorite applications"
 msgstr ""
 "Lista dos IDs de arquivo de área de trabalho para os aplicativos favoritos"
 
-#: data/org.gnome.shell.gschema.xml.in:55
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:55
 msgid ""
 "The applications corresponding to these identifiers will be displayed in the "
 "favorites area."
@@ -157,29 +157,29 @@ msgstr ""
 "Os aplicativos correspondentes a estes identificadores serão exibidos na "
 "área de favoritos."
 
-#: data/org.gnome.shell.gschema.xml.in:62
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:62
 msgid "App Picker View"
 msgstr "Visualização do seletor de aplicativos"
 
-#: data/org.gnome.shell.gschema.xml.in:63
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:63
 msgid "Index of the currently selected view in the application picker."
 msgstr ""
 "Índice da visualização atualmente selecionada no seletor de aplicativos."
 
-#: data/org.gnome.shell.gschema.xml.in:69
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:69
 msgid "History for command (Alt-F2) dialog"
 msgstr "Histórico do diálogo de comandos (Alt-F2)"
 
 #. Translators: looking glass is a debugger and inspector tool, see https://wiki.gnome.org/Projects/GnomeShell/LookingGlass
-#: data/org.gnome.shell.gschema.xml.in:74
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:74
 msgid "History for the looking glass dialog"
 msgstr "Histórico do diálogo do shell looking glass"
 
-#: data/org.gnome.shell.gschema.xml.in:78
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:78
 msgid "Always show the “Log out” menu item in the user menu."
 msgstr "Sempre mostrar o item de menu “Encerrar sessão” no menu de usuário."
 
-#: data/org.gnome.shell.gschema.xml.in:79
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:79
 msgid ""
 "This key overrides the automatic hiding of the “Log out” menu item in single-"
 "user, single-session situations."
@@ -187,14 +187,14 @@ msgstr ""
 "Essa chave sobrescreve a ocultação automática do item de menu “Encerrar "
 "sessão” quando houver somente um usuário, em situações de somente uma sessão."
 
-#: data/org.gnome.shell.gschema.xml.in:86
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:86
 msgid ""
 "Whether to remember password for mounting encrypted or remote filesystems"
 msgstr ""
 "Se lembra ou não as senhas para montar sistemas de arquivos criptografados "
 "ou remotos"
 
-#: data/org.gnome.shell.gschema.xml.in:87
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:87
 msgid ""
 "The shell will request a password when an encrypted device or a remote "
 "filesystem is mounted. If the password can be saved for future use a "
@@ -206,14 +206,14 @@ msgstr ""
 "posterior, a caixa de seleção “Lembrar senha” estará presente. Esta chave "
 "ajusta o estado padrão da caixa de seleção."
 
-#: data/org.gnome.shell.gschema.xml.in:96
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:96
 msgid ""
 "Whether the default Bluetooth adapter had set up devices associated to it"
 msgstr ""
 "Se o adaptador Bluetooth padrão configurou, ou não, dispositivos associados "
 "a ele"
 
-#: data/org.gnome.shell.gschema.xml.in:97
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:97
 msgid ""
 "The shell will only show a Bluetooth menu item if a Bluetooth adapter is "
 "powered, or if there were devices set up associated with the default "
@@ -225,11 +225,11 @@ msgstr ""
 "associados ao adaptador padrão. Isto será redefinido caso o adaptador padrão "
 "sempre seja visto sem possuir dispositivos associados a ele."
 
-#: data/org.gnome.shell.gschema.xml.in:106
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:106
 msgid "Enable introspection API"
 msgstr "Habilitar API de introspecção"
 
-#: data/org.gnome.shell.gschema.xml.in:107
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:107
 msgid ""
 "Enables a D-Bus API that allows to introspect the application state of the "
 "shell."
@@ -237,11 +237,11 @@ msgstr ""
 "Habilita uma API de D-Bus que permite introspectar o estado do aplicativo do "
 "shell."
 
-#: data/org.gnome.shell.gschema.xml.in:114
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:114
 msgid "Layout of the app picker"
 msgstr "Layout do seletor de aplicativo"
 
-#: data/org.gnome.shell.gschema.xml.in:115
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:115
 msgid ""
 "Layout of the app picker. Each entry in the array is a page. Pages are "
 "stored in the order they appear in Scarecrow Shell. Each page contains an "
@@ -254,92 +254,92 @@ msgstr ""
 "são armazenados como “dados”: • “posição”: a posição do ícone do aplicativo "
 "na página"
 
-#: data/org.gnome.shell.gschema.xml.in:130
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:130
 msgid "Keybinding to open the application menu"
 msgstr "Atalho de teclado para abrir um menu de aplicativo"
 
-#: data/org.gnome.shell.gschema.xml.in:131
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:131
 msgid "Keybinding to open the application menu."
 msgstr "Atalho de teclado para abrir um menu de aplicativo."
 
-#: data/org.gnome.shell.gschema.xml.in:137
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:137
 msgid "Keybinding to open the “Show Applications” view"
 msgstr "Atalho de teclado para abrir a visualização “Mostrar aplicativos”"
 
-#: data/org.gnome.shell.gschema.xml.in:138
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:138
 msgid ""
 "Keybinding to open the “Show Applications” view of the Activities Overview."
 msgstr ""
 "Atalho de teclado para abrir a visualização “Mostrar aplicativos” do "
 "panorama de atividades."
 
-#: data/org.gnome.shell.gschema.xml.in:145
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:145
 msgid "Keybinding to open the overview"
 msgstr "Atalho de teclado para abrir o panorama"
 
-#: data/org.gnome.shell.gschema.xml.in:146
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:146
 msgid "Keybinding to open the Activities Overview."
 msgstr "Atalho de teclado para abrir o panorama de atividades."
 
-#: data/org.gnome.shell.gschema.xml.in:152
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:152
 msgid "Keybinding to toggle the visibility of the notification list"
 msgstr "Atalho de teclado para alternar a visibilidade da lista de notificação"
 
-#: data/org.gnome.shell.gschema.xml.in:153
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:153
 msgid "Keybinding to toggle the visibility of the notification list."
 msgstr ""
 "Atalho de teclado para alternar a visibilidade da lista de notificação."
 
-#: data/org.gnome.shell.gschema.xml.in:159
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:159
 msgid "Keybinding to focus the active notification"
 msgstr "Atalho de teclado para ativar a notificação ativa"
 
-#: data/org.gnome.shell.gschema.xml.in:160
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:160
 msgid "Keybinding to focus the active notification."
 msgstr "Atalho de teclado para ativar a notificação ativa."
 
-#: data/org.gnome.shell.gschema.xml.in:166
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:166
 msgid "Switch to application 1"
 msgstr "Alternar para o aplicativo 1"
 
-#: data/org.gnome.shell.gschema.xml.in:170
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:170
 msgid "Switch to application 2"
 msgstr "Alternar para o aplicativo 2"
 
-#: data/org.gnome.shell.gschema.xml.in:174
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:174
 msgid "Switch to application 3"
 msgstr "Alternar para o aplicativo 3"
 
-#: data/org.gnome.shell.gschema.xml.in:178
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:178
 msgid "Switch to application 4"
 msgstr "Alternar para o aplicativo 4"
 
-#: data/org.gnome.shell.gschema.xml.in:182
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:182
 msgid "Switch to application 5"
 msgstr "Alternar para o aplicativo 5"
 
-#: data/org.gnome.shell.gschema.xml.in:186
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:186
 msgid "Switch to application 6"
 msgstr "Alternar para o aplicativo 6"
 
-#: data/org.gnome.shell.gschema.xml.in:190
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:190
 msgid "Switch to application 7"
 msgstr "Alternar para o aplicativo 7"
 
-#: data/org.gnome.shell.gschema.xml.in:194
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:194
 msgid "Switch to application 8"
 msgstr "Alternar para o aplicativo 8"
 
-#: data/org.gnome.shell.gschema.xml.in:198
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:198
 msgid "Switch to application 9"
 msgstr "Alternar para o aplicativo 9"
 
-#: data/org.gnome.shell.gschema.xml.in:207
-#: data/org.gnome.shell.gschema.xml.in:234
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:207
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:234
 msgid "Limit switcher to current workspace."
 msgstr "Limitar o alternador ao espaço de trabalho atual."
 
-#: data/org.gnome.shell.gschema.xml.in:208
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:208
 msgid ""
 "If true, only applications that have windows on the current workspace are "
 "shown in the switcher. Otherwise, all applications are included."
@@ -348,11 +348,11 @@ msgstr ""
 "janelas no espaço de trabalho atual. Caso contrário, todos os aplicativos "
 "serão incluídos."
 
-#: data/org.gnome.shell.gschema.xml.in:225
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:225
 msgid "The application icon mode."
 msgstr "O modo ícone do aplicativo."
 
-#: data/org.gnome.shell.gschema.xml.in:226
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:226
 msgid ""
 "Configures how the windows are shown in the switcher. Valid possibilities "
 "are “thumbnail-only” (shows a thumbnail of the window), “app-icon-"
@@ -362,7 +362,7 @@ msgstr ""
 "válidas são “thumbnail-only” (mostra uma miniatura da janela), “app-icon-"
 "only” (mostra apenas o ícone do aplicativo) ou “both”."
 
-#: data/org.gnome.shell.gschema.xml.in:235
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:235
 msgid ""
 "If true, only windows from the current workspace are shown in the switcher. "
 "Otherwise, all windows are included."
@@ -370,62 +370,62 @@ msgstr ""
 "Se verdadeiro, o alternador mostrará somente as janelas do espaço de "
 "trabalho atual. Caso contrário, todos as janelas serão incluídas."
 
-#: data/org.gnome.shell.gschema.xml.in:245
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:245
 msgid "Locations"
 msgstr "Localizações"
 
-#: data/org.gnome.shell.gschema.xml.in:246
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:246
 msgid "The locations to show in world clocks"
 msgstr "As localizações para mostrar nos relógios mundiais"
 
-#: data/org.gnome.shell.gschema.xml.in:256
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:256
 msgid "Automatic location"
 msgstr "Localização automática"
 
-#: data/org.gnome.shell.gschema.xml.in:257
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:257
 msgid "Whether to fetch the current location or not"
 msgstr "Se deve-se obter a localização atual ou não"
 
-#: data/org.gnome.shell.gschema.xml.in:264
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:264
 msgid "Location"
 msgstr "Localização"
 
-#: data/org.gnome.shell.gschema.xml.in:265
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:265
 msgid "The location for which to show a forecast"
 msgstr "A localização para a qual deve-se mostrar uma previsão do tempo"
 
-#: data/org.gnome.shell.gschema.xml.in:277
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:277
 msgid "Attach modal dialog to the parent window"
 msgstr "Anexar diálogo modal à janela pai"
 
-#: data/org.gnome.shell.gschema.xml.in:278
-#: data/org.gnome.shell.gschema.xml.in:287
-#: data/org.gnome.shell.gschema.xml.in:295
-#: data/org.gnome.shell.gschema.xml.in:303
-#: data/org.gnome.shell.gschema.xml.in:311
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:278
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:287
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:295
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:303
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
 msgstr ""
-"Esta chave sobrescreve a chave em org.gnome.mutter ao executar o Scarecrow Shell."
+"Esta chave sobrescreve a chave em io.github.scarecrow_de.mutter ao executar o Scarecrow Shell."
 
-#: data/org.gnome.shell.gschema.xml.in:286
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:286
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr ""
 "Habilitar contorno ladrilhado ao arrastar janelas sobre as bordas da tela"
 
-#: data/org.gnome.shell.gschema.xml.in:294
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:294
 msgid "Workspaces are managed dynamically"
 msgstr "Espaços de trabalho são gerenciados dinamicamente"
 
-#: data/org.gnome.shell.gschema.xml.in:302
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:302
 msgid "Workspaces only on primary monitor"
 msgstr "Espaços de trabalho apenas no monitor primário"
 
-#: data/org.gnome.shell.gschema.xml.in:310
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:310
 msgid "Delay focus changes in mouse mode until the pointer stops moving"
 msgstr "Atrasar foco altera o modo do mouse até o ponteiro parar de mover"
 
-#: data/org.gnome.Shell.PortalHelper.desktop.in.in:3
+#: data/io.github.scarecrow_de.Shell.PortalHelper.desktop.in.in:3
 msgid "Network Login"
 msgstr "Sessão de Rede"
 
@@ -2430,23 +2430,23 @@ msgstr "A senha não pode estar em branco"
 msgid "Authentication dialog was dismissed by the user"
 msgstr "O diálogo de autenticação foi descartado pelo usuário"
 
-#: subprojects/extensions-app/data/metainfo/org.gnome.Extensions.metainfo.xml.in:5
-#: subprojects/extensions-app/data/org.gnome.Extensions.desktop.in.in:4
+#: subprojects/extensions-app/data/metainfo/io.github.scarecrow_de.Extensions.metainfo.xml.in:5
+#: subprojects/extensions-app/data/io.github.scarecrow_de.Extensions.desktop.in.in:4
 #: subprojects/extensions-app/js/main.js:183
 #: subprojects/extensions-app/data/ui/extensions-window.ui:61
 msgid "Extensions"
 msgstr "Extensões"
 
-#: subprojects/extensions-app/data/metainfo/org.gnome.Extensions.metainfo.xml.in:6
+#: subprojects/extensions-app/data/metainfo/io.github.scarecrow_de.Extensions.metainfo.xml.in:6
 #: subprojects/extensions-app/js/main.js:184
 msgid "Manage your GNOME Extensions"
 msgstr "Gerenciar suas extensões do GNOME"
 
-#: subprojects/extensions-app/data/metainfo/org.gnome.Extensions.metainfo.xml.in:17
+#: subprojects/extensions-app/data/metainfo/io.github.scarecrow_de.Extensions.metainfo.xml.in:17
 msgid "The GNOME Project"
 msgstr "O Projeto GNOME"
 
-#: subprojects/extensions-app/data/metainfo/org.gnome.Extensions.metainfo.xml.in:36
+#: subprojects/extensions-app/data/metainfo/io.github.scarecrow_de.Extensions.metainfo.xml.in:36
 msgid ""
 "GNOME Extensions handles updating extensions, configuring extension "
 "preferences and removing or disabling unwanted extensions."
@@ -2455,7 +2455,7 @@ msgstr ""
 "preferências de extensões e remoção ou desabilitação de extensões "
 "indesejadas."
 
-#: subprojects/extensions-app/data/org.gnome.Extensions.desktop.in.in:7
+#: subprojects/extensions-app/data/io.github.scarecrow_de.Extensions.desktop.in.in:7
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "Configure extensões do Scarecrow Shell"
 

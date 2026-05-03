@@ -52,48 +52,48 @@ msgstr "Scarecrow Shell кенгайтма мосламалари"
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "Scarecrow Shell кенгайтмаларини созлаш"
 
-#: data/org.gnome.Shell.desktop.in.in:4
+#: data/io.github.scarecrow_de.Shell.desktop.in.in:4
 msgid "Scarecrow Shell"
 msgstr "Scarecrow Shell"
 
-#: data/org.gnome.Shell.desktop.in.in:5
+#: data/io.github.scarecrow_de.Shell.desktop.in.in:5
 msgid "Window management and application launching"
 msgstr "Ойналарни бошқариш ва дастурларни очиш"
 
-#: data/org.gnome.shell.gschema.xml.in:6
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:6
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
 msgstr ""
 "Alt-F2дан тузувчилар ва текширувчилар учун фойдали ички асбобларни ёқиш"
 
-#: data/org.gnome.shell.gschema.xml.in:9
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:9
 msgid ""
 "Allows access to internal debugging and monitoring tools using the Alt-F2 "
 "dialog."
 msgstr ""
 "Alt-F2 диалог ойнаси орқали ички созлаш ва кузатиш асбобларига рухсат бериш"
 
-#: data/org.gnome.shell.gschema.xml.in:16
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:16
 msgid "UUIDs of extensions to enable"
 msgstr "Ёқиладиган кенгайтма UUIDлари"
 
-#: data/org.gnome.shell.gschema.xml.in:17
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:17
 msgid ""
 "Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
-"DisableExtension D-Bus methods on org.gnome.Shell."
+"DisableExtension D-Bus methods on io.github.scarecrow_de.Shell."
 msgstr ""
 "Scarecrow Shell кенгайтмаларининг UUID хоссаси бор; бу калит юкланиши керак "
 "бўлган кенгайтмаларни рўйхатда кўрсатади. Юкланишни истайдиган кенгайтма "
-"ушбу рўйхатда бўлиши керак. Сиз бу рўйхатни  org.gnome.Shellдаги D-Busнинг "
+"ушбу рўйхатда бўлиши керак. Сиз бу рўйхатни  io.github.scarecrow_de.Shellдаги D-Busнинг "
 "EnableExtension ва DisableExtension функциялари орақли ҳам бошқаришингиз "
 "мумкин."
 
-#: data/org.gnome.shell.gschema.xml.in:26
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:26
 msgid "Disables the validation of extension version compatibility"
 msgstr "Кенгайтма версияси мослигини текширишни ўчириб қўяди"
 
-#: data/org.gnome.shell.gschema.xml.in:27
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:27
 msgid ""
 "Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
@@ -103,11 +103,11 @@ msgstr ""
 "юклайди. Ушбу танловни белгиласангиз бу текширув ўчириб қўйилади ва, қайси "
 "версияни қўллашидан қатъий назар, барча кенгайтмалар юкланади."
 
-#: data/org.gnome.shell.gschema.xml.in:35
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:35
 msgid "List of desktop file IDs for favorite applications"
 msgstr "Танланган дастурлар учун иш столи файл IDлари рўйхати"
 
-#: data/org.gnome.shell.gschema.xml.in:36
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:36
 msgid ""
 "The applications corresponding to these identifiers will be displayed in the "
 "favorites area."
@@ -115,28 +115,28 @@ msgstr ""
 "Ушбу идентификаторга мос келувчи дастурлар танланганлар майдонида "
 "кўрсатилади."
 
-#: data/org.gnome.shell.gschema.xml.in:43
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:43
 msgid "App Picker View"
 msgstr "Дастур танлагич кўриниши"
 
-#: data/org.gnome.shell.gschema.xml.in:44
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:44
 msgid "Index of the currently selected view in the application picker."
 msgstr "Дастур танлагичдаги белгиланган кўриниш индекси."
 
-#: data/org.gnome.shell.gschema.xml.in:50
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:50
 msgid "History for command (Alt-F2) dialog"
 msgstr "(Alt-F2) диалог ойначаси буйруқлар тарихи"
 
 #. Translators: looking glass is a debugger and inspector tool, see https://wiki.gnome.org/Projects/GnomeShell/LookingGlass
-#: data/org.gnome.shell.gschema.xml.in:55
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:55
 msgid "History for the looking glass dialog"
 msgstr "Шаффоф диалог ойнаси кўришлар тарихи"
 
-#: data/org.gnome.shell.gschema.xml.in:59
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:59
 msgid "Always show the 'Log out' menu item in the user menu."
 msgstr "Фойдаланувчи менюсида \"Сеансни якунлаш\" менюсини ҳар доим кўрсатиш."
 
-#: data/org.gnome.shell.gschema.xml.in:60
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:60
 msgid ""
 "This key overrides the automatic hiding of the 'Log out' menu item in single-"
 "user, single-session situations."
@@ -144,14 +144,14 @@ msgstr ""
 "Ушбу калит битта фойдаланувчили системада \"Сеансни якунлаш\" менюсини "
 "автоматик яширишни белгилаб беради."
 
-#: data/org.gnome.shell.gschema.xml.in:67
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:67
 msgid ""
 "Whether to remember password for mounting encrypted or remote filesystems"
 msgstr ""
 "Шифрланган ёки масофавий файл системаларини улаганда махфий сўзни эслаб "
 "қолиш ёки йўқлиги"
 
-#: data/org.gnome.shell.gschema.xml.in:68
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:68
 msgid ""
 "The shell will request a password when an encrypted device or a remote "
 "filesystem is mounted. If the password can be saved for future use a "
@@ -163,12 +163,12 @@ msgstr ""
 "\"Махфий сўзни эслаб қолиш\" белгилаш катакчаси кўрсатилади. Ушбу калит ўша "
 "белгилаш катакчасининг сукут ҳолатини ўрнатади."
 
-#: data/org.gnome.shell.gschema.xml.in:77
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:77
 msgid ""
 "Whether the default Bluetooth adapter had set up devices associated to it"
 msgstr "Bluetooth адаптери сукут бўйича бирор ускунага уланганми"
 
-#: data/org.gnome.shell.gschema.xml.in:78
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:78
 msgid ""
 "The shell will only show a Bluetooth menu item if a Bluetooth adapter is "
 "powered, or if there were devices set up associated with the default "
@@ -179,70 +179,70 @@ msgstr ""
 "менюси кўринади. Агар сукут бўйича адаптерга уланган ускуналар бўлмаса, ушбу "
 "параметр ташлаб юборилади."
 
-#: data/org.gnome.shell.gschema.xml.in:93
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:93
 msgid "Keybinding to open the application menu"
 msgstr "Дастур менюсини очиш учун клавишалар бирикмаси"
 
-#: data/org.gnome.shell.gschema.xml.in:94
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:94
 msgid "Keybinding to open the application menu."
 msgstr "Дастур менюсини очиш учун клавишалар бирикмаси."
 
-#: data/org.gnome.shell.gschema.xml.in:100
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:100
 msgid "Keybinding to open the \"Show Applications\" view"
 msgstr "\"Дастурларни кўрсатиш\" кўринишини очиш учун клавишалар бирикмаси"
 
-#: data/org.gnome.shell.gschema.xml.in:101
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:101
 msgid ""
 "Keybinding to open the \"Show Applications\" view of the Activities Overview."
 msgstr ""
 "Фаолиятлар обзорида \"Дастурларни кўрсатиш\"кўриниши учун клавишалар "
 "бирикмаси"
 
-#: data/org.gnome.shell.gschema.xml.in:108
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:108
 msgid "Keybinding to open the overview"
 msgstr "Обзорни очиш учун клавишалар бирикмаси"
 
-#: data/org.gnome.shell.gschema.xml.in:109
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:109
 msgid "Keybinding to open the Activities Overview."
 msgstr "Фаолиятлар обзорини очиш учун клавишалар бирикмаси"
 
-#: data/org.gnome.shell.gschema.xml.in:115
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:115
 msgid "Keybinding to toggle the visibility of the notification list"
 msgstr "Хабарнома рўйхати очиб-ёпиш учун клавишалар бирикмаси"
 
-#: data/org.gnome.shell.gschema.xml.in:116
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:116
 msgid "Keybinding to toggle the visibility of the notification list."
 msgstr "Хабарнома рўйхати очиб-ёпиш учун клавишалар бирикмаси"
 
-#: data/org.gnome.shell.gschema.xml.in:122
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:122
 msgid "Keybinding to focus the active notification"
 msgstr "Фаол хабарномага диққат қилиш учун клавишалар бирикмаси"
 
-#: data/org.gnome.shell.gschema.xml.in:123
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:123
 msgid "Keybinding to focus the active notification."
 msgstr "Фаол хабарномага диққат қилиш учун клавишалар бирикмаси."
 
-#: data/org.gnome.shell.gschema.xml.in:129
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:129
 msgid ""
 "Keybinding that pauses and resumes all running tweens, for debugging purposes"
 msgstr ""
 "Барча ишлаб турган анимацияларни тўхтатиб туриш ёки давом эттириш учун "
 "клавишалар бирикмаси (созлаш мақсадиди)"
 
-#: data/org.gnome.shell.gschema.xml.in:138
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:138
 msgid "Which keyboard to use"
 msgstr "Қайси клавиатурани ишлатиш"
 
-#: data/org.gnome.shell.gschema.xml.in:139
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:139
 msgid "The type of keyboard to use."
 msgstr "Ишлатиладиган клавиатура тури."
 
-#: data/org.gnome.shell.gschema.xml.in:150
-#: data/org.gnome.shell.gschema.xml.in:177
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:150
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:177
 msgid "Limit switcher to current workspace."
 msgstr "Переключателни фақат шу иш жойи билан чегаралаш."
 
-#: data/org.gnome.shell.gschema.xml.in:151
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:151
 msgid ""
 "If true, only applications that have windows on the current workspace are "
 "shown in the switcher. Otherwise, all applications are included."
@@ -250,11 +250,11 @@ msgstr ""
 "Агар белгиланса, ушбу иш жойида ойнаси бор барча дастурлар ўзгартирувчи "
 "тугмачада кўринади. Акс ҳолда, барча дастурлар ҳисобга олинади."
 
-#: data/org.gnome.shell.gschema.xml.in:168
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:168
 msgid "The application icon mode."
 msgstr "Дастур нишончаси режими."
 
-#: data/org.gnome.shell.gschema.xml.in:169
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:169
 msgid ""
 "Configures how the windows are shown in the switcher. Valid possibilities "
 "are 'thumbnail-only' (shows a thumbnail of the window), 'app-icon-"
@@ -264,7 +264,7 @@ msgstr ""
 "\"thumbnail-only\" (ойнанинг миниатурасини кўрсатади), \"app-icon-only"
 "\" (фақтгини дастур нишончасини кўрсатади)."
 
-#: data/org.gnome.shell.gschema.xml.in:178
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:178
 msgid ""
 "If true, only windows from the current workspace are shown in the switcher. "
 "Otherwise, all windows are included."
@@ -272,46 +272,46 @@ msgstr ""
 "Агар белгиланса, фақатгина ушбу иш жойидаги ойналар переключателда "
 "кўрсатилади. Акс ҳолда,барча ойналар ҳисобга олинади."
 
-#: data/org.gnome.shell.gschema.xml.in:189
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:189
 msgid "Attach modal dialog to the parent window"
 msgstr "Модал диалог ойнани бош ойнасига маҳкамлаш"
 
-#: data/org.gnome.shell.gschema.xml.in:190
-#: data/org.gnome.shell.gschema.xml.in:199
-#: data/org.gnome.shell.gschema.xml.in:207
-#: data/org.gnome.shell.gschema.xml.in:215
-#: data/org.gnome.shell.gschema.xml.in:223
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:190
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:199
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:207
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:215
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:223
 msgid ""
-"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
 msgstr ""
-"Scarecrow Shell ишга тушганида ушбу калит org.gnome.mutterдаги калитни бошқадан "
+"Scarecrow Shell ишга тушганида ушбу калит io.github.scarecrow_de.mutterдаги калитни бошқадан "
 "белгилайди."
 
-#: data/org.gnome.shell.gschema.xml.in:198
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:198
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr ""
 "Ойналар экран четларига олиб борилганда уларнинг ўлчамларини автоматик "
 "равишда ўзгартириш"
 
-#: data/org.gnome.shell.gschema.xml.in:206
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:206
 msgid "Workspaces are managed dynamically"
 msgstr "Иш жойлари фаол равишда бошқарилади"
 
-#: data/org.gnome.shell.gschema.xml.in:214
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:214
 msgid "Workspaces only on primary monitor"
 msgstr "Иш жойлари фақат асосий мониторда"
 
-#: data/org.gnome.shell.gschema.xml.in:222
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:222
 msgid "Delay focus changes in mouse mode until the pointer stops moving"
 msgstr ""
 "Кўрсаткич юришдан тўхтамагунча сичқонча режимида диққатни ўзгратирмаслик"
 
-#: data/org.gnome.Shell.PortalHelper.desktop.in.in:3
+#: data/io.github.scarecrow_de.Shell.PortalHelper.desktop.in.in:3
 msgid "Network Login"
 msgstr "Тармоққа кириш"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: data/org.gnome.Shell.PortalHelper.desktop.in.in:9
+#: data/io.github.scarecrow_de.Shell.PortalHelper.desktop.in.in:9
 msgid "network-workgroup"
 msgstr "network-workgroup"
 

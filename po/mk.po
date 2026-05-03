@@ -25,104 +25,104 @@ msgstr "Scarecrow Shell"
 msgid "Window management and application launching"
 msgstr "Менаџмент на прозорци и пуштање на апликации"
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:1
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:1
 msgid "Allows access to internal debugging and monitoring tools using the Alt-F2 dialog."
 msgstr "Овозможува пристап до внатрешни алатки за дебагирање и мониторирање со користење на дијалогот на Alt-F2."
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:2
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:2
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
 msgstr "Овозможи ги внатрешните алатки кои се корисни за програмерите и тестерите преку Alt-F2"
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:3
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:3
 msgid "File extension used for storing the screencast"
 msgstr "Наставка на датотека која се користи за зачувување на снимката од екран"
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:4
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:4
 msgid "Framerate used for recording screencasts."
 msgstr "Рата на рамки која се користи при снимање на снимки од екран."
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:5
-msgid "Scarecrow Shell extensions have a uuid property; this key lists extensions which should be loaded. Any extension that wants to be loaded needs to be in this list. You can also manipulate this list with the EnableExtension and DisableExtension DBus methods on org.gnome.Shell."
-msgstr "Додатоците за Scarecrow Shell имаат uuid својство; овој клуч ги листа додатоците кои ќе се вчитаат. Секој додаток кој треба да биде вчитан мора да стои во оваа листа. Можете да манипулирате со оваа листа со DBus методите EnableExtension и DisableExtension на org.gnome.Shell."
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:5
+msgid "Scarecrow Shell extensions have a uuid property; this key lists extensions which should be loaded. Any extension that wants to be loaded needs to be in this list. You can also manipulate this list with the EnableExtension and DisableExtension DBus methods on io.github.scarecrow_de.Shell."
+msgstr "Додатоците за Scarecrow Shell имаат uuid својство; овој клуч ги листа додатоците кои ќе се вчитаат. Секој додаток кој треба да биде вчитан мора да стои во оваа листа. Можете да манипулирате со оваа листа со DBus методите EnableExtension и DisableExtension на io.github.scarecrow_de.Shell."
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:6
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:6
 msgid "History for command (Alt-F2) dialog"
 msgstr "Историја на дијалогот за команди (Alt-F2)"
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:7
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:7
 msgid "History for the looking glass dialog"
 msgstr "Историја на стаклениот дијалог"
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:8
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:8
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Ако е точно, прикажи го датумот на часовникот, покрај времето."
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:9
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:9
 msgid "If true, display seconds in time."
 msgstr "Ако е точно, прикажи ги секундите во часовникот."
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:10
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:10
 msgid "If true, display the ISO week date in the calendar."
 msgstr "Ако е точно, прикажи го ISO датумот во календарот."
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:11
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:11
 msgid "List of desktop file IDs for favorite applications"
 msgstr "Листа на ID на desktop датотеки за омилените апликации"
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:13
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:13
 #, no-c-format
 msgid "Sets the GStreamer pipeline used to encode recordings. It follows the syntax used for gst-launch. The pipeline should have an unconnected sink pad where the recorded video is recorded. It will normally have a unconnected source pad; output from that pad will be written into the output file. However the pipeline can also take care of its own output - this might be used to send the output to an icecast server via shout2send or similar. When unset or set to an empty value, the default pipeline will be used. This is currently 'videorate ! vp8enc quality=10 speed=2 threads=%T ! queue ! webmmux' and records to WEBM using the VP8 codec. %T is used as a placeholder for a guess at the optimal thread count on the system."
 msgstr "Го поставува GStreamer цевководот за енкодирање на снимки. Ја следи синтаксата која се користи за gst-launch. Цевководот треба да има неповрзан одвод каде се зачувува сниманото видео. Вообичаено тој има неповрзан извор; излезните податоци ќе бидат запишани во излезната датотека. Сепак, цевководот може да се грижи за својот излез - тоа најчесто може да се користи за испраќање на излезните податоци на icecast сервер преку shout2send или слично. Кога не е поставен или пак е поставен на празна вредност, се користи стандардниот цевковод. Оваа вредност моментално е „videorate ! vp8enc quality=10 speed=2 threads=%T ! queue ! webmmux“ и снима во WEBM со користење на кодекот VP8. %T се користи за определување на оптималниот број на нишки за системот."
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:14
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:14
 msgid "Show date in clock"
 msgstr "Прикажи го датумот во часовникот"
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:15
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:15
 msgid "Show the week date in the calendar"
 msgstr "Покажи ја неделата во календарот"
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:16
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:16
 msgid "Show time with seconds"
 msgstr "Покажи го времето со секунди"
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:17
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:17
 msgid "The applications corresponding to these identifiers will be displayed in the favorites area."
 msgstr "Апликациите на кои се однесуваат овие идентификатори ќе бидат прикажани во површината за омилени."
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:18
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:18
 msgid "The filename for recorded screencasts will be a unique filename based on the current date, and use this extension. It should be changed when recording to a different container format."
 msgstr "Името на датотеката за зачуваните снимки од екранот ќе бидее уникатно според тековниот датум и ќе ја има оваа наставка. Таа треба да се промени кога снимањето се прави со различен формат на контејнерот. "
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:19
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:19
 msgid "The framerate of the resulting screencast recordered by Scarecrow Shell's screencast recorder in frames-per-second."
 msgstr "Ратата на рамки, во рамки/секунда, на добиената снимка на екранот снимана од алатката за правење снимки од екранот на Scarecrow Shell."
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:20
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:20
 msgid "The gstreamer pipeline used to encode the screencast"
 msgstr "Цевководот на gstreamer кој се користи за енкодирање на снимката од екран"
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:21
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:21
 msgid "The shell normally monitors active applications in order to present the most used ones (e.g. in launchers). While this data will be kept private, you may want to disable this for privacy reasons. Please note that doing so won't remove already saved data."
 msgstr "Школката обично ги набљудува активните апликации за да прикаже кои се најкористени (пр. во пуштачите). Иако овие податоци се се чуваат како приватни, може да го оневозможите ова за поголема приватност. Имајте во предвид дека со тоа нема да се отстранат тековно сниманите податоци."
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:22
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:22
 msgid "The type of keyboard to use."
 msgstr "Типот на тастатура кој се користи."
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:23
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:23
 msgid "Uuids of extensions to enable"
 msgstr "Uuid на екстензиите кои ќе се овозможат"
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:24
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:24
 msgid "Whether to collect stats about applications usage"
 msgstr "Дали да се собира статистика за користењето на апликациите"
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:25
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:25
 msgid "Which keyboard to use"
 msgstr "Која тастатура да се користи"
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:26
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:26
 msgid "disabled OpenSearch providers"
 msgstr "оневозможени OpenSearch провајдери"
 

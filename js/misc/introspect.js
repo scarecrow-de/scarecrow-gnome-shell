@@ -1,7 +1,7 @@
 /* exported IntrospectService */
 const { Gio, GLib, Meta, Shell, St } = imports.gi;
 
-const INTROSPECT_SCHEMA = 'org.gnome.shell';
+const INTROSPECT_SCHEMA = 'io.github.scarecrow_de.shell';
 const INTROSPECT_KEY = 'introspect';
 const APP_ALLOWLIST = ['org.freedesktop.impl.portal.desktop.gtk'];
 
@@ -9,14 +9,14 @@ const INTROSPECT_DBUS_API_VERSION = 3;
 
 const { loadInterfaceXML } = imports.misc.fileUtils;
 
-const IntrospectDBusIface = loadInterfaceXML('org.gnome.Shell.Introspect');
+const IntrospectDBusIface = loadInterfaceXML('io.github.scarecrow_de.Shell.Introspect');
 
 var IntrospectService = class {
     constructor() {
         this._dbusImpl = Gio.DBusExportedObject.wrapJSObject(IntrospectDBusIface,
                                                              this);
-        this._dbusImpl.export(Gio.DBus.session, '/org/gnome/Shell/Introspect');
-        Gio.DBus.session.own_name('org.gnome.Shell.Introspect',
+        this._dbusImpl.export(Gio.DBus.session, '/io/github/scarecrow_de/Shell/Introspect');
+        Gio.DBus.session.own_name('io.github.scarecrow_de.Shell.Introspect',
                                   Gio.BusNameOwnerFlags.REPLACE,
                                   null, null);
 

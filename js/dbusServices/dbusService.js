@@ -77,7 +77,7 @@ var ServiceImplementation = class {
         } else {
             let name = error.name;
             if (!name.includes('.')) // likely a normal JS error
-                name = `org.gnome.gjs.JSError.${name}`;
+                name = `io.github.scarecrow_de.gjs.JSError.${name}`;
             invocation.return_dbus_error(name, error.message);
         }
 
@@ -160,7 +160,7 @@ var DBusService = class {
     run() {
         // Bail out when not running under scarecrow-shell
         Gio.DBus.watch_name(Gio.BusType.SESSION,
-            'org.gnome.Shell',
+            'io.github.scarecrow_de.Shell',
             Gio.BusNameWatcherFlags.NONE,
             null,
             () => this._loop.quit());

@@ -19,7 +19,7 @@ const T_ = Shell.util_translate_time_string;
 const MAX_FORECASTS = 5;
 const ELLIPSIS_CHAR = '\u2026';
 
-const ClocksIntegrationIface = loadInterfaceXML('org.gnome.Shell.ClocksIntegration');
+const ClocksIntegrationIface = loadInterfaceXML('io.github.scarecrow_de.Shell.ClocksIntegration');
 const ClocksProxy = Gio.DBusProxy.makeProxyWrapper(ClocksIntegrationIface);
 
 function _isToday(date) {
@@ -243,7 +243,7 @@ class EventsSection extends St.Button {
         Main.panel.closeCalendar();
 
         let appInfo = this._calendarApp;
-        if (appInfo.get_id() === 'org.gnome.Evolution.desktop') {
+        if (appInfo.get_id() === 'io.github.scarecrow_de.Evolution.desktop') {
             const app = this._appSys.lookup_app('evolution-calendar.desktop');
             if (app)
                 appInfo = app.app_info;
@@ -295,14 +295,14 @@ class WorldClocksSection extends St.Button {
         this._clocksApp = null;
         this._clocksProxy = new ClocksProxy(
             Gio.DBus.session,
-            'org.gnome.clocks',
-            '/org/gnome/clocks',
+            'io.github.scarecrow_de.clocks',
+            '/io/github/scarecrow_de/clocks',
             this._onProxyReady.bind(this),
             null /* cancellable */,
             Gio.DBusProxyFlags.DO_NOT_AUTO_START | Gio.DBusProxyFlags.GET_INVALIDATED_PROPERTIES);
 
         this._settings = new Gio.Settings({
-            schema_id: 'org.gnome.shell.world-clocks',
+            schema_id: 'io.github.scarecrow_de.shell.world-clocks',
         });
         this._settings.connect('changed', this._clocksChanged.bind(this));
         this._clocksChanged();
@@ -322,7 +322,7 @@ class WorldClocksSection extends St.Button {
     }
 
     _sync() {
-        this._clocksApp = this._appSystem.lookup_app('org.gnome.clocks.desktop');
+        this._clocksApp = this._appSystem.lookup_app('io.github.scarecrow_de.clocks.desktop');
         this.visible = this._clocksApp != null;
     }
 
@@ -673,7 +673,7 @@ class MessagesIndicator extends St.Icon {
         this._count = 0;
 
         this._settings = new Gio.Settings({
-            schema_id: 'org.gnome.desktop.notifications',
+            schema_id: 'io.github.scarecrow_de.desktop.notifications',
         });
         this._settings.connect('changed::show-banners', this._sync.bind(this));
 

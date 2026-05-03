@@ -1,10 +1,10 @@
 dbus_interfaces = [
-  'org.gnome.Shell.Extensions.xml',
-  'org.gnome.Shell.Introspect.xml',
-  'org.gnome.Shell.PadOsd.xml',
-  'org.gnome.Shell.Screencast.xml',
-  'org.gnome.Shell.Screenshot.xml',
-  'org.gnome.ShellSearchProvider.xml',
-  'org.gnome.ShellSearchProvider2.xml'
+  'io.github.scarecrow_de.Shell.Extensions.xml',
+  'io.github.scarecrow_de.Shell.Introspect.xml',
+  'io.github.scarecrow_de.Shell.PadOsd.xml',
+  'io.github.scarecrow_de.Shell.Screencast.xml',
+  'io.github.scarecrow_de.Shell.Screenshot.xml',
+  'io.github.scarecrow_de.ShellSearchProvider.xml',
+  'io.github.scarecrow_de.ShellSearchProvider2.xml'
 ]
 install_data(dbus_interfaces, install_dir: ifacedir)

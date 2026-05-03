@@ -13,9 +13,9 @@ exclude_directories = [
 ]
 
 ifaces = [
-  ['org.gnome.Shell.Screenshot', 'org.gnome.Shell.Screenshot.xml'],
-  ['org.gnome.ShellSearchProvider', 'org.gnome.Shell.SearchProvider.xml'],
-  ['org.gnome.ShellSearchProvider2', 'org.gnome.Shell.SearchProvider2.xml']
+  ['io.github.scarecrow_de.Shell.Screenshot', 'io.github.scarecrow_de.Shell.Screenshot.xml'],
+  ['io.github.scarecrow_de.ShellSearchProvider', 'io.github.scarecrow_de.Shell.SearchProvider.xml'],
+  ['io.github.scarecrow_de.ShellSearchProvider2', 'io.github.scarecrow_de.Shell.SearchProvider2.xml']
 ]
 foreach iface : ifaces
   custom_target(iface[0] + ' docs',

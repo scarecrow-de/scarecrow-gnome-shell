@@ -50,7 +50,7 @@ var PortalHelperResult = {
     RECHECK: 2,
 };
 
-const PortalHelperIface = loadInterfaceXML('org.gnome.Shell.PortalHelper');
+const PortalHelperIface = loadInterfaceXML('io.github.scarecrow_de.Shell.PortalHelper');
 const PortalHelperProxy = Gio.DBusProxy.makeProxyWrapper(PortalHelperIface);
 
 function signalToIcon(value) {
@@ -92,8 +92,8 @@ function launchSettingsPanel(panel, ...args) {
     };
     try {
         Gio.DBus.session.call(
-            'org.gnome.ControlCenter',
-            '/org/gnome/ControlCenter',
+            'io.github.scarecrow_de.ControlCenter',
+            '/io/github/scarecrow_de/ControlCenter',
             'org.freedesktop.Application',
             'ActivateAction',
             new GLib.Variant('(sava{sv})',
@@ -2057,8 +2057,8 @@ class Indicator extends PanelMenu.SystemIndicator {
         if (this._portalHelperProxy) {
             this._portalHelperProxy.AuthenticateRemote(path, '', timestamp);
         } else {
-            new PortalHelperProxy(Gio.DBus.session, 'org.gnome.Shell.PortalHelper',
-                                  '/org/gnome/Shell/PortalHelper', (proxy, error) => {
+            new PortalHelperProxy(Gio.DBus.session, 'io.github.scarecrow_de.Shell.PortalHelper',
+                                  '/io/github/scarecrow_de/Shell/PortalHelper', (proxy, error) => {
                                       if (error) {
                                           log('Error launching the portal helper: %s'.format(error));
                                           return;

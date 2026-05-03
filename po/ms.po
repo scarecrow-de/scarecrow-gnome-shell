@@ -54,21 +54,21 @@ msgstr "Sambungan-Sambungan Shell"
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "Konfigur Sambungan-Sambungan Shell GNOME"
 
-#: data/org.gnome.Shell.desktop.in.in:4
+#: data/io.github.scarecrow_de.Shell.desktop.in.in:4
 msgid "Scarecrow Shell"
 msgstr "Shell GNOME"
 
-#: data/org.gnome.Shell.desktop.in.in:5
+#: data/io.github.scarecrow_de.Shell.desktop.in.in:5
 msgid "Window management and application launching"
 msgstr "Pengurusan tetingkap dan pelancaran aplikasi"
 
-#: data/org.gnome.shell.gschema.xml.in:6
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:6
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
 msgstr ""
 "Benarkan alatan dalaman yang berguna untuk para pembangun dan penguji "
 "melalui Alt-F2"
 
-#: data/org.gnome.shell.gschema.xml.in:9
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:9
 msgid ""
 "Allows access to internal debugging and monitoring tools using the Alt-F2 "
 "dialog."
@@ -76,53 +76,53 @@ msgstr ""
 "Benarkan capaian pada alatan penyahpepijatan dan pemantauan dalaman melalui "
 "dialog Alt-F2."
 
-#: data/org.gnome.shell.gschema.xml.in:16
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:16
 msgid "UUIDs of extensions to enable"
 msgstr "Sambungan UUID untuk dibenarkan"
 
-#: data/org.gnome.shell.gschema.xml.in:17
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:17
 msgid ""
 "Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
-"DisableExtension D-Bus methods on org.gnome.Shell."
+"DisableExtension D-Bus methods on io.github.scarecrow_de.Shell."
 msgstr ""
 "Sambungan-sambungan Scarecrow Shell mempunyai satu sifat UUID; kunci ini "
 "menyenaraikan sambungan-sambungan yang patut dimuatkan. Sebarang sambungan "
 "yang hendak dimuatkan perlu berada di dalam senarai ini. Anda juga boleh "
 "memanipulasi senarai ini dengan kaedah D-Bus EnableExtension dan "
-"DisableExtension yang terdapat di org.gnome.Shell."
+"DisableExtension yang terdapat di io.github.scarecrow_de.Shell."
 
-#: data/org.gnome.shell.gschema.xml.in:26
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:26
 #| msgid "UUIDs of extensions to enable"
 msgid "UUIDs of extensions to force disabling"
 msgstr "UUID sambungan yang memaksa pelumpuhan"
 
-#: data/org.gnome.shell.gschema.xml.in:27
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:27
 #| msgid ""
 #| "Scarecrow Shell extensions have a UUID property; this key lists extensions "
 #| "which should be loaded. Any extension that wants to be loaded needs to be "
 #| "in this list. You can also manipulate this list with the EnableExtension "
-#| "and DisableExtension D-Bus methods on org.gnome.Shell."
+#| "and DisableExtension D-Bus methods on io.github.scarecrow_de.Shell."
 msgid ""
 "Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be disabled, even if loaded as part of the current mode. You can also "
 "manipulate this list with the EnableExtension and DisableExtension D-Bus "
-"methods on org.gnome.Shell. This key takes precedence over the “enabled-"
+"methods on io.github.scarecrow_de.Shell. This key takes precedence over the “enabled-"
 "extensions” setting."
 msgstr ""
 "Sambungan Shell GNOME mempunyai sifat UUID; kunci ini menyenaraikan "
 "sambungan-sambungan yang patut dilumpuhkan, walaupun jika ia telah dimuatkan "
 "sebagai sebahagian daripada mod semasa. Anda boleh memanipulasikan senarai "
 "ini dengan kaedah D-Bus EnableExtension dan DisableExtension D-Bus yang "
-"terdapat di dalam org.gnome.Shell. Kunci ini mengikut keutamaan di dalam "
+"terdapat di dalam io.github.scarecrow_de.Shell. Kunci ini mengikut keutamaan di dalam "
 "tetapan \"enabled-extensions”."
 
-#: data/org.gnome.shell.gschema.xml.in:37
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:37
 msgid "Disable user extensions"
 msgstr "Lumpuhkan sambungan-sambungan pengguna"
 
-#: data/org.gnome.shell.gschema.xml.in:38
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:38
 msgid ""
 "Disable all extensions the user has enabled without affecting the “enabled-"
 "extension” setting."
@@ -130,11 +130,11 @@ msgstr ""
 "Lumpuhkan semua sambungan yang dibenarkan oleh pengguna tanpa mempengaruhi "
 "tetapan \"enabled-extension\"."
 
-#: data/org.gnome.shell.gschema.xml.in:45
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:45
 msgid "Disables the validation of extension version compatibility"
 msgstr "Lumpuhkan pengesahan keserasian versi sambungan"
 
-#: data/org.gnome.shell.gschema.xml.in:46
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:46
 msgid ""
 "Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
@@ -145,11 +145,11 @@ msgstr ""
 "sambungan akan dimuatkan tanpa mengira sama ada versi yang menyokong atau "
 "sebaliknya."
 
-#: data/org.gnome.shell.gschema.xml.in:54
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:54
 msgid "List of desktop file IDs for favorite applications"
 msgstr "Senarai ID fail desktop untuk aplikasi kegemaran"
 
-#: data/org.gnome.shell.gschema.xml.in:55
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:55
 msgid ""
 "The applications corresponding to these identifiers will be displayed in the "
 "favorites area."
@@ -157,28 +157,28 @@ msgstr ""
 "Aplikasi-aplikasi bagi setiap pengenal pasti ini akan dipaparkan di kawasan "
 "kegemaran."
 
-#: data/org.gnome.shell.gschema.xml.in:62
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:62
 msgid "App Picker View"
 msgstr "Pandangan Pemilih Apl"
 
-#: data/org.gnome.shell.gschema.xml.in:63
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:63
 msgid "Index of the currently selected view in the application picker."
 msgstr "Indeks bagi pandangan terpilih semasa di dalam pemilih aplikasi."
 
-#: data/org.gnome.shell.gschema.xml.in:69
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:69
 msgid "History for command (Alt-F2) dialog"
 msgstr "Sejarah untuk dialog perintah (Alt-F2)"
 
 #. Translators: looking glass is a debugger and inspector tool, see https://wiki.gnome.org/Projects/GnomeShell/LookingGlass
-#: data/org.gnome.shell.gschema.xml.in:74
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:74
 msgid "History for the looking glass dialog"
 msgstr "Sejarah untuk dialog looking glass"
 
-#: data/org.gnome.shell.gschema.xml.in:78
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:78
 msgid "Always show the “Log out” menu item in the user menu."
 msgstr "Sentiasa tunjuk item menu \"Daftar keluar\" di dalam menu pengguna."
 
-#: data/org.gnome.shell.gschema.xml.in:79
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:79
 msgid ""
 "This key overrides the automatic hiding of the “Log out” menu item in single-"
 "user, single-session situations."
@@ -186,14 +186,14 @@ msgstr ""
 "Kunci ini membatalkan penyembunyian automatik bagi item menu \"Daftar keluar"
 "\" dalam situasi pengguna-tunggal, sesi-tunggal."
 
-#: data/org.gnome.shell.gschema.xml.in:86
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:86
 msgid ""
 "Whether to remember password for mounting encrypted or remote filesystems"
 msgstr ""
 "Sama ada hendak mengingati kata laluan untuk melekap tersulit atau sistem "
 "fail jauh"
 
-#: data/org.gnome.shell.gschema.xml.in:87
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:87
 msgid ""
 "The shell will request a password when an encrypted device or a remote "
 "filesystem is mounted. If the password can be saved for future use a "
@@ -205,14 +205,14 @@ msgstr ""
 "datang gunakan kotak tanda \"Ingat Kata Laluan\" akan hadir. Kunci ini "
 "menetapkan keadaan lalai bagi kotak tanda."
 
-#: data/org.gnome.shell.gschema.xml.in:96
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:96
 msgid ""
 "Whether the default Bluetooth adapter had set up devices associated to it"
 msgstr ""
 "Sama ada penyesuai Bluetooth lalai telah pasangkan peranti-peranti yang "
 "berkaitan dengannya"
 
-#: data/org.gnome.shell.gschema.xml.in:97
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:97
 msgid ""
 "The shell will only show a Bluetooth menu item if a Bluetooth adapter is "
 "powered, or if there were devices set up associated with the default "
@@ -224,111 +224,111 @@ msgstr ""
 "dengan penyesuai lalai. Ia akan ditetapkan semula jika penyesuai lalai tidak "
 "mempunyai peranti-peranti yang berkaitan dengannya."
 
-#: data/org.gnome.shell.gschema.xml.in:106
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:106
 msgid "Enable introspection API"
 msgstr "Benarkan API introspection"
 
-#: data/org.gnome.shell.gschema.xml.in:107
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:107
 msgid ""
 "Enables a D-Bus API that allows to introspect the application state of the "
 "shell."
 msgstr ""
 "Benarkan satu API D-Bus yang membolehkan kaji semua keadaan aplikasi shell."
 
-#: data/org.gnome.shell.gschema.xml.in:119
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:119
 msgid "Keybinding to open the application menu"
 msgstr "Pengikatan kekunci untuk membuka menu aplikasi"
 
-#: data/org.gnome.shell.gschema.xml.in:120
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:120
 msgid "Keybinding to open the application menu."
 msgstr "Pengikatan kekunci untuk membuka menu aplikasi."
 
-#: data/org.gnome.shell.gschema.xml.in:126
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:126
 msgid "Keybinding to open the “Show Applications” view"
 msgstr "Pengikatan kekunci untuk membuka pandangan \"Tunjuk Aplikasi\""
 
-#: data/org.gnome.shell.gschema.xml.in:127
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:127
 msgid ""
 "Keybinding to open the “Show Applications” view of the Activities Overview."
 msgstr ""
 "Pengikatan kekunci untuk membuka pandangan \"Tunjuk Aplikasi-Aplikasi\" bagi "
 "Selayang Pandang Aktiviti."
 
-#: data/org.gnome.shell.gschema.xml.in:134
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:134
 msgid "Keybinding to open the overview"
 msgstr "Pengikatan kekunci untuk membuka selayang pandang"
 
-#: data/org.gnome.shell.gschema.xml.in:135
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:135
 msgid "Keybinding to open the Activities Overview."
 msgstr "Pengikatan kekunci untuk membuka Selayang Pandang Aktiviti-Aktiviti."
 
-#: data/org.gnome.shell.gschema.xml.in:141
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:141
 msgid "Keybinding to toggle the visibility of the notification list"
 msgstr "Pengikatan untuk togol ketampakan senarai pemberitahuan"
 
-#: data/org.gnome.shell.gschema.xml.in:142
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:142
 msgid "Keybinding to toggle the visibility of the notification list."
 msgstr "Pengikatan untuk togol ketampakan senarai pemberitahuan."
 
-#: data/org.gnome.shell.gschema.xml.in:148
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:148
 msgid "Keybinding to focus the active notification"
 msgstr "Pengikatan kekunci untuk fokuskan pemberitahuan aktif"
 
-#: data/org.gnome.shell.gschema.xml.in:149
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:149
 msgid "Keybinding to focus the active notification."
 msgstr "Pengikatan kekunci untuk fokuskan pemberitahuan aktif."
 
-#: data/org.gnome.shell.gschema.xml.in:155
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:155
 #| msgid "Show Applications"
 msgid "Switch to application 1"
 msgstr "Beralih ke aplikasi 1"
 
-#: data/org.gnome.shell.gschema.xml.in:159
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:159
 #| msgid "Show Applications"
 msgid "Switch to application 2"
 msgstr "Beralih ke aplikasi 2"
 
-#: data/org.gnome.shell.gschema.xml.in:163
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:163
 #| msgid "Show Applications"
 msgid "Switch to application 3"
 msgstr "Beralih ke aplikasi 3"
 
-#: data/org.gnome.shell.gschema.xml.in:167
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:167
 #| msgid "Show Applications"
 msgid "Switch to application 4"
 msgstr "Beralih ke aplikasi 4"
 
-#: data/org.gnome.shell.gschema.xml.in:171
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:171
 #| msgid "Show Applications"
 msgid "Switch to application 5"
 msgstr "Beralih ke aplikasi 5"
 
-#: data/org.gnome.shell.gschema.xml.in:175
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:175
 #| msgid "Show Applications"
 msgid "Switch to application 6"
 msgstr "Beralih ke aplikasi 6"
 
-#: data/org.gnome.shell.gschema.xml.in:179
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:179
 #| msgid "Show Applications"
 msgid "Switch to application 7"
 msgstr "Beralih ke aplikasi 7"
 
-#: data/org.gnome.shell.gschema.xml.in:183
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:183
 #| msgid "Show Applications"
 msgid "Switch to application 8"
 msgstr "Beralih ke aplikasi 8"
 
-#: data/org.gnome.shell.gschema.xml.in:187
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:187
 #| msgid "Show Applications"
 msgid "Switch to application 9"
 msgstr "Beralih ke aplikasi 9"
 
-#: data/org.gnome.shell.gschema.xml.in:196
-#: data/org.gnome.shell.gschema.xml.in:223
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:196
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:223
 msgid "Limit switcher to current workspace."
 msgstr "Hadkan penukar ke ruang kerja semasa."
 
-#: data/org.gnome.shell.gschema.xml.in:197
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:197
 msgid ""
 "If true, only applications that have windows on the current workspace are "
 "shown in the switcher. Otherwise, all applications are included."
@@ -336,11 +336,11 @@ msgstr ""
 "Jika benar, hanya aplikasi-aplikasi yang ada tetingkap pada ruang kerja "
 "semasa ditunjukkan dalam penukar. Jika sebaliknya, semua aplikasi terlibat."
 
-#: data/org.gnome.shell.gschema.xml.in:214
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:214
 msgid "The application icon mode."
 msgstr "Mod ikon aplikasi."
 
-#: data/org.gnome.shell.gschema.xml.in:215
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:215
 msgid ""
 "Configures how the windows are shown in the switcher. Valid possibilities "
 "are “thumbnail-only” (shows a thumbnail of the window), “app-icon-"
@@ -351,7 +351,7 @@ msgstr ""
 "kenit bagi tetingkap), \"ikon-apl-sahaja\" (hanya tunjuk ikon aplikasi) atau "
 "\"kedua-duanya\"."
 
-#: data/org.gnome.shell.gschema.xml.in:224
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:224
 msgid ""
 "If true, only windows from the current workspace are shown in the switcher. "
 "Otherwise, all windows are included."
@@ -359,66 +359,66 @@ msgstr ""
 "Jika benar, hanya tetingkap-tetingkap pada ruang kerja semasa ditunjukkan "
 "dalam penukar. Jika sebaliknya, semua tetingkap terlibat."
 
-#: data/org.gnome.shell.gschema.xml.in:234
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:234
 #| msgid "Location"
 msgid "Locations"
 msgstr "Lokasi"
 
-#: data/org.gnome.shell.gschema.xml.in:235
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:235
 msgid "The locations to show in world clocks"
 msgstr "Lokasi yang dipaparkan dalam jam dunia"
 
-#: data/org.gnome.shell.gschema.xml.in:245
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:245
 msgid "Automatic location"
 msgstr "Lokasi automatik"
 
-#: data/org.gnome.shell.gschema.xml.in:246
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:246
 msgid "Whether to fetch the current location or not"
 msgstr "Sama ada hendak dapatkan lokasi semasa atau sebaliknya"
 
-#: data/org.gnome.shell.gschema.xml.in:253
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:253
 msgid "Location"
 msgstr "Lokasi"
 
-#: data/org.gnome.shell.gschema.xml.in:254
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:254
 msgid "The location for which to show a forecast"
 msgstr "Lokasi yang dapat menunjukkan ramalan"
 
-#: data/org.gnome.shell.gschema.xml.in:266
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:266
 msgid "Attach modal dialog to the parent window"
 msgstr "Lampir dialog modal kepada tetingkap induk"
 
-#: data/org.gnome.shell.gschema.xml.in:267
-#: data/org.gnome.shell.gschema.xml.in:276
-#: data/org.gnome.shell.gschema.xml.in:284
-#: data/org.gnome.shell.gschema.xml.in:292
-#: data/org.gnome.shell.gschema.xml.in:300
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:267
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:276
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:284
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:292
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:300
 msgid ""
-"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
 msgstr ""
-"Kunci ini membatalkan kunci dalam org.gnome.mutter ketika menjalankan GNOME "
+"Kunci ini membatalkan kunci dalam io.github.scarecrow_de.mutter ketika menjalankan GNOME "
 "Shell."
 
-#: data/org.gnome.shell.gschema.xml.in:275
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:275
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr ""
 "Benarkan penjubinan pinggir ketika melepaskan tetingkap-tetingkap di atas "
 "pinggir skrin"
 
-#: data/org.gnome.shell.gschema.xml.in:283
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:283
 msgid "Workspaces are managed dynamically"
 msgstr "Ruang-ruang kerja diurus secara dinamik"
 
-#: data/org.gnome.shell.gschema.xml.in:291
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:291
 msgid "Workspaces only on primary monitor"
 msgstr "Ruang-ruang kerja hanya berada pada monitor utama"
 
-#: data/org.gnome.shell.gschema.xml.in:299
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:299
 msgid "Delay focus changes in mouse mode until the pointer stops moving"
 msgstr ""
 "Fokus lengah berubah dalam mod tetikus sehinggalah penuding berhenti bergerak"
 
-#: data/org.gnome.Shell.PortalHelper.desktop.in.in:3
+#: data/io.github.scarecrow_de.Shell.PortalHelper.desktop.in.in:3
 #| msgid "Network error"
 msgid "Network Login"
 msgstr "Daftar Masuk Rangkaian"

@@ -11,7 +11,7 @@ const ShellMountOperation = imports.ui.shellMountOperation;
 var GNOME_SESSION_AUTOMOUNT_INHIBIT = 16;
 
 // GSettings keys
-const SETTINGS_SCHEMA = 'org.gnome.desktop.media-handling';
+const SETTINGS_SCHEMA = 'io.github.scarecrow_de.desktop.media-handling';
 const SETTING_ENABLE_AUTOMOUNT = 'automount';
 
 var AUTORUN_EXPIRE_TIMEOUT_SECS = 10;

@@ -105,10 +105,10 @@ flatpak:
     variables:
         SUBPROJECT: "subprojects/extensions-app"
         # Your manifest path
-        MANIFEST_PATH: "$SUBPROJECT/build-aux/flatpak/org.gnome.Extensions.json"
+        MANIFEST_PATH: "$SUBPROJECT/build-aux/flatpak/io.github.scarecrow_de.Extensions.json"
         RUNTIME_REPO: "https://nightly.gnome.org/gnome-nightly.flatpakrepo"
         FLATPAK_MODULE: "gnome-extensions-app"
-        APP_ID: "org.gnome.Extensions"
+        APP_ID: "io.github.scarecrow_de.Extensions"
     extends: .flatpak
     <<: *only_default
 

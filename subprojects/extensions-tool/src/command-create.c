@@ -30,7 +30,7 @@
 #include "common.h"
 #include "config.h"
 
-#define TEMPLATES_PATH "/org/gnome/extensions-tool/templates"
+#define TEMPLATES_PATH "/io/github/scarecrow_de/extensions-tool/templates"
 #define TEMPLATE_KEY "Path"
 #define SORT_DATA "desktop-id"
 

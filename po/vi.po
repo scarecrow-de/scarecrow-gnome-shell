@@ -54,47 +54,47 @@ msgstr "Phần mở rộng Hệ vỏ"
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "Cấu hình phần mở rộng Hệ vỏ GNOME"
 
-#: data/org.gnome.Shell.desktop.in.in:4
+#: data/io.github.scarecrow_de.Shell.desktop.in.in:4
 msgid "Scarecrow Shell"
 msgstr "Hệ vỏ GNOME"
 
-#: data/org.gnome.Shell.desktop.in.in:5
+#: data/io.github.scarecrow_de.Shell.desktop.in.in:5
 msgid "Window management and application launching"
 msgstr "Quản lý cửa sổ và chạy ứng dụng"
 
-#: data/org.gnome.shell.gschema.xml.in:6
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:6
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
 msgstr ""
 "Bật công cụ nội bộ, hữu dụng với người phát triển và kiểm thử, qua Alt-F2"
 
-#: data/org.gnome.shell.gschema.xml.in:9
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:9
 msgid ""
 "Allows access to internal debugging and monitoring tools using the Alt-F2 "
 "dialog."
 msgstr ""
 "Cho phép truy cập công cụ theo dõi và tìm lỗi nội bộ qua hộp thoại Alt-F2."
 
-#: data/org.gnome.shell.gschema.xml.in:16
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:16
 msgid "UUIDs of extensions to enable"
 msgstr "Mã số thiết bị của phần mở rộng cần bật"
 
-#: data/org.gnome.shell.gschema.xml.in:17
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:17
 msgid ""
 "Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
-"DisableExtension D-Bus methods on org.gnome.Shell."
+"DisableExtension D-Bus methods on io.github.scarecrow_de.Shell."
 msgstr ""
 "Phần mở rộng Hệ vỏ GNOME có thuộc tính mã số thiết bị; khóa này liệt kê danh "
 "sách phần mở rộng nên nạp. Bất kỳ phần mở rộng nào muốn nạp phải nằm trong "
 "danh sách này. Bạn có thể thao tác trên danh sách này với phương thức DBus "
-"EnableExtension và DisableExtension trên org.gnome.Shell."
+"EnableExtension và DisableExtension trên io.github.scarecrow_de.Shell."
 
-#: data/org.gnome.shell.gschema.xml.in:26
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:26
 msgid "Disable user extensions"
 msgstr "Tắt phần mở rộng người dùng"
 
-#: data/org.gnome.shell.gschema.xml.in:27
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:27
 msgid ""
 "Disable all extensions the user has enabled without affecting the “enabled-"
 "extension” setting."
@@ -102,11 +102,11 @@ msgstr ""
 "Tắt tất cả các phần mở rộng người dùng đã bật mà không ảnh hưởng đến cài đặt "
 "“enabled-extension”."
 
-#: data/org.gnome.shell.gschema.xml.in:34
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:34
 msgid "Disables the validation of extension version compatibility"
 msgstr "Tắt kiểm tra tương thích phiên bản của phần mở rộng"
 
-#: data/org.gnome.shell.gschema.xml.in:35
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:35
 msgid ""
 "Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
@@ -116,39 +116,39 @@ msgstr ""
 "bản hiện đang chạy. Bật tùy chọn này sẽ tắt việc kiểm tra và thử tải tất cả "
 "những phần mở rộng mà không cần quan tâm đến việc nó hỗ trợ phiên bản nào."
 
-#: data/org.gnome.shell.gschema.xml.in:43
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:43
 msgid "List of desktop file IDs for favorite applications"
 msgstr "Danh sách ID tập tin desktop của ứng dụng yêu thích"
 
-#: data/org.gnome.shell.gschema.xml.in:44
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:44
 msgid ""
 "The applications corresponding to these identifiers will be displayed in the "
 "favorites area."
 msgstr ""
 "Ứng dụng tương ứng với những định danh này sẽ được hiển thị ở vùng ưa thích."
 
-#: data/org.gnome.shell.gschema.xml.in:51
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:51
 msgid "App Picker View"
 msgstr "Bộ trình bày sàng lọc ứng dụng"
 
-#: data/org.gnome.shell.gschema.xml.in:52
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:52
 msgid "Index of the currently selected view in the application picker."
 msgstr "Mục lục của trình bày được chọn hiện tại trong bộ sàng lọc ứng dụng."
 
-#: data/org.gnome.shell.gschema.xml.in:58
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:58
 msgid "History for command (Alt-F2) dialog"
 msgstr "Hộp thoại lịch sử lệnh (Alt-F2)"
 
 #. Translators: looking glass is a debugger and inspector tool, see https://wiki.gnome.org/Projects/GnomeShell/LookingGlass
-#: data/org.gnome.shell.gschema.xml.in:63
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:63
 msgid "History for the looking glass dialog"
 msgstr "Lịch sử hộp thoại kính tìm kiếm"
 
-#: data/org.gnome.shell.gschema.xml.in:67
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:67
 msgid "Always show the “Log out” menu item in the user menu."
 msgstr "Luôn hiện mục “Đăng xuất” trên trình đơn người dùng."
 
-#: data/org.gnome.shell.gschema.xml.in:68
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:68
 msgid ""
 "This key overrides the automatic hiding of the “Log out” menu item in single-"
 "user, single-session situations."
@@ -156,14 +156,14 @@ msgstr ""
 "Khóa này sẽ đè lên việc tự động ẩn trình đơn “Đăng xuất” ở chế độ đơn-người-"
 "dùng, đơn-phiên-làm-việc. "
 
-#: data/org.gnome.shell.gschema.xml.in:75
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:75
 msgid ""
 "Whether to remember password for mounting encrypted or remote filesystems"
 msgstr ""
 "Hoặc là ghi nhớ mật khẩu dành cho việc gắn hệ thống tập tin đã mã hóa hoặc "
 "hệ thống tập tin trên máy chủ"
 
-#: data/org.gnome.shell.gschema.xml.in:76
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:76
 msgid ""
 "The shell will request a password when an encrypted device or a remote "
 "filesystem is mounted. If the password can be saved for future use a "
@@ -175,14 +175,14 @@ msgstr ""
 "dấu kiểm “Nhớ mật khẩu” sẽ xuất hiện. Khóa này đặt trạng thái mặc định cho "
 "hộp dấu kiểm."
 
-#: data/org.gnome.shell.gschema.xml.in:85
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:85
 msgid ""
 "Whether the default Bluetooth adapter had set up devices associated to it"
 msgstr ""
 "Có nên để bộ điều hợp Bluetooth mặc định phải cài đặt thiết bị liên kết với "
 "nó hay không"
 
-#: data/org.gnome.shell.gschema.xml.in:86
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:86
 msgid ""
 "The shell will only show a Bluetooth menu item if a Bluetooth adapter is "
 "powered, or if there were devices set up associated with the default "
@@ -193,113 +193,113 @@ msgstr ""
 "có các thiết bị được cài đặt liên kết với bộ tiếp hợp mặc định. Cái này sẽ "
 "được đặt lại nếu bộ tiếp hợp mặc định không còn được liên kết với nó nữa."
 
-#: data/org.gnome.shell.gschema.xml.in:95
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:95
 msgid "Enable introspection API"
 msgstr "Bật introspection API"
 
-#: data/org.gnome.shell.gschema.xml.in:96
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:96
 msgid ""
 "Enables a D-Bus API that allows to introspect the application state of the "
 "shell."
 msgstr ""
 "Bật một D-Bus API cái mà cho phép tự xem xét tình trạng ứng dụng của hệ vỏ."
 
-#: data/org.gnome.shell.gschema.xml.in:109
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:109
 msgid "Keybinding to open the application menu"
 msgstr "Phím mở trình đơn ứng dụng"
 
-#: data/org.gnome.shell.gschema.xml.in:110
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:110
 msgid "Keybinding to open the application menu."
 msgstr "Phím mở trình đơn ứng dụng."
 
-#: data/org.gnome.shell.gschema.xml.in:116
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:116
 msgid "Keybinding to open the “Show Applications” view"
 msgstr "Phím hiện “Ứng dụng”"
 
-#: data/org.gnome.shell.gschema.xml.in:117
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:117
 msgid ""
 "Keybinding to open the “Show Applications” view of the Activities Overview."
 msgstr "Phím hiện “Ứng dụng” trong “Tổng quan hoạt động”."
 
-#: data/org.gnome.shell.gschema.xml.in:124
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:124
 msgid "Keybinding to open the overview"
 msgstr "Phím mở tổng quan"
 
-#: data/org.gnome.shell.gschema.xml.in:125
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:125
 msgid "Keybinding to open the Activities Overview."
 msgstr "Phím mở tổng quan hoạt động."
 
-#: data/org.gnome.shell.gschema.xml.in:131
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:131
 msgid "Keybinding to toggle the visibility of the notification list"
 msgstr "Phím để bật/tắt hiển thị danh sách thông báo"
 
-#: data/org.gnome.shell.gschema.xml.in:132
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:132
 msgid "Keybinding to toggle the visibility of the notification list."
 msgstr "Phím để bật/tắt hiển thị danh sách thông báo."
 
-#: data/org.gnome.shell.gschema.xml.in:138
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:138
 msgid "Keybinding to focus the active notification"
 msgstr "Phím để tập trung vào thông báo hoạt động"
 
-#: data/org.gnome.shell.gschema.xml.in:139
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:139
 msgid "Keybinding to focus the active notification."
 msgstr "Phím để tập trung vào thông báo hoạt động."
 
-#: data/org.gnome.shell.gschema.xml.in:145
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:145
 msgid ""
 "Keybinding that pauses and resumes all running tweens, for debugging purposes"
 msgstr "Phím ràng buộc cái mà dừng hay tiếp tục chạy, dành cho mục đích gỡ lỗi"
 
-#: data/org.gnome.shell.gschema.xml.in:150
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:150
 msgid "Switch to application 1"
 msgstr "Chuyển đến ứng dụng 1"
 
-#: data/org.gnome.shell.gschema.xml.in:154
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:154
 msgid "Switch to application 2"
 msgstr "Chuyển đến ứng dụng 2"
 
-#: data/org.gnome.shell.gschema.xml.in:158
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:158
 msgid "Switch to application 3"
 msgstr "Chuyển đến ứng dụng 3"
 
-#: data/org.gnome.shell.gschema.xml.in:162
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:162
 msgid "Switch to application 4"
 msgstr "Chuyển đến ứng dụng 4"
 
-#: data/org.gnome.shell.gschema.xml.in:166
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:166
 msgid "Switch to application 5"
 msgstr "Chuyển đến ứng dụng 5"
 
-#: data/org.gnome.shell.gschema.xml.in:170
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:170
 msgid "Switch to application 6"
 msgstr "Chuyển đến ứng dụng 6"
 
-#: data/org.gnome.shell.gschema.xml.in:174
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:174
 msgid "Switch to application 7"
 msgstr "Chuyển đến ứng dụng 7"
 
-#: data/org.gnome.shell.gschema.xml.in:178
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:178
 msgid "Switch to application 8"
 msgstr "Chuyển đến ứng dụng 8"
 
-#: data/org.gnome.shell.gschema.xml.in:182
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:182
 msgid "Switch to application 9"
 msgstr "Chuyển đến ứng dụng 9"
 
-#: data/org.gnome.shell.gschema.xml.in:190
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:190
 msgid "Which keyboard to use"
 msgstr "Bàn phím được dùng"
 
-#: data/org.gnome.shell.gschema.xml.in:191
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:191
 msgid "The type of keyboard to use."
 msgstr "Kiểu bàn phím được dùng."
 
-#: data/org.gnome.shell.gschema.xml.in:202
-#: data/org.gnome.shell.gschema.xml.in:229
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:202
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:229
 msgid "Limit switcher to current workspace."
 msgstr "Giới hạn bộ chuyển đổi cho không gian làm việc hiện tại."
 
-#: data/org.gnome.shell.gschema.xml.in:203
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:203
 msgid ""
 "If true, only applications that have windows on the current workspace are "
 "shown in the switcher. Otherwise, all applications are included."
@@ -308,11 +308,11 @@ msgstr ""
 "tại là hiện ra trên bộ chuyển. Nếu không, tất cả các ứng dụng sẽ được bao "
 "gồm."
 
-#: data/org.gnome.shell.gschema.xml.in:220
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:220
 msgid "The application icon mode."
 msgstr "Chế độ biểu tượng ứng dụng."
 
-#: data/org.gnome.shell.gschema.xml.in:221
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:221
 msgid ""
 "Configures how the windows are shown in the switcher. Valid possibilities "
 "are “thumbnail-only” (shows a thumbnail of the window), “app-icon-"
@@ -322,7 +322,7 @@ msgstr ""
 "“thumbnail-only” (hiển thị ảnh thu nhỏ của cửa sổ), “app-icon-only” (chỉ "
 "hiển thị biểu tượng của ứng dụng) hoặc “both” (cả hai)."
 
-#: data/org.gnome.shell.gschema.xml.in:230
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:230
 msgid ""
 "If true, only windows from the current workspace are shown in the switcher. "
 "Otherwise, all windows are included."
@@ -330,42 +330,42 @@ msgstr ""
 "Nếu được đặt, chỉ những cửa sổ từ không gian làm việc hiện hành được hiện "
 "thị ở bộ chuyển. Nếu không, tất cả các cửa sổ sẽ được gộp vào."
 
-#: data/org.gnome.shell.gschema.xml.in:242
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:242
 msgid "Attach modal dialog to the parent window"
 msgstr "Gắn hộp thoại dạng modal vào cửa sổ mẹ"
 
-#: data/org.gnome.shell.gschema.xml.in:243
-#: data/org.gnome.shell.gschema.xml.in:252
-#: data/org.gnome.shell.gschema.xml.in:260
-#: data/org.gnome.shell.gschema.xml.in:268
-#: data/org.gnome.shell.gschema.xml.in:276
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:243
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:252
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:260
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:268
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:276
 msgid ""
-"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
 msgstr ""
-"Khóa này sẽ đè lên khóa có trong org.gnome.mutter khi chạy hệ vỏ GNOME."
+"Khóa này sẽ đè lên khóa có trong io.github.scarecrow_de.mutter khi chạy hệ vỏ GNOME."
 
-#: data/org.gnome.shell.gschema.xml.in:251
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:251
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Bật xếp lớp ở cạnh khi thả cửa sổ vào cạnh màn hình"
 
-#: data/org.gnome.shell.gschema.xml.in:259
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:259
 msgid "Workspaces are managed dynamically"
 msgstr "Quản lý động vùng làm việc"
 
-#: data/org.gnome.shell.gschema.xml.in:267
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:267
 msgid "Workspaces only on primary monitor"
 msgstr "Vùng làm việc chỉ ở trên màn hình chính"
 
-#: data/org.gnome.shell.gschema.xml.in:275
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:275
 msgid "Delay focus changes in mouse mode until the pointer stops moving"
 msgstr "Khoảng trễ chờ cho con chuột ngừng di chuyển"
 
-#: data/org.gnome.Shell.PortalHelper.desktop.in.in:3
+#: data/io.github.scarecrow_de.Shell.PortalHelper.desktop.in.in:3
 msgid "Network Login"
 msgstr "Đăng nhập mạng"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: data/org.gnome.Shell.PortalHelper.desktop.in.in:9
+#: data/io.github.scarecrow_de.Shell.PortalHelper.desktop.in.in:9
 msgid "network-workgroup"
 msgstr "network-workgroup"
 
@@ -2642,10 +2642,10 @@ msgstr "Âm thanh hệ thống"
 #~ msgstr "Sắp đặt các nút trên thanh tiêu đề"
 
 #~ msgid ""
-#~ "This key overrides the key in org.gnome.desktop.wm.preferences when "
+#~ "This key overrides the key in io.github.scarecrow_de.desktop.wm.preferences when "
 #~ "running Scarecrow Shell."
 #~ msgstr ""
-#~ "Khóa này đè lên khóa có trong org.gnome.desktop.wm.preferences khi chạy "
+#~ "Khóa này đè lên khóa có trong io.github.scarecrow_de.desktop.wm.preferences khi chạy "
 #~ "hệ vỏ GNOME."
 
 #~ msgid "Extension"

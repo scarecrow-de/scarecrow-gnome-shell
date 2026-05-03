@@ -155,7 +155,7 @@ class EmptyEventSource extends EventSourceBase {
     }
 });
 
-const CalendarServerIface = loadInterfaceXML('org.gnome.Shell.CalendarServer');
+const CalendarServerIface = loadInterfaceXML('io.github.scarecrow_de.Shell.CalendarServer');
 
 const CalendarServerInfo  = Gio.DBusInterfaceInfo.new_for_xml(CalendarServerIface);
 
@@ -163,8 +163,8 @@ function CalendarServer() {
     return new Gio.DBusProxy({ g_connection: Gio.DBus.session,
                                g_interface_name: CalendarServerInfo.name,
                                g_interface_info: CalendarServerInfo,
-                               g_name: 'org.gnome.Shell.CalendarServer',
-                               g_object_path: '/org/gnome/Shell/CalendarServer' });
+                               g_name: 'io.github.scarecrow_de.Shell.CalendarServer',
+                               g_object_path: '/io/github/scarecrow_de/Shell/CalendarServer' });
 }
 
 function _datesEqual(a, b) {
@@ -378,7 +378,7 @@ var Calendar = GObject.registerClass({
 }, class Calendar extends St.Widget {
     _init() {
         this._weekStart = Shell.util_get_week_start();
-        this._settings = new Gio.Settings({ schema_id: 'org.gnome.desktop.calendar' });
+        this._settings = new Gio.Settings({ schema_id: 'io.github.scarecrow_de.desktop.calendar' });
 
         this._settings.connect('changed::%s'.format(SHOW_WEEKDATE_KEY), this._onSettingsChange.bind(this));
         this._useWeekdate = this._settings.get_boolean(SHOW_WEEKDATE_KEY);
@@ -889,7 +889,7 @@ class Placeholder extends St.BoxLayout {
         this._date = new Date();
 
         const file = Gio.File.new_for_uri(
-            'resource:///org/gnome/shell/theme/no-notifications.svg');
+            'resource:///io/github/scarecrow_de/shell/theme/no-notifications.svg');
         this._icon = new St.Icon({ gicon: new Gio.FileIcon({ file }) });
         this.add_actor(this._icon);
 
@@ -902,7 +902,7 @@ const DoNotDisturbSwitch = GObject.registerClass(
 class DoNotDisturbSwitch extends PopupMenu.Switch {
     _init() {
         this._settings = new Gio.Settings({
-            schema_id: 'org.gnome.desktop.notifications',
+            schema_id: 'io.github.scarecrow_de.desktop.notifications',
         });
 
         super._init(this._settings.get_boolean('show-banners'));

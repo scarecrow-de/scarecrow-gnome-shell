@@ -30,7 +30,7 @@
 #include <meta/meta-x11-display.h>
 
 #define GNOME_DESKTOP_USE_UNSTABLE_API
-#include <libgnome-desktop/gnome-systemd.h>
+#include <libscarecrow-desktop/scarecrow-systemd.h>
 
 #if defined __OpenBSD__ || defined __FreeBSD__
 #include <sys/sysctl.h>
@@ -375,7 +375,7 @@ shell_global_init (ShellGlobal *global)
   global->runtime_state_path = g_file_new_for_path (path);
   g_free (path);
 
-  global->settings = g_settings_new ("org.gnome.shell");
+  global->settings = g_settings_new ("io.github.scarecrow_de.shell");
 
   if (shell_js)
     {
@@ -410,7 +410,7 @@ shell_global_init (ShellGlobal *global)
   else
     {
       search_path = g_malloc0 (2 * sizeof (char *));
-      search_path[0] = g_strdup ("resource:///org/gnome/shell");
+      search_path[0] = g_strdup ("resource:///io/github/scarecrow_de/shell");
     }
 
   global->js_context = g_object_new (GJS_TYPE_CONTEXT,

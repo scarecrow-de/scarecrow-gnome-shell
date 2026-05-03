@@ -954,7 +954,7 @@ class AppDisplay extends BaseAppView {
             this._viewIsReady = false;
             Main.queueDeferredWork(this._redisplayWorkId);
         });
-        this._folderSettings = new Gio.Settings({ schema_id: 'org.gnome.desktop.app-folders' });
+        this._folderSettings = new Gio.Settings({ schema_id: 'io.github.scarecrow_de.desktop.app-folders' });
         this._folderSettings.connect('changed::folder-children', () => {
             this._viewIsReady = false;
             Main.queueDeferredWork(this._redisplayWorkId);
@@ -1318,7 +1318,7 @@ class AppDisplay extends BaseAppView {
         // Create the new folder
         let newFolderPath = this._folderSettings.path.concat('folders/', newFolderId, '/');
         let newFolderSettings = new Gio.Settings({
-            schema_id: 'org.gnome.desktop.app-folders.folder',
+            schema_id: 'io.github.scarecrow_de.desktop.app-folders.folder',
             path: newFolderPath,
         });
         if (!newFolderSettings) {
@@ -1831,7 +1831,7 @@ class FolderView extends BaseAppView {
             for (const key of keys)
                 this._folder.reset(key);
 
-            let settings = new Gio.Settings({ schema_id: 'org.gnome.desktop.app-folders' });
+            let settings = new Gio.Settings({ schema_id: 'io.github.scarecrow_de.desktop.app-folders' });
             let folders = settings.get_strv('folder-children');
             folders.splice(folders.indexOf(this._id), 1);
             settings.set_strv('folder-children', folders);
@@ -1872,7 +1872,7 @@ var FolderIcon = GObject.registerClass({
         this._name = '';
         this._parentView = parentView;
 
-        this._folder = new Gio.Settings({ schema_id: 'org.gnome.desktop.app-folders.folder',
+        this._folder = new Gio.Settings({ schema_id: 'io.github.scarecrow_de.desktop.app-folders.folder',
                                           path });
 
         this.icon = new IconGrid.BaseIcon('', {
@@ -2950,7 +2950,7 @@ var AppIconMenu = class AppIconMenu extends PopupMenu.PopupMenu {
                 }
             }
 
-            if (Shell.AppSystem.get_default().lookup_app('org.gnome.Software.desktop')) {
+            if (Shell.AppSystem.get_default().lookup_app('io.github.scarecrow_de.Software.desktop')) {
                 this._appendSeparator();
                 let item = this._appendMenuItem(_("Show Details"));
                 item.connect('activate', async () => {
@@ -2958,8 +2958,8 @@ var AppIconMenu = class AppIconMenu extends PopupMenu.PopupMenu {
                     let args = GLib.Variant.new('(ss)', [id, '']);
                     const bus = await Gio.DBus.get(Gio.BusType.SESSION, null);
                     bus.call(
-                        'org.gnome.Software',
-                        '/org/gnome/Software',
+                        'io.github.scarecrow_de.Software',
+                        '/io/github/scarecrow_de/Software',
                         'org.gtk.Actions', 'Activate',
                         new GLib.Variant.new(
                             '(sava{sv})', ['details', [args], null]),

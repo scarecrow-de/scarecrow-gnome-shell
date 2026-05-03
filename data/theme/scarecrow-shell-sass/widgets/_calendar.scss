@@ -153,7 +153,7 @@
   }
 
   .calendar-day-with-events {
-    background-image: url("resource:///org/gnome/shell/theme/calendar-today.svg");
+    background-image: url("resource:///io/github/scarecrow_de/shell/theme/calendar-today.svg");
     &.calendar-work-day {
        color: lighten($fg_color,10%);
        font-weight: bold;

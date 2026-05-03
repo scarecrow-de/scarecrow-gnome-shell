@@ -14,7 +14,7 @@ const WorkspacesView = imports.ui.workspacesView;
 const EdgeDragAction = imports.ui.edgeDragAction;
 const IconGrid = imports.ui.iconGrid;
 
-const SHELL_KEYBINDINGS_SCHEMA = 'org.gnome.shell.keybindings';
+const SHELL_KEYBINDINGS_SCHEMA = 'io.github.scarecrow_de.shell.keybindings';
 var PINCH_GESTURE_THRESHOLD = 0.7;
 
 var ViewPage = {

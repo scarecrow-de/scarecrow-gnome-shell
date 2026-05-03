@@ -27,57 +27,57 @@ msgstr "GNOME ශෙල්"
 msgid "Window management and application launching"
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:1
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:1
 msgid ""
 "Allows access to internal debugging and monitoring tools using the Alt-F2 "
 "dialog."
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:2
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:2
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:3
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:3
 msgid "File extension used for storing the screencast"
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:4
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:4
 msgid "Framerate used for recording screencasts."
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:5
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:5
 msgid ""
 "Scarecrow Shell extensions have a uuid property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
-"DisableExtension DBus methods on org.gnome.Shell."
+"DisableExtension DBus methods on io.github.scarecrow_de.Shell."
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:6
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:6
 msgid "History for command (Alt-F2) dialog"
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:7
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:7
 msgid "History for the looking glass dialog"
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:8
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:8
 msgid "If true, display date in the clock, in addition to time."
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:9
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:9
 msgid "If true, display seconds in time."
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:10
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:10
 msgid "If true, display the ISO week date in the calendar."
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:11
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:11
 msgid "List of desktop file IDs for favorite applications"
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:13
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:13
 #, no-c-format
 msgid ""
 "Sets the GStreamer pipeline used to encode recordings. It follows the syntax "
@@ -92,42 +92,42 @@ msgid ""
 "thread count on the system."
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:14
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:14
 msgid "Show date in clock"
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:15
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:15
 msgid "Show the week date in the calendar"
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:16
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:16
 msgid "Show time with seconds"
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:17
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:17
 msgid ""
 "The applications corresponding to these identifiers will be displayed in the "
 "favorites area."
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:18
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:18
 msgid ""
 "The filename for recorded screencasts will be a unique filename based on the "
 "current date, and use this extension. It should be changed when recording to "
 "a different container format."
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:19
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:19
 msgid ""
 "The framerate of the resulting screencast recordered by Scarecrow Shell's "
 "screencast recorder in frames-per-second."
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:20
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:20
 msgid "The gstreamer pipeline used to encode the screencast"
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:21
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:21
 msgid ""
 "The shell normally monitors active applications in order to present the most "
 "used ones (e.g. in launchers). While this data will be kept private, you may "
@@ -135,23 +135,23 @@ msgid ""
 "remove already saved data."
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:22
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:22
 msgid "The type of keyboard to use."
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:23
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:23
 msgid "Uuids of extensions to enable"
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:24
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:24
 msgid "Whether to collect stats about applications usage"
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:25
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:25
 msgid "Which keyboard to use"
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.h:26
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.h:26
 msgid "disabled OpenSearch providers"
 msgstr ""
 

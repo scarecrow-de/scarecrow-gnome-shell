@@ -8,15 +8,15 @@ const ExtensionUtils = imports.misc.extensionUtils;
 const { loadInterfaceXML } = imports.misc.fileUtils;
 const { ServiceImplementation } = imports.dbusService;
 
-const ExtensionsIface = loadInterfaceXML('org.gnome.Shell.Extensions');
+const ExtensionsIface = loadInterfaceXML('io.github.scarecrow_de.Shell.Extensions');
 const ExtensionsProxy = Gio.DBusProxy.makeProxyWrapper(ExtensionsIface);
 
 var ExtensionsService = class extends ServiceImplementation {
     constructor() {
-        super(ExtensionsIface, '/org/gnome/Shell/Extensions');
+        super(ExtensionsIface, '/io/github/scarecrow_de/Shell/Extensions');
 
         this._proxy = new ExtensionsProxy(Gio.DBus.session,
-            'org.gnome.Shell', '/org/gnome/Shell');
+            'io.github.scarecrow_de.Shell', '/io/github/scarecrow_de/Shell');
 
         this._proxy.connectSignal('ExtensionStateChanged',
             (proxy, sender, params) => {
@@ -154,7 +154,7 @@ var ExtensionsService = class extends ServiceImplementation {
 
 var ExtensionPrefsDialog = GObject.registerClass({
     GTypeName: 'ExtensionPrefsDialog',
-    Template: 'resource:///org/gnome/Shell/Extensions/ui/extension-prefs-dialog.ui',
+    Template: 'resource:///io/github/scarecrow_de/Shell/Extensions/ui/extension-prefs-dialog.ui',
     InternalChildren: [
         'headerBar',
         'stack',
@@ -261,7 +261,7 @@ var ExtensionPrefsDialog = GObject.registerClass({
 
     _addCustomStylesheet() {
         let provider = new Gtk.CssProvider();
-        let uri = 'resource:///org/gnome/Shell/Extensions/css/application.css';
+        let uri = 'resource:///io/github/scarecrow_de/Shell/Extensions/css/application.css';
         try {
             provider.load_from_file(Gio.File.new_for_uri(uri));
         } catch (e) {

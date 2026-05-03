@@ -9,10 +9,10 @@ const PopupMenu = imports.ui.popupMenu;
 
 const { loadInterfaceXML } = imports.misc.fileUtils;
 
-const BUS_NAME = 'org.gnome.SettingsDaemon.Color';
-const OBJECT_PATH = '/org/gnome/SettingsDaemon/Color';
+const BUS_NAME = 'io.github.scarecrow_de.SettingsDaemon.Color';
+const OBJECT_PATH = '/io/github/scarecrow_de/SettingsDaemon/Color';
 
-const ColorInterface = loadInterfaceXML('org.gnome.SettingsDaemon.Color');
+const ColorInterface = loadInterfaceXML('io.github.scarecrow_de.SettingsDaemon.Color');
 const ColorProxy = Gio.DBusProxy.makeProxyWrapper(ColorInterface);
 
 var Indicator = GObject.registerClass(
@@ -39,7 +39,7 @@ class Indicator extends PanelMenu.SystemIndicator {
             this._proxy.DisabledUntilTomorrow = !this._proxy.DisabledUntilTomorrow;
         });
         this._item.menu.addAction(_("Turn Off"), () => {
-            let settings = new Gio.Settings({ schema_id: 'org.gnome.settings-daemon.plugins.color' });
+            let settings = new Gio.Settings({ schema_id: 'io.github.scarecrow_de.settings-daemon.plugins.color' });
             settings.set_boolean('night-light-enabled', false);
         });
         this._item.menu.addSettingsAction(_("Display Settings"), 'gnome-display-panel.desktop');

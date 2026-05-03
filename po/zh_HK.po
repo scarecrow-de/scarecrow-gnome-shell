@@ -68,36 +68,36 @@ msgstr "設定 Scarecrow Shell 擴充功能"
 msgid "Scarecrow Shell (wayland compositor)"
 msgstr "Scarecrow Shell (wayland 組合器)"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:1
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
 msgstr "啟用讓開發者與測試者能以 Alt-F2 使用好用的內部工具"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:2
 msgid ""
 "Allows access to internal debugging and monitoring tools using the Alt-F2 "
 "dialog."
 msgstr "允許使用 Alt-F2 對話盒存取內部除錯和監控工具。"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:3
 msgid "UUIDs of extensions to enable"
 msgstr "要啟用的擴充功能 UUID"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:4
 msgid ""
 "Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
-"DisableExtension D-Bus methods on org.gnome.Shell."
+"DisableExtension D-Bus methods on io.github.scarecrow_de.Shell."
 msgstr ""
 "Scarecrow Shell 擴充功能有 UUID 屬性；這個設定鍵列出了應載入的擴充功能。任何要載"
-"入的擴充功能都要出現在這個清單中。你也可以用 org.gnome.Shell 中的 "
+"入的擴充功能都要出現在這個清單中。你也可以用 io.github.scarecrow_de.Shell 中的 "
 "EnableExtension 和 DisableExtension D-Bus 方法來操作這個清單。"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:5
 msgid "Disables the validation of extension version compatibility"
 msgstr "停用擴充功能版本兼容性的驗證"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:6
 msgid ""
 "Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
@@ -106,50 +106,50 @@ msgstr ""
 "Scarecrow Shell 只會載入宣稱支援目前運行中版本的擴充功能。啟用此選項會停用這項檢"
 "查，並嘗試載入所有的擴充功能，而不去管它們所宣稱支援的版本為何。"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:7
 msgid "List of desktop file IDs for favorite applications"
 msgstr "喜好的應用程式桌面檔案 ID 清單"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:8
 msgid ""
 "The applications corresponding to these identifiers will be displayed in the "
 "favorites area."
 msgstr "對應這些辨別碼的應用程式會顯示在喜好區域。"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:9
 msgid "App Picker View"
 msgstr "程式挑選器檢視"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:10
 msgid "Index of the currently selected view in the application picker."
 msgstr "應用程式挑選器中目前選取檢視的索引。"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:11
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:11
 msgid "History for command (Alt-F2) dialog"
 msgstr "指令 (Alt-F2) 對話盒歷史紀錄"
 
 #. Translators: looking glass is a debugger and inspector tool, see https://live.gnome.org/GnomeShell/LookingGlass
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:13
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:13
 msgid "History for the looking glass dialog"
 msgstr "Looking glass 對話盒歷史紀錄"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:14
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:14
 msgid "Always show the 'Log out' menu item in the user menu."
 msgstr "永遠在使用者選單顯示「登出」選單項目。"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:15
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:15
 msgid ""
 "This key overrides the automatic hiding of the 'Log out' menu item in single-"
 "user, single-session situations."
 msgstr ""
 "這個設定鍵會覆蓋在單一使用者、單一作業階段情況下對「登出」選單項目的隱藏。"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:16
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:16
 msgid ""
 "Whether to remember password for mounting encrypted or remote filesystems"
 msgstr "是否記住已掛載的加密或遠端檔案系統的密碼"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:17
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:17
 msgid ""
 "The shell will request a password when an encrypted device or a remote "
 "filesystem is mounted. If the password can be saved for future use a "
@@ -159,12 +159,12 @@ msgstr ""
 "當掛載加密裝置或遠端檔案系統時會要求密碼。如果密碼可以被儲存以供未來使用時會"
 "顯示「記住密碼」。這個設定鍵設定了核取方塊的預設狀態。"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:18
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:18
 msgid ""
 "Whether the default Bluetooth adapter had set up devices associated to it"
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:19
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:19
 msgid ""
 "The shell will only show a Bluetooth menu item if a Bluetooth adapter is "
 "powered, or if there were devices set up associated with the default "
@@ -172,77 +172,77 @@ msgid ""
 "devices associated to it."
 msgstr ""
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:20
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:20
 msgid "Show the week date in the calendar"
 msgstr "在日曆中顯示週數"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:21
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:21
 msgid "If true, display the ISO week date in the calendar."
 msgstr "如果設為 true，在日曆中顯示 ISO 週數。"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:22
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:22
 msgid "Keybinding to open the application menu"
 msgstr "開啟應用程式選單的組合鍵"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:23
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:23
 msgid "Keybinding to open the application menu."
 msgstr "開啟應用程式選單的組合鍵。"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:24
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:24
 msgid "Keybinding to open the \"Show Applications\" view"
 msgstr "開啟「顯示應用程式」檢視的組合鍵"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:25
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:25
 msgid ""
 "Keybinding to open the \"Show Applications\" view of the Activities Overview."
 msgstr "開啟活動概覽「顯示應用程式」檢視的組合鍵"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:26
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:26
 msgid "Keybinding to open the overview"
 msgstr "開啟概覽的組合鍵"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:27
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:27
 msgid "Keybinding to open the Activities Overview."
 msgstr "開啟「活動概覽」的組合鍵。"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:28
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:28
 #, fuzzy
 #| msgid "Keybinding to toggle the visibility of the message tray"
 msgid "Keybinding to toggle the visibility of the notification list"
 msgstr "切換訊息匣顯示的組合鍵"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:29
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:29
 #, fuzzy
 #| msgid "Keybinding to toggle the visibility of the message tray."
 msgid "Keybinding to toggle the visibility of the notification list."
 msgstr "切換訊息匣顯示的組合鍵。"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:30
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:30
 msgid "Keybinding to focus the active notification"
 msgstr "聚焦到使用中通知的組合鍵"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:31
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:31
 msgid "Keybinding to focus the active notification."
 msgstr "聚焦到使用中通知的組合鍵。"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:32
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:32
 msgid ""
 "Keybinding that pauses and resumes all running tweens, for debugging purposes"
 msgstr "暫停與恢復執行中重複項的組合鍵，用於除錯用途"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:33
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:33
 msgid "Which keyboard to use"
 msgstr "要使用哪種鍵盤"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:34
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:34
 msgid "The type of keyboard to use."
 msgstr "要使用的鍵盤類型。"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:35
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:35
 msgid "Limit switcher to current workspace."
 msgstr "限制切換器使用目前的工作區"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:36
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:36
 msgid ""
 "If true, only applications that have windows on the current workspace are "
 "shown in the switcher. Otherwise, all applications are included."
@@ -250,11 +250,11 @@ msgstr ""
 "如果設定為「true」，切換器將僅顯示目前工作區中的應用程式視窗。否則，所有的應"
 "用程式都會包含在內。"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:37
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:37
 msgid "The application icon mode."
 msgstr "應用程式圖示模式。"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:38
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:38
 msgid ""
 "Configures how the windows are shown in the switcher. Valid possibilities "
 "are 'thumbnail-only' (shows a thumbnail of the window), 'app-icon-"
@@ -263,7 +263,7 @@ msgstr ""
 "設定視窗在切換器中如何顯示。有效的數值為「thumbnail-only」(顯示視窗縮圖)、"
 "「app-icon-only」(只顯示應用程式圖示) 或「both」。"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:39
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:39
 msgid ""
 "If true, only windows from the current workspace are shown in the switcher. "
 "Otherwise, all windows are included."
@@ -271,32 +271,32 @@ msgstr ""
 "如果設定為「true」，切換器將僅顯示目前工作區中的視窗。否則，所有的視窗都會包"
 "含在內。"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:40
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:40
 msgid "Attach modal dialog to the parent window"
 msgstr "在上層視窗附加強制對話盒"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:41
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:41
 msgid ""
-"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
-msgstr "這個設定鍵會在執行 Scarecrow Shell 時覆蓋 org.gnome.mutter 中的設定鍵。"
+"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+msgstr "這個設定鍵會在執行 Scarecrow Shell 時覆蓋 io.github.scarecrow_de.mutter 中的設定鍵。"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:42
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:42
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "在螢幕邊緣放下視窗時啟用邊緣拼貼"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:43
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:43
 msgid "Workspaces are managed dynamically"
 msgstr "工作區以動態方式管理"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:44
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:44
 msgid "Workspaces only on primary monitor"
 msgstr "工作區只在主要顯示器"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:45
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:45
 msgid "Delay focus changes in mouse mode until the pointer stops moving"
 msgstr "在滑鼠模式中延遲焦點更改直到指標停止移動"
 
-#: ../data/org.gnome.Shell.PortalHelper.desktop.in.h:1
+#: ../data/io.github.scarecrow_de.Shell.PortalHelper.desktop.in.h:1
 #, fuzzy
 #| msgid "Network error"
 msgid "Network Login"
@@ -1971,10 +1971,10 @@ msgstr "核對對話盒被使用者取消了"
 #~ msgstr "標題列上的按鈕排列"
 
 #~ msgid ""
-#~ "This key overrides the key in org.gnome.desktop.wm.preferences when "
+#~ "This key overrides the key in io.github.scarecrow_de.desktop.wm.preferences when "
 #~ "running Scarecrow Shell."
 #~ msgstr ""
-#~ "這個設定鍵會在執行 Scarecrow Shell 時覆蓋 org.gnome.desktop.wm.preferences 中"
+#~ "這個設定鍵會在執行 Scarecrow Shell 時覆蓋 io.github.scarecrow_de.desktop.wm.preferences 中"
 #~ "的設定鍵。"
 
 #~ msgid "Extension"

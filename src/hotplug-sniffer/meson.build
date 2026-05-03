@@ -12,7 +12,7 @@ executable('scarecrow-shell-hotplug-sniffer', hotplug_sources,
   install: true
 )
 
-service_file = 'org.gnome.Shell.HotplugSniffer.service'
+service_file = 'io.github.scarecrow_de.Shell.HotplugSniffer.service'
 
 configure_file(
   input: service_file + '.in',

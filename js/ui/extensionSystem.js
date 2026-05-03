@@ -64,7 +64,7 @@ var ExtensionManager = class {
 
     get updatesSupported() {
         const appSys = Shell.AppSystem.get_default();
-        return appSys.lookup_app('org.gnome.Extensions.desktop') !== null;
+        return appSys.lookup_app('io.github.scarecrow_de.Extensions.desktop') !== null;
     }
 
     lookup(uuid) {
@@ -223,9 +223,9 @@ var ExtensionManager = class {
             return false;
 
         Gio.DBus.session.call(
-            'org.gnome.Shell.Extensions',
-            '/org/gnome/Shell/Extensions',
-            'org.gnome.Shell.Extensions',
+            'io.github.scarecrow_de.Shell.Extensions',
+            '/io/github/scarecrow_de/Shell/Extensions',
+            'io.github.scarecrow_de.Shell.Extensions',
             'OpenExtensionPrefs',
             new GLib.Variant('(ssa{sv})', [uuid, parentWindow, options]),
             null,
@@ -637,7 +637,7 @@ const ExtensionUpdateSource = GObject.registerClass(
 class ExtensionUpdateSource extends MessageTray.Source {
     _init() {
         let appSys = Shell.AppSystem.get_default();
-        this._app = appSys.lookup_app('org.gnome.Extensions.desktop');
+        this._app = appSys.lookup_app('io.github.scarecrow_de.Extensions.desktop');
 
         super._init(this._app.get_name());
     }

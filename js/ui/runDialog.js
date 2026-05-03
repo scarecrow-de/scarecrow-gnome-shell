@@ -12,10 +12,10 @@ const History = imports.misc.history;
 
 const HISTORY_KEY = 'command-history';
 
-const LOCKDOWN_SCHEMA = 'org.gnome.desktop.lockdown';
+const LOCKDOWN_SCHEMA = 'io.github.scarecrow_de.desktop.lockdown';
 const DISABLE_COMMAND_LINE_KEY = 'disable-command-line';
 
-const TERMINAL_SCHEMA = 'org.gnome.desktop.default-applications.terminal';
+const TERMINAL_SCHEMA = 'io.github.scarecrow_de.desktop.default-applications.terminal';
 const EXEC_KEY = 'exec';
 const EXEC_ARG_KEY = 'exec-arg';
 

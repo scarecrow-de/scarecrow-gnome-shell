@@ -6,20 +6,20 @@ const Main = imports.ui.main;
 
 const { loadInterfaceXML } = imports.misc.fileUtils;
 
-const MAG_SERVICE_PATH = '/org/gnome/Magnifier';
-const ZOOM_SERVICE_PATH = '/org/gnome/Magnifier/ZoomRegion';
+const MAG_SERVICE_PATH = '/io/github/scarecrow_de/Magnifier';
+const ZOOM_SERVICE_PATH = '/io/github/scarecrow_de/Magnifier/ZoomRegion';
 
 // Subset of gnome-mag's Magnifier dbus interface -- to be expanded.  See:
 // http://git.gnome.org/browse/gnome-mag/tree/xml/...Magnifier.xml
-const MagnifierIface = loadInterfaceXML('org.gnome.Magnifier');
+const MagnifierIface = loadInterfaceXML('io.github.scarecrow_de.Magnifier');
 
 // Subset of gnome-mag's ZoomRegion dbus interface -- to be expanded.  See:
 // http://git.gnome.org/browse/gnome-mag/tree/xml/...ZoomRegion.xml
-const ZoomRegionIface = loadInterfaceXML('org.gnome.Magnifier.ZoomRegion');
+const ZoomRegionIface = loadInterfaceXML('io.github.scarecrow_de.Magnifier.ZoomRegion');
 
 // For making unique ZoomRegion DBus proxy object paths of the form:
-// '/org/gnome/Magnifier/ZoomRegion/zoomer0',
-// '/org/gnome/Magnifier/ZoomRegion/zoomer1', etc.
+// '/io/github/scarecrow_de/Magnifier/ZoomRegion/zoomer0',
+// '/io/github/scarecrow_de/Magnifier/ZoomRegion/zoomer1', etc.
 let _zoomRegionInstanceCount = 0;
 
 var ShellMagnifier = class ShellMagnifier {

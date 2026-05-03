@@ -23,7 +23,7 @@ class Indicator extends PanelMenu.SystemIndicator {
         super._init();
 
         this._desktopSettings = new Gio.Settings({
-            schema_id: 'org.gnome.desktop.interface',
+            schema_id: 'io.github.scarecrow_de.desktop.interface',
         });
         this._desktopSettings.connect(
             'changed::%s'.format(SHOW_BATTERY_PERCENTAGE), this._sync.bind(this));

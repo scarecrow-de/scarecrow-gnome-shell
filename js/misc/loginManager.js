@@ -34,9 +34,9 @@ function versionCompare(required, reference) {
 
 function canLock() {
     try {
-        let params = GLib.Variant.new('(ss)', ['org.gnome.DisplayManager.Manager', 'Version']);
-        let result = Gio.DBus.system.call_sync('org.gnome.DisplayManager',
-                                               '/org/gnome/DisplayManager/Manager',
+        let params = GLib.Variant.new('(ss)', ['io.github.scarecrow_de.DisplayManager.Manager', 'Version']);
+        let result = Gio.DBus.system.call_sync('io.github.scarecrow_de.DisplayManager',
+                                               '/io/github/scarecrow_de/DisplayManager/Manager',
                                                'org.freedesktop.DBus.Properties',
                                                'Get', params, null,
                                                Gio.DBusCallFlags.NONE,
@@ -54,9 +54,9 @@ async function registerSessionWithGDM() {
     log("Registering session with GDM");
     try {
         await Gio.DBus.system.call(
-            'org.gnome.DisplayManager',
-            '/org/gnome/DisplayManager/Manager',
-            'org.gnome.DisplayManager.Manager',
+            'io.github.scarecrow_de.DisplayManager',
+            '/io/github/scarecrow_de/DisplayManager/Manager',
+            'io.github.scarecrow_de.DisplayManager.Manager',
             'RegisterSession',
             GLib.Variant.new('(a{sv})', [{}]), null,
             Gio.DBusCallFlags.NONE, -1, null);

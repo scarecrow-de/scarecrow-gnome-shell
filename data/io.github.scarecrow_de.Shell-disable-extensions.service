@@ -1,0 +1,15 @@
+[Unit]
+Description=Disable Scarecrow Shell extensions after failure
+# Note that this unit must not conflict with anything, and must
+# be able to run in parallel with the gnome-session-shutdown.target.
+DefaultDependencies=no
+
+# We want to disable extensions only if scarecrow-shell has flagged the extensions
+# to be a likely cause of trouble.
+ConditionPathExists=%t/scarecrow-shell-disable-extensions
+
+[Service]
+Type=simple
+# Disable extensions
+ExecStart=gsettings set io.github.scarecrow_de.shell disable-user-extensions true
+Restart=no

@@ -12,14 +12,14 @@ const ExtensionUtils = imports.misc.extensionUtils;
 
 const { ExtensionState, ExtensionType } = ExtensionUtils;
 
-const GnomeShellIface = loadInterfaceXML('org.gnome.Shell.Extensions');
+const GnomeShellIface = loadInterfaceXML('io.github.scarecrow_de.Shell.Extensions');
 const GnomeShellProxy = Gio.DBusProxy.makeProxyWrapper(GnomeShellIface);
 
 Gio._promisify(Gio.DBusConnection.prototype, 'call', 'call_finish');
 Gio._promisify(Shew.WindowExporter.prototype, 'export', 'export_finish');
 
 function loadInterfaceXML(iface) {
-    const uri = 'resource:///org/gnome/Extensions/dbus-interfaces/%s.xml'.format(iface);
+    const uri = 'resource:///io/github/scarecrow_de/Extensions/dbus-interfaces/%s.xml'.format(iface);
     const f = Gio.File.new_for_uri(uri);
 
     try {
@@ -41,7 +41,7 @@ var Application = GObject.registerClass(
 class Application extends Gtk.Application {
     _init() {
         GLib.set_prgname('gnome-extensions-app');
-        super._init({ application_id: 'org.gnome.Extensions' });
+        super._init({ application_id: 'io.github.scarecrow_de.Extensions' });
     }
 
     get shellProxy() {
@@ -57,7 +57,7 @@ class Application extends Gtk.Application {
         super.vfunc_startup();
 
         let provider = new Gtk.CssProvider();
-        let uri = 'resource:///org/gnome/Extensions/css/application.css';
+        let uri = 'resource:///io/github/scarecrow_de/Extensions/css/application.css';
         try {
             provider.load_from_file(Gio.File.new_for_uri(uri));
         } catch (e) {
@@ -68,7 +68,7 @@ class Application extends Gtk.Application {
             Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         this._shellProxy = new GnomeShellProxy(Gio.DBus.session,
-            'org.gnome.Shell.Extensions', '/org/gnome/Shell/Extensions');
+            'io.github.scarecrow_de.Shell.Extensions', '/io/github/scarecrow_de/Shell/Extensions');
 
         this._window = new ExtensionsWindow({ application: this });
     }
@@ -76,7 +76,7 @@ class Application extends Gtk.Application {
 
 var ExtensionsWindow = GObject.registerClass({
     GTypeName: 'ExtensionsWindow',
-    Template: 'resource:///org/gnome/Extensions/ui/extensions-window.ui',
+    Template: 'resource:///io/github/scarecrow_de/Extensions/ui/extensions-window.ui',
     InternalChildren: [
         'userList',
         'systemList',
@@ -183,7 +183,7 @@ var ExtensionsWindow = GObject.registerClass({
             program_name: _('Extensions'),
             comments: _('Manage your GNOME Extensions'),
             license_type: Gtk.License.GPL_2_0,
-            logo_icon_name: 'org.gnome.Extensions',
+            logo_icon_name: 'io.github.scarecrow_de.Extensions',
             version: imports.package.version,
 
             transient_for: this,
@@ -194,9 +194,9 @@ var ExtensionsWindow = GObject.registerClass({
 
     _logout() {
         this.application.get_dbus_connection().call(
-            'org.gnome.SessionManager',
-            '/org/gnome/SessionManager',
-            'org.gnome.SessionManager',
+            'io.github.scarecrow_de.SessionManager',
+            '/io/github/scarecrow_de/SessionManager',
+            'io.github.scarecrow_de.SessionManager',
             'Logout',
             new GLib.Variant('(u)', [0]),
             null,
@@ -325,7 +325,7 @@ var ExtensionsWindow = GObject.registerClass({
 
 var ExtensionRow = GObject.registerClass({
     GTypeName: 'ExtensionRow',
-    Template: 'resource:///org/gnome/Extensions/ui/extension-row.ui',
+    Template: 'resource:///io/github/scarecrow_de/Extensions/ui/extension-row.ui',
     InternalChildren: [
         'nameLabel',
         'descriptionLabel',

@@ -12,7 +12,7 @@ const PermissionStore = imports.misc.permissionStore;
 
 const { loadInterfaceXML } = imports.misc.fileUtils;
 
-const LOCATION_SCHEMA = 'org.gnome.system.location';
+const LOCATION_SCHEMA = 'io.github.scarecrow_de.system.location';
 const MAX_ACCURACY_LEVEL = 'max-accuracy-level';
 const ENABLED = 'enabled';
 

@@ -5,7 +5,7 @@ const Dialog = imports.ui.dialog;
 const ModalDialog = imports.ui.modalDialog;
 const PermissionStore = imports.misc.permissionStore;
 
-const WAYLAND_KEYBINDINGS_SCHEMA = 'org.gnome.mutter.wayland.keybindings';
+const WAYLAND_KEYBINDINGS_SCHEMA = 'io.github.scarecrow_de.mutter.wayland.keybindings';
 
 const APP_ALLOWLIST = ['scarecrow-control-center.desktop'];
 const APP_PERMISSIONS_TABLE = 'gnome';

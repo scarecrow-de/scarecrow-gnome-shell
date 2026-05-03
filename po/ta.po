@@ -68,14 +68,14 @@ msgstr "க்னோம் ஷெல் நீட்சிகளை வடிவ
 msgid "Scarecrow Shell (wayland compositor)"
 msgstr "GNOME ஷெல் (வேலேன்ட் கம்ப்போசிட்டர்)"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:1
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
 msgstr ""
 "உருவாக்குவோர் மற்றூம் சோதிப்போருக்கு பயன்படுமாறு Alt-F2 வழியாக உள்ளமை "
 "கருவிகளை "
 "செயலாக்கு"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:2
 msgid ""
 "Allows access to internal debugging and monitoring tools using the Alt-F2 "
 "dialog."
@@ -84,30 +84,30 @@ msgstr ""
 "ஆகியவற்றை அணுக "
 "உதவும்."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:3
 msgid "UUIDs of extensions to enable"
 msgstr "செயல்படுத்த வேண்டிய நீட்சிகளின் UUIDகள்"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:4
 msgid ""
 "Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
-"DisableExtension D-Bus methods on org.gnome.Shell."
+"DisableExtension D-Bus methods on io.github.scarecrow_de.Shell."
 msgstr ""
 "க்னோம் ஷெல் நீட்சிகளுக்கு ஒரு யூயூஐடி பண்பு உண்டு. இந்த விசை எந்த நீட்சிகள் "
 "ஏற்றப்பட வேண்டும் "
 "என பட்டியலிடுகிறது. ஏற்றப்பட வேண்டிய எந்த நீட்சியும் இந்த பட்டியலில் இருந்தே "
 "ஆகவேண்டும். "
-"org.gnome.Shell. இல் உள்ள EnableExtension மற்றும் DisableExtension DBus "
+"io.github.scarecrow_de.Shell. இல் உள்ள EnableExtension மற்றும் DisableExtension DBus "
 "முறைகளில் "
 "இந்த பட்டியலை நீங்கள் திருத்தலாம்."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:5
 msgid "Disables the validation of extension version compatibility"
 msgstr "நீட்சிப் பதிப்பு இணக்கத்தன்மை செல்லுபடியாக்கத்தை முடக்கும்"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:6
 msgid ""
 "Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
@@ -121,11 +121,11 @@ msgstr ""
 "முயற்சி "
 "செய்யப்படும்."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:7
 msgid "List of desktop file IDs for favorite applications"
 msgstr "விருப்ப பயன்பாடுகளுக்கு மேல்மேசை கோப்பு அடையாளங்கள்"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:8
 msgid ""
 "The applications corresponding to these identifiers will be displayed in the "
 "favorites area."
@@ -133,28 +133,28 @@ msgstr ""
 "இந்த அடையாளங் காட்டிகளுக்கு பொருத்தமான பயன்பாடுகள் விருப்ப இடத்தில் "
 "காட்டப்படும்."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:9
 msgid "App Picker View"
 msgstr "ஆப் பிக்கர் காட்சி"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:10
 msgid "Index of the currently selected view in the application picker."
 msgstr ""
 "பயன்பாட்டுத் தேர்வியில் தற்போது தேர்ந்தெடுக்கப்பட்டுள்ள காட்சியின் அட்டவணை."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:11
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:11
 msgid "History for command (Alt-F2) dialog"
 msgstr "(Alt-F2) கட்டளை உரையாடல் க்கு வரலாறு"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:12
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:12
 msgid "History for the looking glass dialog"
 msgstr "லுக்கிங் க்ளாஸ் உரையாடலுக்கு வரலாறு"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:13
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:13
 msgid "Always show the 'Log out' menu item in the user menu."
 msgstr "எப்போதும் பயனர் மெனுவில் 'வெளியேறு' மெனு உருப்படியைக் காண்பி."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:14
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:14
 msgid ""
 "This key overrides the automatic hiding of the 'Log out' menu item in single-"
 "user, single-session situations."
@@ -163,7 +163,7 @@ msgstr ""
 "உருப்படி "
 "தானாக மறைதலை கட்டுப்படுத்தி இயங்கும்."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:15
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:15
 msgid ""
 "Whether to remember password for mounting encrypted or remote filesystems"
 msgstr ""
@@ -171,7 +171,7 @@ msgstr ""
 "கடவுச்சொல்லை "
 "நினைவில் வைத்திருக்க வேண்டுமா"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:16
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:16
 msgid ""
 "The shell will request a password when an encrypted device or a remote "
 "filesystem is mounted. If the password can be saved for future use a "
@@ -186,76 +186,76 @@ msgstr ""
 "இடம்பெறும். இந்த "
 "விசையே இந்த தேர்வுப் பெட்டியின் முன்னிருப்பு நிலையை அமைக்கிறது."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:17
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:17
 msgid "Show the week date in the calendar"
 msgstr "நாட்காட்டியில் வார நாளை காட்டவும்"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:18
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:18
 msgid "If true, display the ISO week date in the calendar."
 msgstr "உண்மையானால் நாட்காட்டியில் ஐஎஸ்ஓ வார எண்களை காட்டவும்."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:19
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:19
 msgid "Keybinding to open the application menu"
 msgstr "பயன்பாட்டு பட்டியை திறக்க விசைபிணைப்பு"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:20
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:20
 msgid "Keybinding to open the application menu."
 msgstr "பயன்பாட்டு பட்டியை திறக்க விசைபிணைப்பு."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:21
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:21
 msgid "Keybinding to open the \"Show Applications\" view"
 msgstr " \"செயலிகளைக்காட்டு\" பார்வையை திறக்க விசைபிணைப்பு"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:22
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:22
 msgid ""
 "Keybinding to open the \"Show Applications\" view of the Activities Overview."
 msgstr ""
 "செயல்பாடுகள் மேல்பார்வையின் \"செயலிகளைக்காட்டு\" பார்வையை திறக்க விசைபிணைப்பு."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:23
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:23
 msgid "Keybinding to open the overview"
 msgstr "மேற்பார்வையை திறக்கும் விசைபிணைப்பு"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:24
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:24
 msgid "Keybinding to open the Activities Overview."
 msgstr "செயலிகளின் மேற்பார்வையை திறக்கும் விசைபிணைப்பு."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:25
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:25
 msgid "Keybinding to toggle the visibility of the message tray"
 msgstr "அறிவிப்பு பலகத்தின் காட்சியை நிலை மாற்ற விசைபிணைப்பு"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:26
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:26
 msgid "Keybinding to toggle the visibility of the message tray."
 msgstr "அறிவிப்பு பலகத்தின் காட்சியை நிலை மாற்ற விசைபிணைப்பு."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:27
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:27
 msgid "Keybinding to focus the active notification"
 msgstr "இயங்கு செய்தி அறிவிப்பை குவிக்க விசைபிணைப்பு"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:28
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:28
 msgid "Keybinding to focus the active notification."
 msgstr "இயங்கு செய்தி அறிவிப்பை குவிக்க விசைபிணைப்பு."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:29
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:29
 msgid ""
 "Keybinding that pauses and resumes all running tweens, for debugging purposes"
 msgstr ""
 "இயக்கத்திலிருக்கும் ட்வீன்கள் அனைத்தையும் இடைநிறுத்தி மீண்டும் துவக்கும் "
 "விசைப்பிணைப்பாக்கம், வழுநீக்கத் தேவைகளுக்கானது."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:30
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:30
 msgid "Which keyboard to use"
 msgstr "எந்த விசைப்பலகையை பயன்படுத்த வேண்டும்?"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:31
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:31
 msgid "The type of keyboard to use."
 msgstr "பயன்படுத்த வேண்டிய விசைப்பலகை வகை"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:32
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:32
 msgid "Limit switcher to current workspace."
 msgstr "மாற்றியை நடப்பு பணியிடத்திற்கு மட்டும் எனக் கட்டுப்படுத்து."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:33
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:33
 msgid ""
 "If true, only applications that have windows on the current workspace are "
 "shown in the switcher. Otherwise, all applications are included."
@@ -264,11 +264,11 @@ msgstr ""
 "பயன்பாடுகள் மட்டுமே மாற்றியில் காண்பிக்கப்படும். இல்லாவிட்டால் அனைத்துப் "
 "பயன்பாடுகளும் இருக்கும்."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:34
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:34
 msgid "The application icon mode."
 msgstr "பயன்பாடு படவுரு பயன்முறை."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:35
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:35
 msgid ""
 "Configures how the windows are shown in the switcher. Valid possibilities "
 "are 'thumbnail-only' (shows a thumbnail of the window), 'app-icon-"
@@ -280,7 +280,7 @@ msgstr ""
 "'பயன்பாட்டு-படவுரு-மட்டும்' (பயன்பாட்டின் "
 "படவுருவை மட்டும் காண்பிக்கும்) அல்லது 'இரன்டும்' ஆகிய சாத்தியங்கள் உள்ளன."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:36
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:36
 msgid ""
 "If true, only windows from the current workspace are shown in the switcher. "
 "Otherwise, all windows are included."
@@ -288,36 +288,36 @@ msgstr ""
 "ஆம் என அமைக்கப்பட்டால், நடப்புப் பணியிடத்தில் உள்ள சாளரங்கள் மட்டுமே "
 "மாற்றியில் காண்பிக்கப்படும். இல்லாவிட்டால் அனைத்து சாளரங்களும் இருக்கும்."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:37
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:37
 msgid "Attach modal dialog to the parent window"
 msgstr "தாய் சாளரத்துக்கு மாதிரி உரையாடலை இணை"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:38
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:38
 msgid ""
-"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
 msgstr ""
-"இந்த விசை org.gnome.mutter இல் உள்ள விசையை க்னோம் ஷெல்லை இயக்கும்போது "
+"இந்த விசை io.github.scarecrow_de.mutter இல் உள்ள விசையை க்னோம் ஷெல்லை இயக்கும்போது "
 "வன்மீறல் செய்கிறது."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:39
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:39
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "திரை விளிம்புகளில் சாளரங்களை இடும்போது விளிம்பு சாய்தலை செயலாக்கு"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:40
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:40
 msgid "Workspaces are managed dynamically"
 msgstr "பணிக்களங்கள் இயங்கு நிலையில் மேலாளப்படுகின்றன"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:41
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:41
 msgid "Workspaces only on primary monitor"
 msgstr "பணிக்களங்கள் முதன்மை திரையில் மட்டும் "
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:42
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:42
 msgid "Delay focus changes in mouse mode until the pointer stops moving"
 msgstr ""
 "சொடுக்கி பயன்முறையில் சுட்டி நகர்வது நிற்கும் வரை கவனப் பகுதி மாறுவதைத் "
 "தாமதிக்கவும்"
 
-#: ../data/org.gnome.Shell.PortalHelper.desktop.in.h:1
+#: ../data/io.github.scarecrow_de.Shell.PortalHelper.desktop.in.h:1
 msgid "Captive Portal"
 msgstr "கட்டுப்படுத்தப்பட்ட வலைவாசல்"
 
@@ -1880,10 +1880,10 @@ msgstr "பயனர் உறுதிப்படுத்தல் உரை�
 #~ msgstr "தலைப்புப்பட்டியில் பொத்தான்களின் அமைப்பு"
 
 #~ msgid ""
-#~ "This key overrides the key in org.gnome.desktop.wm.preferences when "
+#~ "This key overrides the key in io.github.scarecrow_de.desktop.wm.preferences when "
 #~ "running Scarecrow Shell."
 #~ msgstr ""
-#~ "இந்த விசை org.gnome.desktop.wm.preferences ஐ க்னோம் ஷெல்லை இயக்கும்போது வன்மீறல் "
+#~ "இந்த விசை io.github.scarecrow_de.desktop.wm.preferences ஐ க்னோம் ஷெல்லை இயக்கும்போது வன்மீறல் "
 #~ "செய்கிறது."
 
 #~ msgid "Extension"

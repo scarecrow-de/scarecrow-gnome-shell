@@ -55,21 +55,21 @@ msgstr "Shell uitbreidings"
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "Stel Scarecrow Shell-uitbreidings op"
 
-#: data/org.gnome.Shell.desktop.in.in:4
+#: data/io.github.scarecrow_de.Shell.desktop.in.in:4
 msgid "Scarecrow Shell"
 msgstr "Scarecrow Shell"
 
-#: data/org.gnome.Shell.desktop.in.in:5
+#: data/io.github.scarecrow_de.Shell.desktop.in.in:5
 msgid "Window management and application launching"
 msgstr "Vensterbestuur en toepassinglansering"
 
-#: data/org.gnome.shell.gschema.xml.in:6
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:6
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
 msgstr ""
 "Aktiveer interne gereedskap wat nuttig is vir ontwikkelaars en toetsers "
 "vanaf Alt-F2"
 
-#: data/org.gnome.shell.gschema.xml.in:9
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:9
 msgid ""
 "Allows access to internal debugging and monitoring tools using the Alt-F2 "
 "dialog."
@@ -77,27 +77,27 @@ msgstr ""
 "Laat toegang na interne ontfout- en moniteringsgereedskap toe deur die Alt-"
 "F2-dialoog te gebruik."
 
-#: data/org.gnome.shell.gschema.xml.in:16
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:16
 msgid "UUIDs of extensions to enable"
 msgstr "UUID's van uitbreidings om te aktiveer"
 
-#: data/org.gnome.shell.gschema.xml.in:17
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:17
 msgid ""
 "Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
-"DisableExtension D-Bus methods on org.gnome.Shell."
+"DisableExtension D-Bus methods on io.github.scarecrow_de.Shell."
 msgstr ""
 "Scarecrow Shell-uitbreidings het elk 'n UUID-eienskap; hierdie sleutel lys "
 "uitbreidings wat gelaai moet word. Enige uitbreiding wat gelaai wil word "
 "moet in hierdie lys verskyn. U kan ook hierdie lys manipuleer met die "
-"EnableExtension- en DisableExtension-DBus-metodes op org.gnome.Shell."
+"EnableExtension- en DisableExtension-DBus-metodes op io.github.scarecrow_de.Shell."
 
-#: data/org.gnome.shell.gschema.xml.in:26
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:26
 msgid "Disable user extensions"
 msgstr "Skakel gebruikers uitbreidings af"
 
-#: data/org.gnome.shell.gschema.xml.in:27
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:27
 msgid ""
 "Disable all extensions the user has enabled without affecting the “enabled-"
 "extension” setting."
@@ -105,11 +105,11 @@ msgstr ""
 "Skakel alle uitbreidings wat die gebruiker aangeskakel het af sonder om die "
 "\"aangeskakelde-uitbreiding\" instelling te verander."
 
-#: data/org.gnome.shell.gschema.xml.in:34
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:34
 msgid "Disables the validation of extension version compatibility"
 msgstr "Skakel die validasie van uitbreidings weergawe versoenbaarheid af"
 
-#: data/org.gnome.shell.gschema.xml.in:35
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:35
 msgid ""
 "Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
@@ -120,11 +120,11 @@ msgstr ""
 "word en alle uitbreidings sal gelaai kan word ongeag of hulle die weergawe "
 "ondersteun of nie."
 
-#: data/org.gnome.shell.gschema.xml.in:43
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:43
 msgid "List of desktop file IDs for favorite applications"
 msgstr "Lys van werkarealêer-ID's vir gunstelingtoepassings"
 
-#: data/org.gnome.shell.gschema.xml.in:44
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:44
 msgid ""
 "The applications corresponding to these identifiers will be displayed in the "
 "favorites area."
@@ -132,28 +132,28 @@ msgstr ""
 "Die toepassings wat ooreenstem met dié identifiseerders sal in die "
 "gunstelinge-area vertoon word."
 
-#: data/org.gnome.shell.gschema.xml.in:51
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:51
 msgid "App Picker View"
 msgstr "Toepassingkieser oorsig"
 
-#: data/org.gnome.shell.gschema.xml.in:52
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:52
 msgid "Index of the currently selected view in the application picker."
 msgstr "Indeks van die huidige aansig in die toepassing kieser."
 
-#: data/org.gnome.shell.gschema.xml.in:58
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:58
 msgid "History for command (Alt-F2) dialog"
 msgstr "Geskiedenis vir die opdrag-dialoogvenster (Alt-F2)"
 
 #. Translators: looking glass is a debugger and inspector tool, see https://wiki.gnome.org/Projects/GnomeShell/LookingGlass
-#: data/org.gnome.shell.gschema.xml.in:63
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:63
 msgid "History for the looking glass dialog"
 msgstr "Geskiedenis vir die \"looking glass\"-dialoogvenster"
 
-#: data/org.gnome.shell.gschema.xml.in:67
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:67
 msgid "Always show the “Log out” menu item in the user menu."
 msgstr "Wys altyd die 'Meld af' opsie in die gebruikerkieslys."
 
-#: data/org.gnome.shell.gschema.xml.in:68
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:68
 msgid ""
 "This key overrides the automatic hiding of the “Log out” menu item in single-"
 "user, single-session situations."
@@ -161,14 +161,14 @@ msgstr ""
 "Hierdie sleutel oorheers die outomatiese wegsteek van die 'Meld af'-"
 "kieslysitem in enkelgebruiker-, enkelsessie-situasies."
 
-#: data/org.gnome.shell.gschema.xml.in:75
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:75
 msgid ""
 "Whether to remember password for mounting encrypted or remote filesystems"
 msgstr ""
 "Of wagwoord onthou moet word vir die heg van geënkripteerde of afgeleë "
 "lêerstelsels"
 
-#: data/org.gnome.shell.gschema.xml.in:76
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:76
 msgid ""
 "The shell will request a password when an encrypted device or a remote "
 "filesystem is mounted. If the password can be saved for future use a "
@@ -180,14 +180,14 @@ msgstr ""
 "word sal 'n 'Onthou wagwoord'-keuseblokkie teenwoordig wees. Hierdie sleutel "
 "stel die verstektoestand van die keuseblokkie stel."
 
-#: data/org.gnome.shell.gschema.xml.in:85
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:85
 msgid ""
 "Whether the default Bluetooth adapter had set up devices associated to it"
 msgstr ""
 "Of die verstek Bluetooth verwerker opgestelde toestelle het wat daarmee "
 "verband hou"
 
-#: data/org.gnome.shell.gschema.xml.in:86
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:86
 msgid ""
 "The shell will only show a Bluetooth menu item if a Bluetooth adapter is "
 "powered, or if there were devices set up associated with the default "
@@ -199,70 +199,70 @@ msgstr ""
 "verstekverwerker. Dit sal herstel word as die verstekverwerker ooit gesien "
 "word om nie toestelle wat daarmee verband hou, te hê nie."
 
-#: data/org.gnome.shell.gschema.xml.in:101
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:101
 msgid "Keybinding to open the application menu"
 msgstr "Sleutelbinding om die toepassingskieslys oop te maak"
 
-#: data/org.gnome.shell.gschema.xml.in:102
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:102
 msgid "Keybinding to open the application menu."
 msgstr "Sleutelbinding om die toepassingskieslys oop te maak."
 
-#: data/org.gnome.shell.gschema.xml.in:108
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:108
 msgid "Keybinding to open the “Show Applications” view"
 msgstr "Sleutelkortpad om die \"Vertoon toepassings\"-aansig oop te maak"
 
-#: data/org.gnome.shell.gschema.xml.in:109
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:109
 msgid ""
 "Keybinding to open the “Show Applications” view of the Activities Overview."
 msgstr ""
 "Sleutelkortpad om die \"Vertoon toepassings\"-aansig van die Aktiwiteite-"
 "oorsig oop te maak."
 
-#: data/org.gnome.shell.gschema.xml.in:116
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:116
 msgid "Keybinding to open the overview"
 msgstr "Sleutelbinding om die oorsig oop te maak"
 
-#: data/org.gnome.shell.gschema.xml.in:117
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:117
 msgid "Keybinding to open the Activities Overview."
 msgstr "Sleutelbinding om die Aktiwiteite-oorsig oop te maak."
 
-#: data/org.gnome.shell.gschema.xml.in:123
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:123
 msgid "Keybinding to toggle the visibility of the notification list"
 msgstr "Sleutelbinding om die sigbaarheid van die kennisgewinglys te swik"
 
-#: data/org.gnome.shell.gschema.xml.in:124
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:124
 msgid "Keybinding to toggle the visibility of the notification list."
 msgstr "Sleutelbinding om die sigbaarheid van die kennisgewinglys te swik."
 
-#: data/org.gnome.shell.gschema.xml.in:130
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:130
 msgid "Keybinding to focus the active notification"
 msgstr "Sleutelbinding om die aktiewe kennisgewing te fokus"
 
-#: data/org.gnome.shell.gschema.xml.in:131
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:131
 msgid "Keybinding to focus the active notification."
 msgstr "Sleutelbinding om die aktiewe kennisgewing te fokus."
 
-#: data/org.gnome.shell.gschema.xml.in:137
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:137
 msgid ""
 "Keybinding that pauses and resumes all running tweens, for debugging purposes"
 msgstr ""
 "Sleutelkortpaaie wat alle uitvoerende tweens stop en weer begin vir "
 "ontvoutings doeleindes"
 
-#: data/org.gnome.shell.gschema.xml.in:146
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:146
 msgid "Which keyboard to use"
 msgstr "Watter sleutelbord om te gebruik"
 
-#: data/org.gnome.shell.gschema.xml.in:147
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:147
 msgid "The type of keyboard to use."
 msgstr "Die tipe sleutelbord om te gebruik."
 
-#: data/org.gnome.shell.gschema.xml.in:158
-#: data/org.gnome.shell.gschema.xml.in:185
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:158
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:185
 msgid "Limit switcher to current workspace."
 msgstr "Beperk wisselaar tot huidige werkspasie."
 
-#: data/org.gnome.shell.gschema.xml.in:159
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:159
 msgid ""
 "If true, only applications that have windows on the current workspace are "
 "shown in the switcher. Otherwise, all applications are included."
@@ -270,11 +270,11 @@ msgstr ""
 "As waar sal slegs toepassings wat vensters in die huidige werkspasie het in "
 "die wisselaar vertoon word. Anders sal alle toepassings ingesluit word."
 
-#: data/org.gnome.shell.gschema.xml.in:176
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:176
 msgid "The application icon mode."
 msgstr "Die toepassingsikoon-modus."
 
-#: data/org.gnome.shell.gschema.xml.in:177
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:177
 msgid ""
 "Configures how the windows are shown in the switcher. Valid possibilities "
 "are “thumbnail-only” (shows a thumbnail of the window), “app-icon-"
@@ -284,7 +284,7 @@ msgstr ""
 "is 'slegs-duimnaelskets' (wys 'n duimnaelskets van die venster), 'slegs-toep-"
 "ikoon' (wys slegs die toepassing se ikoon), of 'altwee'."
 
-#: data/org.gnome.shell.gschema.xml.in:186
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:186
 msgid ""
 "If true, only windows from the current workspace are shown in the switcher. "
 "Otherwise, all windows are included."
@@ -292,43 +292,43 @@ msgstr ""
 "As waar sal slegs vensters van die huidige werkspasie in die wisselaar "
 "vertoon word. Anders sal alle vensters ingesluit word."
 
-#: data/org.gnome.shell.gschema.xml.in:197
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:197
 msgid "Attach modal dialog to the parent window"
 msgstr "Heg modale dialoogvenster vas aan die ouervenster"
 
-#: data/org.gnome.shell.gschema.xml.in:198
-#: data/org.gnome.shell.gschema.xml.in:207
-#: data/org.gnome.shell.gschema.xml.in:215
-#: data/org.gnome.shell.gschema.xml.in:223
-#: data/org.gnome.shell.gschema.xml.in:231
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:198
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:207
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:215
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:223
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:231
 msgid ""
-"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
 msgstr ""
-"Hierdie sleutel oorskryf die sleutel in org.gnome.mutter wanneer Scarecrow Shell "
+"Hierdie sleutel oorskryf die sleutel in io.github.scarecrow_de.mutter wanneer Scarecrow Shell "
 "uitgevoer word."
 
-#: data/org.gnome.shell.gschema.xml.in:206
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:206
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Aktiveer rand-tilering wanneer vensters op skermrand laat val word"
 
-#: data/org.gnome.shell.gschema.xml.in:214
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:214
 msgid "Workspaces are managed dynamically"
 msgstr "Werkspasies word dinamies bestuur"
 
-#: data/org.gnome.shell.gschema.xml.in:222
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:222
 msgid "Workspaces only on primary monitor"
 msgstr "Werkspasies slegs op primêre monitor"
 
-#: data/org.gnome.shell.gschema.xml.in:230
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:230
 msgid "Delay focus changes in mouse mode until the pointer stops moving"
 msgstr "Vertraag fokusverandering in muismodus totdat die wyser ophou beweeg"
 
-#: data/org.gnome.Shell.PortalHelper.desktop.in.in:3
+#: data/io.github.scarecrow_de.Shell.PortalHelper.desktop.in.in:3
 msgid "Network Login"
 msgstr "Netwerkaanmelding"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: data/org.gnome.Shell.PortalHelper.desktop.in.in:9
+#: data/io.github.scarecrow_de.Shell.PortalHelper.desktop.in.in:9
 msgid "network-workgroup"
 msgstr "network-workgroup"
 
@@ -2522,10 +2522,10 @@ msgstr "Stelselklanke"
 #~ msgstr "Rangskikking van die knoppies op die titelbalk"
 
 #~ msgid ""
-#~ "This key overrides the key in org.gnome.desktop.wm.preferences when "
+#~ "This key overrides the key in io.github.scarecrow_de.desktop.wm.preferences when "
 #~ "running Scarecrow Shell."
 #~ msgstr ""
-#~ "Hierdie sleutel oorskryf die sleutel in org.gnome.desktop.wm.preferences "
+#~ "Hierdie sleutel oorskryf die sleutel in io.github.scarecrow_de.desktop.wm.preferences "
 #~ "wanneer Scarecrow Shell uitgevoer word."
 
 #~ msgid "Select an extension to configure using the combobox above."

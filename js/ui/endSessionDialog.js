@@ -33,7 +33,7 @@ const _ITEM_ICON_SIZE = 64;
 
 const LOW_BATTERY_THRESHOLD = 30;
 
-const EndSessionDialogIface = loadInterfaceXML('org.gnome.SessionManager.EndSessionDialog');
+const EndSessionDialogIface = loadInterfaceXML('io.github.scarecrow_de.SessionManager.EndSessionDialog');
 
 const logoutDialogContent = {
     subjectWithUser: C_("title", "Log Out %s"),
@@ -300,7 +300,7 @@ class EndSessionDialog extends ModalDialog.ModalDialog {
         this.contentLayout.add_child(this._sessionSection);
 
         this._dbusImpl = Gio.DBusExportedObject.wrapJSObject(EndSessionDialogIface, this);
-        this._dbusImpl.export(Gio.DBus.session, '/org/gnome/SessionManager/EndSessionDialog');
+        this._dbusImpl.export(Gio.DBus.session, '/io/github/scarecrow_de/SessionManager/EndSessionDialog');
     }
 
     async _onPkOfflineProxyCreated(proxy, error) {
@@ -755,7 +755,7 @@ class EndSessionDialog extends ModalDialog.ModalDialog {
         this._sessionSection.list.destroy_all_children();
 
         if (!(this._type in DialogContent)) {
-            invocation.return_dbus_error('org.gnome.Shell.ModalDialog.TypeError',
+            invocation.return_dbus_error('io.github.scarecrow_de.Shell.ModalDialog.TypeError',
                                          "Unknown dialog type requested");
             return;
         }
@@ -788,7 +788,7 @@ class EndSessionDialog extends ModalDialog.ModalDialog {
         this._updateButtons();
 
         if (!this.open(timestamp)) {
-            invocation.return_dbus_error('org.gnome.Shell.ModalDialog.GrabError',
+            invocation.return_dbus_error('io.github.scarecrow_de.Shell.ModalDialog.GrabError',
                                          "Cannot grab pointer and keyboard");
             return;
         }

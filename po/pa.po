@@ -41,29 +41,29 @@ msgstr "ਸਭ ਐਪਲੀਕੇਸ਼ਨ ਵੇਖੋ"
 msgid "Open the application menu"
 msgstr "ਐਪਲੀਕੇਸ਼ਨ ਮੇਨੂ ਖੋਲ੍ਹੋ"
 
-#: data/org.gnome.Extensions.desktop.in.in:4 js/extensionPrefs/main.js:218
+#: data/io.github.scarecrow_de.Extensions.desktop.in.in:4 js/extensionPrefs/main.js:218
 #: js/extensionPrefs/ui/extensions-window.ui:61
 #| msgid "Shell Extensions"
 msgid "Extensions"
 msgstr "ਇਕਸਟੈਸ਼ਨ"
 
-#: data/org.gnome.Extensions.desktop.in.in:7
+#: data/io.github.scarecrow_de.Extensions.desktop.in.in:7
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "ਗਨੋਮ ਸ਼ੈਲ ਇਕਸਟੈਸ਼ਨ ਸੰਰਚਨਾ"
 
-#: data/org.gnome.Shell.desktop.in.in:4
+#: data/io.github.scarecrow_de.Shell.desktop.in.in:4
 msgid "Scarecrow Shell"
 msgstr "ਗਨੋਮ ਸ਼ੈਲ"
 
-#: data/org.gnome.Shell.desktop.in.in:5
+#: data/io.github.scarecrow_de.Shell.desktop.in.in:5
 msgid "Window management and application launching"
 msgstr "ਵਿੰਡੋ ਇੰਤਜ਼ਾਮ ਅਤੇ ਐਪਲੀਕੇਸ਼ਨ ਚਲਾਉਣਾ"
 
-#: data/org.gnome.shell.gschema.xml.in:6
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:6
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
 msgstr "Alt-F2 ਤੋਂ ਡਿਵੈਲਪਰਾਂ ਤੇ ਟੈਸਟਰਾਂ ਲਈ ਫਾਇਦੇਮੰਦ ਅੰਦਰੂਨੀ ਟੂਲ ਚਾਲੂ ਕਰਦਾ ਹੈ"
 
-#: data/org.gnome.shell.gschema.xml.in:9
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:9
 msgid ""
 "Allows access to internal debugging and monitoring tools using the Alt-F2 "
 "dialog."
@@ -71,50 +71,50 @@ msgstr ""
 "Alt-F2 ਡਾਈਲਾਗ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਅੰਦਰੂਨੀ ਡੀਬੱਗਿਗ ਤੇ ਮਾਨੀਟਰਿੰਗ ਟੂਲ ਵਰਤੋਂ ਕਰਨ ਲਈ"
 " ਸਹਾਇਕ ਹੈ"
 
-#: data/org.gnome.shell.gschema.xml.in:16
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:16
 msgid "UUIDs of extensions to enable"
 msgstr "ਚਾਲੂ ਕਰਨ ਲਈ ਇਕਟੈਨਸ਼ਨ ਦੀ UUID"
 
-#: data/org.gnome.shell.gschema.xml.in:17
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:17
 msgid ""
 "Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
-"DisableExtension D-Bus methods on org.gnome.Shell."
+"DisableExtension D-Bus methods on io.github.scarecrow_de.Shell."
 msgstr ""
 "ਗਨੋਮ ਸ਼ੈਲ ਇਕਸਟੈਨਸ਼ਨ ਲਈ ਇੱਕ UUID ਵਿਸ਼ੇਸ਼ਤਾ ਹੈ; ਇਹ ਕੁੰਜੀ ਇਕਸਟੈਨਸ਼ਨ ਦਰਸਾਉਂਦੀ ਹੈ,"
 " ਜੋ ਲੋਡ ਹੋਣੀ "
 "ਚਾਹੀਦੀ ਹੈ। ਕੋਈ ਵੀ ਇਕਸਟੈਸ਼ਨ, ਜੋ ਲੋਡ ਹੋਣਾ ਚਾਹੁੰਦੀ ਹੈ, ਨੂੰ ਇਹ ਸੂਚੀ ਵਿੱਚ ਹੋਣਾ"
 " ਚਾਹੀਦਾ ਹੈ। ਤੁਸੀਂ ਵੀ "
-"ਇਹ ਸੂਚੀ ਨੂੰ org.gnome.shell ਉੱਤੇ EnableExtension ਅਤੇ DisableExtension D-Bus"
+"ਇਹ ਸੂਚੀ ਨੂੰ io.github.scarecrow_de.shell ਉੱਤੇ EnableExtension ਅਤੇ DisableExtension D-Bus"
 " ਢੰਗ ਨਾਲ "
 "ਬਦਲ ਸਕਦੇ ਹੋ।"
 
-#: data/org.gnome.shell.gschema.xml.in:26
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:26
 msgid "UUIDs of extensions to force disabling"
 msgstr "ਧੱਕੇ ਨਾਲ ਅਸਮਰੱਥ ਕਰਨ ਲਈ ਇਕਟੈਨਸ਼ਨਾਂ ਦੀ UUID"
 
-#: data/org.gnome.shell.gschema.xml.in:27
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:27
 msgid ""
 "Scarecrow Shell extensions have a UUID property; this key lists extensions which "
 "should be disabled, even if loaded as part of the current mode. You can also "
 "manipulate this list with the EnableExtension and DisableExtension D-Bus "
-"methods on org.gnome.Shell. This key takes precedence over the “enabled-"
+"methods on io.github.scarecrow_de.Shell. This key takes precedence over the “enabled-"
 "extensions” setting."
 msgstr ""
 "ਗਨੋਮ ਸ਼ੈਲ ਇਕਸਟੈਨਸ਼ਨ ਲਈ ਇੱਕ UUID ਵਿਸ਼ੇਸ਼ਤਾ ਹੈ; ਇਹ ਕੁੰਜੀ ਇਕਸਟੈਨਸ਼ਨ ਦਰਸਾਉਂਦੀ ਹੈ,"
 " ਜੋ ਸਮਰੱਥ ਹੋਣੀ "
 "ਚਾਹੀਦੀ ਹੈ, ਭਾਵੇੇਂ ਕਿ ਉਹ ਮੌਜੂਦਾ ਮੋਡ ਦੇ ਹਿੱਸੇ ਵਜੋਂ ਲੋਡ ਹੁੰਦੀ ਹੈ। ਤੁਸੀਂ ਇਹ ਸੂਚੀ"
-" ਨੂੰ org.gnome.shell "
+" ਨੂੰ io.github.scarecrow_de.shell "
 "ਉੱਤੇ EnableExtension ਅਤੇ DisableExtension D-Bus ਢੰਗ ਨਾਲ ਬਦਲ ਸਕਦੇ ਹੋ। ਇਹ ਕੁੰਜੀ"
 " ਦੀ "
 "“enabled-extensions” ਤੋਂ ਵੱਧ ਤਰਜੀਹ ਹੁੰਦੀ ਹੈ।"
 
-#: data/org.gnome.shell.gschema.xml.in:37
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:37
 msgid "Disable user extensions"
 msgstr "ਵਰਤੋਂਕਾਰ ਇਕਸਟੈਨਸ਼ਨਾਂ ਨੂੰ ਅਸਮਰੱਥ ਕਰੋ"
 
-#: data/org.gnome.shell.gschema.xml.in:38
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:38
 msgid ""
 "Disable all extensions the user has enabled without affecting the “enabled-"
 "extension” setting."
@@ -123,11 +123,11 @@ msgstr ""
 " ਸਾਰੀਆਂ "
 "ਇਕਸਟੈਨਸ਼ਨਾਂ ਨੂੰ ਅਸਮਰੱਥ ਕਰੋ।"
 
-#: data/org.gnome.shell.gschema.xml.in:45
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:45
 msgid "Disables the validation of extension version compatibility"
 msgstr "ਇਕਸਟੈਨਸ਼ਨ ਵਰਜਨ ਅਨੁਕੂਲਤਾ ਦੀ ਵੈਧਤਾ ਨੂੰ ਬੰਦ ਕਰੋ"
 
-#: data/org.gnome.shell.gschema.xml.in:46
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:46
 msgid ""
 "Scarecrow Shell will only load extensions that claim to support the current "
 "running version. Enabling this option will disable this check and try to "
@@ -139,39 +139,39 @@ msgstr ""
 " ਲੋਡ ਕਰਨ ਦੀ "
 "ਕੋਸ਼ਿਸ਼ ਕਰੇਗਾ, ਭਾਵੇਂ ਕਿ ਉਹ ਵਰਜਨ ਲਈ ਸਹਾਇਤਾ ਬਾਰੇ ਕੁਝ ਵੀ ਦਾਆਵਾ ਕਰਨ।"
 
-#: data/org.gnome.shell.gschema.xml.in:54
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:54
 msgid "List of desktop file IDs for favorite applications"
 msgstr "ਪਸੰਦੀਦਾ ਐਪਲੀਕੇਸ਼ਨ ਲਈ ਡੈਸਕਟਾਪ ਫਾਇਲ ID ਦੀ ਲਿਸਟ ਹੈ"
 
-#: data/org.gnome.shell.gschema.xml.in:55
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:55
 msgid ""
 "The applications corresponding to these identifiers will be displayed in the "
 "favorites area."
 msgstr ""
 "ਇਹਨਾਂ ਐਂਡਟਟੀਫਾਇਰ ਨਾਲ ਸਬੰਧਿਤ ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਪਸੰਦੀਦਾ ਖੇਤਰ 'ਚ ਵੇਖਾਇਆ ਜਾਵੇਗਾ।"
 
-#: data/org.gnome.shell.gschema.xml.in:62
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:62
 msgid "App Picker View"
 msgstr "ਐਪ ਚੁਣਨ ਝਲਕ"
 
-#: data/org.gnome.shell.gschema.xml.in:63
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:63
 msgid "Index of the currently selected view in the application picker."
 msgstr "ਐਪਲੀਕੇਸ਼ਨ ਚੋਣਕਾਰ ਵਿੱਚ ਮੌਜੂਦਾ ਚੁਣੀ ਝਲਕ ਦਾ ਇੰਡੈਕਸ।"
 
-#: data/org.gnome.shell.gschema.xml.in:69
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:69
 msgid "History for command (Alt-F2) dialog"
 msgstr "ਕਮਾਂਡ (Alt-F2) ਡਾਈਲਾਗ ਲਈ ਅਤੀਤ"
 
 #. Translators: looking glass is a debugger and inspector tool, see https://wiki.gnome.org/Projects/GnomeShell/LookingGlass
-#: data/org.gnome.shell.gschema.xml.in:74
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:74
 msgid "History for the looking glass dialog"
 msgstr "ਗਲਾਸ ਡਾਈਲਾਗ ਖੋਜ ਲਈ ਅਤੀਤ"
 
-#: data/org.gnome.shell.gschema.xml.in:78
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:78
 msgid "Always show the “Log out” menu item in the user menu."
 msgstr "ਵਰਤੋਂਕਾਰ ਮੇਨੂ ਵਿੱਚ “ਲਾਗ ਆਉਟ “ ਮੇਨੂ ਆਈਟਮ ਹਮੇਸ਼ਾ ਵੇਖਾਉ।"
 
-#: data/org.gnome.shell.gschema.xml.in:79
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:79
 msgid ""
 "This key overrides the automatic hiding of the “Log out” menu item in single-"
 "user, single-session situations."
@@ -180,12 +180,12 @@ msgstr ""
 " ਆਪਣੇ-ਆਪ ਓਹਲੇ ਕਰਨ ਨੂੰ "
 "ਅਣਡਿੱਠਾ ਕਰਦੀ ਹੈ।"
 
-#: data/org.gnome.shell.gschema.xml.in:86
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:86
 msgid ""
 "Whether to remember password for mounting encrypted or remote filesystems"
 msgstr "ਕੀ ਇੰਕ੍ਰਿਪਟ ਜਾਂ ਰਿਮੋਟ ਫਾਇਲ-ਸਿਸਟਮਾਂ ਲਈ ਪਾਸਵਰਡ ਯਾਦ ਰੱਖਣਾ ਹੈ"
 
-#: data/org.gnome.shell.gschema.xml.in:87
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:87
 msgid ""
 "The shell will request a password when an encrypted device or a remote "
 "filesystem is mounted. If the password can be saved for future use a "
@@ -198,12 +198,12 @@ msgstr ""
 " ਰੱਖੋ“ ਬਾਕਸ "
 "ਦਿੱਤਾ ਜਾਵੇਗਾ। ਇਹ ਕੁੰਜੀ ਚੋਣ-ਬਾਕਸ ਦੀ ਸਥਿਤੀ ਨੂੰ ਡਿਫਾਲਟ ਲਈ ਸੈੱਟ ਕਰਦੀ ਹੈ।"
 
-#: data/org.gnome.shell.gschema.xml.in:96
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:96
 msgid ""
 "Whether the default Bluetooth adapter had set up devices associated to it"
 msgstr "ਕੀ ਡਿਫਾਲਟ ਬਲੂਟੁੱਥ ਅਡੈਪਟਰ ਇਸ ਨਾਲ ਸਬੰਧਿਤ ਡਿਵਾਈਸਾਂ ਲਈ ਸੈੱਟ ਅੱਪ ਕੀਤਾ ਹੈ"
 
-#: data/org.gnome.shell.gschema.xml.in:97
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:97
 msgid ""
 "The shell will only show a Bluetooth menu item if a Bluetooth adapter is "
 "powered, or if there were devices set up associated with the default "
@@ -216,99 +216,99 @@ msgstr ""
 " ਨੂੰ ਇਸ ਨਾਲ "
 "ਸੰਬੰਧਿਤ ਕੀਤਾ ਡਿਵਾਈਸ ਨਾ ਮਿਲਿਆ।"
 
-#: data/org.gnome.shell.gschema.xml.in:106
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:106
 msgid "Enable introspection API"
 msgstr ""
 
-#: data/org.gnome.shell.gschema.xml.in:107
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:107
 msgid ""
 "Enables a D-Bus API that allows to introspect the application state of the "
 "shell."
 msgstr ""
 
-#: data/org.gnome.shell.gschema.xml.in:119
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:119
 msgid "Keybinding to open the application menu"
 msgstr "ਐਪਲੀਕੇਸ਼ਨ ਮੇਨੂ ਖੋਲ੍ਹਣ ਲਈ ਕੀਬਾਈਡਿੰਗ ਹੈ"
 
-#: data/org.gnome.shell.gschema.xml.in:120
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:120
 msgid "Keybinding to open the application menu."
 msgstr "ਐਪਲੀਕੇਸ਼ਨ ਮੇਨੂ ਖੋਲ੍ਹਣ ਲਈ ਕੀਬਾਈਡਿੰਗ ਹੈ।"
 
-#: data/org.gnome.shell.gschema.xml.in:126
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:126
 msgid "Keybinding to open the “Show Applications” view"
 msgstr "“ਐਪਲੀਕੇਸ਼ਨ ਵੇਖੋ“ ਮੇਨੂ ਖੋਲ੍ਹਣ ਲਈ ਕੀਬਾਈਡਿੰਗ ਹੈ"
 
-#: data/org.gnome.shell.gschema.xml.in:127
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:127
 msgid ""
 "Keybinding to open the “Show Applications” view of the Activities Overview."
 msgstr "ਸਰਗਰਮੀ ਝਲਕ ਵਿੱਚ “ਐਪਲੀਕੇਸ਼ਨ ਵੇਖੋ“ ਮੇਨੂ ਖੋਲ੍ਹਣ ਲਈ ਕੀਬਾਈਡਿੰਗ ਹੈ।"
 
-#: data/org.gnome.shell.gschema.xml.in:134
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:134
 msgid "Keybinding to open the overview"
 msgstr "ਸੰਖੇਪ ਖੋਲ੍ਹਣ ਲਈ ਕੀਬਾਈਡਿੰਗ"
 
-#: data/org.gnome.shell.gschema.xml.in:135
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:135
 msgid "Keybinding to open the Activities Overview."
 msgstr "ਸਰਗਰਮੀ ਸੰਖੇਪ ਖੋਲ੍ਹਣ ਲਈ ਕੀਬਾਈਡਿੰਗ"
 
-#: data/org.gnome.shell.gschema.xml.in:141
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:141
 msgid "Keybinding to toggle the visibility of the notification list"
 msgstr "ਨੋਟੀਫਿਕੇਸ਼ਨ ਸੂਚੀ ਦੀ ਦਿੱਖਣ ਨੂੰ ਬਦਲਣ ਲਈ ਕੀਬਾਈਡਿੰਗ"
 
-#: data/org.gnome.shell.gschema.xml.in:142
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:142
 msgid "Keybinding to toggle the visibility of the notification list."
 msgstr "ਨੋਟੀਫਿਕੇਸ਼ਨ ਸੂਚੀ ਦੀ ਦਿੱਖਣ ਨੂੰ ਬਦਲਣ ਲਈ ਕੀਬਾਈਡਿੰਗ ਹੈ।"
 
-#: data/org.gnome.shell.gschema.xml.in:148
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:148
 msgid "Keybinding to focus the active notification"
 msgstr "ਸਰਗਰਮ ਸੂਚਨਾ ਉੱਤੇ ਫੋਕਸ ਲਈ ਕੀਬਾਈਡਿੰਗ ਹੈ"
 
-#: data/org.gnome.shell.gschema.xml.in:149
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:149
 msgid "Keybinding to focus the active notification."
 msgstr "ਸਰਗਰਮ ਸੂਚਨਾ ਉੱਤੇ ਫੋਕਸ ਲਈ ਕੀਬਾਈਡਿੰਗ ਹੈ।"
 
-#: data/org.gnome.shell.gschema.xml.in:155
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:155
 msgid "Switch to application 1"
 msgstr "ਐਪਲੀਕੇਸ਼ਨ 1 ਲਈ ਬਦਲੋ"
 
-#: data/org.gnome.shell.gschema.xml.in:159
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:159
 msgid "Switch to application 2"
 msgstr "ਐਪਲੀਕੇਸ਼ਨ 2 ਲਈ ਬਦਲੋ"
 
-#: data/org.gnome.shell.gschema.xml.in:163
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:163
 msgid "Switch to application 3"
 msgstr "ਐਪਲੀਕੇਸ਼ਨ 3 ਲਈ ਬਦਲੋ"
 
-#: data/org.gnome.shell.gschema.xml.in:167
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:167
 msgid "Switch to application 4"
 msgstr "ਐਪਲੀਕੇਸ਼ਨ 4 ਲਈ ਬਦਲੋ"
 
-#: data/org.gnome.shell.gschema.xml.in:171
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:171
 msgid "Switch to application 5"
 msgstr "ਐਪਲੀਕੇਸ਼ਨ 5 ਲਈ ਬਦਲੋ"
 
-#: data/org.gnome.shell.gschema.xml.in:175
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:175
 msgid "Switch to application 6"
 msgstr "ਐਪਲੀਕੇਸ਼ਨ 6 ਲਈ ਬਦਲੋ"
 
-#: data/org.gnome.shell.gschema.xml.in:179
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:179
 msgid "Switch to application 7"
 msgstr "ਐਪਲੀਕੇਸ਼ਨ 7 ਲਈ ਬਦਲੋ"
 
-#: data/org.gnome.shell.gschema.xml.in:183
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:183
 msgid "Switch to application 8"
 msgstr "ਐਪਲੀਕੇਸ਼ਨ 8 ਲਈ ਬਦਲੋ"
 
-#: data/org.gnome.shell.gschema.xml.in:187
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:187
 msgid "Switch to application 9"
 msgstr "ਐਪਲੀਕੇਸ਼ਨ 9 ਲਈ ਬਦਲੋ"
 
-#: data/org.gnome.shell.gschema.xml.in:196
-#: data/org.gnome.shell.gschema.xml.in:223
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:196
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:223
 msgid "Limit switcher to current workspace."
 msgstr "ਸਵਿੱਚਰ ਨੂੰ ਮੌਜੂਦਾ ਵਰਕਸਪੇਸ ਤੱਕ ਸੀਮਿਤ ਕਰੋ।"
 
-#: data/org.gnome.shell.gschema.xml.in:197
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:197
 msgid ""
 "If true, only applications that have windows on the current workspace are "
 "shown in the switcher. Otherwise, all applications are included."
@@ -317,11 +317,11 @@ msgstr ""
 " ਸਵਿੱਚਰ ਵਿੱਚ ਵਿਖਾਇਆ "
 "ਜਾਂਦਾ ਹੈ, ਨਹੀਂ ਤਾਂ ਸਭ ਐਪਲੀਕੇਸ਼ਨਾਂ ਸ਼ਾਮਿਲ ਹੁੰਦੀਆਂ ਹਨ।"
 
-#: data/org.gnome.shell.gschema.xml.in:214
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:214
 msgid "The application icon mode."
 msgstr "ਐਪਲੀਕੇਸ਼ਨ ਆਈਕਾਨ ਮੋਡ।"
 
-#: data/org.gnome.shell.gschema.xml.in:215
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:215
 msgid ""
 "Configures how the windows are shown in the switcher. Valid possibilities "
 "are “thumbnail-only” (shows a thumbnail of the window), “app-icon-"
@@ -333,7 +333,7 @@ msgstr ""
 " (ਕੇਵਲ "
 "ਐਪਲੀਕੇਸ਼ਨ ਆਈਕਾਨ ਵੇਖਾਇਆ ਜਾਵੇਗਾ) ਜਾਂ ਦੋਵੇਂ (“both“)"
 
-#: data/org.gnome.shell.gschema.xml.in:224
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:224
 msgid ""
 "If true, only windows from the current workspace are shown in the switcher. "
 "Otherwise, all windows are included."
@@ -342,61 +342,61 @@ msgstr ""
 " ਹੈ, ਨਹੀਂ ਤਾਂ ਸਭ ਵਿੰਡੋ "
 "ਸ਼ਾਮਿਲ ਹੁੰਦੀਆਂ ਹਨ।"
 
-#: data/org.gnome.shell.gschema.xml.in:234
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:234
 msgid "Locations"
 msgstr "ਟਿਕਾਣੇ"
 
-#: data/org.gnome.shell.gschema.xml.in:235
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:235
 msgid "The locations to show in world clocks"
 msgstr "ਸੰਸਾਰ ਘੜੀ ਵਿੱਚ ਵੇਖਾਉਣ ਲਈ ਟਿਕਾਣੇ"
 
-#: data/org.gnome.shell.gschema.xml.in:245
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:245
 msgid "Automatic location"
 msgstr "ਆਪਣੇ-ਆਪ ਟਿਕਾਣਾ ਲਵੋ"
 
-#: data/org.gnome.shell.gschema.xml.in:246
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:246
 msgid "Whether to fetch the current location or not"
 msgstr "ਕੀ ਮੌਜੂਦਾ ਟਿਕਾਣਾ ਪ੍ਰਾਪਤ ਕਰਨਾ ਹੈ ਜਾਂ ਨਹੀਂ"
 
-#: data/org.gnome.shell.gschema.xml.in:253
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:253
 msgid "Location"
 msgstr "ਟਿਕਾਣਾ"
 
-#: data/org.gnome.shell.gschema.xml.in:254
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:254
 msgid "The location for which to show a forecast"
 msgstr "ਭਵਿੱਖਬਾਣੀ ਵੇਖਾਏ ਜਾਣ ਵਾਲਾ ਟਿਕਾਣਾ"
 
-#: data/org.gnome.shell.gschema.xml.in:266
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:266
 msgid "Attach modal dialog to the parent window"
 msgstr "ਮੂਲ ਵਿੰਡੋ ਵਿੱਚ ਮਾਡਲ ਡਾਈਲਾਗ ਜੋੜੋ"
 
-#: data/org.gnome.shell.gschema.xml.in:267
-#: data/org.gnome.shell.gschema.xml.in:276
-#: data/org.gnome.shell.gschema.xml.in:284
-#: data/org.gnome.shell.gschema.xml.in:292
-#: data/org.gnome.shell.gschema.xml.in:300
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:267
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:276
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:284
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:292
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:300
 msgid ""
-"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
 msgstr ""
-"ਇਹ ਕੁੰਜੀ ਗਨੋਮ ਸ਼ੈੱਲ ਚੱਲਣ ਦੇ ਦੌਰਾਨ  org.gnome.mutter ਕੁੰਜੀ ਨੂੰ ਅਣਡਿੱਠਾ ਕਰਦੀ ਹੈ।"
+"ਇਹ ਕੁੰਜੀ ਗਨੋਮ ਸ਼ੈੱਲ ਚੱਲਣ ਦੇ ਦੌਰਾਨ  io.github.scarecrow_de.mutter ਕੁੰਜੀ ਨੂੰ ਅਣਡਿੱਠਾ ਕਰਦੀ ਹੈ।"
 
-#: data/org.gnome.shell.gschema.xml.in:275
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:275
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "ਕੋਨਾ ਟਿੱਲ ਨੂੰ ਚਾਲੂ ਕਰੋ, ਜਦੋਂ ਵਿੰਡੋ ਸਕਰੀਨ ਕੋਨਿਆਂ ਤੋਂ ਹਿਲਦੀ ਹੈ"
 
-#: data/org.gnome.shell.gschema.xml.in:283
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:283
 msgid "Workspaces are managed dynamically"
 msgstr "ਵਰਕਸਪੇਸ ਚੱਲਦੇ ਰੂਪ ਵਿੱਚ ਰੱਖੇ ਜਾਂਦੇ ਹਨ"
 
-#: data/org.gnome.shell.gschema.xml.in:291
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:291
 msgid "Workspaces only on primary monitor"
 msgstr "ਪ੍ਰਾਈਮਰੀ ਮਾਨੀਟਰ ਉੱਤੇ ਕੇਵਲ ਵਰਕਸਪੇਸ"
 
-#: data/org.gnome.shell.gschema.xml.in:299
+#: data/io.github.scarecrow_de.shell.gschema.xml.in:299
 msgid "Delay focus changes in mouse mode until the pointer stops moving"
 msgstr "ਪੁਆਇੰਟਰ ਦੇ ਹਿਲਣ ਤੋਂ ਰੁਕਣ ਤੱਕ ਮਾਊਸ ਮੋਡ ਵਿੱਚ ਫੋਕਸ ਬਦਲਾਅ ਵਿੱਚ ਦੇਰੀ"
 
-#: data/org.gnome.Shell.PortalHelper.desktop.in.in:3
+#: data/io.github.scarecrow_de.Shell.PortalHelper.desktop.in.in:3
 msgid "Network Login"
 msgstr "ਨੈੱਟਵਰਕ ਲਾਗਇਨ"
 
@@ -3225,10 +3225,10 @@ msgstr "ਸਿਸਟਮ ਸਾਊਂਡ"
 #~ msgstr "ਟਾਈਟਲ-ਪੱਟੀ ਵਿੱਚ ਬਟਨਾਂ ਦਾ ਪ੍ਰਬੰਧ"
 
 #~ msgid ""
-#~ "This key overrides the key in org.gnome.desktop.wm.preferences when "
+#~ "This key overrides the key in io.github.scarecrow_de.desktop.wm.preferences when "
 #~ "running Scarecrow Shell."
 #~ msgstr ""
-#~ "ਇਹ ਕੁੰਜੀ ਗਨੋਮ ਸ਼ੈੱਲ ਚੱਲਣ ਦੇ ਦੌਰਾਨ  org.gnome.desktop.wm.preference ਕੁੰਜੀ ਨੂੰ ਅਣਡਿੱਠਾ "
+#~ "ਇਹ ਕੁੰਜੀ ਗਨੋਮ ਸ਼ੈੱਲ ਚੱਲਣ ਦੇ ਦੌਰਾਨ  io.github.scarecrow_de.desktop.wm.preference ਕੁੰਜੀ ਨੂੰ ਅਣਡਿੱਠਾ "
 #~ "ਕਰਦੀ ਹੈ।"
 
 #~ msgid "Select an extension to configure using the combobox above."

@@ -11,13 +11,13 @@ const Screenshot = imports.ui.screenshot;
 
 const { loadInterfaceXML } = imports.misc.fileUtils;
 
-const GnomeShellIface = loadInterfaceXML('org.gnome.Shell');
-const ScreenSaverIface = loadInterfaceXML('org.gnome.ScreenSaver');
+const GnomeShellIface = loadInterfaceXML('io.github.scarecrow_de.Shell');
+const ScreenSaverIface = loadInterfaceXML('io.github.scarecrow_de.ScreenSaver');
 
 var GnomeShell = class {
     constructor() {
         this._dbusImpl = Gio.DBusExportedObject.wrapJSObject(GnomeShellIface, this);
-        this._dbusImpl.export(Gio.DBus.session, '/org/gnome/Shell');
+        this._dbusImpl.export(Gio.DBus.session, '/io/github/scarecrow_de/Shell');
 
         this._extensionsService = new GnomeShellExtensions();
         this._screenshotService = new Screenshot.ScreenshotService();
@@ -251,12 +251,12 @@ var GnomeShell = class {
     }
 };
 
-const GnomeShellExtensionsIface = loadInterfaceXML('org.gnome.Shell.Extensions');
+const GnomeShellExtensionsIface = loadInterfaceXML('io.github.scarecrow_de.Shell.Extensions');
 
 var GnomeShellExtensions = class {
     constructor() {
         this._dbusImpl = Gio.DBusExportedObject.wrapJSObject(GnomeShellExtensionsIface, this);
-        this._dbusImpl.export(Gio.DBus.session, '/org/gnome/Shell');
+        this._dbusImpl.export(Gio.DBus.session, '/io/github/scarecrow_de/Shell');
 
         this._userExtensionsEnabled = this.UserExtensionsEnabled;
         global.settings.connect('changed::disable-user-extensions', () => {
@@ -365,9 +365,9 @@ var ScreenSaverDBus = class {
         });
 
         this._dbusImpl = Gio.DBusExportedObject.wrapJSObject(ScreenSaverIface, this);
-        this._dbusImpl.export(Gio.DBus.session, '/org/gnome/ScreenSaver');
+        this._dbusImpl.export(Gio.DBus.session, '/io/github/scarecrow_de/ScreenSaver');
 
-        Gio.DBus.session.own_name('org.gnome.ScreenSaver', Gio.BusNameOwnerFlags.REPLACE, null, null);
+        Gio.DBus.session.own_name('io.github.scarecrow_de.ScreenSaver', Gio.BusNameOwnerFlags.REPLACE, null, null);
     }
 
     LockAsync(parameters, invocation) {

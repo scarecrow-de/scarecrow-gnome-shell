@@ -67,13 +67,13 @@ msgstr "Preferentias pro le extensiones Scarecrow Shell"
 msgid "Configure Scarecrow Shell Extensions"
 msgstr "Configurar le extensiones Scarecrow Shell"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:1
 msgid "Enable internal tools useful for developers and testers from Alt-F2"
 msgstr ""
 "Permitter le accesso via Alt-F2 al instrumentos interne que es utile pro "
 "disveloppatores e probatores"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:2
 msgid ""
 "Allows access to internal debugging and monitoring tools using the Alt-F2 "
 "dialog."
@@ -82,27 +82,27 @@ msgstr ""
 "al instrumentos interne que es utile pro eliminar defectos de software e "
 "facer le surveliantia"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:3
 msgid "Uuids of extensions to enable"
 msgstr "Identificatores UUID del extensiones a activar"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:4
 msgid ""
 "Scarecrow Shell extensions have a uuid property; this key lists extensions which "
 "should be loaded. Any extension that wants to be loaded needs to be in this "
 "list. You can also manipulate this list with the EnableExtension and "
-"DisableExtension DBus methods on org.gnome.Shell."
+"DisableExtension DBus methods on io.github.scarecrow_de.Shell."
 msgstr ""
 "Le extensiones Scarecrow Shell ha un proprietate UUID. Iste clave enumera le "
 "extensiones que debe ser cargate. Tote le extensiones que vole ser cargate "
 "debe adjungar se a iste lista. Il pote anque manipular iste lista con le "
-"methodos DBus EnableExtension e DisableExtension de org.gnome.Shell."
+"methodos DBus EnableExtension e DisableExtension de io.github.scarecrow_de.Shell."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:5
 msgid "Whether to collect stats about applications usage"
 msgstr "Colliger statisticas super le utilisation de applicationes"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:6
 msgid ""
 "The shell normally monitors active applications in order to present the most "
 "used ones (e.g. in launchers). While this data will be kept private, you may "
@@ -115,12 +115,12 @@ msgstr ""
 "confidentialitate. Remarca que iste disactivation non removera le datos jam "
 "registrate."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:7
 msgid "List of desktop file IDs for favorite applications"
 msgstr ""
 "Lista de identificatores de files desktop pro le applicationes favorite"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:8
 msgid ""
 "The applications corresponding to these identifiers will be displayed in the "
 "favorites area."
@@ -128,11 +128,11 @@ msgstr ""
 "Le applicationes que corresponde a iste identificatores essera monstrate in "
 "le area de favoritos."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:9
 msgid "List of categories that should be displayed as folders"
 msgstr "Lista de categorias que deberea ser monstrate como dossiers"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:10
 msgid ""
 "Each category name in this list will be represented as folder in the "
 "application view, rather than being displayed inline in the main view."
@@ -141,15 +141,15 @@ msgstr ""
 "le vista de applicationes, plus tosto que de esser alineate in le vista "
 "principal."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:11
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:11
 msgid "History for command (Alt-F2) dialog"
 msgstr "Historia del dialogo de commandos (Alt-F2)"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:12
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:12
 msgid "History for the looking glass dialog"
 msgstr "Historia del dialogo de inspection"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:13
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:13
 msgid ""
 "Internally used to store the last IM presence explicitly set by the user. "
 "The value here is from the TpConnectionPresenceType enumeration."
@@ -158,7 +158,7 @@ msgstr ""
 "es definite explicitemente per le usator in le systema de messages instante. "
 "Le valor hic es del enumeration TpConnectionPresenceType."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:14
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:14
 msgid ""
 "Internally used to store the last session presence status for the user. The "
 "value here is from the GsmPresenceStatus enumeration."
@@ -166,13 +166,13 @@ msgstr ""
 "Illo se utilisa internemente pro registrar le ultime stato de session del "
 "usator. Le valor hic es del enumeration GsmPresenceStatus."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:15
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:15
 msgid "Always show the 'Log out' menuitem in the user menu."
 msgstr ""
 "Sempre monstrar le elemento de menu 'Clauder le session' in le menu de "
 "usator."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:16
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:16
 msgid ""
 "This key overrides the automatic hiding of the 'Log out' menuitem in single-"
 "user, single-session situations."
@@ -180,13 +180,13 @@ msgstr ""
 "Iste clave supplanta le celamento automatic del elemento de menu 'Clauder le "
 "session' in situationes con singule usator o singule session."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:17
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:17
 msgid ""
 "Whether to remember password for mounting encrypted or remote filesystems"
 msgstr ""
 "Si memorar le contrasigno pro montar le systemas de files cifrate o remote"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:18
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:18
 msgid ""
 "The shell will request a password when an encrypted device or a remote "
 "filesystem is mounted. If the password can be saved for future use a "
@@ -198,80 +198,80 @@ msgstr ""
 "un quadrato de selection 'Memorar le contrasigno' sera monstrate. Iste clave "
 "defini le stato predefinite del quadrato de selection."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:19
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:19
 msgid "Show the week date in the calendar"
 msgstr "Monstrar le numeration de septimanas in le calendario"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:20
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:20
 msgid "If true, display the ISO week date in the calendar."
 msgstr "Si ver, monstrar le numero de septimana ISO in le calendario."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:21
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:21
 msgid "Keybinding to open the application menu"
 msgstr "Association de claves pro aperir le menu de applicationes"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:22
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:22
 msgid "Keybinding to open the application menu."
 msgstr "Association de claves pro aperir le menu de applicationes."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:23
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:23
 msgid "Keybinding to open the \"Show Applications\" view"
 msgstr "Association de claves pro aperir le vista \"Monstrar applicationes\""
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:24
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:24
 msgid ""
 "Keybinding to open the \"Show Applications\" view of the Activities Overview."
 msgstr ""
 "Association de claves pro aperir le vista \"Monstrar applicationes\" del "
 "panorama de activitates."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:25
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:25
 msgid "Keybinding to open the overview"
 msgstr "Association de claves pro aperir le panorama"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:26
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:26
 msgid "Keybinding to open the Activities Overview."
 msgstr "Association de claves pro aperir le panorama de activitates"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:27
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:27
 msgid "Keybinding to toggle the visibility of the message tray"
 msgstr ""
 "Association de claves pro commutar le visibilitate del tiratorio de messages"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:28
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:28
 msgid "Keybinding to toggle the visibility of the message tray."
 msgstr ""
 "Association de claves pro commutar le visibilitate del tiratorio de messages."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:29
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:29
 msgid "Keybinding to focus the active notification"
 msgstr "Association de claves pro mitter foco al notificationes active"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:30
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:30
 msgid "Keybinding to focus the active notification."
 msgstr "Association de claves pro mitter foco al notificationes active."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:31
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:31
 msgid "Keybinding to toggle the screen recorder"
 msgstr "Association de claves pro commutar le registrator de schermo"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:32
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:32
 msgid "Keybinding to start/stop the builtin screen recorder."
 msgstr "Association de claves pro initiar/arrestar le registration de schermo."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:33
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:33
 msgid "Which keyboard to use"
 msgstr "Que claviero usar"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:34
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:34
 msgid "The type of keyboard to use."
 msgstr "Le typo de claviero a usar."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:35
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:35
 msgid "Framerate used for recording screencasts."
 msgstr "Rata de quadros usate pro registrar le video de schermo."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:36
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:36
 msgid ""
 "The framerate of the resulting screencast recordered by Scarecrow Shell's "
 "screencast recorder in frames-per-second."
@@ -279,11 +279,11 @@ msgstr ""
 "Le numero de imagines per secunda in le video de schermo registrate per le "
 "registrator incorporate in Scarecrow Shell."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:37
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:37
 msgid "The gstreamer pipeline used to encode the screencast"
 msgstr "Le catena usante per gstreamer pro codificar video de schermo"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:39
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:39
 #, no-c-format
 msgid ""
 "Sets the GStreamer pipeline used to encode recordings. It follows the syntax "
@@ -309,11 +309,11 @@ msgstr ""
 "queue ! webmmux' e registra in WEBM usante le codec VP8. %T designa le "
 "numero de filos optimal pro le systema."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:40
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:40
 msgid "File extension used for storing the screencast"
 msgstr "Extension de file a usar pro slaveguardar le video de schermo"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:41
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:41
 msgid ""
 "The filename for recorded screencasts will be a unique filename based on the "
 "current date, and use this extension. It should be changed when recording to "
@@ -323,11 +323,11 @@ msgstr ""
 "currente e iste extension. Illo deberea esser modificate si le formato de "
 "container usate pro registar le video es differente."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:42
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:42
 msgid "The application icon mode."
 msgstr "Le modo de icone in le selector de applicationes."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:43
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:43
 msgid ""
 "Configures how the windows are shown in the switcher. Valid possibilities "
 "are 'thumbnail-only' (shows a thumbnail of the window), 'app-icon-"
@@ -338,38 +338,38 @@ msgstr ""
 "fenestra), 'app-icon-only' (monstrar solmente un icone del application) o "
 "'both' (monstrar tote le duo)."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:44
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:44
 msgid "Attach modal dialog to the parent window"
 msgstr "Attaccar le dialogo modal al fenestra parental"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:45
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:45
 msgid ""
-"This key overrides the key in org.gnome.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
 msgstr ""
-"Iste clave supplanta le clave in org.gnome.mutter quando Scarecrow Shell es "
+"Iste clave supplanta le clave in io.github.scarecrow_de.mutter quando Scarecrow Shell es "
 "lanceate."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:46
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:46
 msgid "Arrangement of buttons on the titlebar"
 msgstr "Arrangiamento de buttones sur le barra de titulo"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:47
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:47
 msgid ""
-"This key overrides the key in org.gnome.desktop.wm.preferences when running "
+"This key overrides the key in io.github.scarecrow_de.desktop.wm.preferences when running "
 "Scarecrow Shell."
 msgstr ""
-"Iste clave supplanta le clave in org.gnome.desktop.wm.preferences quando "
+"Iste clave supplanta le clave in io.github.scarecrow_de.desktop.wm.preferences quando "
 "Scarecrow Shell es lanceate."
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:48
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:48
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Activar le tegulage de fenestras depositate sur le bordos del schermo"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:49
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:49
 msgid "Workspaces are managed dynamically"
 msgstr "Le spatios de travalio se gere dynamicamente"
 
-#: ../data/org.gnome.shell.gschema.xml.in.in.h:50
+#: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:50
 msgid "Workspaces only on primary monitor"
 msgstr "Le spatios de travalio es solmente sur le schermo principal"
 

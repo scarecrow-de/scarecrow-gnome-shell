@@ -15,9 +15,9 @@ if echo $XDG_CURRENT_DESKTOP | grep -q -v GNOME; then
 fi
 
 if echo $XDG_CURRENT_DESKTOP | grep -q Classic; then
-  OVERRIDE_SCHEMA=org.gnome.shell.extensions.classic-overrides
+  OVERRIDE_SCHEMA=io.github.scarecrow_de.shell.extensions.classic-overrides
 else
-  OVERRIDE_SCHEMA=org.gnome.shell.overrides
+  OVERRIDE_SCHEMA=io.github.scarecrow_de.shell.overrides
 fi
 
 mkdir -p $PKG_DATA_DIR
@@ -25,9 +25,9 @@ mkdir -p $PKG_DATA_DIR
 for k in `gsettings list-keys $OVERRIDE_SCHEMA`
 do
   if [ $k = button-layout ]; then
-    orig_schema=org.gnome.desktop.wm.preferences
+    orig_schema=io.github.scarecrow_de.desktop.wm.preferences
   else
-    orig_schema=org.gnome.mutter
+    orig_schema=io.github.scarecrow_de.mutter
   fi
 
   oldValue=`gsettings get $OVERRIDE_SCHEMA $k`

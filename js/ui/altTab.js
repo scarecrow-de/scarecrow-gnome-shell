@@ -526,7 +526,7 @@ var CyclerPopup = GObject.registerClass({
 var GroupCyclerPopup = GObject.registerClass(
 class GroupCyclerPopup extends CyclerPopup {
     _init() {
-        this._settings = new Gio.Settings({ schema_id: 'org.gnome.shell.app-switcher' });
+        this._settings = new Gio.Settings({ schema_id: 'io.github.scarecrow_de.shell.app-switcher' });
         super._init();
     }
 
@@ -560,7 +560,7 @@ var WindowSwitcherPopup = GObject.registerClass(
 class WindowSwitcherPopup extends SwitcherPopup.SwitcherPopup {
     _init() {
         super._init();
-        this._settings = new Gio.Settings({ schema_id: 'org.gnome.shell.window-switcher' });
+        this._settings = new Gio.Settings({ schema_id: 'io.github.scarecrow_de.shell.window-switcher' });
 
         let windows = this._getWindowList();
 
@@ -616,7 +616,7 @@ class WindowSwitcherPopup extends SwitcherPopup.SwitcherPopup {
 var WindowCyclerPopup = GObject.registerClass(
 class WindowCyclerPopup extends CyclerPopup {
     _init() {
-        this._settings = new Gio.Settings({ schema_id: 'org.gnome.shell.window-switcher' });
+        this._settings = new Gio.Settings({ schema_id: 'io.github.scarecrow_de.shell.window-switcher' });
         super._init();
     }
 
@@ -678,7 +678,7 @@ class AppSwitcher extends SwitcherPopup.SwitcherList {
         this._arrows = [];
 
         let windowTracker = Shell.WindowTracker.get_default();
-        let settings = new Gio.Settings({ schema_id: 'org.gnome.shell.app-switcher' });
+        let settings = new Gio.Settings({ schema_id: 'io.github.scarecrow_de.shell.app-switcher' });
 
         let workspace = null;
         if (settings.get_boolean('current-workspace-only')) {

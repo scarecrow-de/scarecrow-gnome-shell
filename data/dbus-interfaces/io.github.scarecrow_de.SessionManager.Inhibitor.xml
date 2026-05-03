@@ -1,0 +1,10 @@
+<node>
+  <interface name="io.github.scarecrow_de.SessionManager.Inhibitor">
+    <method name="GetAppId">
+      <arg type="s" direction="out"/>
+    </method>
+    <method name="GetReason">
+      <arg type="s" direction="out"/>
+    </method>
+  </interface>
+</node>

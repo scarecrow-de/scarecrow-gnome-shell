@@ -9,7 +9,7 @@ Bugs should be reported to the GNOME [bug tracking system][bug-tracker].
 If Extensions is not already installed on your GNOME system, we
 recommend getting it from [flathub].
 
-<a href='https://flathub.org/apps/details/org.gnome.Extensions'>
+<a href='https://flathub.org/apps/details/io.github.scarecrow_de.Extensions'>
   <img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/>
 </a>
 

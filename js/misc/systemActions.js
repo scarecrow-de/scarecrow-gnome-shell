@@ -5,8 +5,8 @@ const GnomeSession = imports.misc.gnomeSession;
 const LoginManager = imports.misc.loginManager;
 const Main = imports.ui.main;
 
-const LOCKDOWN_SCHEMA = 'org.gnome.desktop.lockdown';
-const LOGIN_SCREEN_SCHEMA = 'org.gnome.login-screen';
+const LOCKDOWN_SCHEMA = 'io.github.scarecrow_de.desktop.lockdown';
+const LOGIN_SCREEN_SCHEMA = 'io.github.scarecrow_de.login-screen';
 const DISABLE_USER_SWITCH_KEY = 'disable-user-switching';
 const DISABLE_LOCK_SCREEN_KEY = 'disable-lock-screen';
 const DISABLE_LOG_OUT_KEY = 'disable-log-out';
@@ -135,7 +135,7 @@ const SystemActions = GObject.registerClass({
 
         this._loginScreenSettings = new Gio.Settings({ schema_id: LOGIN_SCREEN_SCHEMA });
         this._lockdownSettings = new Gio.Settings({ schema_id: LOCKDOWN_SCHEMA });
-        this._orientationSettings = new Gio.Settings({ schema_id: 'org.gnome.settings-daemon.peripherals.touchscreen' });
+        this._orientationSettings = new Gio.Settings({ schema_id: 'io.github.scarecrow_de.settings-daemon.peripherals.touchscreen' });
 
         this._session = new GnomeSession.SessionManager();
         this._loginManager = LoginManager.getLoginManager();
