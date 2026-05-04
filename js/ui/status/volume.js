@@ -293,7 +293,7 @@ var InputStreamSlider = class extends StreamSlider {
             // skip gnome-volume-control and pavucontrol which appear
             // as recording because they show the input level
             let skippedApps = [
-                'io.github.scarecrow_de.VolumeControl',
+                'org.gnome.VolumeControl',
                 'org.PulseAudio.pavucontrol',
             ];
 
