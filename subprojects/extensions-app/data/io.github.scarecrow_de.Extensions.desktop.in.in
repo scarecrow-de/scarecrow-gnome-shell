@@ -7,4 +7,4 @@ Comment=Configure Scarecrow Shell Extensions
 Exec=@bindir@/@prgname@
 DBusActivatable=true
 Categories=GNOME;GTK;Utility;
-OnlyShowIn=GNOME;
+OnlyShowIn=Scarecrow;

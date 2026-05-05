@@ -6,5 +6,5 @@ Name=Extensions
 Icon=io.github.scarecrow_de.Shell.Extensions
 # Never launch this, just provide name+icon to portal dialog
 Exec=false
-OnlyShowIn=GNOME;
+OnlyShowIn=Scarecrow;
 NoDisplay=true
