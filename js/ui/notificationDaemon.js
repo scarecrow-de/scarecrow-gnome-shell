@@ -332,7 +332,7 @@ var FdoNotificationDaemon = class FdoNotificationDaemon {
     GetServerInformation() {
         return [
             Config.PACKAGE_NAME,
-            'GNOME',
+            'Scarecrow',
             Config.PACKAGE_VERSION,
             '1.2',
         ];

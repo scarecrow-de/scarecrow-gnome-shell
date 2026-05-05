@@ -145,8 +145,8 @@ function start() {
     });
 
     let currentDesktop = GLib.getenv('XDG_CURRENT_DESKTOP');
-    if (!currentDesktop || !currentDesktop.split(':').includes('GNOME'))
-        Gio.DesktopAppInfo.set_desktop_env('GNOME');
+    if (!currentDesktop || !currentDesktop.split(':').includes('Scarecrow'))
+        Gio.DesktopAppInfo.set_desktop_env('Scarecrow');
 
     sessionMode = new SessionMode.SessionMode();
     sessionMode.connect('updated', _sessionUpdated);
