@@ -32,7 +32,7 @@ extern GType gnome_shell_plugin_get_type (void);
 #define WM_NAME "Scarecrow Shell"
 #define GNOME_WM_KEYBINDINGS "Mutter,Scarecrow Shell"
 
-static gboolean is_gdm_mode = FALSE;
+static gboolean is_scdm_mode = FALSE;
 static char *session_mode = NULL;
 static int caught_signal = 0;
 
@@ -464,7 +464,7 @@ GOptionEntry gnome_shell_options[] = {
   },
   {
     "gdm-mode", 0, G_OPTION_FLAG_HIDDEN, G_OPTION_ARG_NONE,
-    &is_gdm_mode,
+    &is_scdm_mode,
     N_("Mode used by GDM for login screen"),
     NULL
   },
@@ -535,7 +535,7 @@ main (int argc, char **argv)
 
   /* Initialize the global object */
   if (session_mode == NULL)
-    session_mode = is_gdm_mode ? (char *)"gdm" : (char *)"user";
+    session_mode = is_scdm_mode ? (char *)"gdm" : (char *)"user";
 
   _shell_global_init ("session-mode", session_mode, NULL);
 

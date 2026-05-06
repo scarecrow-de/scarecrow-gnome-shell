@@ -836,7 +836,7 @@ var LoginDialog = GObject.registerClass({
     }
 
     _resetGreeterProxy() {
-        if (GLib.getenv('GDM_GREETER_TEST') != '1') {
+        if (GLib.getenv('SCDM_GREETER_TEST') != '1') {
             if (this._greeter)
                 this._greeter.run_dispose();
 
