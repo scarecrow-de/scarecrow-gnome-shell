@@ -5,7 +5,7 @@ const { Clutter, GObject, Pango, Shell, St } = imports.gi;
 
 const Animation = imports.ui.animation;
 const Batch = imports.gdm.batch;
-const GdmUtil = imports.gdm.util;
+const ScdmUtil = imports.gdm.util;
 const OVirt = imports.gdm.oVirt;
 const Vmware = imports.gdm.vmware;
 const Params = imports.misc.params;
@@ -66,7 +66,7 @@ var AuthPrompt = GObject.registerClass({
         else if (this._mode == AuthPromptMode.UNLOCK_OR_LOG_IN)
             reauthenticationOnly = false;
 
-        this._userVerifier = new GdmUtil.ShellUserVerifier(this._gdmClient, { reauthenticationOnly });
+        this._userVerifier = new ScdmUtil.ShellUserVerifier(this._gdmClient, { reauthenticationOnly });
 
         this._userVerifier.connect('ask-question', this._onAskQuestion.bind(this));
         this._userVerifier.connect('show-message', this._onShowMessage.bind(this));
@@ -260,7 +260,7 @@ var AuthPrompt = GObject.registerClass({
         //                        with a smartcard
         //                     2) Don't reset if we've already succeeded at verification and
         //                        the user is getting logged in.
-        if (this._userVerifier.serviceIsDefault(GdmUtil.SMARTCARD_SERVICE_NAME) &&
+        if (this._userVerifier.serviceIsDefault(ScdmUtil.SMARTCARD_SERVICE_NAME) &&
             this.verificationStatus == AuthPromptStatus.VERIFYING &&
             this.smartcardDetected)
             return;
@@ -407,12 +407,12 @@ var AuthPrompt = GObject.registerClass({
     }
 
     setMessage(message, type) {
-        if (type == GdmUtil.MessageType.ERROR)
+        if (type == ScdmUtil.MessageType.ERROR)
             this._message.add_style_class_name('login-dialog-message-warning');
         else
             this._message.remove_style_class_name('login-dialog-message-warning');
 
-        if (type == GdmUtil.MessageType.HINT)
+        if (type == ScdmUtil.MessageType.HINT)
             this._message.add_style_class_name('login-dialog-message-hint');
         else
             this._message.remove_style_class_name('login-dialog-message-hint');
@@ -493,7 +493,7 @@ var AuthPrompt = GObject.registerClass({
             beginRequestType = BeginRequestType.PROVIDE_USERNAME;
         } else if (this._userVerifier.serviceIsForeground(OVirt.SERVICE_NAME) ||
                    this._userVerifier.serviceIsForeground(Vmware.SERVICE_NAME) ||
-                   this._userVerifier.serviceIsForeground(GdmUtil.SMARTCARD_SERVICE_NAME)) {
+                   this._userVerifier.serviceIsForeground(ScdmUtil.SMARTCARD_SERVICE_NAME)) {
             // We don't need to know the username if the user preempted the login screen
             // with a smartcard or with preauthenticated oVirt credentials
             beginRequestType = BeginRequestType.DONT_PROVIDE_USERNAME;

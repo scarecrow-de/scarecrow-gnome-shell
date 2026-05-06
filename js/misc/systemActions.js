@@ -1,5 +1,5 @@
 /* exported getDefault */
-const { AccountsService, Clutter, Gdm, Gio, GLib, GObject, Meta } = imports.gi;
+const { AccountsService, Clutter, Scdm, Gio, GLib, GObject, Meta } = imports.gi;
 
 const GnomeSession = imports.misc.gnomeSession;
 const LoginManager = imports.misc.loginManager;
@@ -388,7 +388,7 @@ const SystemActions = GObject.registerClass({
         let systemAccount = user.system_account;
         let localAccount = user.local_account;
         let multiUser = this._userManager.has_multiple_users;
-        let multiSession = Gdm.get_session_ids().length > 1;
+        let multiSession = Scdm.get_session_ids().length > 1;
         let shouldShowInMode = !Main.sessionMode.isLocked && !Main.sessionMode.isGreeter;
 
         let visible = allowLogout && (alwaysShow || multiUser || multiSession || systemAccount || !localAccount) && shouldShowInMode;
@@ -421,7 +421,7 @@ const SystemActions = GObject.registerClass({
             Main.screenShield.lock(false);
 
         Clutter.threads_add_repaint_func_full(Clutter.RepaintFlags.POST_PAINT, () => {
-            Gdm.goto_login_session_sync(null);
+            Scdm.goto_login_session_sync(null);
             return false;
         });
     }

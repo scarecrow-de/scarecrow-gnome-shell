@@ -17,14 +17,14 @@
  * along with this program; if not, see <http://www.gnu.org/licenses/>.
  */
 
-const { AccountsService, Atk, Clutter, Gdm, Gio,
+const { AccountsService, Atk, Clutter, Scdm, Gio,
         GLib, GObject, Meta, Pango, Shell, St } = imports.gi;
 
 const AuthPrompt = imports.gdm.authPrompt;
 const Batch = imports.gdm.batch;
 const BoxPointer = imports.ui.boxpointer;
 const CtrlAltTab = imports.ui.ctrlAltTab;
-const GdmUtil = imports.gdm.util;
+const ScdmUtil = imports.gdm.util;
 const Layout = imports.ui.layout;
 const LoginManager = imports.misc.loginManager;
 const Main = imports.ui.main;
@@ -376,7 +376,7 @@ var SessionMenuButton = GObject.registerClass({
     }
 
     _populate() {
-        let ids = Gdm.get_session_ids();
+        let ids = Scdm.get_session_ids();
         ids.sort();
 
         if (ids.length <= 1) {
@@ -385,7 +385,7 @@ var SessionMenuButton = GObject.registerClass({
         }
 
         for (let i = 0; i < ids.length; i++) {
-            let [sessionName, sessionDescription_] = Gdm.get_session_name_and_description(ids[i]);
+            let [sessionName, sessionDescription_] = Scdm.get_session_name_and_description(ids[i]);
 
             let id = ids[i];
             let item = new PopupMenu.PopupMenuItem(sessionName);
@@ -416,17 +416,17 @@ var LoginDialog = GObject.registerClass({
         parentActor.add_child(this);
 
         this._userManager = AccountsService.UserManager.get_default();
-        this._gdmClient = new Gdm.Client();
+        this._gdmClient = new Scdm.Client();
 
-        this._settings = new Gio.Settings({ schema_id: GdmUtil.LOGIN_SCREEN_SCHEMA });
+        this._settings = new Gio.Settings({ schema_id: ScdmUtil.LOGIN_SCREEN_SCHEMA });
 
-        this._settings.connect('changed::%s'.format(GdmUtil.BANNER_MESSAGE_KEY),
+        this._settings.connect('changed::%s'.format(ScdmUtil.BANNER_MESSAGE_KEY),
                                this._updateBanner.bind(this));
-        this._settings.connect('changed::%s'.format(GdmUtil.BANNER_MESSAGE_TEXT_KEY),
+        this._settings.connect('changed::%s'.format(ScdmUtil.BANNER_MESSAGE_TEXT_KEY),
                                this._updateBanner.bind(this));
-        this._settings.connect('changed::%s'.format(GdmUtil.DISABLE_USER_LIST_KEY),
+        this._settings.connect('changed::%s'.format(ScdmUtil.DISABLE_USER_LIST_KEY),
                                this._updateDisableUserList.bind(this));
-        this._settings.connect('changed::%s'.format(GdmUtil.LOGO_KEY),
+        this._settings.connect('changed::%s'.format(ScdmUtil.LOGO_KEY),
                                this._updateLogo.bind(this));
 
         this._textureCache = St.TextureCache.get_default();
@@ -751,7 +751,7 @@ var LoginDialog = GObject.registerClass({
     }
 
     _updateDisableUserList() {
-        let disableUserList = this._settings.get_boolean(GdmUtil.DISABLE_USER_LIST_KEY);
+        let disableUserList = this._settings.get_boolean(ScdmUtil.DISABLE_USER_LIST_KEY);
 
         // Disable user list when there are no users.
         if (this._userListLoaded && this._userList.numItems() == 0)
@@ -779,8 +779,8 @@ var LoginDialog = GObject.registerClass({
     }
 
     _updateBanner() {
-        let enabled = this._settings.get_boolean(GdmUtil.BANNER_MESSAGE_KEY);
-        let text = this._settings.get_string(GdmUtil.BANNER_MESSAGE_TEXT_KEY);
+        let enabled = this._settings.get_boolean(ScdmUtil.BANNER_MESSAGE_KEY);
+        let text = this._settings.get_string(ScdmUtil.BANNER_MESSAGE_TEXT_KEY);
 
         if (enabled && text) {
             this._bannerLabel.set_text(text);
@@ -821,7 +821,7 @@ var LoginDialog = GObject.registerClass({
     }
 
     _updateLogo() {
-        let path = this._settings.get_string(GdmUtil.LOGO_KEY);
+        let path = this._settings.get_string(ScdmUtil.LOGO_KEY);
 
         this._logoFile = path ? Gio.file_new_for_path(path) : null;
         this._updateLogoTexture(this._textureCache, this._logoFile);
@@ -910,7 +910,7 @@ var LoginDialog = GObject.registerClass({
 
         // Translators: this message is shown below the username entry field
         // to clue the user in on how to login to the local network realm
-        this._authPrompt.setMessage(_("(e.g., user or %s)").format(hint), GdmUtil.MessageType.HINT);
+        this._authPrompt.setMessage(_("(e.g., user or %s)").format(hint), ScdmUtil.MessageType.HINT);
     }
 
     _askForUsernameAndBeginVerification() {
@@ -1121,7 +1121,7 @@ var LoginDialog = GObject.registerClass({
     _hideUserList() {
         this._setUserListExpanded(false);
         if (this._userSelectionBox.visible)
-            GdmUtil.cloneAndFadeOutActor(this._userSelectionBox);
+            ScdmUtil.cloneAndFadeOutActor(this._userSelectionBox);
     }
 
     _hideUserListAskForUsernameAndBeginVerification() {
@@ -1160,7 +1160,7 @@ var LoginDialog = GObject.registerClass({
 
         this._updateCancelButton();
 
-        let batch = new Batch.ConcurrentBatch(this, [GdmUtil.cloneAndFadeOutActor(this._userSelectionBox),
+        let batch = new Batch.ConcurrentBatch(this, [ScdmUtil.cloneAndFadeOutActor(this._userSelectionBox),
                                                      this._beginVerificationForItem(activatedItem)]);
         batch.run();
     }

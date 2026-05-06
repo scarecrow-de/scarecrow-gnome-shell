@@ -2,7 +2,7 @@
 /* exported BANNER_MESSAGE_KEY, BANNER_MESSAGE_TEXT_KEY, LOGO_KEY,
             DISABLE_USER_LIST_KEY, fadeInActor, fadeOutActor, cloneAndFadeOutActor */
 
-const { Clutter, Gdm, Gio, GLib } = imports.gi;
+const { Clutter, Scdm, Gio, GLib } = imports.gi;
 const Signals = imports.signals;
 
 const Batch = imports.gdm.batch;
@@ -13,13 +13,13 @@ const Main = imports.ui.main;
 const Params = imports.misc.params;
 const SmartcardManager = imports.misc.smartcardManager;
 
-Gio._promisify(Gdm.Client.prototype,
+Gio._promisify(Scdm.Client.prototype,
     'open_reauthentication_channel', 'open_reauthentication_channel_finish');
-Gio._promisify(Gdm.Client.prototype,
+Gio._promisify(Scdm.Client.prototype,
     'get_user_verifier', 'get_user_verifier_finish');
-Gio._promisify(Gdm.UserVerifierProxy.prototype,
+Gio._promisify(Scdm.UserVerifierProxy.prototype,
     'call_begin_verification_for_user', 'call_begin_verification_for_user_finish');
-Gio._promisify(Gdm.UserVerifierProxy.prototype,
+Gio._promisify(Scdm.UserVerifierProxy.prototype,
     'call_begin_verification', 'call_begin_verification_finish');
 
 var PASSWORD_SERVICE_NAME = 'gdm-password';
@@ -369,7 +369,7 @@ var ShellUserVerifier = class {
                 return;
             if (e.matches(Gio.DBusError, Gio.DBusError.ACCESS_DENIED) &&
                 !this._reauthOnly) {
-                // Gdm emits org.freedesktop.DBus.Error.AccessDenied when there
+                // Scdm emits org.freedesktop.DBus.Error.AccessDenied when there
                 // is no session to reauthenticate. Fall back to performing
                 // verification from this login session
                 this._getUserVerifier();

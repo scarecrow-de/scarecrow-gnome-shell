@@ -1,7 +1,7 @@
 // -*- mode: js; js-indent-level: 4; indent-tabs-mode: nil -*-
 /* exported UnlockDialog */
 
-const { AccountsService, Atk, Clutter, Gdm, Gio,
+const { AccountsService, Atk, Clutter, Scdm, Gio,
         ScarecrowDesktop, GLib, GObject, Meta, Shell, St } = imports.gi;
 
 const Background = imports.ui.background;
@@ -482,7 +482,7 @@ var UnlockDialog = GObject.registerClass({
 
         parentActor.add_child(this);
 
-        this._gdmClient = new Gdm.Client();
+        this._gdmClient = new Scdm.Client();
 
         this._adjustment = new St.Adjustment({
             actor: this,
@@ -815,7 +815,7 @@ var UnlockDialog = GObject.registerClass({
     }
 
     _otherUserClicked() {
-        Gdm.goto_login_session_sync(null);
+        Scdm.goto_login_session_sync(null);
 
         this._authPrompt.cancel();
     }
