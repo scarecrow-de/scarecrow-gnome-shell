@@ -1,4 +1,4 @@
-project('gnome-extensions-tool', 'c',
+project('scarecrow-extensions-tool', 'c',
   version: '3.38.6',
   meson_version: '>= 0.53.0',
   license: 'GPLv2+'
@@ -40,7 +40,7 @@ po_dir = meson.source_root() + '/po'
 subdir('src')
 
 if bash_completion.found()
-  install_data('completion/bash/gnome-extensions',
+  install_data('completion/bash/scarecrow-extensions',
     install_dir: bash_completion.get_pkgconfig_variable('completionsdir', define_variable: ['datadir', datadir])
   )
 endif

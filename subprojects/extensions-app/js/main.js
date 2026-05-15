@@ -40,7 +40,7 @@ function toggleState(action) {
 var Application = GObject.registerClass(
 class Application extends Gtk.Application {
     _init() {
-        GLib.set_prgname('gnome-extensions-app');
+        GLib.set_prgname('scarecrow-extensions-app');
         super._init({ application_id: 'io.github.scarecrow_de.Extensions' });
     }
 

@@ -147,7 +147,7 @@ handle_list (int argc, char *argv[], gboolean do_help)
     { NULL }
   };
 
-  g_set_prgname ("gnome-extensions list");
+  g_set_prgname ("scarecrow-extensions list");
 
   context = g_option_context_new (NULL);
   g_option_context_set_help_enabled (context, FALSE);

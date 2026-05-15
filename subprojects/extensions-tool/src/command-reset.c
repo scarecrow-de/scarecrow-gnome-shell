@@ -51,7 +51,7 @@ handle_reset (int argc, char *argv[], gboolean do_help)
     { NULL }
   };
 
-  g_set_prgname ("gnome-extensions reset");
+  g_set_prgname ("scarecrow-extensions reset");
 
   context = g_option_context_new (NULL);
   g_option_context_set_help_enabled (context, FALSE);

@@ -94,7 +94,7 @@ handle_enable (int argc, char *argv[], gboolean do_help)
     { NULL }
   };
 
-  g_set_prgname ("gnome-extensions enable");
+  g_set_prgname ("scarecrow-extensions enable");
 
   context = g_option_context_new (NULL);
   g_option_context_set_help_enabled (context, FALSE);

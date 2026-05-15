@@ -13,7 +13,7 @@ done
 builddir=$(mktemp -d -p.)
 
 meson -Dman=False $builddir
-ninja -C $builddir gnome-extensions-tool-pot
-ninja -C $builddir gnome-extensions-tool-update-po
+ninja -C $builddir scarecrow-extensions-tool-pot
+ninja -C $builddir scarecrow-extensions-tool-update-po
 
 rm -rf $builddir

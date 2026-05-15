@@ -79,7 +79,7 @@ handle_uninstall (int argc, char *argv[], gboolean do_help)
     { NULL }
   };
 
-  g_set_prgname ("gnome-extensions uninstall");
+  g_set_prgname ("scarecrow-extensions uninstall");
 
   context = g_option_context_new (NULL);
   g_option_context_set_help_enabled (context, FALSE);

@@ -36,7 +36,7 @@ __gnome_extensions() {
           local list_opt=--user
           ;;&
         enable|disable|info|show|prefs|reset|uninstall)
-          COMPREPLY=($(compgen -W "`gnome-extensions list $list_opt`" -- "$2"))
+          COMPREPLY=($(compgen -W "`scarecrow-extensions list $list_opt`" -- "$2"))
           return 0
           ;;
       esac
@@ -47,7 +47,7 @@ __gnome_extensions() {
     create)
       case "$prev" in
         --template)
-          COMPREPLY=($(compgen -W "`gnome-extensions create --list-templates`" -- "$2"))
+          COMPREPLY=($(compgen -W "`scarecrow-extensions create --list-templates`" -- "$2"))
           return 0
           ;;
       esac
@@ -88,4 +88,4 @@ __gnome_extensions() {
 
 ################################################################################
 
-complete -F __gnome_extensions gnome-extensions
+complete -F __gnome_extensions scarecrow-extensions

@@ -25,12 +25,12 @@ sources = [
 subdir('templates')
 
 resources = gnome.compile_resources('resources',
-  'gnome-extensions-tool.gresource.xml',
+  'scarecrow-extensions-tool.gresource.xml',
   source_dir: ['.', meson.current_build_dir()],
   dependencies: template_deps,
 )
 
-executable('gnome-extensions',
+executable('scarecrow-extensions',
   sources, resources,
   dependencies: [gio_dep, gio_unix_dep, autoar_dep, json_dep],
   install: true

@@ -95,7 +95,7 @@ ensure_tmpdir (ExtensionPack  *pack,
   if (pack->tmpdir != NULL)
     return TRUE;
 
-  path = g_dir_make_tmp ("gnome-extensions.XXXXXX", error);
+  path = g_dir_make_tmp ("scarecrow-extensions.XXXXXX", error);
   if (path != NULL)
     pack->tmpdir = g_file_new_for_path (path);
 
@@ -474,7 +474,7 @@ handle_pack (int argc, char *argv[], gboolean do_help)
     { NULL }
   };
 
-  g_set_prgname ("gnome-extensions pack");
+  g_set_prgname ("scarecrow-extensions pack");
 
   context = g_option_context_new (NULL);
   g_option_context_set_help_enabled (context, FALSE);

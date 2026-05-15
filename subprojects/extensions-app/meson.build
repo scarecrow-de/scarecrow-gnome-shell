@@ -1,11 +1,11 @@
-project('gnome-extensions-app',
+project('scarecrow-extensions-app',
   version: '3.38.6',
   meson_version: '>= 0.53.0',
   license: 'GPLv2+'
 )
 
 app_id = 'io.github.scarecrow_de.Extensions'
-prgname = 'gnome-extensions-app'
+prgname = 'scarecrow-extensions-app'
 
 gnome = import('gnome')
 i18n  = import('i18n')

@@ -88,7 +88,7 @@ show_help (GOptionContext *context, const char *message)
   g_autofree char *help = NULL;
 
   if (message)
-    g_printerr ("gnome-extensions: %s\n\n", message);
+    g_printerr ("scarecrow-extensions: %s\n\n", message);
 
   help = g_option_context_get_help (context, TRUE, NULL);
   g_printerr ("%s", help);
@@ -287,10 +287,10 @@ handle_version (int argc, char *argv[], gboolean do_help)
   if (do_help || argc > 1)
     {
       if (!do_help)
-        g_printerr ("gnome-extensions: %s\n\n", _("“version” takes no arguments"));
+        g_printerr ("scarecrow-extensions: %s\n\n", _("“version” takes no arguments"));
 
       g_printerr ("%s\n", _("Usage:"));
-      g_printerr ("  gnome-extensions version\n");
+      g_printerr ("  scarecrow-extensions version\n");
       g_printerr ("\n");
       g_printerr ("%s\n", _("Print version information and exit."));
 
@@ -307,10 +307,10 @@ usage (void)
 {
   g_autofree char *help_command = NULL;
 
-  help_command = g_strdup_printf ("gnome-extensions help %s", _("COMMAND"));
+  help_command = g_strdup_printf ("scarecrow-extensions help %s", _("COMMAND"));
 
   g_printerr ("%s\n", _("Usage:"));
-  g_printerr ("  gnome-extensions %s %s\n", _("COMMAND"), _("[ARGS…]"));
+  g_printerr ("  scarecrow-extensions %s %s\n", _("COMMAND"), _("[ARGS…]"));
   g_printerr ("\n");
   g_printerr ("%s\n", _("Commands:"));
   g_printerr ("  help      %s\n", _("Print help"));
