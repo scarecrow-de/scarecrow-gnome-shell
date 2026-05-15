@@ -212,7 +212,7 @@ get_ical_is_all_day (ECalClient    *cal,
 
   duration = i_cal_property_get_duration (prop);
 
-  retval = duration && (i_cal_duration_as_int (duration) % 86400) == 0;
+  retval = duration && (i_cal_duration_get_seconds (duration) % 86400) == 0;
 
   g_clear_object (&duration);
   g_clear_object (&prop);
@@ -228,7 +228,7 @@ get_ical_due_time (ECalClient    *cal,
   return get_time_from_property (cal,
                                  icomp,
                                  I_CAL_DUE_PROPERTY,
-                                 i_cal_property_get_due,
+                                 (ICalTime * (*)(ICalProperty *)) i_cal_property_get_due,
                                  default_zone);
 }
 
@@ -240,7 +240,7 @@ get_ical_completed_time (ECalClient    *cal,
   return get_time_from_property (cal,
                                  icomp,
                                  I_CAL_COMPLETED_PROPERTY,
-                                 i_cal_property_get_completed,
+                                 (ICalTime * (*)(ICalProperty *)) i_cal_property_get_completed,
                                  default_zone);
 }
 
