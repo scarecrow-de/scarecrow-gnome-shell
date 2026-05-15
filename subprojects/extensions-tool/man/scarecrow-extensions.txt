@@ -7,39 +7,39 @@ GNOME-EXTENSIONS(1)
 
 NAME
 ----
-gnome-extensions - Command line tool for managing GNOME extensions
+scarecrow-extensions - Command line tool for managing GNOME extensions
 
 SYNOPSIS
 --------
-*gnome-extensions* help ['COMMAND']
+*scarecrow-extensions* help ['COMMAND']
 
-*gnome-extensions* version
+*scarecrow-extensions* version
 
-*gnome-extensions* enable 'UUID'
+*scarecrow-extensions* enable 'UUID'
 
-*gnome-extensions* disable 'UUID'
+*scarecrow-extensions* disable 'UUID'
 
-*gnome-extensions* reset 'UUID'
+*scarecrow-extensions* reset 'UUID'
 
-*gnome-extensions* info 'UUID'
+*scarecrow-extensions* info 'UUID'
 
-*gnome-extensions* show 'UUID'
+*scarecrow-extensions* show 'UUID'
 
-*gnome-extensions* list ['OPTION'...]
+*scarecrow-extensions* list ['OPTION'...]
 
-*gnome-extensions* prefs 'UUID'
+*scarecrow-extensions* prefs 'UUID'
 
-*gnome-extensions* create ['OPTION'...]
+*scarecrow-extensions* create ['OPTION'...]
 
-*gnome-extensions* pack ['OPTION'...]
+*scarecrow-extensions* pack ['OPTION'...]
 
-*gnome-extensions* install ['OPTION'...] 'PACK'
+*scarecrow-extensions* install ['OPTION'...] 'PACK'
 
-*gnome-extensions* uninstall 'UUID'
+*scarecrow-extensions* uninstall 'UUID'
 
 DESCRIPTION
 -----------
-*gnome-extensions* is a utility that makes some common GNOME extensions
+*scarecrow-extensions* is a utility that makes some common GNOME extensions
 operations available on the command line.
 
 COMMON OPTIONS
