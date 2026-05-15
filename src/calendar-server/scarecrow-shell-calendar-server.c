@@ -117,7 +117,7 @@ static time_t
 get_time_from_property (ECalClient            *cal,
                         ICalComponent         *icomp,
                         ICalPropertyKind       prop_kind,
-                        (ICalTime * (*)(ICalProperty *) (* get_prop_func)),
+                        ICalTime * (* get_prop_func) (ICalProperty *prop),
                         ICalTimezone          *default_zone)
 {
   ICalProperty  *prop;
