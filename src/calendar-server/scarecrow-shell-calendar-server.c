@@ -159,7 +159,7 @@ get_ical_start_time (ECalClient    *cal,
   return get_time_from_property (cal,
                                  icomp,
                                  I_CAL_DTSTART_PROPERTY,
-                                 i_cal_property_get_dtstart,
+                                 (ICalTime * (*)(ICalProperty *)) i_cal_property_get_dtstart,
                                  default_zone);
 }
 
@@ -171,7 +171,7 @@ get_ical_end_time (ECalClient    *cal,
   return get_time_from_property (cal,
                                  icomp,
                                  I_CAL_DTEND_PROPERTY,
-                                 i_cal_property_get_dtend,
+                                 (ICalTime * (*)(ICalProperty *)) i_cal_property_get_dtend,
                                  default_zone);
 }
 
