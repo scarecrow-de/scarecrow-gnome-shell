@@ -294,9 +294,9 @@ msgstr "தாய் சாளரத்துக்கு மாதிரி உ
 
 #: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:38
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
 msgstr ""
-"இந்த விசை io.github.scarecrow_de.mutter இல் உள்ள விசையை க்னோம் ஷெல்லை இயக்கும்போது "
+"இந்த விசை io.github.scarecrow_de.vater இல் உள்ள விசையை க்னோம் ஷெல்லை இயக்கும்போது "
 "வன்மீறல் செய்கிறது."
 
 #: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:39

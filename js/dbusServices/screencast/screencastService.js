@@ -14,11 +14,11 @@ const IntrospectIface = loadInterfaceXML('io.github.scarecrow_de.Shell.Introspec
 const IntrospectProxy = Gio.DBusProxy.makeProxyWrapper(IntrospectIface);
 
 const ScreenCastIface = loadSubInterfaceXML(
-    'io.github.scarecrow_de.Mutter.ScreenCast', 'io.github.scarecrow_de.Mutter.ScreenCast');
+    'io.github.scarecrow_de.Vater.ScreenCast', 'io.github.scarecrow_de.Vater.ScreenCast');
 const ScreenCastSessionIface = loadSubInterfaceXML(
-    'io.github.scarecrow_de.Mutter.ScreenCast.Session', 'io.github.scarecrow_de.Mutter.ScreenCast');
+    'io.github.scarecrow_de.Vater.ScreenCast.Session', 'io.github.scarecrow_de.Vater.ScreenCast');
 const ScreenCastStreamIface = loadSubInterfaceXML(
-    'io.github.scarecrow_de.Mutter.ScreenCast.Stream', 'io.github.scarecrow_de.Mutter.ScreenCast');
+    'io.github.scarecrow_de.Vater.ScreenCast.Stream', 'io.github.scarecrow_de.Vater.ScreenCast');
 const ScreenCastProxy = Gio.DBusProxy.makeProxyWrapper(ScreenCastIface);
 const ScreenCastSessionProxy = Gio.DBusProxy.makeProxyWrapper(ScreenCastSessionIface);
 const ScreenCastStreamProxy = Gio.DBusProxy.makeProxyWrapper(ScreenCastStreamIface);
@@ -130,7 +130,7 @@ var Recorder = class {
 
     _initSession(sessionPath) {
         this._sessionProxy = new ScreenCastSessionProxy(Gio.DBus.session,
-            'io.github.scarecrow_de.Mutter.ScreenCast',
+            'io.github.scarecrow_de.Vater.ScreenCast',
             sessionPath);
         this._sessionProxy.connectSignal('Closed', this._onSessionClosed.bind(this));
     }
@@ -256,8 +256,8 @@ var ScreencastService = class extends ServiceImplementation {
         });
 
         this._proxy = new ScreenCastProxy(Gio.DBus.session,
-            'io.github.scarecrow_de.Mutter.ScreenCast',
-            '/io/github/scarecrow_de/Mutter/ScreenCast');
+            'io.github.scarecrow_de.Vater.ScreenCast',
+            '/io/github/scarecrow_de/Vater/ScreenCast');
 
         this._introspectProxy = new IntrospectProxy(Gio.DBus.session,
             'io.github.scarecrow_de.Shell.Introspect',

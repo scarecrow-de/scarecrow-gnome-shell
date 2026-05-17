@@ -409,9 +409,9 @@ msgstr "Pripojiť modálne dialógové okno k rodičovskému oknu"
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:303
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
 msgstr ""
-"Tento kľúč preváži kľúč v io.github.scarecrow_de.mutter po spustení Shellu prostredia "
+"Tento kľúč preváži kľúč v io.github.scarecrow_de.vater po spustení Shellu prostredia "
 "GNOME."
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:286

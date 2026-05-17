@@ -376,9 +376,9 @@ msgstr "ਮੂਲ ਵਿੰਡੋ ਵਿੱਚ ਮਾਡਲ ਡਾਈਲਾਗ �
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:292
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:300
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
 msgstr ""
-"ਇਹ ਕੁੰਜੀ ਗਨੋਮ ਸ਼ੈੱਲ ਚੱਲਣ ਦੇ ਦੌਰਾਨ  io.github.scarecrow_de.mutter ਕੁੰਜੀ ਨੂੰ ਅਣਡਿੱਠਾ ਕਰਦੀ ਹੈ।"
+"ਇਹ ਕੁੰਜੀ ਗਨੋਮ ਸ਼ੈੱਲ ਚੱਲਣ ਦੇ ਦੌਰਾਨ  io.github.scarecrow_de.vater ਕੁੰਜੀ ਨੂੰ ਅਣਡਿੱਠਾ ਕਰਦੀ ਹੈ।"
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:275
 msgid "Enable edge tiling when dropping windows on screen edges"

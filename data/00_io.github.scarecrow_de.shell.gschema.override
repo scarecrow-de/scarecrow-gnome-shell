@@ -1,4 +1,4 @@
-[io.github.scarecrow_de.mutter:GNOME]
+[io.github.scarecrow_de.vater:GNOME]
 attach-modal-dialogs=true
 edge-tiling=true
 dynamic-workspaces=true

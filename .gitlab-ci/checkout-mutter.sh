@@ -7,49 +7,49 @@ fetch() {
   git fetch --quiet --depth=1 $remote $ref 2>/dev/null
 }
 
-mutter_target=
+vater_target=
 
-echo -n Cloning into mutter ...
-if git clone --quiet --depth=1 https://gitlab.gnome.org/GNOME/mutter.git; then
+echo -n Cloning into vater ...
+if git clone --quiet --depth=1 https://gitlab.gnome.org/GNOME/vater.git; then
   echo \ done
 else
   echo \ failed
   exit 1
 fi
 
-cd mutter
+cd vater
 
 if [ "$CI_MERGE_REQUEST_TARGET_BRANCH_NAME" ]; then
-  merge_request_remote=${CI_MERGE_REQUEST_SOURCE_PROJECT_URL//scarecrow-shell/mutter}
+  merge_request_remote=${CI_MERGE_REQUEST_SOURCE_PROJECT_URL//scarecrow-shell/vater}
   merge_request_branch=$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME
 
   echo -n Looking for $merge_request_branch on remote ...
   if fetch $merge_request_remote $merge_request_branch; then
     echo \ found
-    mutter_target=FETCH_HEAD
+    vater_target=FETCH_HEAD
   else
     echo \ not found
 
     echo -n Looking for $CI_MERGE_REQUEST_TARGET_BRANCH_NAME instead ...
     if fetch origin $CI_MERGE_REQUEST_TARGET_BRANCH_NAME; then
       echo \ found
-      mutter_target=FETCH_HEAD
+      vater_target=FETCH_HEAD
     else
       echo \ not found
     fi
   fi
 fi
 
-if [ -z "$mutter_target" ]; then
+if [ -z "$vater_target" ]; then
   echo -n Looking for $CI_COMMIT_REF_NAME on remote ...
   if fetch origin $CI_COMMIT_REF_NAME; then
     echo \ found
-    mutter_target=FETCH_HEAD
+    vater_target=FETCH_HEAD
   else
     echo \ not found
-    mutter_target=origin/master
-    echo Using $mutter_target instead
+    vater_target=origin/master
+    echo Using $vater_target instead
   fi
 fi
 
-git checkout -q $mutter_target
+git checkout -q $vater_target

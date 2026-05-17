@@ -326,9 +326,9 @@ msgstr "Modaaldialoog kuulub vanemakna juurde"
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:268
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:276
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
 msgstr ""
-"See võti on ülimuslik võtme io.github.scarecrow_de.mutter suhtes, kui kasutatakse GNOME "
+"See võti on ülimuslik võtme io.github.scarecrow_de.vater suhtes, kui kasutatakse GNOME "
 "Shelli."
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:251

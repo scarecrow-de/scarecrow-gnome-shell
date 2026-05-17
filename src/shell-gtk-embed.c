@@ -78,7 +78,7 @@ shell_gtk_embed_window_created_cb (MetaDisplay   *display,
       /* We want to explicitly clear the clone source when the window
          actor is destroyed because otherwise we might end up keeping
          it alive after it has been disposed. Otherwise this can cause
-         a crash if there is a paint after mutter notices that the top
+         a crash if there is a paint after vater notices that the top
          level window has been destroyed, which causes it to dispose
          the window, and before the tray manager notices that the
          window is gone which would otherwise reset the window and
@@ -101,8 +101,8 @@ shell_gtk_embed_window_created_cb (MetaDisplay   *display,
       /* Set an empty input shape on the window so that it can't get
          any input. This probably isn't the ideal way to achieve this.
          It would probably be better to force the window to go behind
-         Mutter's guard window, but this is quite difficult to do as
-         Mutter doesn't manage the stacking for override redirect
+         Vater's guard window, but this is quite difficult to do as
+         Vater doesn't manage the stacking for override redirect
          windows and the guard window is repeatedly lowered to the
          bottom of the stack. */
       empty_region = cairo_region_create ();
@@ -128,8 +128,8 @@ shell_gtk_embed_on_window_mapped (GtkWidget     *object,
   MetaDisplay *display = shell_global_get_display (shell_global_get ());
 
   if (priv->window_created_handler == 0 && priv->window_actor == NULL)
-    /* Listen for new windows so we can detect when Mutter has
-       created a MutterWindow for this window */
+    /* Listen for new windows so we can detect when Vater has
+       created a VaterWindow for this window */
     priv->window_created_handler =
       g_signal_connect (display,
                         "window-created",

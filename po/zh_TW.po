@@ -354,8 +354,8 @@ msgstr "情態對話盒附連母視窗"
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:303
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
-msgstr "這個設定鍵會在執行 Scarecrow Shell 時覆蓋 io.github.scarecrow_de.mutter 中的設定鍵。"
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
+msgstr "這個設定鍵會在執行 Scarecrow Shell 時覆蓋 io.github.scarecrow_de.vater 中的設定鍵。"
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:286
 msgid "Enable edge tiling when dropping windows on screen edges"

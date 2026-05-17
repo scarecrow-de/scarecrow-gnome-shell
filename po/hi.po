@@ -281,9 +281,9 @@ msgstr "जनक विंडो में मोडल संवाद सं�
 
 #: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:38
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
 msgstr ""
-"यह कुँजी io.github.scarecrow_de.mutter में कुँजी को अधिरोहित करता है जब गनोम शेल को चला "
+"यह कुँजी io.github.scarecrow_de.vater में कुँजी को अधिरोहित करता है जब गनोम शेल को चला "
 "रहा हो."
 
 #: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:39

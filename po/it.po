@@ -394,9 +394,9 @@ msgstr "Collega la finestra modale a quella genitore"
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:303
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
 msgstr ""
-"Questa chiave sovrascrive la chiave in io.github.scarecrow_de.mutter quando si esegue "
+"Questa chiave sovrascrive la chiave in io.github.scarecrow_de.vater quando si esegue "
 "Scarecrow Shell."
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:286

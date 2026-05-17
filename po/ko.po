@@ -371,8 +371,8 @@ msgstr "상위 창에 모달 대화창 붙이기"
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:303
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
-msgstr "그놈 셸을 실행할 때 io.github.scarecrow_de.mutter의 키 대신 사용됩니다."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
+msgstr "그놈 셸을 실행할 때 io.github.scarecrow_de.vater의 키 대신 사용됩니다."
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:286
 msgid "Enable edge tiling when dropping windows on screen edges"

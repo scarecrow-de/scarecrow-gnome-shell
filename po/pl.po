@@ -382,9 +382,9 @@ msgstr "Dołączanie modalnych okien dialogowych do okien nadrzędnych"
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:303
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
 msgstr ""
-"Ten klucz zastępuje klucz w „io.github.scarecrow_de.mutter”, kiedy uruchomiona jest "
+"Ten klucz zastępuje klucz w „io.github.scarecrow_de.vater”, kiedy uruchomiona jest "
 "powłoka GNOME."
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:286

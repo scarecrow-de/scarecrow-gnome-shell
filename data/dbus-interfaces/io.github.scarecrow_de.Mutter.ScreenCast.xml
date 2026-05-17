@@ -4,14 +4,14 @@
 <node>
 
   <!--
-      io.github.scarecrow_de.Mutter.ScreenCast:
+      io.github.scarecrow_de.Vater.ScreenCast:
       @short_description: Screen cast interface
 
       This API is private and not intended to be used outside of the integrated
-      system that uses libmutter. No compatibility between versions are
+      system that uses libvater. No compatibility between versions are
       promised.
   -->
-  <interface name="io.github.scarecrow_de.Mutter.ScreenCast">
+  <interface name="io.github.scarecrow_de.Vater.ScreenCast">
 
     <!--
 	CreateSession:
@@ -41,10 +41,10 @@
   </interface>
 
   <!--
-       io.github.scarecrow_de.Mutter.ScreenCast.Session:
+       io.github.scarecrow_de.Vater.ScreenCast.Session:
        @short_description: Screen cast session
   -->
-  <interface name="io.github.scarecrow_de.Mutter.ScreenCast.Session">
+  <interface name="io.github.scarecrow_de.Vater.ScreenCast.Session">
 
     <!--
 	Start:
@@ -156,10 +156,10 @@
   </interface>
 
   <!--
-       io.github.scarecrow_de.Mutter.ScreenCast.Stream:
+       io.github.scarecrow_de.Vater.ScreenCast.Stream:
        @short_description: Screen cast stream
   -->
-  <interface name="io.github.scarecrow_de.Mutter.ScreenCast.Stream">
+  <interface name="io.github.scarecrow_de.Vater.ScreenCast.Stream">
 
     <!--
 	PipeWireStreamAdded:

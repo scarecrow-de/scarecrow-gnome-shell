@@ -380,9 +380,9 @@ msgstr "Прикреплять модальное диалоговое окно 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:292
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:300
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
 msgstr ""
-"Этот ключ переопределяет ключ в io.github.scarecrow_de.mutter при запуске Scarecrow Shell."
+"Этот ключ переопределяет ключ в io.github.scarecrow_de.vater при запуске Scarecrow Shell."
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:275
 msgid "Enable edge tiling when dropping windows on screen edges"

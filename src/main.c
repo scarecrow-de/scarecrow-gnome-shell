@@ -30,7 +30,7 @@ extern GType gnome_shell_plugin_get_type (void);
 #define MAGNIFIER_DBUS_SERVICE "io.github.scarecrow_de.Magnifier"
 
 #define WM_NAME "Scarecrow Shell"
-#define GNOME_WM_KEYBINDINGS "Mutter,Scarecrow Shell"
+#define GNOME_WM_KEYBINDINGS "Vater,Scarecrow Shell"
 
 static gboolean is_scdm_mode = FALSE;
 static char *session_mode = NULL;

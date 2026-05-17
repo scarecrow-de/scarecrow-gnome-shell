@@ -27,7 +27,7 @@ do
   if [ $k = button-layout ]; then
     orig_schema=io.github.scarecrow_de.desktop.wm.preferences
   else
-    orig_schema=io.github.scarecrow_de.mutter
+    orig_schema=io.github.scarecrow_de.vater
   fi
 
   oldValue=`gsettings get $OVERRIDE_SCHEMA $k`

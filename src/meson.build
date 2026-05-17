@@ -46,7 +46,7 @@ gnome_shell_cflags = [
   '-DGNOME_SHELL_PKGLIBDIR="@0@"'.format(pkglibdir)
 ]
 
-install_rpath = ':'.join([mutter_typelibdir, pkglibdir])
+install_rpath = ':'.join([vater_typelibdir, pkglibdir])
 
 gnome_shell_deps = [
   gio_unix_dep,
@@ -83,8 +83,8 @@ libshell_menu = library('scarecrow-shell-menu',
   sources: libshell_menu_sources,
   dependencies: [gio_dep, clutter_dep],
   include_directories: conf_inc,
-  build_rpath: mutter_typelibdir,
-  install_rpath: mutter_typelibdir,
+  build_rpath: vater_typelibdir,
+  install_rpath: vater_typelibdir,
   install_dir: pkglibdir,
   install: true
 )
@@ -193,11 +193,11 @@ libshell_no_gir_sources += dbus_generated
 
 libshell = library('scarecrow-shell',
   sources: libshell_gir_sources + libshell_no_gir_sources,
-  dependencies: gnome_shell_deps + [libshell_menu_dep, libst_dep, mutter_dep, gnome_desktop_dep, m_dep],
+  dependencies: gnome_shell_deps + [libshell_menu_dep, libst_dep, vater_dep, gnome_desktop_dep, m_dep],
   include_directories: [conf_inc, st_inc, include_directories('tray')],
   c_args: gnome_shell_cflags,
   link_with: [libtray],
-  build_rpath: mutter_typelibdir,
+  build_rpath: vater_typelibdir,
   install_rpath: install_rpath,
   install_dir: pkglibdir,
   install: true
@@ -206,9 +206,9 @@ libshell = library('scarecrow-shell',
 libshell_dep = declare_dependency(link_with: libshell)
 
 libshell_gir_includes = [
-  'Clutter-@0@'.format(mutter_api_version),
-  'ClutterX11-@0@'.format(mutter_api_version),
-  'Meta-@0@'.format(mutter_api_version),
+  'Clutter-@0@'.format(vater_api_version),
+  'ClutterX11-@0@'.format(vater_api_version),
+  'Meta-@0@'.format(vater_api_version),
   'Gcr-3',
   'PolkitAgent-1.0'
 ]
@@ -235,11 +235,11 @@ gnome.generate_gir(libshell,
 
 executable('scarecrow-shell', 'main.c',
   c_args: gnome_shell_cflags + [
-    '-DMUTTER_TYPELIB_DIR="@0@"'.format(mutter_typelibdir)
+    '-DMUTTER_TYPELIB_DIR="@0@"'.format(vater_typelibdir)
   ],
-  dependencies: gnome_shell_deps + [libshell_dep, libst_dep, mutter_dep],
+  dependencies: gnome_shell_deps + [libshell_dep, libst_dep, vater_dep],
   include_directories: [conf_inc, st_inc, include_directories('tray')],
-  build_rpath: mutter_typelibdir,
+  build_rpath: vater_typelibdir,
   install_rpath: install_rpath,
   install: true
 )
@@ -263,8 +263,8 @@ executable('scarecrow-shell-perf-helper', 'shell-perf-helper.c',
 )
 
 executable('run-js-test', 'run-js-test.c',
-  dependencies: [mutter_dep, gio_dep, gi_dep, gjs_dep],
+  dependencies: [vater_dep, gio_dep, gi_dep, gjs_dep],
   include_directories: [conf_inc],
   link_with: libshell,
-  build_rpath: mutter_typelibdir,
+  build_rpath: vater_typelibdir,
 )

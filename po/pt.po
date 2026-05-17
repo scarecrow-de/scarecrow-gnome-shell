@@ -393,9 +393,9 @@ msgstr "Anexar diálogo modal à janela mãe"
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:303
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
 msgstr ""
-"Esta chave ignora a chave em io.github.scarecrow_de.mutter ao executar a interface GNOME."
+"Esta chave ignora a chave em io.github.scarecrow_de.vater ao executar a interface GNOME."
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:286
 msgid "Enable edge tiling when dropping windows on screen edges"

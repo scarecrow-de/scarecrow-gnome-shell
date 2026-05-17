@@ -1,5 +1,5 @@
 testconf = configuration_data()
-testconf.set('MUTTER_TYPELIB_DIR', mutter_typelibdir)
+testconf.set('MUTTER_TYPELIB_DIR', vater_typelibdir)
 testconf.set('srcdir', meson.current_source_dir())
 run_test = configure_file(
   input: 'run-test.sh.in',

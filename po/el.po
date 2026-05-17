@@ -373,9 +373,9 @@ msgstr "Προσάρτηση αποκλειστικού διαλόγου στο 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:292
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:300
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
 msgstr ""
-"Αυτό το κλειδί υπερισχύει του κλειδιού που υπάρχει στο io.github.scarecrow_de.mutter όταν "
+"Αυτό το κλειδί υπερισχύει του κλειδιού που υπάρχει στο io.github.scarecrow_de.vater όταν "
 "εκτελείται το Scarecrow Shell."
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:275

@@ -98,7 +98,7 @@ class DisplayChangeDialog extends ModalDialog.ModalDialog {
         this._countDown--;
 
         if (this._countDown == 0) {
-            /* mutter already takes care of failing at timeout */
+            /* vater already takes care of failing at timeout */
             this._timeoutId = 0;
             this.close();
             return GLib.SOURCE_REMOVE;
@@ -205,7 +205,7 @@ var WorkspaceTracker = class {
         global.display.connect('restacked',
                                this._windowsRestacked.bind(this));
 
-        this._workspaceSettings = new Gio.Settings({ schema_id: 'io.github.scarecrow_de.mutter' });
+        this._workspaceSettings = new Gio.Settings({ schema_id: 'io.github.scarecrow_de.vater' });
         this._workspaceSettings.connect('changed::dynamic-workspaces', this._queueCheckWorkspaces.bind(this));
 
         this._nWorkspacesChanged();
@@ -1630,7 +1630,7 @@ var WindowManager = class {
         if (Main.actionMode == Shell.ActionMode.NONE)
             return true;
 
-        // There's little sense in implementing a keybinding in mutter and
+        // There's little sense in implementing a keybinding in vater and
         // not having it work in NORMAL mode; handle this case generically
         // so we don't have to explicitly allow all builtin keybindings in
         // NORMAL mode.

@@ -297,8 +297,8 @@ msgstr "Чапляць мадальныя дыялогавыя акенцы да
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:224
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:232
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
-msgstr "Гэты ключ падмяняе ключ у io.github.scarecrow_de.mutter пры запуску Абалонкі GNOME."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
+msgstr "Гэты ключ падмяняе ключ у io.github.scarecrow_de.vater пры запуску Абалонкі GNOME."
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:207
 msgid "Enable edge tiling when dropping windows on screen edges"

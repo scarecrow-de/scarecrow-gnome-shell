@@ -10,7 +10,7 @@ variables:
     BUNDLE: "extensions-git.flatpak"
     JS_LOG: "js-report.txt"
 
-image: registry.gitlab.gnome.org/gnome/mutter/fedora/33:2020-11-20.1
+image: registry.gitlab.gnome.org/gnome/vater/fedora/33:2020-11-20.1
 
 .only_default: &only_default
     only:
@@ -68,9 +68,9 @@ build:
     stage: build
     needs: []
     before_script:
-        - .gitlab-ci/checkout-mutter.sh
-        - meson mutter mutter/build --prefix=/usr -Dtests=false
-        - ninja -C mutter/build install
+        - .gitlab-ci/checkout-vater.sh
+        - meson vater vater/build --prefix=/usr -Dtests=false
+        - ninja -C vater/build install
     script:
         - meson . build -Dbuiltype=debugoptimized -Dman=false --werror
         - ninja -C build
@@ -79,7 +79,7 @@ build:
     artifacts:
         expire_in: 1 day
         paths:
-            - mutter
+            - vater
             - build
 
 test:
@@ -89,7 +89,7 @@ test:
         XDG_RUNTIME_DIR: "$CI_PROJECT_DIR/runtime-dir"
         NO_AT_BRIDGE: "1"
     before_script:
-        - ninja -C mutter/build install
+        - ninja -C vater/build install
     script:
         - dbus-run-session -- xvfb-run meson test -C build --no-rebuild
     <<: *only_default

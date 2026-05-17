@@ -928,15 +928,15 @@ class ThumbnailSwitcher extends SwitcherPopup.SwitcherList {
         binHeight = Math.min(thumbnailSize, binHeight);
 
         for (let i = 0; i < this._thumbnailBins.length; i++) {
-            let mutterWindow = this._windows[i].get_compositor_private();
-            if (!mutterWindow)
+            let vaterWindow = this._windows[i].get_compositor_private();
+            if (!vaterWindow)
                 continue;
 
-            let clone = _createWindowClone(mutterWindow, thumbnailSize);
+            let clone = _createWindowClone(vaterWindow, thumbnailSize);
             this._thumbnailBins[i].set_height(binHeight);
             this._thumbnailBins[i].add_actor(clone);
 
-            clone._destroyId = mutterWindow.connect('destroy', source => {
+            clone._destroyId = vaterWindow.connect('destroy', source => {
                 this._removeThumbnail(source, clone);
             });
             this._clones.push(clone);
@@ -986,7 +986,7 @@ class WindowIcon extends St.BoxLayout {
         let tracker = Shell.WindowTracker.get_default();
         this.app = tracker.get_window_app(window);
 
-        let mutterWindow = this.window.get_compositor_private();
+        let vaterWindow = this.window.get_compositor_private();
         let size;
 
         this._icon.destroy_all_children();
@@ -996,12 +996,12 @@ class WindowIcon extends St.BoxLayout {
         switch (mode) {
         case AppIconMode.THUMBNAIL_ONLY:
             size = WINDOW_PREVIEW_SIZE;
-            this._icon.add_actor(_createWindowClone(mutterWindow, size * scaleFactor));
+            this._icon.add_actor(_createWindowClone(vaterWindow, size * scaleFactor));
             break;
 
         case AppIconMode.BOTH:
             size = WINDOW_PREVIEW_SIZE;
-            this._icon.add_actor(_createWindowClone(mutterWindow, size * scaleFactor));
+            this._icon.add_actor(_createWindowClone(vaterWindow, size * scaleFactor));
 
             if (this.app) {
                 this._icon.add_actor(this._createAppIcon(this.app,

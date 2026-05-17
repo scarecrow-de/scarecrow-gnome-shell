@@ -367,9 +367,9 @@ msgstr "Fest modal dialog til opphavsvinduet"
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:303
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
 msgstr ""
-"Denne nøkkelen overstyrer nøkkelen i io.github.scarecrow_de.mutter når Scarecrow Shell kjøres."
+"Denne nøkkelen overstyrer nøkkelen i io.github.scarecrow_de.vater når Scarecrow Shell kjøres."
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:286
 msgid "Enable edge tiling when dropping windows on screen edges"

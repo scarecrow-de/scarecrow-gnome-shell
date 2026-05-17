@@ -392,9 +392,9 @@ msgstr "Atașează dialogul modal la fereastra părinte"
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:303
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
 msgstr ""
-"Această cheie suprascrie cheia corespondentă din io.github.scarecrow_de.mutter când "
+"Această cheie suprascrie cheia corespondentă din io.github.scarecrow_de.vater când "
 "Vizualizatorul activităților GNOME rulează."
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:286

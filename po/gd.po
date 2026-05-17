@@ -259,8 +259,8 @@ msgstr "Ceangail còmhradh mòdach ris an uinneag-pàrant"
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:224
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:232
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
-msgstr "Tar-àithnidh an iuchair seo an iuchair ann an io.github.scarecrow_de.mutter nuair a thèid Slige GNOME a ruith."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
+msgstr "Tar-àithnidh an iuchair seo an iuchair ann an io.github.scarecrow_de.vater nuair a thèid Slige GNOME a ruith."
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:207
 msgid "Enable edge tiling when dropping windows on screen edges"

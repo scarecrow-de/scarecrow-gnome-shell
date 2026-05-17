@@ -381,9 +381,9 @@ msgstr "Прикачиње прозорче родитељском прозор�
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:303
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
 msgstr ""
-"Овај кључ превазилази кључ у „io.github.scarecrow_de.mutter“ када покреће Гномову шкољку."
+"Овај кључ превазилази кључ у „io.github.scarecrow_de.vater“ када покреће Гномову шкољку."
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:286
 msgid "Enable edge tiling when dropping windows on screen edges"

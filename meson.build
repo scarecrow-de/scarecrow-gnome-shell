@@ -6,17 +6,17 @@ project('scarecrow-shell', 'c',
 
 split_version = meson.project_version().split('.')
 
-# We depend on a specific version of the libmutter API. The mutter variants of
+# We depend on a specific version of the libvater API. The vater variants of
 # the Cogl and Clutter libraries also use this API version.
 # The API version is increased automatically each development cycle,
 # starting with 0 in 3.23.x
 api_version = (split_version[1].to_int() - 23) / 2
-mutter_api_version = '@0@'.format(api_version)
+vater_api_version = '@0@'.format(api_version)
 
-clutter_pc = 'mutter-clutter-' + mutter_api_version
-cogl_pc = 'mutter-cogl-' + mutter_api_version
-cogl_pango_pc = 'mutter-cogl-pango-' + mutter_api_version
-libmutter_pc = 'libmutter-' + mutter_api_version
+clutter_pc = 'vater-clutter-' + vater_api_version
+cogl_pc = 'vater-cogl-' + vater_api_version
+cogl_pango_pc = 'vater-cogl-pango-' + vater_api_version
+libvater_pc = 'libvater-' + vater_api_version
 
 ecal_req = '>= 3.33.1'
 eds_req = '>= 3.33.1'
@@ -25,7 +25,7 @@ gio_req = '>= 2.56.0'
 gi_req = '>= 1.49.1'
 gjs_req = '>= 1.65.1'
 gtk_req = '>= 3.15.0'
-mutter_req = '>= 3.38.0'
+vater_req = '>= 3.38.0'
 polkit_req = '>= 0.100'
 schemas_req = '>= 3.33.1'
 startup_req = '>= 0.11'
@@ -87,10 +87,10 @@ else
 endif
 gtk_dep = dependency('gtk+-3.0', version: gtk_req)
 libxml_dep = dependency('libxml-2.0')
-clutter_dep = dependency(clutter_pc, version: mutter_req)
-cogl_dep = dependency(cogl_pc, version: mutter_req)
-cogl_pango_dep = dependency(cogl_pango_pc, version: mutter_req)
-mutter_dep = dependency(libmutter_pc, version: mutter_req)
+clutter_dep = dependency(clutter_pc, version: vater_req)
+cogl_dep = dependency(cogl_pc, version: vater_req)
+cogl_pango_dep = dependency(cogl_pango_pc, version: vater_req)
+vater_dep = dependency(libvater_pc, version: vater_req)
 polkit_dep = dependency('polkit-agent-1', version: polkit_req)
 startup_dep = dependency('libstartup-notification-1.0', version: startup_req)
 ibus_dep = dependency('ibus-1.0', version: ibus_req)
@@ -136,7 +136,7 @@ if get_option('man')
   subdir('man')
 endif
 
-mutter_typelibdir = mutter_dep.get_pkgconfig_variable('typelibdir')
+vater_typelibdir = vater_dep.get_pkgconfig_variable('typelibdir')
 python = find_program('python3')
 sassc = find_program('sassc')
 gjs = find_program('gjs')

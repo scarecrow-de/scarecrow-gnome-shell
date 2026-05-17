@@ -7,7 +7,7 @@ const Main = imports.ui.main;
 const Params = imports.misc.params;
 
 // FIXME: ideally these values matches physical touchpad size. We can get the
-// correct values for scarecrow-shell specifically, since mutter uses libinput
+// correct values for scarecrow-shell specifically, since vater uses libinput
 // directly, but GTK apps cannot get it, so use an arbitrary value so that
 // it's consistent with apps.
 const TOUCHPAD_BASE_HEIGHT = 300;

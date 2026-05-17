@@ -282,9 +282,9 @@ msgstr "Модал диалог ойнани бош ойнасига маҳка�
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:215
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:223
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
 msgstr ""
-"Scarecrow Shell ишга тушганида ушбу калит io.github.scarecrow_de.mutterдаги калитни бошқадан "
+"Scarecrow Shell ишга тушганида ушбу калит io.github.scarecrow_de.vaterдаги калитни бошқадан "
 "белгилайди."
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:198

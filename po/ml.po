@@ -257,8 +257,8 @@ msgstr "പേരന്റ് ജാലകത്തിലേക്കു് ഡ�
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:199 data/io.github.scarecrow_de.shell.gschema.xml.in:208
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:216 data/io.github.scarecrow_de.shell.gschema.xml.in:224
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:232
-msgid "This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
-msgstr "ഗ്നോം ഷെല്‍ പ്രവര്‍ത്തിയ്ക്കുമ്പോള്‍ io.github.scarecrow_de.mutter-ലുള്ള കീ ഈ കീ തിരുത്തിയെഴുതുന്നു."
+msgid "This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
+msgstr "ഗ്നോം ഷെല്‍ പ്രവര്‍ത്തിയ്ക്കുമ്പോള്‍ io.github.scarecrow_de.vater-ലുള്ള കീ ഈ കീ തിരുത്തിയെഴുതുന്നു."
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:207
 msgid "Enable edge tiling when dropping windows on screen edges"

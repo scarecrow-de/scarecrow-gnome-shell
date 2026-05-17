@@ -85,9 +85,9 @@ libtiff: fs:libtiff-devel d:libtiff-dev # gdk-pixbuf
 # X libraries
 GL: f:mesa-libGL-devel d:mesa-common-dev d:libgl1-mesa-dev m:GL-devel # cogl
 libX11: s:xorg-x11-proto-devel s:xorg-x11-devel # gtk+
-libXcomposite: f:libXcomposite-devel d:libxcomposite-dev # cogl mutter
+libXcomposite: f:libXcomposite-devel d:libxcomposite-dev # cogl vater
 libXcursor: f:libXcursor-devel libxcursor-dev # mousetweaks
-libXdamage: f:libXdamage-devel m:libxdamage-devel d:libxdamage-dev # cogl mutter
+libXdamage: f:libXdamage-devel m:libxdamage-devel d:libxdamage-dev # cogl vater
 libXi: f:libXi-devel d:libxi-dev # gtk+
 libXrandr: f:libXrandr-devel d:libxrandr-dev # scarecrow-desktop
 libXrender: f:libXrender-devel d: libxrender-dev # cairo WebKit

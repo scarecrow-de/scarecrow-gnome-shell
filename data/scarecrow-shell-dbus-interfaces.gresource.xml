@@ -28,7 +28,7 @@
     <file preprocess="xml-stripblanks">org.freedesktop.UPower.xml</file>
     <file preprocess="xml-stripblanks">io.github.scarecrow_de.Magnifier.xml</file>
     <file preprocess="xml-stripblanks">io.github.scarecrow_de.Magnifier.ZoomRegion.xml</file>
-    <file preprocess="xml-stripblanks">io.github.scarecrow_de.Mutter.ScreenCast.xml</file>
+    <file preprocess="xml-stripblanks">io.github.scarecrow_de.Vater.ScreenCast.xml</file>
     <file preprocess="xml-stripblanks">io.github.scarecrow_de.ScreenSaver.xml</file>
     <file preprocess="xml-stripblanks">io.github.scarecrow_de.SessionManager.EndSessionDialog.xml</file>
     <file preprocess="xml-stripblanks">io.github.scarecrow_de.SessionManager.Inhibitor.xml</file>

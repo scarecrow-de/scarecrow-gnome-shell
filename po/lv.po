@@ -377,8 +377,8 @@ msgstr "Pievienot modālo dialoglodziņu vecāka logam"
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:303
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
-msgstr "Šī atslēga pārraksta io.github.scarecrow_de.mutter atslēgu, darbinot GNOME čaulu."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
+msgstr "Šī atslēga pārraksta io.github.scarecrow_de.vater atslēgu, darbinot GNOME čaulu."
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:286
 msgid "Enable edge tiling when dropping windows on screen edges"

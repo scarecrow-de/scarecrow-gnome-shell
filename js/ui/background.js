@@ -3,7 +3,7 @@
 
 // READ THIS FIRST
 // Background handling is a maze of objects, both objects in this file, and
-// also objects inside Mutter. They all have a role.
+// also objects inside Vater. They all have a role.
 //
 // BackgroundManager
 //   The only object that other parts of Scarecrow Shell deal with; a

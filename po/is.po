@@ -320,9 +320,9 @@ msgstr "Festa kvaðningarglugga við yfirglugga"
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:268
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:276
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
 msgstr ""
-"Þetta hefur forgang fram yfir lykilinn í kjörstillingum io.github.scarecrow_de.mutter "
+"Þetta hefur forgang fram yfir lykilinn í kjörstillingum io.github.scarecrow_de.vater "
 "þegar GNOME-skelin er keyrð."
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:251

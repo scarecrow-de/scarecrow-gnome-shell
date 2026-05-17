@@ -126,7 +126,7 @@ var _Draggable = class _Draggable {
         // We only handle touch events here on wayland. On X11
         // we do get emulated pointer events, which already works
         // for single-touch cases. Besides, the X11 passive touch grab
-        // set up by Mutter will make us see first the touch events
+        // set up by Vater will make us see first the touch events
         // and later the pointer events, so it will look like two
         // unrelated series of events, we want to avoid double handling
         // in these cases.

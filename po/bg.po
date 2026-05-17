@@ -298,9 +298,9 @@ msgstr "Прилепени модални диалогови прозорци"
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:223
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:231
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
 msgstr ""
-"Този ключ е с предимство пред ключа io.github.scarecrow_de.mutter, когато се използва "
+"Този ключ е с предимство пред ключа io.github.scarecrow_de.vater, когато се използва "
 "Scarecrow Shell."
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:206

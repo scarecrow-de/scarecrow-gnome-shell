@@ -100,7 +100,7 @@ class InputMethod extends Clutter.InputMethod {
         try {
             this.delete_surrounding(offset, nchars);
         } catch (e) {
-            // We may get out of bounds for negative offset on older mutter
+            // We may get out of bounds for negative offset on older vater
             this.delete_surrounding(0, nchars + offset);
         }
     }

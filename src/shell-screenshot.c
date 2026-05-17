@@ -752,7 +752,7 @@ shell_screenshot_pick_color_finish (ShellScreenshot  *screenshot,
 
   priv = screenshot->priv;
 
-  /* protect against mutter changing the format used for stage captures */
+  /* protect against vater changing the format used for stage captures */
   g_assert (cairo_image_surface_get_format (priv->image) == CAIRO_FORMAT_ARGB32);
 
   if (color)

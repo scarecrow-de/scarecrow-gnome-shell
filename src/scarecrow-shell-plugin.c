@@ -23,8 +23,8 @@
 
 /*
  * GnomeShellPlugin is the entry point for for Scarecrow Shell into and out of
- * Mutter. By registering itself into Mutter using
- * meta_plugin_manager_set_plugin_type(), Mutter will call the vfuncs of the
+ * Vater. By registering itself into Vater using
+ * meta_plugin_manager_set_plugin_type(), Vater will call the vfuncs of the
  * plugin at the appropriate time.
  *
  * The functions in in GnomeShellPlugin are all just stubs, which just call the

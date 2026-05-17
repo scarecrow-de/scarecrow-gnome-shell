@@ -287,9 +287,9 @@ msgstr "ಮೂಲ ಕಿಟಕಿಗೆ ಮೋಡಲ್ ಸಂವಾದವನ್
 
 #: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:38
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
 msgstr ""
-"ಈ ಕೀಲಿಯು GNOME ಶೆಲ್‌ ಅನ್ನು ಚಲಾಯಿಸುವಾಗ io.github.scarecrow_de.mutter ನಲ್ಲಿನ ಕೀಲಿಯನ್ನು "
+"ಈ ಕೀಲಿಯು GNOME ಶೆಲ್‌ ಅನ್ನು ಚಲಾಯಿಸುವಾಗ io.github.scarecrow_de.vater ನಲ್ಲಿನ ಕೀಲಿಯನ್ನು "
 "ಅತಿಕ್ರಮಿಸುತ್ತದೆ."
 
 #: ../data/io.github.scarecrow_de.shell.gschema.xml.in.in.h:39

@@ -333,8 +333,8 @@ msgstr "Erantsi elkarrizketa-leiho modala leiho gurasoari"
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:303
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:311
 msgid ""
-"This key overrides the key in io.github.scarecrow_de.mutter when running Scarecrow Shell."
-msgstr "Gako honek io.github.scarecrow_de.mutter gakoa gainidazten du Scarecrow Shell exekutatzean."
+"This key overrides the key in io.github.scarecrow_de.vater when running Scarecrow Shell."
+msgstr "Gako honek io.github.scarecrow_de.vater gakoa gainidazten du Scarecrow Shell exekutatzean."
 
 #: data/io.github.scarecrow_de.shell.gschema.xml.in:286
 msgid "Enable edge tiling when dropping windows on screen edges"
