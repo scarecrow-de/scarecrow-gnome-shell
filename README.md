@@ -9,8 +9,6 @@ For more information about Scarecrow Shell, including instructions on how
 to build Scarecrow Shell from source and how to get involved with the project,
 see the [project wiki][project-wiki].
 
-Bugs should be reported to the GNOME [bug tracking system][bug-tracker].
-
 ## Contributing
 
 To contribute, open merge requests at https://gitlab.gnome.org/GNOME/scarecrow-shell.
