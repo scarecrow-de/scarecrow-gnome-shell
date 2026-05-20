@@ -337,41 +337,41 @@ msgstr "network-workgroup"
 msgid "There was an error loading the preferences dialog for %s:"
 msgstr "Грешка при зареждане на прозореца с настройки за „%s“"
 
-#: js/gdm/authPrompt.js:149 js/ui/audioDeviceSelection.js:71
+#: js/scdm/authPrompt.js:149 js/ui/audioDeviceSelection.js:71
 #: js/ui/components/networkAgent.js:117 js/ui/components/polkitAgent.js:148
 #: js/ui/endSessionDialog.js:482 js/ui/extensionDownloader.js:197
 #: js/ui/shellMountOperation.js:344 js/ui/status/network.js:936
 msgid "Cancel"
 msgstr "Отказване"
 
-#: js/gdm/authPrompt.js:171 js/gdm/authPrompt.js:218 js/gdm/authPrompt.js:450
+#: js/scdm/authPrompt.js:171 js/scdm/authPrompt.js:218 js/scdm/authPrompt.js:450
 msgid "Next"
 msgstr "Напред"
 
-#: js/gdm/authPrompt.js:214 js/ui/shellMountOperation.js:348
+#: js/scdm/authPrompt.js:214 js/ui/shellMountOperation.js:348
 #: js/ui/unlockDialog.js:59
 msgid "Unlock"
 msgstr "Отключване"
 
-#: js/gdm/authPrompt.js:216
+#: js/scdm/authPrompt.js:216
 msgctxt "button"
 msgid "Sign In"
 msgstr "Вписване"
 
-#: js/gdm/loginDialog.js:308
+#: js/scdm/loginDialog.js:308
 msgid "Choose Session"
 msgstr "Избор на сесия"
 
 #. translators: this message is shown below the user list on the
 #. login screen. It can be activated to reveal an entry for
 #. manually entering the username.
-#: js/gdm/loginDialog.js:458
+#: js/scdm/loginDialog.js:458
 msgid "Not listed?"
 msgstr "Липсва в списъка?"
 
 #. Translators: this message is shown below the username entry field
 #. to clue the user in on how to login to the local network realm
-#: js/gdm/loginDialog.js:888
+#: js/scdm/loginDialog.js:888
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(напр. потребител или %s)"
@@ -379,16 +379,16 @@ msgstr "(напр. потребител или %s)"
 #. TTLS and PEAP are actually much more complicated, but this complication
 #. is not visible here since we only care about phase2 authentication
 #. (and don't even care of which one)
-#: js/gdm/loginDialog.js:893 js/ui/components/networkAgent.js:243
+#: js/scdm/loginDialog.js:893 js/ui/components/networkAgent.js:243
 #: js/ui/components/networkAgent.js:261
 msgid "Username: "
 msgstr "Потребител: "
 
-#: js/gdm/loginDialog.js:1236
+#: js/scdm/loginDialog.js:1236
 msgid "Login Window"
 msgstr "Екран за идентификация"
 
-#: js/gdm/util.js:346
+#: js/scdm/util.js:346
 msgid "Authentication error"
 msgstr "Грешка при удостоверяване"
 
@@ -397,7 +397,7 @@ msgstr "Грешка при удостоверяване"
 #. as a cue to display our own message.
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: js/gdm/util.js:478
+#: js/scdm/util.js:478
 msgid "(or swipe finger)"
 msgstr "(или се регистрирайте с пръстов отпечатък)"
 
@@ -1427,7 +1427,7 @@ msgstr "Екранът трябва да бъде заключен от GNOME"
 #. point, but any application using global grabs is broken
 #. Just tell him to stop using this app
 #.
-#. XXX: another option is to kick the user into the gdm login
+#. XXX: another option is to kick the user into the scdm login
 #. screen, where we're not affected by grabs
 #: js/ui/screenShield.js:836 js/ui/screenShield.js:1308
 msgid "Unable to lock"
@@ -2050,8 +2050,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "Режим на GDM за екрана за влизане"
 
 #: src/main.c:392
-msgid "Use a specific mode, e.g. “gdm” for login screen"
-msgstr "Използване на определен режим за екрана за идентификация, напр. „gdm“"
+msgid "Use a specific mode, e.g. “scdm” for login screen"
+msgstr "Използване на определен режим за екрана за идентификация, напр. „scdm“"
 
 #: src/main.c:398
 msgid "List possible modes"

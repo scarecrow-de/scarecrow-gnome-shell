@@ -155,53 +155,53 @@ msgstr ""
 msgid "disabled OpenSearch providers"
 msgstr ""
 
-#: ../js/gdm/loginDialog.js:624
+#: ../js/scdm/loginDialog.js:624
 msgid "Session..."
 msgstr "සැසිය..."
 
-#: ../js/gdm/loginDialog.js:786
+#: ../js/scdm/loginDialog.js:786
 msgctxt "title"
 msgid "Sign In"
 msgstr ""
 
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: ../js/gdm/loginDialog.js:831
+#: ../js/scdm/loginDialog.js:831
 msgid "(or swipe finger)"
 msgstr ""
 
 #. translators: this message is shown below the user list on the
 #. login screen. It can be activated to reveal an entry for
 #. manually entering the username.
-#: ../js/gdm/loginDialog.js:852
+#: ../js/scdm/loginDialog.js:852
 msgid "Not listed?"
 msgstr ""
 
-#: ../js/gdm/loginDialog.js:1020 ../js/ui/endSessionDialog.js:419
+#: ../js/scdm/loginDialog.js:1020 ../js/ui/endSessionDialog.js:419
 #: ../js/ui/extensionSystem.js:516 ../js/ui/networkAgent.js:145
 #: ../js/ui/polkitAuthenticationAgent.js:175 ../js/ui/status/bluetooth.js:462
 msgid "Cancel"
 msgstr "අහෝසි කරන්න"
 
-#: ../js/gdm/loginDialog.js:1025
+#: ../js/scdm/loginDialog.js:1025
 msgctxt "button"
 msgid "Sign In"
 msgstr ""
 
-#: ../js/gdm/loginDialog.js:1377
+#: ../js/scdm/loginDialog.js:1377
 msgid "Login Window"
 msgstr ""
 
-#: ../js/gdm/powerMenu.js:113 ../js/ui/userMenu.js:581
+#: ../js/scdm/powerMenu.js:113 ../js/ui/userMenu.js:581
 #: ../js/ui/userMenu.js:583 ../js/ui/userMenu.js:652
 msgid "Suspend"
 msgstr ""
 
-#: ../js/gdm/powerMenu.js:118
+#: ../js/scdm/powerMenu.js:118
 msgid "Restart"
 msgstr "යළි අරඹන්න"
 
-#: ../js/gdm/powerMenu.js:123
+#: ../js/scdm/powerMenu.js:123
 msgid "Power Off"
 msgstr "වසා දමන්න"
 

@@ -480,7 +480,7 @@ msgstr ""
 "Mohon maaf, berkemungkinan boleh dapatkan senarai sambungan terpasang. "
 "Pastikan anda telah mendaftar masuk ke dalam GNOME dan cuba sekali lagi."
 
-#: js/gdm/authPrompt.js:174 js/ui/audioDeviceSelection.js:57
+#: js/scdm/authPrompt.js:174 js/ui/audioDeviceSelection.js:57
 #: js/ui/components/networkAgent.js:129 js/ui/components/polkitAgent.js:138
 #: js/ui/endSessionDialog.js:374 js/ui/extensionDownloader.js:190
 #: js/ui/shellMountOperation.js:399 js/ui/shellMountOperation.js:409
@@ -488,31 +488,31 @@ msgstr ""
 msgid "Cancel"
 msgstr "Batal"
 
-#: js/gdm/authPrompt.js:188 js/gdm/authPrompt.js:241 js/gdm/authPrompt.js:476
+#: js/scdm/authPrompt.js:188 js/scdm/authPrompt.js:241 js/scdm/authPrompt.js:476
 msgid "Next"
 msgstr "Berikutnya"
 
-#: js/gdm/authPrompt.js:237 js/ui/shellMountOperation.js:403
+#: js/scdm/authPrompt.js:237 js/ui/shellMountOperation.js:403
 #: js/ui/unlockDialog.js:44
 msgid "Unlock"
 msgstr "Nyahkunci"
 
-#: js/gdm/authPrompt.js:239
+#: js/scdm/authPrompt.js:239
 msgctxt "button"
 msgid "Sign In"
 msgstr "Daftar Masuk"
 
-#: js/gdm/loginDialog.js:319
+#: js/scdm/loginDialog.js:319
 msgid "Choose Session"
 msgstr "Pilih Sesi"
 
-#: js/gdm/loginDialog.js:461
+#: js/scdm/loginDialog.js:461
 msgid "Not listed?"
 msgstr "Tidak tersenarai?"
 
 #. Translators: this message is shown below the username entry field
 #. to clue the user in on how to login to the local network realm
-#: js/gdm/loginDialog.js:895
+#: js/scdm/loginDialog.js:895
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(cth., pengguna atau %s)"
@@ -520,16 +520,16 @@ msgstr "(cth., pengguna atau %s)"
 #. TTLS and PEAP are actually much more complicated, but this complication
 #. is not visible here since we only care about phase2 authentication
 #. (and don't even care of which one)
-#: js/gdm/loginDialog.js:899 js/ui/components/networkAgent.js:256
+#: js/scdm/loginDialog.js:899 js/ui/components/networkAgent.js:256
 #: js/ui/components/networkAgent.js:279 js/ui/components/networkAgent.js:297
 msgid "Username: "
 msgstr "Nama Pengguna: "
 
-#: js/gdm/loginDialog.js:1230
+#: js/scdm/loginDialog.js:1230
 msgid "Login Window"
 msgstr "Tetingkap Daftar Masuk"
 
-#: js/gdm/util.js:338
+#: js/scdm/util.js:338
 msgid "Authentication error"
 msgstr "Ralat pengesahihan"
 
@@ -538,7 +538,7 @@ msgstr "Ralat pengesahihan"
 #. as a cue to display our own message.
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: js/gdm/util.js:473
+#: js/scdm/util.js:473
 msgid "(or swipe finger)"
 msgstr "(atau leret jari)"
 
@@ -1711,7 +1711,7 @@ msgstr "GNOME perlu mengunci skrin ini"
 #. point, but any application using global grabs is broken
 #. Just tell him to stop using this app
 #.
-#. XXX: another option is to kick the user into the gdm login
+#. XXX: another option is to kick the user into the scdm login
 #. screen, where we're not affected by grabs
 #: js/ui/screenShield.js:830 js/ui/screenShield.js:1301
 msgid "Unable to lock"
@@ -2472,8 +2472,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "Mod yang digunakan oleh GDM untuk skrin daftar masuk"
 
 #: src/main.c:472
-msgid "Use a specific mode, e.g. “gdm” for login screen"
-msgstr "Guna satu mod khusus, cth. \"gdm\" untuk skrin daftar masuk"
+msgid "Use a specific mode, e.g. “scdm” for login screen"
+msgstr "Guna satu mod khusus, cth. \"scdm\" untuk skrin daftar masuk"
 
 #: src/main.c:478
 msgid "List possible modes"

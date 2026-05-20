@@ -4,10 +4,10 @@
 const { Clutter, GObject, Pango, Shell, St } = imports.gi;
 
 const Animation = imports.ui.animation;
-const Batch = imports.gdm.batch;
-const ScdmUtil = imports.gdm.util;
-const OVirt = imports.gdm.oVirt;
-const Vmware = imports.gdm.vmware;
+const Batch = imports.scdm.batch;
+const ScdmUtil = imports.scdm.util;
+const OVirt = imports.scdm.oVirt;
+const Vmware = imports.scdm.vmware;
 const Params = imports.misc.params;
 const ShellEntry = imports.ui.shellEntry;
 const UserWidget = imports.ui.userWidget;
@@ -46,7 +46,7 @@ var AuthPrompt = GObject.registerClass({
         'reset': { param_types: [GObject.TYPE_UINT] },
     },
 }, class AuthPrompt extends St.BoxLayout {
-    _init(gdmClient, mode) {
+    _init(scdmClient, mode) {
         super._init({
             style_class: 'login-dialog-prompt-layout',
             vertical: true,
@@ -56,7 +56,7 @@ var AuthPrompt = GObject.registerClass({
 
         this.verificationStatus = AuthPromptStatus.NOT_VERIFYING;
 
-        this._gdmClient = gdmClient;
+        this._scdmClient = scdmClient;
         this._mode = mode;
         this._defaultButtonWellActor = null;
 
@@ -66,7 +66,7 @@ var AuthPrompt = GObject.registerClass({
         else if (this._mode == AuthPromptMode.UNLOCK_OR_LOG_IN)
             reauthenticationOnly = false;
 
-        this._userVerifier = new ScdmUtil.ShellUserVerifier(this._gdmClient, { reauthenticationOnly });
+        this._userVerifier = new ScdmUtil.ShellUserVerifier(this._scdmClient, { reauthenticationOnly });
 
         this._userVerifier.connect('ask-question', this._onAskQuestion.bind(this));
         this._userVerifier.connect('show-message', this._onShowMessage.bind(this));

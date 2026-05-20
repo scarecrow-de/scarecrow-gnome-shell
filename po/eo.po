@@ -371,7 +371,7 @@ msgstr "Hejmpaĝo"
 msgid "Visit extension homepage"
 msgstr "Viziti hejmpaĝon de etendaĵo"
 
-#: js/gdm/authPrompt.js:135 js/ui/audioDeviceSelection.js:57
+#: js/scdm/authPrompt.js:135 js/ui/audioDeviceSelection.js:57
 #: js/ui/components/networkAgent.js:110 js/ui/components/polkitAgent.js:139
 #: js/ui/endSessionDialog.js:369 js/ui/extensionDownloader.js:181
 #: js/ui/shellMountOperation.js:376 js/ui/shellMountOperation.js:386
@@ -380,7 +380,7 @@ msgid "Cancel"
 msgstr "Nuligi"
 
 #. Cisco LEAP
-#: js/gdm/authPrompt.js:237 js/ui/components/networkAgent.js:205
+#: js/scdm/authPrompt.js:237 js/ui/components/networkAgent.js:205
 #: js/ui/components/networkAgent.js:221 js/ui/components/networkAgent.js:245
 #: js/ui/components/networkAgent.js:266 js/ui/components/networkAgent.js:286
 #: js/ui/components/networkAgent.js:296 js/ui/components/polkitAgent.js:277
@@ -388,17 +388,17 @@ msgstr "Nuligi"
 msgid "Password"
 msgstr "Pasvorto"
 
-#: js/gdm/loginDialog.js:318
+#: js/scdm/loginDialog.js:318
 msgid "Choose Session"
 msgstr "Elekti seancon"
 
-#: js/gdm/loginDialog.js:457
+#: js/scdm/loginDialog.js:457
 msgid "Not listed?"
 msgstr "Ĉu ne en listo?"
 
 #. Translators: this message is shown below the username entry field
 #. to clue the user in on how to login to the local network realm
-#: js/gdm/loginDialog.js:912
+#: js/scdm/loginDialog.js:912
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(ekzemple, uzanto aŭ %s)"
@@ -406,16 +406,16 @@ msgstr "(ekzemple, uzanto aŭ %s)"
 #. TTLS and PEAP are actually much more complicated, but this complication
 #. is not visible here since we only care about phase2 authentication
 #. (and don't even care of which one)
-#: js/gdm/loginDialog.js:917 js/ui/components/networkAgent.js:241
+#: js/scdm/loginDialog.js:917 js/ui/components/networkAgent.js:241
 #: js/ui/components/networkAgent.js:264 js/ui/components/networkAgent.js:282
 msgid "Username"
 msgstr "Uzantonomo"
 
-#: js/gdm/loginDialog.js:1253
+#: js/scdm/loginDialog.js:1253
 msgid "Login Window"
 msgstr "Salutfenestro"
 
-#: js/gdm/util.js:345
+#: js/scdm/util.js:345
 msgid "Authentication error"
 msgstr "Aŭtentigo-eraro"
 
@@ -424,7 +424,7 @@ msgstr "Aŭtentigo-eraro"
 #. as a cue to display our own message.
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: js/gdm/util.js:471
+#: js/scdm/util.js:471
 msgid "(or swipe finger)"
 msgstr "(aŭ pasu fingron)"
 
@@ -1527,7 +1527,7 @@ msgstr "GNOME bezonas ŝlosi la ekranon"
 #. point, but any application using global grabs is broken
 #. Just tell him to stop using this app
 #.
-#. XXX: another option is to kick the user into the gdm login
+#. XXX: another option is to kick the user into the scdm login
 #. screen, where we're not affected by grabs
 #: js/ui/screenShield.js:244 js/ui/screenShield.js:601
 msgid "Unable to lock"
@@ -2268,8 +2268,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "Reĝimo uzata de GDM por la salut-ekrano"
 
 #: src/main.c:470
-msgid "Use a specific mode, e.g. “gdm” for login screen"
-msgstr "Uzi specifan reĝimon, ekz. “gdm” por la salut-ekrano"
+msgid "Use a specific mode, e.g. “scdm” for login screen"
+msgstr "Uzi specifan reĝimon, ekz. “scdm” por la salut-ekrano"
 
 #: src/main.c:476
 msgid "List possible modes"

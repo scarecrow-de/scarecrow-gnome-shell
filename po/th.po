@@ -234,11 +234,11 @@ msgstr "ส่วนขยาย"
 msgid "Select an extension to configure using the combobox above."
 msgstr "เลือกส่วนขยายที่จะตั้งค่าโดยใช้กล่องคอมโบด้านบน"
 
-#: ../js/gdm/loginDialog.js:528
+#: ../js/scdm/loginDialog.js:528
 msgid "Session..."
 msgstr "วาระ..."
 
-#: ../js/gdm/loginDialog.js:676
+#: ../js/scdm/loginDialog.js:676
 msgctxt "title"
 msgid "Sign In"
 msgstr "เข้าระบบ"
@@ -246,56 +246,56 @@ msgstr "เข้าระบบ"
 #. translators: this message is shown below the user list on the
 #. login screen. It can be activated to reveal an entry for
 #. manually entering the username.
-#: ../js/gdm/loginDialog.js:743
+#: ../js/scdm/loginDialog.js:743
 msgid "Not listed?"
 msgstr "ไม่มีชื่อของคุณงั้นหรือ?"
 
-#: ../js/gdm/loginDialog.js:896 ../js/ui/components/networkAgent.js:137
+#: ../js/scdm/loginDialog.js:896 ../js/ui/components/networkAgent.js:137
 #: ../js/ui/components/polkitAgent.js:162 ../js/ui/endSessionDialog.js:373
 #: ../js/ui/extensionDownloader.js:195 ../js/ui/shellMountOperation.js:396
 #: ../js/ui/status/bluetooth.js:427 ../js/ui/unlockDialog.js:166
 msgid "Cancel"
 msgstr "ยกเลิก"
 
-#: ../js/gdm/loginDialog.js:901
+#: ../js/scdm/loginDialog.js:901
 msgctxt "button"
 msgid "Sign In"
 msgstr "เข้าระบบ"
 
-#: ../js/gdm/loginDialog.js:1240
+#: ../js/scdm/loginDialog.js:1240
 msgid "Login Window"
 msgstr "หน้าต่างเข้าระบบ"
 
 #. Translators: accessible name of the power menu in the login screen
-#: ../js/gdm/powerMenu.js:35
+#: ../js/scdm/powerMenu.js:35
 msgid "Power"
 msgstr "เปิด/ปิด"
 
-#: ../js/gdm/powerMenu.js:89 ../js/ui/userMenu.js:660 ../js/ui/userMenu.js:664
+#: ../js/scdm/powerMenu.js:89 ../js/ui/userMenu.js:660 ../js/ui/userMenu.js:664
 #: ../js/ui/userMenu.js:775
 msgid "Suspend"
 msgstr "พักเครื่อง"
 
-#: ../js/gdm/powerMenu.js:94
+#: ../js/scdm/powerMenu.js:94
 msgid "Restart"
 msgstr "เปิดเครื่องใหม่"
 
-#: ../js/gdm/powerMenu.js:99 ../js/ui/userMenu.js:662 ../js/ui/userMenu.js:664
+#: ../js/scdm/powerMenu.js:99 ../js/ui/userMenu.js:662 ../js/ui/userMenu.js:664
 #: ../js/ui/userMenu.js:774
 msgid "Power Off"
 msgstr "ปิดเครื่อง"
 
-#: ../js/gdm/util.js:148
+#: ../js/scdm/util.js:148
 msgid "Authentication error"
 msgstr "ยืนยันตัวบุคคลผิดพลาด"
 
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: ../js/gdm/util.js:265
+#: ../js/scdm/util.js:265
 msgid "(or swipe finger)"
 msgstr "(หรือลูบจอ)"
 
-#: ../js/gdm/util.js:290
+#: ../js/scdm/util.js:290
 #, c-format
 msgid "(e.g., user or %s)"
 msgstr "(เช่น ผู้ใช้ หรือ %s)"
@@ -1700,8 +1700,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "โหมดสำหรับให้ GDM เรียกใช้ในหน้าจอเข้าระบบ"
 
 #: ../src/main.c:342
-msgid "Use a specific mode, e.g. \"gdm\" for login screen"
-msgstr "ใช้โหมดเฉพาะ เช่น \"gdm\" สำหรับหน้าจอเข้าระบบ"
+msgid "Use a specific mode, e.g. \"scdm\" for login screen"
+msgstr "ใช้โหมดเฉพาะ เช่น \"scdm\" สำหรับหน้าจอเข้าระบบ"
 
 #: ../src/main.c:348
 msgid "List possible modes"

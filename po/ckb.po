@@ -379,7 +379,7 @@ msgid ""
 "extensions. Make sure you are logged into GNOME and try again."
 msgstr ""
 
-#: js/extensionPrefs/main.js:144 js/gdm/authPrompt.js:135
+#: js/extensionPrefs/main.js:144 js/scdm/authPrompt.js:135
 #: js/ui/audioDeviceSelection.js:57 js/ui/components/networkAgent.js:107
 #: js/ui/components/polkitAgent.js:139 js/ui/endSessionDialog.js:374
 #: js/ui/extensionDownloader.js:177 js/ui/shellMountOperation.js:376
@@ -387,7 +387,7 @@ msgstr ""
 msgid "Cancel"
 msgstr "پاشگەزبوونەوە"
 
-#: js/gdm/authPrompt.js:158 js/gdm/authPrompt.js:201 js/gdm/authPrompt.js:433
+#: js/scdm/authPrompt.js:158 js/scdm/authPrompt.js:201 js/scdm/authPrompt.js:433
 msgid "Next"
 msgstr ""
 
@@ -395,22 +395,22 @@ msgstr ""
 msgid "Unlock"
 msgstr "کردنەوە"
 
-#: js/gdm/authPrompt.js:199
+#: js/scdm/authPrompt.js:199
 msgctxt "button"
 msgid "Sign In"
 msgstr ""
 
-#: js/gdm/loginDialog.js:318
+#: js/scdm/loginDialog.js:318
 msgid "Choose Session"
 msgstr "دانیشتن هەڵبژێرە"
 
-#: js/gdm/loginDialog.js:457
+#: js/scdm/loginDialog.js:457
 msgid "Not listed?"
 msgstr "لە لیستەکەدا نیە؟"
 
 #. Translators: this message is shown below the username entry field
 #. to clue the user in on how to login to the local network realm
-#: js/gdm/loginDialog.js:912
+#: js/scdm/loginDialog.js:912
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr ""
@@ -418,16 +418,16 @@ msgstr ""
 #. TTLS and PEAP are actually much more complicated, but this complication
 #. is not visible here since we only care about phase2 authentication
 #. (and don't even care of which one)
-#: js/gdm/loginDialog.js:884 js/ui/components/networkAgent.js:248
+#: js/scdm/loginDialog.js:884 js/ui/components/networkAgent.js:248
 #: js/ui/components/networkAgent.js:268 js/ui/components/networkAgent.js:286
 msgid "Username: "
 msgstr ""
 
-#: js/gdm/loginDialog.js:1253
+#: js/scdm/loginDialog.js:1253
 msgid "Login Window"
 msgstr "پەنجەرەی چوونەژوورەوە"
 
-#: js/gdm/util.js:338
+#: js/scdm/util.js:338
 msgid "Authentication error"
 msgstr "هەڵە لە ڕێپێدان"
 
@@ -436,7 +436,7 @@ msgstr "هەڵە لە ڕێپێدان"
 #. as a cue to display our own message.
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: js/gdm/util.js:473
+#: js/scdm/util.js:473
 msgid "(or swipe finger)"
 msgstr ""
 
@@ -1529,7 +1529,7 @@ msgstr "گنۆم پێوسیتت بە کلیلکردنی پەردەیە"
 #. point, but any application using global grabs is broken
 #. Just tell him to stop using this app
 #.
-#. XXX: another option is to kick the user into the gdm login
+#. XXX: another option is to kick the user into the scdm login
 #. screen, where we're not affected by grabs
 #: js/ui/screenShield.js:247 js/ui/screenShield.js:601
 msgid "Unable to lock"
@@ -1598,7 +1598,7 @@ msgid "The PIM must be a number or empty."
 msgstr ""
 
 #. Cisco LEAP
-#: js/gdm/authPrompt.js:237 js/ui/components/networkAgent.js:202
+#: js/scdm/authPrompt.js:237 js/ui/components/networkAgent.js:202
 #: js/ui/components/networkAgent.js:218 js/ui/components/networkAgent.js:242
 #: js/ui/components/networkAgent.js:263 js/ui/components/networkAgent.js:283
 #: js/ui/components/networkAgent.js:293 js/ui/components/polkitAgent.js:277
@@ -2567,7 +2567,7 @@ msgid "Mode used by GDM for login screen"
 msgstr ""
 
 #: src/main.c:550
-msgid "Use a specific mode, e.g. “gdm” for login screen"
+msgid "Use a specific mode, e.g. “scdm” for login screen"
 msgstr ""
 
 #: src/main.c:556

@@ -461,7 +461,7 @@ msgstr "Site Web"
 msgid "Visit extension homepage"
 msgstr "Visiter le site Web de l’extension"
 
-#: js/gdm/authPrompt.js:136 js/ui/audioDeviceSelection.js:57
+#: js/scdm/authPrompt.js:136 js/ui/audioDeviceSelection.js:57
 #: js/ui/components/networkAgent.js:111 js/ui/components/polkitAgent.js:139
 #: js/ui/endSessionDialog.js:438 js/ui/extensionDownloader.js:183
 #: js/ui/shellMountOperation.js:376 js/ui/shellMountOperation.js:386
@@ -470,7 +470,7 @@ msgid "Cancel"
 msgstr "Annuler"
 
 #. Cisco LEAP
-#: js/gdm/authPrompt.js:238 js/ui/components/networkAgent.js:206
+#: js/scdm/authPrompt.js:238 js/ui/components/networkAgent.js:206
 #: js/ui/components/networkAgent.js:222 js/ui/components/networkAgent.js:246
 #: js/ui/components/networkAgent.js:267 js/ui/components/networkAgent.js:287
 #: js/ui/components/networkAgent.js:297 js/ui/components/polkitAgent.js:277
@@ -478,17 +478,17 @@ msgstr "Annuler"
 msgid "Password"
 msgstr "Mot de passe"
 
-#: js/gdm/loginDialog.js:318
+#: js/scdm/loginDialog.js:318
 msgid "Choose Session"
 msgstr "Choisir une session"
 
-#: js/gdm/loginDialog.js:457
+#: js/scdm/loginDialog.js:457
 msgid "Not listed?"
 msgstr "Absent de la liste ?"
 
 #. Translators: this message is shown below the username entry field
 #. to clue the user in on how to login to the local network realm
-#: js/gdm/loginDialog.js:913
+#: js/scdm/loginDialog.js:913
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(par ex. utilisateur ou %s)"
@@ -496,16 +496,16 @@ msgstr "(par ex. utilisateur ou %s)"
 #. TTLS and PEAP are actually much more complicated, but this complication
 #. is not visible here since we only care about phase2 authentication
 #. (and don't even care of which one)
-#: js/gdm/loginDialog.js:918 js/ui/components/networkAgent.js:242
+#: js/scdm/loginDialog.js:918 js/ui/components/networkAgent.js:242
 #: js/ui/components/networkAgent.js:265 js/ui/components/networkAgent.js:283
 msgid "Username"
 msgstr "Nom d’utilisateur"
 
-#: js/gdm/loginDialog.js:1253
+#: js/scdm/loginDialog.js:1253
 msgid "Login Window"
 msgstr "Fenêtre de connexion"
 
-#: js/gdm/util.js:355
+#: js/scdm/util.js:355
 msgid "Authentication error"
 msgstr "Erreur d’authentification"
 
@@ -514,7 +514,7 @@ msgstr "Erreur d’authentification"
 #. as a cue to display our own message.
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: js/gdm/util.js:481
+#: js/scdm/util.js:481
 msgid "(or swipe finger)"
 msgstr "(ou faites glisser le doigt)"
 
@@ -1684,7 +1684,7 @@ msgstr "GNOME a besoin de verrouiller l’écran"
 #. point, but any application using global grabs is broken
 #. Just tell him to stop using this app
 #.
-#. XXX: another option is to kick the user into the gdm login
+#. XXX: another option is to kick the user into the scdm login
 #. screen, where we're not affected by grabs
 #: js/ui/screenShield.js:244 js/ui/screenShield.js:602
 msgid "Unable to lock"
@@ -2441,9 +2441,9 @@ msgid "Mode used by GDM for login screen"
 msgstr "Mode utilisé par GDM pour l’écran de connexion"
 
 #: src/main.c:470
-msgid "Use a specific mode, e.g. “gdm” for login screen"
+msgid "Use a specific mode, e.g. “scdm” for login screen"
 msgstr ""
-"Utiliser un mode particulier, par ex. « gdm » pour l’écran de connexion"
+"Utiliser un mode particulier, par ex. « scdm » pour l’écran de connexion"
 
 #: src/main.c:476
 msgid "List possible modes"

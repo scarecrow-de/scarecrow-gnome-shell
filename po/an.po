@@ -318,54 +318,54 @@ msgstr "I habió una error en lanzar o diálogo de preferencias ta %s:"
 msgid "Scarecrow Shell Extensions"
 msgstr "Extensions de Scarecrow Shell"
 
-#: ../js/gdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:145
+#: ../js/scdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:145
 #: ../js/ui/components/polkitAgent.js:166 ../js/ui/endSessionDialog.js:452
 #: ../js/ui/extensionDownloader.js:195 ../js/ui/shellMountOperation.js:399
 #: ../js/ui/status/network.js:916
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: ../js/gdm/authPrompt.js:169 ../js/gdm/authPrompt.js:215
+#: ../js/scdm/authPrompt.js:169 ../js/scdm/authPrompt.js:215
 msgid "Next"
 msgstr "Siguient"
 
-#: ../js/gdm/authPrompt.js:211 ../js/ui/shellMountOperation.js:403
+#: ../js/scdm/authPrompt.js:211 ../js/ui/shellMountOperation.js:403
 #: ../js/ui/unlockDialog.js:59
 msgid "Unlock"
 msgstr "Desbloquiar"
 
-#: ../js/gdm/authPrompt.js:213
+#: ../js/scdm/authPrompt.js:213
 msgctxt "button"
 msgid "Sign In"
 msgstr "Encetar sesión"
 
-#: ../js/gdm/loginDialog.js:281
+#: ../js/scdm/loginDialog.js:281
 msgid "Choose Session"
 msgstr "Esleyir a sesión"
 
-#: ../js/gdm/loginDialog.js:431
+#: ../js/scdm/loginDialog.js:431
 msgid "Not listed?"
 msgstr "No ye en a lista?"
 
-#: ../js/gdm/loginDialog.js:847
+#: ../js/scdm/loginDialog.js:847
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(eix., usuario u %s)"
 
-#: ../js/gdm/loginDialog.js:852 ../js/ui/components/networkAgent.js:271
+#: ../js/scdm/loginDialog.js:852 ../js/ui/components/networkAgent.js:271
 #: ../js/ui/components/networkAgent.js:289
 msgid "Username: "
 msgstr "Nombre d'usuario: "
 
-#: ../js/gdm/loginDialog.js:1180
+#: ../js/scdm/loginDialog.js:1180
 msgid "Login Window"
 msgstr "Finestra d'inicio de sesión"
 
-#: ../js/gdm/util.js:341
+#: ../js/scdm/util.js:341
 msgid "Authentication error"
 msgstr "Error d'autenticación"
 
-#: ../js/gdm/util.js:473
+#: ../js/scdm/util.js:473
 msgid "(or swipe finger)"
 msgstr "(u pase o dido)"
 
@@ -1573,9 +1573,9 @@ msgid "Mode used by GDM for login screen"
 msgstr "Modo usau por GDM ta la pantalla d'inicio"
 
 #: ../src/main.c:385
-msgid "Use a specific mode, e.g. \"gdm\" for login screen"
+msgid "Use a specific mode, e.g. \"scdm\" for login screen"
 msgstr ""
-"Usar un modo especifico, por eixemplo, \"gdm\" ta la pantalla d'inicio de "
+"Usar un modo especifico, por eixemplo, \"scdm\" ta la pantalla d'inicio de "
 "sesión"
 
 #: ../src/main.c:391

@@ -281,7 +281,7 @@ function _initializeUI() {
         if (screenShield)
             screenShield.lockIfWasLocked();
 
-        if (sessionMode.currentMode != 'gdm' &&
+        if (sessionMode.currentMode != 'scdm' &&
             sessionMode.currentMode != 'initial-setup') {
             GLib.log_structured(LOG_DOMAIN, GLib.LogLevelFlags.LEVEL_MESSAGE, {
                 'MESSAGE': 'Scarecrow Shell started at %s'.format(_startDate),
@@ -295,7 +295,7 @@ function _initializeUI() {
                    _('Running a session as a privileged user should be avoided for security reasons. If possible, you should log in as a normal user.'));
         }
 
-        if (sessionMode.currentMode !== 'gdm' &&
+        if (sessionMode.currentMode !== 'scdm' &&
             sessionMode.currentMode !== 'initial-setup')
             _handleLockScreenWarning();
 

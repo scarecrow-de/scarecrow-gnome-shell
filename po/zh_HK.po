@@ -311,42 +311,42 @@ msgstr "載入 %s 的偏好設定對話盒時發生錯誤："
 msgid "Scarecrow Shell Extensions"
 msgstr "Scarecrow Shell 擴充功能"
 
-#: ../js/gdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:145
+#: ../js/scdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:145
 #: ../js/ui/components/polkitAgent.js:179 ../js/ui/endSessionDialog.js:452
 #: ../js/ui/extensionDownloader.js:195 ../js/ui/shellMountOperation.js:399
 #: ../js/ui/status/network.js:916
 msgid "Cancel"
 msgstr "取消"
 
-#: ../js/gdm/authPrompt.js:169 ../js/gdm/authPrompt.js:215
-#: ../js/gdm/authPrompt.js:447
+#: ../js/scdm/authPrompt.js:169 ../js/scdm/authPrompt.js:215
+#: ../js/scdm/authPrompt.js:447
 msgid "Next"
 msgstr "下一個"
 
-#: ../js/gdm/authPrompt.js:211 ../js/ui/shellMountOperation.js:403
+#: ../js/scdm/authPrompt.js:211 ../js/ui/shellMountOperation.js:403
 #: ../js/ui/unlockDialog.js:59
 msgid "Unlock"
 msgstr "解鎖"
 
-#: ../js/gdm/authPrompt.js:213
+#: ../js/scdm/authPrompt.js:213
 msgctxt "button"
 msgid "Sign In"
 msgstr "登入"
 
-#: ../js/gdm/loginDialog.js:281
+#: ../js/scdm/loginDialog.js:281
 msgid "Choose Session"
 msgstr "選擇作業階段"
 
 #. translators: this message is shown below the user list on the
 #. login screen. It can be activated to reveal an entry for
 #. manually entering the username.
-#: ../js/gdm/loginDialog.js:431
+#: ../js/scdm/loginDialog.js:431
 msgid "Not listed?"
 msgstr "沒有列出來？"
 
 #. Translators: this message is shown below the username entry field
 #. to clue the user in on how to login to the local network realm
-#: ../js/gdm/loginDialog.js:850
+#: ../js/scdm/loginDialog.js:850
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(例如： user 或 %s)"
@@ -354,16 +354,16 @@ msgstr "(例如： user 或 %s)"
 #. TTLS and PEAP are actually much more complicated, but this complication
 #. is not visible here since we only care about phase2 authentication
 #. (and don't even care of which one)
-#: ../js/gdm/loginDialog.js:855 ../js/ui/components/networkAgent.js:271
+#: ../js/scdm/loginDialog.js:855 ../js/ui/components/networkAgent.js:271
 #: ../js/ui/components/networkAgent.js:289
 msgid "Username: "
 msgstr "使用者名稱："
 
-#: ../js/gdm/loginDialog.js:1180
+#: ../js/scdm/loginDialog.js:1180
 msgid "Login Window"
 msgstr "登入視窗"
 
-#: ../js/gdm/util.js:341
+#: ../js/scdm/util.js:341
 msgid "Authentication error"
 msgstr "核對錯誤"
 
@@ -372,7 +372,7 @@ msgstr "核對錯誤"
 #. as a cue to display our own message.
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: ../js/gdm/util.js:473
+#: ../js/scdm/util.js:473
 msgid "(or swipe finger)"
 msgstr "(或是滑過手指)"
 
@@ -1095,7 +1095,7 @@ msgstr "GNOME 需要鎖定螢幕"
 #. point, but any application using global grabs is broken
 #. Just tell him to stop using this app
 #.
-#. XXX: another option is to kick the user into the gdm login
+#. XXX: another option is to kick the user into the scdm login
 #. screen, where we're not affected by grabs
 #: ../js/ui/screenShield.js:805 ../js/ui/screenShield.js:1271
 msgid "Unable to lock"
@@ -1683,8 +1683,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "GDM 在登入畫面使用的模式"
 
 #: ../src/main.c:393
-msgid "Use a specific mode, e.g. \"gdm\" for login screen"
-msgstr "使用指定的模式，例如「gdm」為登入畫面"
+msgid "Use a specific mode, e.g. \"scdm\" for login screen"
+msgstr "使用指定的模式，例如「scdm」為登入畫面"
 
 #: ../src/main.c:399
 msgid "List possible modes"

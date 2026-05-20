@@ -444,7 +444,7 @@ msgstr "Ana Sayfa"
 msgid "Visit extension homepage"
 msgstr "Uzantı ana sayfasını ziyaret et"
 
-#: js/gdm/authPrompt.js:138 js/ui/audioDeviceSelection.js:58
+#: js/scdm/authPrompt.js:138 js/ui/audioDeviceSelection.js:58
 #: js/ui/components/networkAgent.js:111 js/ui/components/polkitAgent.js:138
 #: js/ui/endSessionDialog.js:438 js/ui/extensionDownloader.js:183
 #: js/ui/shellMountOperation.js:376 js/ui/shellMountOperation.js:386
@@ -453,7 +453,7 @@ msgid "Cancel"
 msgstr "İptal"
 
 #. Cisco LEAP
-#: js/gdm/authPrompt.js:240 js/ui/components/networkAgent.js:210
+#: js/scdm/authPrompt.js:240 js/ui/components/networkAgent.js:210
 #: js/ui/components/networkAgent.js:226 js/ui/components/networkAgent.js:250
 #: js/ui/components/networkAgent.js:271 js/ui/components/networkAgent.js:291
 #: js/ui/components/networkAgent.js:301 js/ui/components/polkitAgent.js:276
@@ -461,17 +461,17 @@ msgstr "İptal"
 msgid "Password"
 msgstr "Parola"
 
-#: js/gdm/loginDialog.js:317
+#: js/scdm/loginDialog.js:317
 msgid "Choose Session"
 msgstr "Oturum Seç"
 
-#: js/gdm/loginDialog.js:456
+#: js/scdm/loginDialog.js:456
 msgid "Not listed?"
 msgstr "Listede yok mu?"
 
 #. Translators: this message is shown below the username entry field
 #. to clue the user in on how to login to the local network realm
-#: js/gdm/loginDialog.js:913
+#: js/scdm/loginDialog.js:913
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(örneğin, kullanıcı veya %s)"
@@ -479,16 +479,16 @@ msgstr "(örneğin, kullanıcı veya %s)"
 #. TTLS and PEAP are actually much more complicated, but this complication
 #. is not visible here since we only care about phase2 authentication
 #. (and don't even care of which one)
-#: js/gdm/loginDialog.js:918 js/ui/components/networkAgent.js:246
+#: js/scdm/loginDialog.js:918 js/ui/components/networkAgent.js:246
 #: js/ui/components/networkAgent.js:269 js/ui/components/networkAgent.js:287
 msgid "Username"
 msgstr "Kullanıcı Adı"
 
-#: js/gdm/loginDialog.js:1253
+#: js/scdm/loginDialog.js:1253
 msgid "Login Window"
 msgstr "Oturum Açma Penceresi"
 
-#: js/gdm/util.js:358
+#: js/scdm/util.js:358
 msgid "Authentication error"
 msgstr "Kimlik doğrulama hatası"
 
@@ -497,7 +497,7 @@ msgstr "Kimlik doğrulama hatası"
 #. as a cue to display our own message.
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: js/gdm/util.js:494
+#: js/scdm/util.js:494
 msgid "(or swipe finger)"
 msgstr "(ya da parmak izi okut)"
 
@@ -1611,7 +1611,7 @@ msgstr "GNOME’un ekranı kilitlemesi gerekiyor"
 #. point, but any application using global grabs is broken
 #. Just tell him to stop using this app
 #.
-#. XXX: another option is to kick the user into the gdm login
+#. XXX: another option is to kick the user into the scdm login
 #. screen, where we're not affected by grabs
 #: js/ui/screenShield.js:244 js/ui/screenShield.js:613
 msgid "Unable to lock"
@@ -2359,8 +2359,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "Oturum açma ekranında GDM tarafından kullanılan kip"
 
 #: src/main.c:470
-msgid "Use a specific mode, e.g. “gdm” for login screen"
-msgstr "Oturum açma ekranı için -“gdm” gibi- özel kip kullan"
+msgid "Use a specific mode, e.g. “scdm” for login screen"
+msgstr "Oturum açma ekranı için -“scdm” gibi- özel kip kullan"
 
 #: src/main.c:476
 msgid "List possible modes"

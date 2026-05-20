@@ -219,11 +219,11 @@ msgstr "<b>Кеңейтме</b>"
 msgid "Select an extension to configure using the combobox above."
 msgstr ""
 
-#: ../js/gdm/loginDialog.js:526
+#: ../js/scdm/loginDialog.js:526
 msgid "Session..."
 msgstr "Сеанс…"
 
-#: ../js/gdm/loginDialog.js:674
+#: ../js/scdm/loginDialog.js:674
 msgctxt "title"
 msgid "Sign In"
 msgstr "Кирүү"
@@ -231,41 +231,41 @@ msgstr "Кирүү"
 #. translators: this message is shown below the user list on the
 #. login screen. It can be activated to reveal an entry for
 #. manually entering the username.
-#: ../js/gdm/loginDialog.js:741
+#: ../js/scdm/loginDialog.js:741
 msgid "Not listed?"
 msgstr "Тизмеде жокпу?"
 
-#: ../js/gdm/loginDialog.js:894 ../js/ui/components/networkAgent.js:137
+#: ../js/scdm/loginDialog.js:894 ../js/ui/components/networkAgent.js:137
 #: ../js/ui/components/polkitAgent.js:162 ../js/ui/endSessionDialog.js:373
 #: ../js/ui/extensionDownloader.js:195 ../js/ui/shellMountOperation.js:396
 #: ../js/ui/status/bluetooth.js:427 ../js/ui/unlockDialog.js:166
 msgid "Cancel"
 msgstr "Айнуу"
 
-#: ../js/gdm/loginDialog.js:899
+#: ../js/scdm/loginDialog.js:899
 msgctxt "button"
 msgid "Sign In"
 msgstr "Кирүү"
 
-#: ../js/gdm/loginDialog.js:1238
+#: ../js/scdm/loginDialog.js:1238
 msgid "Login Window"
 msgstr "Кирүү терезеси"
 
-#: ../js/gdm/powerMenu.js:88 ../js/ui/userMenu.js:658 ../js/ui/userMenu.js:662
+#: ../js/scdm/powerMenu.js:88 ../js/ui/userMenu.js:658 ../js/ui/userMenu.js:662
 #: ../js/ui/userMenu.js:773
 msgid "Suspend"
 msgstr "Күтүүчү режим"
 
-#: ../js/gdm/powerMenu.js:93
+#: ../js/scdm/powerMenu.js:93
 msgid "Restart"
 msgstr "Кайта жүргүзүү"
 
-#: ../js/gdm/powerMenu.js:98 ../js/ui/userMenu.js:660 ../js/ui/userMenu.js:662
+#: ../js/scdm/powerMenu.js:98 ../js/ui/userMenu.js:660 ../js/ui/userMenu.js:662
 #: ../js/ui/userMenu.js:772
 msgid "Power Off"
 msgstr "Өчүрүү"
 
-#: ../js/gdm/util.js:148
+#: ../js/scdm/util.js:148
 #, fuzzy
 #| msgid "Authentication Required"
 msgid "Authentication error"
@@ -273,11 +273,11 @@ msgstr "Аутентификация керек"
 
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: ../js/gdm/util.js:265
+#: ../js/scdm/util.js:265
 msgid "(or swipe finger)"
 msgstr "(же эсептеген орнотмодон бармагыңызды өткөрүңүз)"
 
-#: ../js/gdm/util.js:290
+#: ../js/scdm/util.js:290
 #, c-format
 msgid "(e.g., user or %s)"
 msgstr ""
@@ -1699,8 +1699,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "Кирүү экранына GDM менен колдонулуучу режим"
 
 #: ../src/main.c:342
-msgid "Use a specific mode, e.g. \"gdm\" for login screen"
-msgstr "Кирүү экраны үчүн белгилүү бир режимди колдонуу, мисалы «gdm»"
+msgid "Use a specific mode, e.g. \"scdm\" for login screen"
+msgstr "Кирүү экраны үчүн белгилүү бир режимди колдонуу, мисалы «scdm»"
 
 #: ../src/main.c:348
 msgid "List possible modes"

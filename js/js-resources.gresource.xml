@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
   <gresource prefix="/io/github/scarecrow_de/shell">
-    <file>gdm/authPrompt.js</file>
-    <file>gdm/batch.js</file>
-    <file>gdm/fingerprint.js</file>
-    <file>gdm/loginDialog.js</file>
-    <file>gdm/oVirt.js</file>
-    <file>gdm/credentialManager.js</file>
-    <file>gdm/vmware.js</file>
-    <file>gdm/realmd.js</file>
-    <file>gdm/util.js</file>
+    <file>scdm/authPrompt.js</file>
+    <file>scdm/batch.js</file>
+    <file>scdm/fingerprint.js</file>
+    <file>scdm/loginDialog.js</file>
+    <file>scdm/oVirt.js</file>
+    <file>scdm/credentialManager.js</file>
+    <file>scdm/vmware.js</file>
+    <file>scdm/realmd.js</file>
+    <file>scdm/util.js</file>
 
     <file>misc/config.js</file>
     <file>misc/extensionUtils.js</file>

@@ -315,18 +315,18 @@ msgstr "كېڭەيتىلمە"
 msgid "Select an extension to configure using the combobox above."
 msgstr "يۇقىرىدىكى combobox دىن سەپلەيدىغان كېڭەيتىلمىنى تاللاڭ."
 
-#: ../js/gdm/loginDialog.js:405
+#: ../js/scdm/loginDialog.js:405
 msgid "Session…"
 msgstr "ئەڭگىمە…"
 
 #. translators: this message is shown below the user list on the
 #. login screen. It can be activated to reveal an entry for
 #. manually entering the username.
-#: ../js/gdm/loginDialog.js:629
+#: ../js/scdm/loginDialog.js:629
 msgid "Not listed?"
 msgstr "تىزىمدا يوقمۇ؟"
 
-#: ../js/gdm/loginDialog.js:783 ../js/ui/components/networkAgent.js:137
+#: ../js/scdm/loginDialog.js:783 ../js/ui/components/networkAgent.js:137
 #: ../js/ui/components/polkitAgent.js:162 ../js/ui/endSessionDialog.js:375
 #: ../js/ui/extensionDownloader.js:195 ../js/ui/shellMountOperation.js:399
 #: ../js/ui/status/bluetooth.js:415 ../js/ui/unlockDialog.js:126
@@ -334,57 +334,57 @@ msgstr "تىزىمدا يوقمۇ؟"
 msgid "Cancel"
 msgstr "ئەمەلدىن قالدۇر"
 
-#: ../js/gdm/loginDialog.js:799
+#: ../js/scdm/loginDialog.js:799
 msgctxt "button"
 msgid "Sign In"
 msgstr "كىر"
 
-#: ../js/gdm/loginDialog.js:799
+#: ../js/scdm/loginDialog.js:799
 msgid "Next"
 msgstr "كېيىنكى"
 
 #. TTLS and PEAP are actually much more complicated, but this complication
 #. is not visible here since we only care about phase2 authentication
 #. (and don't even care of which one)
-#: ../js/gdm/loginDialog.js:904 ../js/ui/components/networkAgent.js:260
+#: ../js/scdm/loginDialog.js:904 ../js/ui/components/networkAgent.js:260
 #: ../js/ui/components/networkAgent.js:278
 msgid "Username: "
 msgstr "ئىشلەتكۈچى ئاتى: "
 
-#: ../js/gdm/loginDialog.js:1157
+#: ../js/scdm/loginDialog.js:1157
 msgid "Login Window"
 msgstr "كىرىش كۆزنىكى"
 
 #. Translators: accessible name of the power menu in the login screen
-#: ../js/gdm/powerMenu.js:36
+#: ../js/scdm/powerMenu.js:36
 msgid "Power"
 msgstr "توك مەنبە"
 
-#: ../js/gdm/powerMenu.js:93 ../js/ui/userMenu.js:695 ../js/ui/userMenu.js:699
+#: ../js/scdm/powerMenu.js:93 ../js/ui/userMenu.js:695 ../js/ui/userMenu.js:699
 #: ../js/ui/userMenu.js:815
 msgid "Suspend"
 msgstr "توڭلات"
 
-#: ../js/gdm/powerMenu.js:98
+#: ../js/scdm/powerMenu.js:98
 msgid "Restart"
 msgstr "قايتا قوزغات"
 
-#: ../js/gdm/powerMenu.js:103 ../js/ui/userMenu.js:697
+#: ../js/scdm/powerMenu.js:103 ../js/ui/userMenu.js:697
 #: ../js/ui/userMenu.js:699 ../js/ui/userMenu.js:814 ../js/ui/userMenu.js:938
 msgid "Power Off"
 msgstr "توكنى ئۈز"
 
-#: ../js/gdm/util.js:182
+#: ../js/scdm/util.js:182
 msgid "Authentication error"
 msgstr "كىملىك دەلىللەش خاتالىقى"
 
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: ../js/gdm/util.js:299
+#: ../js/scdm/util.js:299
 msgid "(or swipe finger)"
 msgstr "(ياكى بارمىقىڭىزنى سىيرىڭ)"
 
-#: ../js/gdm/util.js:324
+#: ../js/scdm/util.js:324
 #, c-format
 msgid "(e.g., user or %s)"
 msgstr "(مەسىلەن،  ئىشلەتكۈچى ياكى %s)"
@@ -1245,7 +1245,7 @@ msgstr "گىنوم ئېكراننى قۇلۇپلىشى زۆرۈر"
 #. point, but any application using global grabs is broken
 #. Just tell him to stop using this app
 #.
-#. XXX: another option is to kick the user into the gdm login
+#. XXX: another option is to kick the user into the scdm login
 #. screen, where we're not affected by grabs
 #: ../js/ui/screenShield.js:758 ../js/ui/screenShield.js:1169
 msgid "Unable to lock"
@@ -1823,8 +1823,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "كىرىش ئېكرانىدا GDM ئىشلىتىدىغان ئۇسۇل"
 
 #: ../src/main.c:359
-msgid "Use a specific mode, e.g. \"gdm\" for login screen"
-msgstr "كۆرسىتىلگەن ئۇسۇلنى ئىشلەتسۇن، مەسىلەن: كىرىش ئېكرانى ئۈچۈن «gdm» دېگەندەك"
+msgid "Use a specific mode, e.g. \"scdm\" for login screen"
+msgstr "كۆرسىتىلگەن ئۇسۇلنى ئىشلەتسۇن، مەسىلەن: كىرىش ئېكرانى ئۈچۈن «scdm» دېگەندەك"
 
 #: ../src/main.c:365
 msgid "List possible modes"

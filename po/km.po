@@ -292,54 +292,54 @@ msgstr "ផ្នែក​បន្ថែម"
 msgid "Select an extension to configure using the combobox above."
 msgstr "ជ្រើស​ផ្នែក​បន្ថែម​ដើម្បី​កំណត់​រចនាសម្ព័ន្ធ​ដោយ​ប្រើ​​ប្រអប់​បន្សំ​ខាង​លើ។"
 
-#: ../js/gdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:136
+#: ../js/scdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:136
 #: ../js/ui/components/polkitAgent.js:166 ../js/ui/endSessionDialog.js:429
 #: ../js/ui/extensionDownloader.js:195 ../js/ui/shellMountOperation.js:399
 #: ../js/ui/status/network.js:878
 msgid "Cancel"
 msgstr "បោះបង់"
 
-#: ../js/gdm/authPrompt.js:169 ../js/gdm/authPrompt.js:217
+#: ../js/scdm/authPrompt.js:169 ../js/scdm/authPrompt.js:217
 msgid "Next"
 msgstr "បន្ទាប់"
 
-#: ../js/gdm/authPrompt.js:213 ../js/ui/shellMountOperation.js:403
+#: ../js/scdm/authPrompt.js:213 ../js/ui/shellMountOperation.js:403
 #: ../js/ui/unlockDialog.js:59
 msgid "Unlock"
 msgstr "ដោះ​សោ"
 
-#: ../js/gdm/authPrompt.js:215
+#: ../js/scdm/authPrompt.js:215
 msgctxt "button"
 msgid "Sign In"
 msgstr "ចូល"
 
-#: ../js/gdm/loginDialog.js:271
+#: ../js/scdm/loginDialog.js:271
 msgid "Choose Session"
 msgstr "ជ្រើស​សម័យ"
 
-#: ../js/gdm/loginDialog.js:431
+#: ../js/scdm/loginDialog.js:431
 msgid "Not listed?"
 msgstr "មិន​បាន​រាយ?"
 
-#: ../js/gdm/loginDialog.js:616
+#: ../js/scdm/loginDialog.js:616
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(ឧ., អ្នកប្រើ ឬ %s)"
 
-#: ../js/gdm/loginDialog.js:621 ../js/ui/components/networkAgent.js:262
+#: ../js/scdm/loginDialog.js:621 ../js/ui/components/networkAgent.js:262
 #: ../js/ui/components/networkAgent.js:280
 msgid "Username: "
 msgstr "ឈ្មោះ​អ្នកប្រើ៖"
 
-#: ../js/gdm/loginDialog.js:924
+#: ../js/scdm/loginDialog.js:924
 msgid "Login Window"
 msgstr "បង្អួច​ចូល"
 
-#: ../js/gdm/util.js:323
+#: ../js/scdm/util.js:323
 msgid "Authentication error"
 msgstr "កំហុស​ការ​ផ្ទៀងផ្ទាត់"
 
-#: ../js/gdm/util.js:453
+#: ../js/scdm/util.js:453
 msgid "(or swipe finger)"
 msgstr "(ឬ​អូស​ម្រាមដៃ)"
 
@@ -1715,8 +1715,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "របៀប​ដែល​បាន​ប្រើ​ដោយ GDM សម្រាប់​អេក្រង់​ចូល"
 
 #: ../src/main.c:361
-msgid "Use a specific mode, e.g. \"gdm\" for login screen"
-msgstr "ប្រើ​រៀប​ជាក់លាក់, ឧ. \"gdm\" សម្រាប់​អេក្រង់​ចូល"
+msgid "Use a specific mode, e.g. \"scdm\" for login screen"
+msgstr "ប្រើ​រៀប​ជាក់លាក់, ឧ. \"scdm\" សម្រាប់​អេក្រង់​ចូល"
 
 #: ../src/main.c:367
 msgid "List possible modes"

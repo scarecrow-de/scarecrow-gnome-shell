@@ -5,7 +5,7 @@ const { AccountsService, Clutter, Gio,
 const Signals = imports.signals;
 
 const GnomeSession = imports.misc.gnomeSession;
-const OVirt = imports.gdm.oVirt;
+const OVirt = imports.scdm.oVirt;
 const LoginManager = imports.misc.loginManager;
 const Lightbox = imports.ui.lightbox;
 const Main = imports.ui.main;
@@ -239,7 +239,7 @@ var ScreenShield = class {
             // point, but any application using global grabs is broken
             // Just tell him to stop using this app
             //
-            // XXX: another option is to kick the user into the gdm login
+            // XXX: another option is to kick the user into the scdm login
             // screen, where we're not affected by grabs
             Main.notifyError(_("Unable to lock"),
                              _("Lock was blocked by an application"));

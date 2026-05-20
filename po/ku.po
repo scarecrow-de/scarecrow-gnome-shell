@@ -154,51 +154,51 @@ msgstr ""
 msgid "disabled OpenSearch providers"
 msgstr ""
 
-#: ../js/gdm/loginDialog.js:617
+#: ../js/scdm/loginDialog.js:617
 msgid "Session..."
 msgstr "Danişîn..."
 
-#: ../js/gdm/loginDialog.js:788
+#: ../js/scdm/loginDialog.js:788
 msgctxt "title"
 msgid "Sign In"
 msgstr "Têkeve"
 
 #. translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: ../js/gdm/loginDialog.js:833
+#: ../js/scdm/loginDialog.js:833
 msgid "(or swipe finger)"
 msgstr ""
 
-#: ../js/gdm/loginDialog.js:851
+#: ../js/scdm/loginDialog.js:851
 msgid "Not listed?"
 msgstr "Di listê de tune?"
 
-#: ../js/gdm/loginDialog.js:1019 ../js/ui/endSessionDialog.js:426
+#: ../js/scdm/loginDialog.js:1019 ../js/ui/endSessionDialog.js:426
 #: ../js/ui/extensionSystem.js:477 ../js/ui/networkAgent.js:165
 #: ../js/ui/polkitAuthenticationAgent.js:171 ../js/ui/status/bluetooth.js:480
 msgid "Cancel"
 msgstr "Betal"
 
-#: ../js/gdm/loginDialog.js:1024
+#: ../js/scdm/loginDialog.js:1024
 msgctxt "button"
 msgid "Sign In"
 msgstr "Têkeve"
 
-#: ../js/gdm/loginDialog.js:1373
+#: ../js/scdm/loginDialog.js:1373
 msgid "Login Window"
 msgstr "Paceya têketinê"
 
-#: ../js/gdm/powerMenu.js:116 ../js/ui/userMenu.js:549
+#: ../js/scdm/powerMenu.js:116 ../js/ui/userMenu.js:549
 #: ../js/ui/userMenu.js:551 ../js/ui/userMenu.js:620
 msgid "Suspend"
 msgstr "Xew"
 
-#: ../js/gdm/powerMenu.js:121 ../js/ui/endSessionDialog.js:89
+#: ../js/scdm/powerMenu.js:121 ../js/ui/endSessionDialog.js:89
 #: ../js/ui/endSessionDialog.js:97 ../js/ui/endSessionDialog.js:106
 msgid "Restart"
 msgstr "Dîsdestpêkirin"
 
-#: ../js/gdm/powerMenu.js:126 ../js/ui/endSessionDialog.js:80
+#: ../js/scdm/powerMenu.js:126 ../js/ui/endSessionDialog.js:80
 #: ../js/ui/endSessionDialog.js:91
 msgid "Power Off"
 msgstr "Girtin"

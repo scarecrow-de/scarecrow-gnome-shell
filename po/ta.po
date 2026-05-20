@@ -331,54 +331,54 @@ msgstr "%s க்கு விருப்பங்கள் உரையாட�
 msgid "Scarecrow Shell Extensions"
 msgstr "GNOME ஷெல் நீட்சிகள்"
 
-#: ../js/gdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:143
+#: ../js/scdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:143
 #: ../js/ui/components/polkitAgent.js:166 ../js/ui/endSessionDialog.js:452
 #: ../js/ui/extensionDownloader.js:195 ../js/ui/shellMountOperation.js:399
 #: ../js/ui/status/network.js:915
 msgid "Cancel"
 msgstr "ரத்துசெய்க"
 
-#: ../js/gdm/authPrompt.js:169 ../js/gdm/authPrompt.js:217
+#: ../js/scdm/authPrompt.js:169 ../js/scdm/authPrompt.js:217
 msgid "Next"
 msgstr "அடுத்தது"
 
-#: ../js/gdm/authPrompt.js:213 ../js/ui/shellMountOperation.js:403
+#: ../js/scdm/authPrompt.js:213 ../js/ui/shellMountOperation.js:403
 #: ../js/ui/unlockDialog.js:59
 msgid "Unlock"
 msgstr "பூட்டை திற"
 
-#: ../js/gdm/authPrompt.js:215
+#: ../js/scdm/authPrompt.js:215
 msgctxt "button"
 msgid "Sign In"
 msgstr "உள்நுழை"
 
-#: ../js/gdm/loginDialog.js:269
+#: ../js/scdm/loginDialog.js:269
 msgid "Choose Session"
 msgstr "அமர்வை தேர்ந்தெடு"
 
-#: ../js/gdm/loginDialog.js:429
+#: ../js/scdm/loginDialog.js:429
 msgid "Not listed?"
 msgstr "பட்டியலில் இல்லை?"
 
-#: ../js/gdm/loginDialog.js:614
+#: ../js/scdm/loginDialog.js:614
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(எ.கா., பயனர் அல்லது %s)"
 
-#: ../js/gdm/loginDialog.js:619 ../js/ui/components/networkAgent.js:269
+#: ../js/scdm/loginDialog.js:619 ../js/ui/components/networkAgent.js:269
 #: ../js/ui/components/networkAgent.js:287
 msgid "Username: "
 msgstr "பயனர்பெயர்: "
 
-#: ../js/gdm/loginDialog.js:922
+#: ../js/scdm/loginDialog.js:922
 msgid "Login Window"
 msgstr "உள்புகு சாளரம்"
 
-#: ../js/gdm/util.js:323
+#: ../js/scdm/util.js:323
 msgid "Authentication error"
 msgstr "உறுதிப்படுத்தல் பிழை"
 
-#: ../js/gdm/util.js:453
+#: ../js/scdm/util.js:453
 msgid "(or swipe finger)"
 msgstr "(அல்லது விரல் தீய்ப்பு)"
 
@@ -1828,8 +1828,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "ஜிடிஎம் உள்நுழைவு திரைக்கு பயன்படுத்தும் பாங்கு"
 
 #: ../src/main.c:385
-msgid "Use a specific mode, e.g. \"gdm\" for login screen"
-msgstr "உள்நுழைவு திரைக்கு குறிப்பிட்ட பாங்கை, எ.கா. \"gdm\" பயன்படுத்துக"
+msgid "Use a specific mode, e.g. \"scdm\" for login screen"
+msgstr "உள்நுழைவு திரைக்கு குறிப்பிட்ட பாங்கை, எ.கா. \"scdm\" பயன்படுத்துக"
 
 #: ../src/main.c:391
 msgid "List possible modes"

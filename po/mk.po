@@ -126,29 +126,29 @@ msgstr "Која тастатура да се користи"
 msgid "disabled OpenSearch providers"
 msgstr "оневозможени OpenSearch провајдери"
 
-#: ../js/gdm/loginDialog.js:623
+#: ../js/scdm/loginDialog.js:623
 msgid "Session..."
 msgstr "Сесија..."
 
-#: ../js/gdm/loginDialog.js:785
+#: ../js/scdm/loginDialog.js:785
 msgctxt "title"
 msgid "Sign In"
 msgstr "Најави се"
 
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: ../js/gdm/loginDialog.js:830
+#: ../js/scdm/loginDialog.js:830
 msgid "(or swipe finger)"
 msgstr "(или поминете со прстот)"
 
 #. translators: this message is shown below the user list on the
 #. login screen. It can be activated to reveal an entry for
 #. manually entering the username.
-#: ../js/gdm/loginDialog.js:851
+#: ../js/scdm/loginDialog.js:851
 msgid "Not listed?"
 msgstr "Не сте во листата?"
 
-#: ../js/gdm/loginDialog.js:1019
+#: ../js/scdm/loginDialog.js:1019
 #: ../js/ui/endSessionDialog.js:418
 #: ../js/ui/extensionSystem.js:516
 #: ../js/ui/networkAgent.js:145
@@ -157,27 +157,27 @@ msgstr "Не сте во листата?"
 msgid "Cancel"
 msgstr "Откажи"
 
-#: ../js/gdm/loginDialog.js:1024
+#: ../js/scdm/loginDialog.js:1024
 msgctxt "button"
 msgid "Sign In"
 msgstr "Најави се"
 
-#: ../js/gdm/loginDialog.js:1376
+#: ../js/scdm/loginDialog.js:1376
 msgid "Login Window"
 msgstr "Најавен прозорец"
 
-#: ../js/gdm/powerMenu.js:113
+#: ../js/scdm/powerMenu.js:113
 #: ../js/ui/userMenu.js:578
 #: ../js/ui/userMenu.js:580
 #: ../js/ui/userMenu.js:649
 msgid "Suspend"
 msgstr "Суспендирај"
 
-#: ../js/gdm/powerMenu.js:118
+#: ../js/scdm/powerMenu.js:118
 msgid "Restart"
 msgstr "Рестартирај се"
 
-#: ../js/gdm/powerMenu.js:123
+#: ../js/scdm/powerMenu.js:123
 msgid "Power Off"
 msgstr "Исклучи се"
 

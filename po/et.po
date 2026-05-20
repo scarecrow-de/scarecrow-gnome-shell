@@ -397,41 +397,41 @@ msgstr ""
 msgid "Browse in Software"
 msgstr ""
 
-#: js/gdm/authPrompt.js:140 js/ui/audioDeviceSelection.js:55
+#: js/scdm/authPrompt.js:140 js/ui/audioDeviceSelection.js:55
 #: js/ui/components/networkAgent.js:117 js/ui/components/polkitAgent.js:136
 #: js/ui/endSessionDialog.js:430 js/ui/extensionDownloader.js:188
 #: js/ui/shellMountOperation.js:325 js/ui/status/network.js:888
 msgid "Cancel"
 msgstr "Katkesta"
 
-#: js/gdm/authPrompt.js:159 js/gdm/authPrompt.js:202 js/gdm/authPrompt.js:434
+#: js/scdm/authPrompt.js:159 js/scdm/authPrompt.js:202 js/scdm/authPrompt.js:434
 msgid "Next"
 msgstr "Järgmine"
 
-#: js/gdm/authPrompt.js:198 js/ui/shellMountOperation.js:329
+#: js/scdm/authPrompt.js:198 js/ui/shellMountOperation.js:329
 #: js/ui/unlockDialog.js:41
 msgid "Unlock"
 msgstr "Võta lukust lahti"
 
-#: js/gdm/authPrompt.js:200
+#: js/scdm/authPrompt.js:200
 msgctxt "button"
 msgid "Sign In"
 msgstr "Logi sisse"
 
-#: js/gdm/loginDialog.js:302
+#: js/scdm/loginDialog.js:302
 msgid "Choose Session"
 msgstr "Seansi valimine"
 
 #. translators: this message is shown below the user list on the
 #. login screen. It can be activated to reveal an entry for
 #. manually entering the username.
-#: js/gdm/loginDialog.js:446
+#: js/scdm/loginDialog.js:446
 msgid "Not listed?"
 msgstr "Pole loendis?"
 
 #. Translators: this message is shown below the username entry field
 #. to clue the user in on how to login to the local network realm
-#: js/gdm/loginDialog.js:884
+#: js/scdm/loginDialog.js:884
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(nt 'user' või %s)"
@@ -439,16 +439,16 @@ msgstr "(nt 'user' või %s)"
 #. TTLS and PEAP are actually much more complicated, but this complication
 #. is not visible here since we only care about phase2 authentication
 #. (and don't even care of which one)
-#: js/gdm/loginDialog.js:889 js/ui/components/networkAgent.js:243
+#: js/scdm/loginDialog.js:889 js/ui/components/networkAgent.js:243
 #: js/ui/components/networkAgent.js:263 js/ui/components/networkAgent.js:281
 msgid "Username: "
 msgstr "Kasutajanimi: "
 
-#: js/gdm/loginDialog.js:1227
+#: js/scdm/loginDialog.js:1227
 msgid "Login Window"
 msgstr "Sisselogimisaken"
 
-#: js/gdm/util.js:337
+#: js/scdm/util.js:337
 msgid "Authentication error"
 msgstr "Viga autentimisel"
 
@@ -457,7 +457,7 @@ msgstr "Viga autentimisel"
 #. as a cue to display our own message.
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: js/gdm/util.js:477
+#: js/scdm/util.js:477
 msgid "(or swipe finger)"
 msgstr "(või libista näpp üle lugeja)"
 
@@ -1548,7 +1548,7 @@ msgstr "GNOME peab ekraani lukustama"
 #. point, but any application using global grabs is broken
 #. Just tell him to stop using this app
 #.
-#. XXX: another option is to kick the user into the gdm login
+#. XXX: another option is to kick the user into the scdm login
 #. screen, where we're not affected by grabs
 #: js/ui/screenShield.js:834 js/ui/screenShield.js:1307
 msgid "Unable to lock"
@@ -2204,8 +2204,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "Sisselogimise kuval kasutatav GDM-i režiim"
 
 #: src/main.c:420
-msgid "Use a specific mode, e.g. “gdm” for login screen"
-msgstr "Erirežiimi kasutamine, nt sisselogimisakna jaoks „gdm“"
+msgid "Use a specific mode, e.g. “scdm” for login screen"
+msgstr "Erirežiimi kasutamine, nt sisselogimisakna jaoks „scdm“"
 
 #: src/main.c:426
 msgid "List possible modes"

@@ -5,10 +5,10 @@
 const { Clutter, Scdm, Gio, GLib } = imports.gi;
 const Signals = imports.signals;
 
-const Batch = imports.gdm.batch;
-const Fprint = imports.gdm.fingerprint;
-const OVirt = imports.gdm.oVirt;
-const Vmware = imports.gdm.vmware;
+const Batch = imports.scdm.batch;
+const Fprint = imports.scdm.fingerprint;
+const OVirt = imports.scdm.oVirt;
+const Vmware = imports.scdm.vmware;
 const Main = imports.ui.main;
 const Params = imports.misc.params;
 const SmartcardManager = imports.misc.smartcardManager;
@@ -22,9 +22,9 @@ Gio._promisify(Scdm.UserVerifierProxy.prototype,
 Gio._promisify(Scdm.UserVerifierProxy.prototype,
     'call_begin_verification', 'call_begin_verification_finish');
 
-var PASSWORD_SERVICE_NAME = 'gdm-password';
-var FINGERPRINT_SERVICE_NAME = 'gdm-fingerprint';
-var SMARTCARD_SERVICE_NAME = 'gdm-smartcard';
+var PASSWORD_SERVICE_NAME = 'scdm-password';
+var FINGERPRINT_SERVICE_NAME = 'scdm-fingerprint';
+var SMARTCARD_SERVICE_NAME = 'scdm-smartcard';
 var FADE_ANIMATION_TIME = 160;
 var CLONE_FADE_ANIMATION_TIME = 250;
 

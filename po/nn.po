@@ -210,54 +210,54 @@ msgstr ""
 msgid "Select an extension to configure using the combobox above."
 msgstr ""
 
-#: ../js/gdm/loginDialog.js:629
+#: ../js/scdm/loginDialog.js:629
 msgid "Session..."
 msgstr "Økt …"
 
-#: ../js/gdm/loginDialog.js:800
+#: ../js/scdm/loginDialog.js:800
 msgctxt "title"
 msgid "Sign In"
 msgstr "Logg inn"
 
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: ../js/gdm/loginDialog.js:845
+#: ../js/scdm/loginDialog.js:845
 msgid "(or swipe finger)"
 msgstr "(eller dra finger)"
 
 #. translators: this message is shown below the user list on the
 #. login screen. It can be activated to reveal an entry for
 #. manually entering the username.
-#: ../js/gdm/loginDialog.js:866
+#: ../js/scdm/loginDialog.js:866
 msgid "Not listed?"
 msgstr "Ikkje oppført?"
 
-#: ../js/gdm/loginDialog.js:1046 ../js/ui/endSessionDialog.js:410
+#: ../js/scdm/loginDialog.js:1046 ../js/ui/endSessionDialog.js:410
 #: ../js/ui/extensionDownloader.js:138 ../js/ui/networkAgent.js:153
 #: ../js/ui/polkitAuthenticationAgent.js:176
 #: ../js/ui/shellMountOperation.js:339 ../js/ui/status/bluetooth.js:431
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: ../js/gdm/loginDialog.js:1051
+#: ../js/scdm/loginDialog.js:1051
 msgctxt "button"
 msgid "Sign In"
 msgstr "Logg inn"
 
-#: ../js/gdm/loginDialog.js:1411
+#: ../js/scdm/loginDialog.js:1411
 msgid "Login Window"
 msgstr "Innloggingsvindauge"
 
-#: ../js/gdm/powerMenu.js:130 ../js/ui/userMenu.js:612
+#: ../js/scdm/powerMenu.js:130 ../js/ui/userMenu.js:612
 #: ../js/ui/userMenu.js:616 ../js/ui/userMenu.js:730
 msgid "Suspend"
 msgstr "Kvilemodus"
 
-#: ../js/gdm/powerMenu.js:135
+#: ../js/scdm/powerMenu.js:135
 msgid "Restart"
 msgstr "Start på nytt"
 
-#: ../js/gdm/powerMenu.js:140 ../js/ui/userMenu.js:614
+#: ../js/scdm/powerMenu.js:140 ../js/ui/userMenu.js:614
 #: ../js/ui/userMenu.js:616 ../js/ui/userMenu.js:729
 msgid "Power Off"
 msgstr "Slå av"
@@ -1658,7 +1658,7 @@ msgid "Mode used by GDM for login screen"
 msgstr "Modus brukt av GDM for innloggingskjermen"
 
 #: ../src/main.c:339
-msgid "Use a specific mode, e.g. \"gdm\" for login screen"
+msgid "Use a specific mode, e.g. \"scdm\" for login screen"
 msgstr ""
 
 #: ../src/main.c:345

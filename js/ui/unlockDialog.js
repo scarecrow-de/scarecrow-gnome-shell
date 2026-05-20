@@ -10,7 +10,7 @@ const Main = imports.ui.main;
 const MessageTray = imports.ui.messageTray;
 const SwipeTracker = imports.ui.swipeTracker;
 
-const AuthPrompt = imports.gdm.authPrompt;
+const AuthPrompt = imports.scdm.authPrompt;
 
 // The timeout before going back automatically to the lock screen (in seconds)
 const IDLE_TIMEOUT = 2 * 60;
@@ -482,7 +482,7 @@ var UnlockDialog = GObject.registerClass({
 
         parentActor.add_child(this);
 
-        this._gdmClient = new Scdm.Client();
+        this._scdmClient = new Scdm.Client();
 
         this._adjustment = new St.Adjustment({
             actor: this,
@@ -674,7 +674,7 @@ var UnlockDialog = GObject.registerClass({
         if (this._authPrompt)
             return;
 
-        this._authPrompt = new AuthPrompt.AuthPrompt(this._gdmClient,
+        this._authPrompt = new AuthPrompt.AuthPrompt(this._scdmClient,
             AuthPrompt.AuthPromptMode.UNLOCK_ONLY);
         this._authPrompt.connect('failed', this._fail.bind(this));
         this._authPrompt.connect('cancelled', this._fail.bind(this));
@@ -839,9 +839,9 @@ var UnlockDialog = GObject.registerClass({
             delete this._scaleChangedId;
         }
 
-        if (this._gdmClient) {
-            this._gdmClient = null;
-            delete this._gdmClient;
+        if (this._scdmClient) {
+            this._scdmClient = null;
+            delete this._scdmClient;
         }
 
         if (this._userLoadedId) {

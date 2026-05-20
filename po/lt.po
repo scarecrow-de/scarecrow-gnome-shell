@@ -431,7 +431,7 @@ msgstr "Namų tinklalapis"
 msgid "Visit extension homepage"
 msgstr "Aplankyti plėtinio namų tinklalapį"
 
-#: js/gdm/authPrompt.js:136 js/ui/audioDeviceSelection.js:57
+#: js/scdm/authPrompt.js:136 js/ui/audioDeviceSelection.js:57
 #: js/ui/components/networkAgent.js:111 js/ui/components/polkitAgent.js:139
 #: js/ui/endSessionDialog.js:438 js/ui/extensionDownloader.js:183
 #: js/ui/shellMountOperation.js:376 js/ui/shellMountOperation.js:386
@@ -440,7 +440,7 @@ msgid "Cancel"
 msgstr "Atsisakyti"
 
 #. Cisco LEAP
-#: js/gdm/authPrompt.js:238 js/ui/components/networkAgent.js:206
+#: js/scdm/authPrompt.js:238 js/ui/components/networkAgent.js:206
 #: js/ui/components/networkAgent.js:222 js/ui/components/networkAgent.js:246
 #: js/ui/components/networkAgent.js:267 js/ui/components/networkAgent.js:287
 #: js/ui/components/networkAgent.js:297 js/ui/components/polkitAgent.js:277
@@ -448,17 +448,17 @@ msgstr "Atsisakyti"
 msgid "Password"
 msgstr "Slaptažodis"
 
-#: js/gdm/loginDialog.js:318
+#: js/scdm/loginDialog.js:318
 msgid "Choose Session"
 msgstr "Pasirinkite seansą"
 
-#: js/gdm/loginDialog.js:457
+#: js/scdm/loginDialog.js:457
 msgid "Not listed?"
 msgstr "Nėra sąraše?"
 
 #. Translators: this message is shown below the username entry field
 #. to clue the user in on how to login to the local network realm
-#: js/gdm/loginDialog.js:913
+#: js/scdm/loginDialog.js:913
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(pvz., naudotojas arba %s)"
@@ -466,16 +466,16 @@ msgstr "(pvz., naudotojas arba %s)"
 #. TTLS and PEAP are actually much more complicated, but this complication
 #. is not visible here since we only care about phase2 authentication
 #. (and don't even care of which one)
-#: js/gdm/loginDialog.js:918 js/ui/components/networkAgent.js:242
+#: js/scdm/loginDialog.js:918 js/ui/components/networkAgent.js:242
 #: js/ui/components/networkAgent.js:265 js/ui/components/networkAgent.js:283
 msgid "Username"
 msgstr "Naudotojo vardas"
 
-#: js/gdm/loginDialog.js:1253
+#: js/scdm/loginDialog.js:1253
 msgid "Login Window"
 msgstr "Prisijungimo langas"
 
-#: js/gdm/util.js:355
+#: js/scdm/util.js:355
 msgid "Authentication error"
 msgstr "Tapatybės patvirtinimo klaida"
 
@@ -484,7 +484,7 @@ msgstr "Tapatybės patvirtinimo klaida"
 #. as a cue to display our own message.
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: js/gdm/util.js:481
+#: js/scdm/util.js:481
 msgid "(or swipe finger)"
 msgstr "(arba perbraukite pirštu)"
 
@@ -1629,7 +1629,7 @@ msgstr "GNOME aplinkai reikia užrakinti ekraną"
 #. point, but any application using global grabs is broken
 #. Just tell him to stop using this app
 #.
-#. XXX: another option is to kick the user into the gdm login
+#. XXX: another option is to kick the user into the scdm login
 #. screen, where we're not affected by grabs
 #: js/ui/screenShield.js:244 js/ui/screenShield.js:602
 msgid "Unable to lock"
@@ -2389,8 +2389,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "Veiksena, naudojama GDM prisijungimo ekrane"
 
 #: src/main.c:470
-msgid "Use a specific mode, e.g. “gdm” for login screen"
-msgstr "Naudoti konkrečią veikseną, pvz., „gdm“ prisijungimo ekranui"
+msgid "Use a specific mode, e.g. “scdm” for login screen"
+msgstr "Naudoti konkrečią veikseną, pvz., „scdm“ prisijungimo ekranui"
 
 #: src/main.c:476
 msgid "List possible modes"

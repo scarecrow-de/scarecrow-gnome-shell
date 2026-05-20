@@ -290,39 +290,39 @@ msgstr "network-workgroup"
 msgid "There was an error loading the preferences dialog for %s:"
 msgstr "%s നുള്ള മുന്‍ഗണനാ ഡയലോഗ് ലഭ്യമാക്കുന്നതില്‍ പിശക്:"
 
-#: js/gdm/authPrompt.js:147 js/ui/audioDeviceSelection.js:62 js/ui/components/networkAgent.js:117
+#: js/scdm/authPrompt.js:147 js/ui/audioDeviceSelection.js:62 js/ui/components/networkAgent.js:117
 #: js/ui/components/polkitAgent.js:153 js/ui/endSessionDialog.js:442 js/ui/extensionDownloader.js:197
 #: js/ui/shellMountOperation.js:345 js/ui/status/network.js:905
 msgid "Cancel"
 msgstr "റദ്ദാക്കുക"
 
-#: js/gdm/authPrompt.js:166 js/gdm/authPrompt.js:209 js/gdm/authPrompt.js:441
+#: js/scdm/authPrompt.js:166 js/scdm/authPrompt.js:209 js/scdm/authPrompt.js:441
 msgid "Next"
 msgstr "അടുത്തത്"
 
-#: js/gdm/authPrompt.js:205 js/ui/shellMountOperation.js:349 js/ui/unlockDialog.js:59
+#: js/scdm/authPrompt.js:205 js/ui/shellMountOperation.js:349 js/ui/unlockDialog.js:59
 msgid "Unlock"
 msgstr "പൂട്ട് തുറക്കുക"
 
-#: js/gdm/authPrompt.js:207
+#: js/scdm/authPrompt.js:207
 msgctxt "button"
 msgid "Sign In"
 msgstr "അകത്തുകയറുക"
 
-#: js/gdm/loginDialog.js:319
+#: js/scdm/loginDialog.js:319
 msgid "Choose Session"
 msgstr "സെഷന്‍ തെരഞ്ഞെടുക്കുക"
 
 #. translators: this message is shown below the user list on the
 #. login screen. It can be activated to reveal an entry for
 #. manually entering the username.
-#: js/gdm/loginDialog.js:462
+#: js/scdm/loginDialog.js:462
 msgid "Not listed?"
 msgstr "ലഭ്യമല്ലേ?"
 
 #. Translators: this message is shown below the username entry field
 #. to clue the user in on how to login to the local network realm
-#: js/gdm/loginDialog.js:891
+#: js/scdm/loginDialog.js:891
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(e.g., ഉപയോക്താവു് അല്ലെങ്കില്‍ %s)"
@@ -330,16 +330,16 @@ msgstr "(e.g., ഉപയോക്താവു് അല്ലെങ്കില�
 #. TTLS and PEAP are actually much more complicated, but this complication
 #. is not visible here since we only care about phase2 authentication
 #. (and don't even care of which one)
-#: js/gdm/loginDialog.js:896 js/ui/components/networkAgent.js:243 js/ui/components/networkAgent.js:263
+#: js/scdm/loginDialog.js:896 js/ui/components/networkAgent.js:243 js/ui/components/networkAgent.js:263
 #: js/ui/components/networkAgent.js:281
 msgid "Username: "
 msgstr "ഉപയോക്തൃ നാമം: "
 
-#: js/gdm/loginDialog.js:1234
+#: js/scdm/loginDialog.js:1234
 msgid "Login Window"
 msgstr "പ്രവേശന ജാലകം"
 
-#: js/gdm/util.js:345
+#: js/scdm/util.js:345
 msgid "Authentication error"
 msgstr "തിരിച്ചറിയല്‍ പിശക്"
 
@@ -348,7 +348,7 @@ msgstr "തിരിച്ചറിയല്‍ പിശക്"
 #. as a cue to display our own message.
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: js/gdm/util.js:485
+#: js/scdm/util.js:485
 msgid "(or swipe finger)"
 msgstr "(അല്ലെങ്കില്‍ ഫിംഗര്‍ സ്വൈപ്പ് ചെയ്യുക)"
 
@@ -1443,7 +1443,7 @@ msgstr "ഗ്നോമിന് സ്ക്രീന്‍ പൂട്ടണ�
 #. point, but any application using global grabs is broken
 #. Just tell him to stop using this app
 #.
-#. XXX: another option is to kick the user into the gdm login
+#. XXX: another option is to kick the user into the scdm login
 #. screen, where we're not affected by grabs
 #: js/ui/screenShield.js:836 js/ui/screenShield.js:1309
 msgid "Unable to lock"
@@ -2086,8 +2086,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "പ്രവേശന സ്ക്രീനില്‍ ജിഡിഎം ഉപയോഗിയ്ക്കുന്ന മോഡ്"
 
 #: src/main.c:422
-msgid "Use a specific mode, e.g. “gdm” for login screen"
-msgstr "ഒരു പ്രത്യേക മോഡ് ഉപയോഗിയ്ക്കുക, ഉദാ. പ്രവേശന സ്ക്രീനിന്  gdm"
+msgid "Use a specific mode, e.g. “scdm” for login screen"
+msgstr "ഒരു പ്രത്യേക മോഡ് ഉപയോഗിയ്ക്കുക, ഉദാ. പ്രവേശന സ്ക്രീനിന്  scdm"
 
 #: src/main.c:428
 msgid "List possible modes"

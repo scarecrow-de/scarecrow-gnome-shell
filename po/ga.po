@@ -274,42 +274,42 @@ msgstr "Tharla earráid agus luchtú na dialóige sainroghanna do %s:"
 msgid "Scarecrow Shell Extensions"
 msgstr "Eisínteachtaí Scarecrow Shell"
 
-#: ../js/gdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:145
+#: ../js/scdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:145
 #: ../js/ui/components/polkitAgent.js:179 ../js/ui/endSessionDialog.js:452
 #: ../js/ui/extensionDownloader.js:195 ../js/ui/shellMountOperation.js:399
 #: ../js/ui/status/network.js:916
 msgid "Cancel"
 msgstr "Cealaigh"
 
-#: ../js/gdm/authPrompt.js:169 ../js/gdm/authPrompt.js:215
-#: ../js/gdm/authPrompt.js:447
+#: ../js/scdm/authPrompt.js:169 ../js/scdm/authPrompt.js:215
+#: ../js/scdm/authPrompt.js:447
 msgid "Next"
 msgstr "Ar Aghaidh"
 
-#: ../js/gdm/authPrompt.js:211 ../js/ui/shellMountOperation.js:403
+#: ../js/scdm/authPrompt.js:211 ../js/ui/shellMountOperation.js:403
 #: ../js/ui/unlockDialog.js:59
 msgid "Unlock"
 msgstr "Díghlasáil"
 
-#: ../js/gdm/authPrompt.js:213
+#: ../js/scdm/authPrompt.js:213
 msgctxt "button"
 msgid "Sign In"
 msgstr "Logáil Isteach"
 
-#: ../js/gdm/loginDialog.js:281
+#: ../js/scdm/loginDialog.js:281
 msgid "Choose Session"
 msgstr "Roghnaigh Seisiún"
 
 #. translators: this message is shown below the user list on the
 #. login screen. It can be activated to reveal an entry for
 #. manually entering the username.
-#: ../js/gdm/loginDialog.js:431
+#: ../js/scdm/loginDialog.js:431
 msgid "Not listed?"
 msgstr "Gan liostáil?"
 
 #. Translators: this message is shown below the username entry field
 #. to clue the user in on how to login to the local network realm
-#: ../js/gdm/loginDialog.js:850
+#: ../js/scdm/loginDialog.js:850
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(m.s., úsáideoir nó %s)"
@@ -317,16 +317,16 @@ msgstr "(m.s., úsáideoir nó %s)"
 #. TTLS and PEAP are actually much more complicated, but this complication
 #. is not visible here since we only care about phase2 authentication
 #. (and don't even care of which one)
-#: ../js/gdm/loginDialog.js:855 ../js/ui/components/networkAgent.js:271
+#: ../js/scdm/loginDialog.js:855 ../js/ui/components/networkAgent.js:271
 #: ../js/ui/components/networkAgent.js:289
 msgid "Username: "
 msgstr "Ainm úsáideora: "
 
-#: ../js/gdm/loginDialog.js:1184
+#: ../js/scdm/loginDialog.js:1184
 msgid "Login Window"
 msgstr "Fuinneog Logála Isteach"
 
-#: ../js/gdm/util.js:341
+#: ../js/scdm/util.js:341
 msgid "Authentication error"
 msgstr "Earráid fhíordheimhnithe"
 
@@ -335,7 +335,7 @@ msgstr "Earráid fhíordheimhnithe"
 #. as a cue to display our own message.
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: ../js/gdm/util.js:473
+#: ../js/scdm/util.js:473
 msgid "(or swipe finger)"
 msgstr "(nó faidhpeáil méar)"
 
@@ -1076,7 +1076,7 @@ msgstr "Teastaíonn ó GNOME an scáileán a chur faoi ghlas"
 #. point, but any application using global grabs is broken
 #. Just tell him to stop using this app
 #.
-#. XXX: another option is to kick the user into the gdm login
+#. XXX: another option is to kick the user into the scdm login
 #. screen, where we're not affected by grabs
 #: ../js/ui/screenShield.js:805 ../js/ui/screenShield.js:1271
 msgid "Unable to lock"
@@ -1638,7 +1638,7 @@ msgid "Mode used by GDM for login screen"
 msgstr ""
 
 #: ../src/main.c:393
-msgid "Use a specific mode, e.g. \"gdm\" for login screen"
+msgid "Use a specific mode, e.g. \"scdm\" for login screen"
 msgstr ""
 
 #: ../src/main.c:399

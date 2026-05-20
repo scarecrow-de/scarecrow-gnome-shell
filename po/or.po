@@ -317,54 +317,54 @@ msgstr "%s ପାଇଁ ପସନ୍ଦ ସଂଳାପ ଧାରଣ କରି�
 msgid "Scarecrow Shell Extensions"
 msgstr "GNOME ସେଲ ଅନୁଲଗ୍ନଗୁଡ଼ିକ"
 
-#: ../js/gdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:143
+#: ../js/scdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:143
 #: ../js/ui/components/polkitAgent.js:166 ../js/ui/endSessionDialog.js:452
 #: ../js/ui/extensionDownloader.js:195 ../js/ui/shellMountOperation.js:399
 #: ../js/ui/status/network.js:915
 msgid "Cancel"
 msgstr "ବାତିଲ କରନ୍ତୁ"
 
-#: ../js/gdm/authPrompt.js:169 ../js/gdm/authPrompt.js:217
+#: ../js/scdm/authPrompt.js:169 ../js/scdm/authPrompt.js:217
 msgid "Next"
 msgstr "ପରବର୍ତ୍ତୀ"
 
-#: ../js/gdm/authPrompt.js:213 ../js/ui/shellMountOperation.js:403
+#: ../js/scdm/authPrompt.js:213 ../js/ui/shellMountOperation.js:403
 #: ../js/ui/unlockDialog.js:59
 msgid "Unlock"
 msgstr "ଖୋଲନ୍ତୁ"
 
-#: ../js/gdm/authPrompt.js:215
+#: ../js/scdm/authPrompt.js:215
 msgctxt "button"
 msgid "Sign In"
 msgstr "ସାଇନ ଇନ"
 
-#: ../js/gdm/loginDialog.js:269
+#: ../js/scdm/loginDialog.js:269
 msgid "Choose Session"
 msgstr "ଅଧିବେଶନ ବାଛନ୍ତୁ"
 
-#: ../js/gdm/loginDialog.js:429
+#: ../js/scdm/loginDialog.js:429
 msgid "Not listed?"
 msgstr "ତାଲିକାଭୁକ୍ତ ନୁହଁ କି?"
 
-#: ../js/gdm/loginDialog.js:614
+#: ../js/scdm/loginDialog.js:614
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(ଯେପରିକି, %s ପାଇଁ ଚାଳକ)"
 
-#: ../js/gdm/loginDialog.js:619 ../js/ui/components/networkAgent.js:269
+#: ../js/scdm/loginDialog.js:619 ../js/ui/components/networkAgent.js:269
 #: ../js/ui/components/networkAgent.js:287
 msgid "Username: "
 msgstr "ଚାଳକ ନାମ: "
 
-#: ../js/gdm/loginDialog.js:922
+#: ../js/scdm/loginDialog.js:922
 msgid "Login Window"
 msgstr "ଲଗଇନ ୱିଣ୍ଡୋ"
 
-#: ../js/gdm/util.js:323
+#: ../js/scdm/util.js:323
 msgid "Authentication error"
 msgstr "ବୈଧିକରଣ ତ୍ରୁଟି"
 
-#: ../js/gdm/util.js:453
+#: ../js/scdm/util.js:453
 msgid "(or swipe finger)"
 msgstr "(ଅଥବା ଅଙ୍ଗୁଳି ବୁଲାନ୍ତୁ)"
 
@@ -1811,8 +1811,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "ଲଗଇନ ପରଦା ପାଇଁ ବ୍ୟବହୃତ GDM"
 
 #: ../src/main.c:385
-msgid "Use a specific mode, e.g. \"gdm\" for login screen"
-msgstr "ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ଧାରା ବ୍ୟବହାର କରନ୍ତୁ, ଯେପରିକି ଲଗଇନ ପରଦା ପାଇଁ \"gdm\""
+msgid "Use a specific mode, e.g. \"scdm\" for login screen"
+msgstr "ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ଧାରା ବ୍ୟବହାର କରନ୍ତୁ, ଯେପରିକି ଲଗଇନ ପରଦା ପାଇଁ \"scdm\""
 
 #: ../src/main.c:391
 msgid "List possible modes"

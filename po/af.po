@@ -338,41 +338,41 @@ msgid "There was an error loading the preferences dialog for %s:"
 msgstr ""
 "'n Fout het voorgekom tydens die lansering van die voorkeuredialoog vir %s:"
 
-#: js/gdm/authPrompt.js:147 js/ui/audioDeviceSelection.js:71
+#: js/scdm/authPrompt.js:147 js/ui/audioDeviceSelection.js:71
 #: js/ui/components/networkAgent.js:117 js/ui/components/polkitAgent.js:153
 #: js/ui/endSessionDialog.js:482 js/ui/extensionDownloader.js:197
 #: js/ui/shellMountOperation.js:343 js/ui/status/network.js:921
 msgid "Cancel"
 msgstr "Kanselleer"
 
-#: js/gdm/authPrompt.js:166 js/gdm/authPrompt.js:209 js/gdm/authPrompt.js:441
+#: js/scdm/authPrompt.js:166 js/scdm/authPrompt.js:209 js/scdm/authPrompt.js:441
 msgid "Next"
 msgstr "Volgende"
 
-#: js/gdm/authPrompt.js:205 js/ui/shellMountOperation.js:347
+#: js/scdm/authPrompt.js:205 js/ui/shellMountOperation.js:347
 #: js/ui/unlockDialog.js:59
 msgid "Unlock"
 msgstr "Sluit oop"
 
-#: js/gdm/authPrompt.js:207
+#: js/scdm/authPrompt.js:207
 msgctxt "button"
 msgid "Sign In"
 msgstr "Meld aan"
 
-#: js/gdm/loginDialog.js:315
+#: js/scdm/loginDialog.js:315
 msgid "Choose Session"
 msgstr "Kies sessie"
 
 #. translators: this message is shown below the user list on the
 #. login screen. It can be activated to reveal an entry for
 #. manually entering the username.
-#: js/gdm/loginDialog.js:458
+#: js/scdm/loginDialog.js:458
 msgid "Not listed?"
 msgstr "Nie op die lys nie?"
 
 #. Translators: this message is shown below the username entry field
 #. to clue the user in on how to login to the local network realm
-#: js/gdm/loginDialog.js:887
+#: js/scdm/loginDialog.js:887
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(bv. gebruiker of %s)"
@@ -380,16 +380,16 @@ msgstr "(bv. gebruiker of %s)"
 #. TTLS and PEAP are actually much more complicated, but this complication
 #. is not visible here since we only care about phase2 authentication
 #. (and don't even care of which one)
-#: js/gdm/loginDialog.js:892 js/ui/components/networkAgent.js:243
+#: js/scdm/loginDialog.js:892 js/ui/components/networkAgent.js:243
 #: js/ui/components/networkAgent.js:261
 msgid "Username: "
 msgstr "Gebruikernaam: "
 
-#: js/gdm/loginDialog.js:1228
+#: js/scdm/loginDialog.js:1228
 msgid "Login Window"
 msgstr "Aanmeldvenster"
 
-#: js/gdm/util.js:345
+#: js/scdm/util.js:345
 msgid "Authentication error"
 msgstr "Verifiëringsfout"
 
@@ -398,7 +398,7 @@ msgstr "Verifiëringsfout"
 #. as a cue to display our own message.
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: js/gdm/util.js:482
+#: js/scdm/util.js:482
 msgid "(or swipe finger)"
 msgstr "(of veeg vinger)"
 
@@ -1529,7 +1529,7 @@ msgstr "GNOME moet die skerm sluit"
 #. point, but any application using global grabs is broken
 #. Just tell him to stop using this app
 #.
-#. XXX: another option is to kick the user into the gdm login
+#. XXX: another option is to kick the user into the scdm login
 #. screen, where we're not affected by grabs
 #: js/ui/screenShield.js:836 js/ui/screenShield.js:1309
 msgid "Unable to lock"
@@ -2169,8 +2169,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "Modus deur GDM gebruik vir aanmeldskerm"
 
 #: src/main.c:444
-msgid "Use a specific mode, e.g. “gdm” for login screen"
-msgstr "Gebruik 'n spesifieke modus, bv. \"gdm\" vir aanmeldskerm"
+msgid "Use a specific mode, e.g. “scdm” for login screen"
+msgstr "Gebruik 'n spesifieke modus, bv. \"scdm\" vir aanmeldskerm"
 
 #: src/main.c:450
 msgid "List possible modes"

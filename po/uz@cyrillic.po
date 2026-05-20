@@ -324,41 +324,41 @@ msgstr "%s учун параметрлар диалог ойнасини юкл�
 msgid "Scarecrow Shell Extensions"
 msgstr "Scarecrow Shell кенгайтмалари"
 
-#: js/gdm/authPrompt.js:147 js/ui/audioDeviceSelection.js:71
+#: js/scdm/authPrompt.js:147 js/ui/audioDeviceSelection.js:71
 #: js/ui/components/networkAgent.js:145 js/ui/components/polkitAgent.js:179
 #: js/ui/endSessionDialog.js:483 js/ui/extensionDownloader.js:195
 #: js/ui/shellMountOperation.js:399 js/ui/status/network.js:916
 msgid "Cancel"
 msgstr "Бекор қилиш"
 
-#: js/gdm/authPrompt.js:169 js/gdm/authPrompt.js:216 js/gdm/authPrompt.js:448
+#: js/scdm/authPrompt.js:169 js/scdm/authPrompt.js:216 js/scdm/authPrompt.js:448
 msgid "Next"
 msgstr "Кейинги"
 
-#: js/gdm/authPrompt.js:212 js/ui/shellMountOperation.js:403
+#: js/scdm/authPrompt.js:212 js/ui/shellMountOperation.js:403
 #: js/ui/unlockDialog.js:59
 msgid "Unlock"
 msgstr "Қулфни ечиш"
 
-#: js/gdm/authPrompt.js:214
+#: js/scdm/authPrompt.js:214
 msgctxt "button"
 msgid "Sign In"
 msgstr "Кириш"
 
-#: js/gdm/loginDialog.js:285
+#: js/scdm/loginDialog.js:285
 msgid "Choose Session"
 msgstr "Сеансни танлаш"
 
 #. translators: this message is shown below the user list on the
 #. login screen. It can be activated to reveal an entry for
 #. manually entering the username.
-#: js/gdm/loginDialog.js:435
+#: js/scdm/loginDialog.js:435
 msgid "Not listed?"
 msgstr "Рўйхатда йўқми?"
 
 #. Translators: this message is shown below the username entry field
 #. to clue the user in on how to login to the local network realm
-#: js/gdm/loginDialog.js:854
+#: js/scdm/loginDialog.js:854
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(мас. фойдаланувчи ёки %s)"
@@ -366,16 +366,16 @@ msgstr "(мас. фойдаланувчи ёки %s)"
 #. TTLS and PEAP are actually much more complicated, but this complication
 #. is not visible here since we only care about phase2 authentication
 #. (and don't even care of which one)
-#: js/gdm/loginDialog.js:859 js/ui/components/networkAgent.js:271
+#: js/scdm/loginDialog.js:859 js/ui/components/networkAgent.js:271
 #: js/ui/components/networkAgent.js:289
 msgid "Username: "
 msgstr "Фойдаланувчи:"
 
-#: js/gdm/loginDialog.js:1196
+#: js/scdm/loginDialog.js:1196
 msgid "Login Window"
 msgstr "Кириш Ойнаси"
 
-#: js/gdm/util.js:341
+#: js/scdm/util.js:341
 msgid "Authentication error"
 msgstr "Хақиқийлигини текширишда хатолик"
 
@@ -384,7 +384,7 @@ msgstr "Хақиқийлигини текширишда хатолик"
 #. as a cue to display our own message.
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: js/gdm/util.js:473
+#: js/scdm/util.js:473
 msgid "(or swipe finger)"
 msgstr "(ёки ушбу мослама юзасида бармоғингизни юритинг)"
 
@@ -1148,7 +1148,7 @@ msgstr "GNOME экранни қулфлаши керак"
 #. point, but any application using global grabs is broken
 #. Just tell him to stop using this app
 #.
-#. XXX: another option is to kick the user into the gdm login
+#. XXX: another option is to kick the user into the scdm login
 #. screen, where we're not affected by grabs
 #: js/ui/screenShield.js:825 js/ui/screenShield.js:1291
 msgid "Unable to lock"
@@ -1715,8 +1715,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "Сеансга кириш ойнаси учун GDM ишлатадиган режим"
 
 #: src/main.c:393
-msgid "Use a specific mode, e.g. \"gdm\" for login screen"
-msgstr "Аниқ бир режимни, масалан кириш экрани учун \"gdm\"ни, ишлатиш"
+msgid "Use a specific mode, e.g. \"scdm\" for login screen"
+msgstr "Аниқ бир режимни, масалан кириш экрани учун \"scdm\"ни, ишлатиш"
 
 #: src/main.c:399
 msgid "List possible modes"

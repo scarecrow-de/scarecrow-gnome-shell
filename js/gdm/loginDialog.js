@@ -20,16 +20,16 @@
 const { AccountsService, Atk, Clutter, Scdm, Gio,
         GLib, GObject, Meta, Pango, Shell, St } = imports.gi;
 
-const AuthPrompt = imports.gdm.authPrompt;
-const Batch = imports.gdm.batch;
+const AuthPrompt = imports.scdm.authPrompt;
+const Batch = imports.scdm.batch;
 const BoxPointer = imports.ui.boxpointer;
 const CtrlAltTab = imports.ui.ctrlAltTab;
-const ScdmUtil = imports.gdm.util;
+const ScdmUtil = imports.scdm.util;
 const Layout = imports.ui.layout;
 const LoginManager = imports.misc.loginManager;
 const Main = imports.ui.main;
 const PopupMenu = imports.ui.popupMenu;
-const Realmd = imports.gdm.realmd;
+const Realmd = imports.scdm.realmd;
 const UserWidget = imports.ui.userWidget;
 
 const _FADE_ANIMATION_TIME = 250;
@@ -416,7 +416,7 @@ var LoginDialog = GObject.registerClass({
         parentActor.add_child(this);
 
         this._userManager = AccountsService.UserManager.get_default();
-        this._gdmClient = new Scdm.Client();
+        this._scdmClient = new Scdm.Client();
 
         this._settings = new Gio.Settings({ schema_id: ScdmUtil.LOGIN_SCREEN_SCHEMA });
 
@@ -443,7 +443,7 @@ var LoginDialog = GObject.registerClass({
         this._userList = new UserList();
         this._userSelectionBox.add_child(this._userList);
 
-        this._authPrompt = new AuthPrompt.AuthPrompt(this._gdmClient, AuthPrompt.AuthPromptMode.UNLOCK_OR_LOG_IN);
+        this._authPrompt = new AuthPrompt.AuthPrompt(this._scdmClient, AuthPrompt.AuthPromptMode.UNLOCK_OR_LOG_IN);
         this._authPrompt.connect('prompted', this._onPrompted.bind(this));
         this._authPrompt.connect('reset', this._onReset.bind(this));
         this._authPrompt.hide();
@@ -840,7 +840,7 @@ var LoginDialog = GObject.registerClass({
             if (this._greeter)
                 this._greeter.run_dispose();
 
-            this._greeter = this._gdmClient.get_greeter_sync(null);
+            this._greeter = this._scdmClient.get_greeter_sync(null);
 
             this._defaultSessionChangedId = this._greeter.connect('default-session-name-changed',
                                                                   this._onDefaultSessionChanged.bind(this));

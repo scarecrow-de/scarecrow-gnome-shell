@@ -41,11 +41,11 @@ const _modes = {
         panelStyle: null,
     },
 
-    'gdm': {
+    'scdm': {
         hasNotifications: true,
         isGreeter: true,
         isPrimary: true,
-        unlockDialog: imports.gdm.loginDialog.LoginDialog,
+        unlockDialog: imports.scdm.loginDialog.LoginDialog,
         components: ['polkitAgent'],
         panel: {
             left: [],

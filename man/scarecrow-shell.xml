@@ -116,7 +116,7 @@
                         <varlistentry>
                                 <term><option>--mode=<replaceable>MODE</replaceable></option></term>
 
-                                <listitem><para>Use a specific mode, e.g. "gdm" for login screen</para></listitem>
+                                <listitem><para>Use a specific mode, e.g. "scdm" for login screen</para></listitem>
                         </varlistentry>
 
                         <varlistentry>

@@ -304,53 +304,53 @@ msgstr "Postoji greška koja se javila pri učitanju dijaloga postavki za %s:"
 msgid "Scarecrow Shell Extensions"
 msgstr "Scarecrow Shell Nastavci"
 
-#: ../js/gdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:143
+#: ../js/scdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:143
 #: ../js/ui/components/polkitAgent.js:166 ../js/ui/endSessionDialog.js:452
 #: ../js/ui/extensionDownloader.js:195 ../js/ui/shellMountOperation.js:399
 #: ../js/ui/status/network.js:916
 msgid "Cancel"
 msgstr "Otkaži"
 
-#: ../js/gdm/authPrompt.js:169 ../js/gdm/authPrompt.js:217
+#: ../js/scdm/authPrompt.js:169 ../js/scdm/authPrompt.js:217
 msgid "Next"
 msgstr "Sljedeći"
 
-#: ../js/gdm/authPrompt.js:213 ../js/ui/shellMountOperation.js:403
+#: ../js/scdm/authPrompt.js:213 ../js/ui/shellMountOperation.js:403
 #: ../js/ui/unlockDialog.js:59
 msgid "Unlock"
 msgstr "Otključaj"
 
-#: ../js/gdm/authPrompt.js:215
+#: ../js/scdm/authPrompt.js:215
 msgctxt "button"
 msgid "Sign In"
 msgstr "Prijava"
 
-#: ../js/gdm/loginDialog.js:276
+#: ../js/scdm/loginDialog.js:276
 msgid "Choose Session"
 msgstr "Odaberite sesiju"
 
-#: ../js/gdm/loginDialog.js:417
+#: ../js/scdm/loginDialog.js:417
 msgid "Not listed?"
 msgstr "Nije izlistano?"
 
-#: ../js/gdm/loginDialog.js:826
+#: ../js/scdm/loginDialog.js:826
 msgid "(e.g., user or %s)"
 msgstr "(npr., korisnik ili %s)"
 
-#: ../js/gdm/loginDialog.js:831 ../js/ui/components/networkAgent.js:269
+#: ../js/scdm/loginDialog.js:831 ../js/ui/components/networkAgent.js:269
 #: ../js/ui/components/networkAgent.js:287
 msgid "Username: "
 msgstr "Korisničko ime: "
 
-#: ../js/gdm/loginDialog.js:1166
+#: ../js/scdm/loginDialog.js:1166
 msgid "Login Window"
 msgstr "Prozor za prijavu"
 
-#: ../js/gdm/util.js:341
+#: ../js/scdm/util.js:341
 msgid "Authentication error"
 msgstr "Greška pri prijavljivanju"
 
-#: ../js/gdm/util.js:473
+#: ../js/scdm/util.js:473
 msgid "(or swipe finger)"
 msgstr "(ili pređi prstom)"
 
@@ -1693,8 +1693,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "Mod koristen od strane GDM za prozor prijave."
 
 #: ../src/main.c:385
-msgid "Use a specific mode, e.g. \"gdm\" for login screen"
-msgstr "Koristi specifični mod, npr. \"gdm\" za prozor prijave."
+msgid "Use a specific mode, e.g. \"scdm\" for login screen"
+msgstr "Koristi specifični mod, npr. \"scdm\" za prozor prijave."
 
 #: ../src/main.c:391
 msgid "List possible modes"

@@ -323,54 +323,54 @@ msgstr "%s ಗಾಗಿ ಆದ್ಯತೆಗಳ ಸಂವಾದವನ್ನು 
 msgid "Scarecrow Shell Extensions"
 msgstr "GNOME ಶೆಲ್ ಎಕ್ಸ‍ಟೆನ್ಶನ್ಸ್"
 
-#: ../js/gdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:143
+#: ../js/scdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:143
 #: ../js/ui/components/polkitAgent.js:166 ../js/ui/endSessionDialog.js:452
 #: ../js/ui/extensionDownloader.js:195 ../js/ui/shellMountOperation.js:399
 #: ../js/ui/status/network.js:915
 msgid "Cancel"
 msgstr "ರದ್ದು ಮಾಡು"
 
-#: ../js/gdm/authPrompt.js:169 ../js/gdm/authPrompt.js:217
+#: ../js/scdm/authPrompt.js:169 ../js/scdm/authPrompt.js:217
 msgid "Next"
 msgstr "ಮುಂದಿನ"
 
-#: ../js/gdm/authPrompt.js:213 ../js/ui/shellMountOperation.js:403
+#: ../js/scdm/authPrompt.js:213 ../js/ui/shellMountOperation.js:403
 #: ../js/ui/unlockDialog.js:59
 msgid "Unlock"
 msgstr "ಅನ್‌ಲಾಕ್ ಮಾಡು"
 
-#: ../js/gdm/authPrompt.js:215
+#: ../js/scdm/authPrompt.js:215
 msgctxt "button"
 msgid "Sign In"
 msgstr "ಸೈನ್ ಇನ್"
 
-#: ../js/gdm/loginDialog.js:269
+#: ../js/scdm/loginDialog.js:269
 msgid "Choose Session"
 msgstr "ಅಧಿವೇಶನವನ್ನು ಆರಿಸಿ"
 
-#: ../js/gdm/loginDialog.js:429
+#: ../js/scdm/loginDialog.js:429
 msgid "Not listed?"
 msgstr "ಪಟ್ಟಿಯಲ್ಲಿಲ್ಲವೆ?"
 
-#: ../js/gdm/loginDialog.js:614
+#: ../js/scdm/loginDialog.js:614
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(ಉದಾ., ಬಳಕೆದಾರ ಅಥವ %s)"
 
-#: ../js/gdm/loginDialog.js:619 ../js/ui/components/networkAgent.js:269
+#: ../js/scdm/loginDialog.js:619 ../js/ui/components/networkAgent.js:269
 #: ../js/ui/components/networkAgent.js:287
 msgid "Username: "
 msgstr "ಬಳಕೆದಾರ ಹೆಸರು: "
 
-#: ../js/gdm/loginDialog.js:922
+#: ../js/scdm/loginDialog.js:922
 msgid "Login Window"
 msgstr "ಪ್ರವೇಶದ ಕಿಟಕಿ"
 
-#: ../js/gdm/util.js:323
+#: ../js/scdm/util.js:323
 msgid "Authentication error"
 msgstr "ದೃಢೀಕರಣ ದೋಷ"
 
-#: ../js/gdm/util.js:453
+#: ../js/scdm/util.js:453
 msgid "(or swipe finger)"
 msgstr "(ಅಥವ ನಿಮ್ಮ ಬೆರಳನ್ನು ಉಜ್ಜಿ)"
 
@@ -1824,8 +1824,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "ಪ್ರವೇಶದ ತೆರೆಗಾಗಿ GDM ಬಳಸಿದ ಪ್ರಕಾರ"
 
 #: ../src/main.c:385
-msgid "Use a specific mode, e.g. \"gdm\" for login screen"
-msgstr "ನಿಶ್ಚಿತ ಸ್ಥಿತಿಯನ್ನು ಬಳಸು, ಉದಾ. ಪ್ರವೇಶ ತೆರೆಗಾಗಿ \"gdm\""
+msgid "Use a specific mode, e.g. \"scdm\" for login screen"
+msgstr "ನಿಶ್ಚಿತ ಸ್ಥಿತಿಯನ್ನು ಬಳಸು, ಉದಾ. ಪ್ರವೇಶ ತೆರೆಗಾಗಿ \"scdm\""
 
 #: ../src/main.c:391
 msgid "List possible modes"

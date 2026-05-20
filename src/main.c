@@ -463,7 +463,7 @@ GOptionEntry gnome_shell_options[] = {
     NULL
   },
   {
-    "gdm-mode", 0, G_OPTION_FLAG_HIDDEN, G_OPTION_ARG_NONE,
+    "scdm-mode", 0, G_OPTION_FLAG_HIDDEN, G_OPTION_ARG_NONE,
     &is_scdm_mode,
     N_("Mode used by GDM for login screen"),
     NULL
@@ -471,7 +471,7 @@ GOptionEntry gnome_shell_options[] = {
   {
     "mode", 0, 0, G_OPTION_ARG_STRING,
     &session_mode,
-    N_("Use a specific mode, e.g. “gdm” for login screen"),
+    N_("Use a specific mode, e.g. “scdm” for login screen"),
     "MODE"
   },
   {
@@ -535,7 +535,7 @@ main (int argc, char **argv)
 
   /* Initialize the global object */
   if (session_mode == NULL)
-    session_mode = is_scdm_mode ? (char *)"gdm" : (char *)"user";
+    session_mode = is_scdm_mode ? (char *)"scdm" : (char *)"user";
 
   _shell_global_init ("session-mode", session_mode, NULL);
 

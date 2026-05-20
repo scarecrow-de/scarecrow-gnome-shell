@@ -486,7 +486,7 @@ msgid "Log Out…"
 msgstr "Hong ke-tet…"
 
 #. Cisco LEAP
-#: js/gdm/authPrompt.js:236 js/ui/components/networkAgent.js:202
+#: js/scdm/authPrompt.js:236 js/ui/components/networkAgent.js:202
 #: js/ui/components/networkAgent.js:218 js/ui/components/networkAgent.js:242
 #: js/ui/components/networkAgent.js:263 js/ui/components/networkAgent.js:283
 #: js/ui/components/networkAgent.js:293 js/ui/components/polkitAgent.js:277
@@ -494,17 +494,17 @@ msgstr "Hong ke-tet…"
 msgid "Password"
 msgstr "Password"
 
-#: js/gdm/loginDialog.js:318
+#: js/scdm/loginDialog.js:318
 msgid "Choose Session"
 msgstr "Session ingvai nangji"
 
-#: js/gdm/loginDialog.js:457
+#: js/scdm/loginDialog.js:457
 msgid "Not listed?"
 msgstr "List long awe?"
 
 #. Translators: this message is shown below the username entry field
 #. to clue the user in on how to login to the local network realm
-#: js/gdm/loginDialog.js:912
+#: js/scdm/loginDialog.js:912
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(e.g., user mate %s)"
@@ -512,16 +512,16 @@ msgstr "(e.g., user mate %s)"
 #. TTLS and PEAP are actually much more complicated, but this complication
 #. is not visible here since we only care about phase2 authentication
 #. (and don't even care of which one)
-#: js/gdm/loginDialog.js:917 js/ui/components/networkAgent.js:238
+#: js/scdm/loginDialog.js:917 js/ui/components/networkAgent.js:238
 #: js/ui/components/networkAgent.js:261 js/ui/components/networkAgent.js:279
 msgid "Username"
 msgstr "Username"
 
-#: js/gdm/loginDialog.js:1253
+#: js/scdm/loginDialog.js:1253
 msgid "Login Window"
 msgstr "Login Window"
 
-#: js/gdm/util.js:338
+#: js/scdm/util.js:338
 msgid "Authentication error"
 msgstr "Hovang chokche"
 
@@ -530,7 +530,7 @@ msgstr "Hovang chokche"
 #. as a cue to display our own message.
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: js/gdm/util.js:473
+#: js/scdm/util.js:473
 msgid "(or swipe finger)"
 msgstr ""
 
@@ -1614,7 +1614,7 @@ msgstr "GNOME screen lock nangji"
 #. point, but any application using global grabs is broken
 #. Just tell him to stop using this app
 #.
-#. XXX: another option is to kick the user into the gdm login
+#. XXX: another option is to kick the user into the scdm login
 #. screen, where we're not affected by grabs
 #: js/ui/screenShield.js:244 js/ui/screenShield.js:598
 msgid "Unable to lock"
@@ -2357,7 +2357,7 @@ msgid "Mode used by GDM for login screen"
 msgstr ""
 
 #: src/main.c:472
-msgid "Use a specific mode, e.g. “gdm” for login screen"
+msgid "Use a specific mode, e.g. “scdm” for login screen"
 msgstr ""
 
 #: src/main.c:478

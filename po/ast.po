@@ -184,51 +184,51 @@ msgstr "Qué tecláu usar"
 msgid "disabled OpenSearch providers"
 msgstr "fornidores OpenSearch desactivaos"
 
-#: ../js/gdm/loginDialog.js:617
+#: ../js/scdm/loginDialog.js:617
 msgid "Session..."
 msgstr "Sesión…"
 
-#: ../js/gdm/loginDialog.js:785
+#: ../js/scdm/loginDialog.js:785
 msgctxt "title"
 msgid "Sign In"
 msgstr "Entamar sesión"
 
 #. translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: ../js/gdm/loginDialog.js:830
+#: ../js/scdm/loginDialog.js:830
 msgid "(or swipe finger)"
 msgstr "(o pasa'l deu)"
 
-#: ../js/gdm/loginDialog.js:848
+#: ../js/scdm/loginDialog.js:848
 msgid "Not listed?"
 msgstr "¿Nun ta llistáu?"
 
-#: ../js/gdm/loginDialog.js:1004 ../js/ui/endSessionDialog.js:426
+#: ../js/scdm/loginDialog.js:1004 ../js/ui/endSessionDialog.js:426
 #: ../js/ui/extensionSystem.js:477 ../js/ui/networkAgent.js:165
 #: ../js/ui/polkitAuthenticationAgent.js:171 ../js/ui/status/bluetooth.js:480
 msgid "Cancel"
 msgstr "Encaboxar"
 
-#: ../js/gdm/loginDialog.js:1009
+#: ../js/scdm/loginDialog.js:1009
 msgctxt "button"
 msgid "Sign In"
 msgstr "Entamar sesión"
 
-#: ../js/gdm/loginDialog.js:1358
+#: ../js/scdm/loginDialog.js:1358
 msgid "Login Window"
 msgstr "Ventana d'aniciu de sesión"
 
-#: ../js/gdm/powerMenu.js:116 ../js/ui/userMenu.js:514
+#: ../js/scdm/powerMenu.js:116 ../js/ui/userMenu.js:514
 #: ../js/ui/userMenu.js:516 ../js/ui/userMenu.js:585
 msgid "Suspend"
 msgstr "Suspender"
 
-#: ../js/gdm/powerMenu.js:121 ../js/ui/endSessionDialog.js:89
+#: ../js/scdm/powerMenu.js:121 ../js/ui/endSessionDialog.js:89
 #: ../js/ui/endSessionDialog.js:97 ../js/ui/endSessionDialog.js:106
 msgid "Restart"
 msgstr "Reaniciar"
 
-#: ../js/gdm/powerMenu.js:126 ../js/ui/endSessionDialog.js:80
+#: ../js/scdm/powerMenu.js:126 ../js/ui/endSessionDialog.js:80
 #: ../js/ui/endSessionDialog.js:91
 msgid "Power Off"
 msgstr "Apagar"

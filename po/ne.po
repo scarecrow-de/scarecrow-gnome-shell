@@ -411,7 +411,7 @@ msgid ""
 "sure you are logged into GNOME and try again."
 msgstr ""
 
-#: js/gdm/authPrompt.js:139 js/ui/audioDeviceSelection.js:53
+#: js/scdm/authPrompt.js:139 js/ui/audioDeviceSelection.js:53
 #: js/ui/components/networkAgent.js:120 js/ui/components/polkitAgent.js:138
 #: js/ui/endSessionDialog.js:445 js/ui/extensionDownloader.js:189
 #: js/ui/shellMountOperation.js:390 js/ui/shellMountOperation.js:399
@@ -419,33 +419,33 @@ msgstr ""
 msgid "Cancel"
 msgstr "_रद्द"
 
-#: js/gdm/authPrompt.js:158 js/gdm/authPrompt.js:201 js/gdm/authPrompt.js:433
+#: js/scdm/authPrompt.js:158 js/scdm/authPrompt.js:201 js/scdm/authPrompt.js:433
 msgid "Next"
 msgstr "पछिल्लो"
 
-#: js/gdm/authPrompt.js:197 js/ui/shellMountOperation.js:394 js/ui/unlockDialog.js:42
+#: js/scdm/authPrompt.js:197 js/ui/shellMountOperation.js:394 js/ui/unlockDialog.js:42
 msgid "Unlock"
 msgstr "ताल्चा खोल्नुहोस्"
 
-#: js/gdm/authPrompt.js:199
+#: js/scdm/authPrompt.js:199
 msgctxt "button"
 msgid "Sign In"
 msgstr "लगइन गर्दै"
 
-#: js/gdm/loginDialog.js:299
+#: js/scdm/loginDialog.js:299
 msgid "Choose Session"
 msgstr "सेसन छान।नुहोस्"
 
 #. translators: this message is shown below the user list on the
 #. login screen. It can be activated to reveal an entry for
 #. manually entering the username.
-#: js/gdm/loginDialog.js:443
+#: js/scdm/loginDialog.js:443
 msgid "Not listed?"
 msgstr "सूचीमा नभएको ?"
 
 #. Translators: this message is shown below the username entry field
 #. to clue the user in on how to login to the local network realm
-#: js/gdm/loginDialog.js:879
+#: js/scdm/loginDialog.js:879
 #, fuzzy, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "%s मा प्रयोगकर्ता आईडी थप्नुहोस्"
@@ -453,16 +453,16 @@ msgstr "%s मा प्रयोगकर्ता आईडी थप्नु
 #. TTLS and PEAP are actually much more complicated, but this complication
 #. is not visible here since we only care about phase2 authentication
 #. (and don't even care of which one)
-#: js/gdm/loginDialog.js:884 js/ui/components/networkAgent.js:246
+#: js/scdm/loginDialog.js:884 js/ui/components/networkAgent.js:246
 #: js/ui/components/networkAgent.js:266 js/ui/components/networkAgent.js:284
 msgid "Username: "
 msgstr "प्रयोगकर्ता नाम :"
 
-#: js/gdm/loginDialog.js:1219
+#: js/scdm/loginDialog.js:1219
 msgid "Login Window"
 msgstr "सञ्झ्याल लगइन गर्नुहोस्"
 
-#: js/gdm/util.js:338
+#: js/scdm/util.js:338
 msgid "Authentication error"
 msgstr "प्रमाणीकरण त्रुति"
 
@@ -471,7 +471,7 @@ msgstr "प्रमाणीकरण त्रुति"
 #. as a cue to display our own message.
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: js/gdm/util.js:473
+#: js/scdm/util.js:473
 #, fuzzy
 msgid "(or swipe finger)"
 msgstr "औंला"
@@ -1578,7 +1578,7 @@ msgstr "प्रयोगकर्तालाई उसको पर्दा�
 #. point, but any application using global grabs is broken
 #. Just tell him to stop using this app
 #.
-#. XXX: another option is to kick the user into the gdm login
+#. XXX: another option is to kick the user into the scdm login
 #. screen, where we're not affected by grabs
 #: js/ui/screenShield.js:822 js/ui/screenShield.js:1294
 msgid "Unable to lock"
@@ -2323,7 +2323,7 @@ msgid "Mode used by GDM for login screen"
 msgstr ""
 
 #: src/main.c:476
-msgid "Use a specific mode, e.g. “gdm” for login screen"
+msgid "Use a specific mode, e.g. “scdm” for login screen"
 msgstr ""
 
 #: src/main.c:482

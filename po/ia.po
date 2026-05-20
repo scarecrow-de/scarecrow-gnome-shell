@@ -386,18 +386,18 @@ msgstr "Extension"
 msgid "Select an extension to configure using the combobox above."
 msgstr "Selige un extension que configurar usante le lista combinate in alto."
 
-#: ../js/gdm/loginDialog.js:405
+#: ../js/scdm/loginDialog.js:405
 msgid "Session…"
 msgstr "Session…"
 
 #. translators: this message is shown below the user list on the
 #. login screen. It can be activated to reveal an entry for
 #. manually entering the username.
-#: ../js/gdm/loginDialog.js:630
+#: ../js/scdm/loginDialog.js:630
 msgid "Not listed?"
 msgstr "Esque le nomine non es in le lista?"
 
-#: ../js/gdm/loginDialog.js:787 ../js/ui/components/networkAgent.js:137
+#: ../js/scdm/loginDialog.js:787 ../js/ui/components/networkAgent.js:137
 #: ../js/ui/components/polkitAgent.js:162 ../js/ui/endSessionDialog.js:376
 #: ../js/ui/extensionDownloader.js:195 ../js/ui/shellMountOperation.js:399
 #: ../js/ui/status/bluetooth.js:415 ../js/ui/unlockDialog.js:100
@@ -405,57 +405,57 @@ msgstr "Esque le nomine non es in le lista?"
 msgid "Cancel"
 msgstr "Annullar"
 
-#: ../js/gdm/loginDialog.js:803
+#: ../js/scdm/loginDialog.js:803
 msgctxt "button"
 msgid "Sign In"
 msgstr "Connecter se"
 
-#: ../js/gdm/loginDialog.js:803
+#: ../js/scdm/loginDialog.js:803
 msgid "Next"
 msgstr "Sequente"
 
 #. TTLS and PEAP are actually much more complicated, but this complication
 #. is not visible here since we only care about phase2 authentication
 #. (and don't even care of which one)
-#: ../js/gdm/loginDialog.js:918 ../js/ui/components/networkAgent.js:260
+#: ../js/scdm/loginDialog.js:918 ../js/ui/components/networkAgent.js:260
 #: ../js/ui/components/networkAgent.js:278
 msgid "Username: "
 msgstr "Nomine de usator:"
 
-#: ../js/gdm/loginDialog.js:1174
+#: ../js/scdm/loginDialog.js:1174
 msgid "Login Window"
 msgstr "Fenestra de connexion"
 
 #. Translators: accessible name of the power menu in the login screen
-#: ../js/gdm/powerMenu.js:36
+#: ../js/scdm/powerMenu.js:36
 msgid "Power"
 msgstr "Energia"
 
-#: ../js/gdm/powerMenu.js:93 ../js/ui/userMenu.js:696 ../js/ui/userMenu.js:700
+#: ../js/scdm/powerMenu.js:93 ../js/ui/userMenu.js:696 ../js/ui/userMenu.js:700
 #: ../js/ui/userMenu.js:816
 msgid "Suspend"
 msgstr "Suspender"
 
-#: ../js/gdm/powerMenu.js:98
+#: ../js/scdm/powerMenu.js:98
 msgid "Restart"
 msgstr "Reinitiar"
 
-#: ../js/gdm/powerMenu.js:103 ../js/ui/userMenu.js:698
+#: ../js/scdm/powerMenu.js:103 ../js/ui/userMenu.js:698
 #: ../js/ui/userMenu.js:700 ../js/ui/userMenu.js:815 ../js/ui/userMenu.js:942
 msgid "Power Off"
 msgstr "Extinguer"
 
-#: ../js/gdm/util.js:249
+#: ../js/scdm/util.js:249
 msgid "Authentication error"
 msgstr "Error de authentication"
 
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: ../js/gdm/util.js:366
+#: ../js/scdm/util.js:366
 msgid "(or swipe finger)"
 msgstr "(o passa le digito trans le lector de impressiones)"
 
-#: ../js/gdm/util.js:391
+#: ../js/scdm/util.js:391
 #, c-format
 msgid "(e.g., user or %s)"
 msgstr "(per ex., usator o %s)"
@@ -1335,7 +1335,7 @@ msgstr "GNOME ha besonio de serrar le schermo"
 #. point, but any application using global grabs is broken
 #. Just tell him to stop using this app
 #.
-#. XXX: another option is to kick the user into the gdm login
+#. XXX: another option is to kick the user into the scdm login
 #. screen, where we're not affected by grabs
 #: ../js/ui/screenShield.js:762 ../js/ui/screenShield.js:1198
 msgid "Unable to lock"
@@ -1925,8 +1925,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "Modo usate per GDM pro le schermo de accesso"
 
 #: ../src/main.c:359
-msgid "Use a specific mode, e.g. \"gdm\" for login screen"
-msgstr "Usar un modo specific, per ex. \"gdm\" pro le schermo de accesso"
+msgid "Use a specific mode, e.g. \"scdm\" for login screen"
+msgstr "Usar un modo specific, per ex. \"scdm\" pro le schermo de accesso"
 
 #: ../src/main.c:365
 msgid "List possible modes"

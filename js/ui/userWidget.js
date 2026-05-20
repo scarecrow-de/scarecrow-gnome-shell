@@ -9,7 +9,7 @@ const Params = imports.misc.params;
 
 var AVATAR_ICON_SIZE = 64;
 
-// Adapted from gdm/gui/user-switch-applet/applet.c
+// Adapted from scdm/gui/user-switch-applet/applet.c
 //
 // Copyright (C) 2004-2005 James M. Cape <jcape@ignore-your.tv>.
 // Copyright (C) 2008,2009 Red Hat, Inc.

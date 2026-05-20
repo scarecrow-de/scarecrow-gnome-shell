@@ -418,7 +418,7 @@ msgstr "হোমপেজ "
 msgid "Visit extension homepage"
 msgstr "এক্সটেনশন হোমপেজে যান"
 
-#: js/gdm/authPrompt.js:137 js/ui/audioDeviceSelection.js:57
+#: js/scdm/authPrompt.js:137 js/ui/audioDeviceSelection.js:57
 #: js/ui/components/networkAgent.js:111 js/ui/components/polkitAgent.js:139
 #: js/ui/endSessionDialog.js:438 js/ui/extensionDownloader.js:183
 #: js/ui/shellMountOperation.js:376 js/ui/shellMountOperation.js:386
@@ -427,7 +427,7 @@ msgid "Cancel"
 msgstr "বাতিল"
 
 #. Cisco LEAP
-#: js/gdm/authPrompt.js:239 js/ui/components/networkAgent.js:206
+#: js/scdm/authPrompt.js:239 js/ui/components/networkAgent.js:206
 #: js/ui/components/networkAgent.js:222 js/ui/components/networkAgent.js:246
 #: js/ui/components/networkAgent.js:267 js/ui/components/networkAgent.js:287
 #: js/ui/components/networkAgent.js:297 js/ui/components/polkitAgent.js:277
@@ -435,17 +435,17 @@ msgstr "বাতিল"
 msgid "Password"
 msgstr "পাসওয়ার্ড"
 
-#: js/gdm/loginDialog.js:318
+#: js/scdm/loginDialog.js:318
 msgid "Choose Session"
 msgstr "সেশন বাছুন"
 
-#: js/gdm/loginDialog.js:457
+#: js/scdm/loginDialog.js:457
 msgid "Not listed?"
 msgstr "তালিকায় নেই?"
 
 #. Translators: this message is shown below the username entry field
 #. to clue the user in on how to login to the local network realm
-#: js/gdm/loginDialog.js:913
+#: js/scdm/loginDialog.js:913
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(উদাঃ, ব্যবহারকারী বা %s)"
@@ -453,16 +453,16 @@ msgstr "(উদাঃ, ব্যবহারকারী বা %s)"
 #. TTLS and PEAP are actually much more complicated, but this complication
 #. is not visible here since we only care about phase2 authentication
 #. (and don't even care of which one)
-#: js/gdm/loginDialog.js:918 js/ui/components/networkAgent.js:242
+#: js/scdm/loginDialog.js:918 js/ui/components/networkAgent.js:242
 #: js/ui/components/networkAgent.js:265 js/ui/components/networkAgent.js:283
 msgid "Username"
 msgstr "ব্যবহারকারীর নাম"
 
-#: js/gdm/loginDialog.js:1253
+#: js/scdm/loginDialog.js:1253
 msgid "Login Window"
 msgstr "লগিন উইন্ডো"
 
-#: js/gdm/util.js:355
+#: js/scdm/util.js:355
 msgid "Authentication error"
 msgstr "অনুমোদন সংক্রান্ত সমস্যা"
 
@@ -471,7 +471,7 @@ msgstr "অনুমোদন সংক্রান্ত সমস্যা"
 #. as a cue to display our own message.
 #. Translators: this message is shown below the password entry field
 #. to indicate the user can swipe their finger instead
-#: js/gdm/util.js:481
+#: js/scdm/util.js:481
 msgid "(or swipe finger)"
 msgstr "(বা আঙুল চালানো)"
 
@@ -1591,7 +1591,7 @@ msgstr "GNOME কে স্ক্রীন লক করতে হবে"
 #. point, but any application using global grabs is broken
 #. Just tell him to stop using this app
 #.
-#. XXX: another option is to kick the user into the gdm login
+#. XXX: another option is to kick the user into the scdm login
 #. screen, where we're not affected by grabs
 #: js/ui/screenShield.js:244 js/ui/screenShield.js:602
 msgid "Unable to lock"
@@ -2346,8 +2346,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "লগিন স্ক্রীনের জন্য GDM দ্বারা ব্যবহৃত মোড"
 
 #: src/main.c:470
-msgid "Use a specific mode, e.g. “gdm” for login screen"
-msgstr "একটি নির্দিষ্ট মোড ব্যবহার করুন, উদাঃ লগইন স্ক্রিনের জন্য \"gdm\""
+msgid "Use a specific mode, e.g. “scdm” for login screen"
+msgstr "একটি নির্দিষ্ট মোড ব্যবহার করুন, উদাঃ লগইন স্ক্রিনের জন্য \"scdm\""
 
 #: src/main.c:476
 msgid "List possible modes"

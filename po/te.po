@@ -315,54 +315,54 @@ msgstr "%s కొరకు ప్రాధాన్యతల సంభాషణ�
 msgid "Scarecrow Shell Extensions"
 msgstr "గ్నోమ్ షెల్ పొడిగింతలు"
 
-#: ../js/gdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:143
+#: ../js/scdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:143
 #: ../js/ui/components/polkitAgent.js:166 ../js/ui/endSessionDialog.js:452
 #: ../js/ui/extensionDownloader.js:195 ../js/ui/shellMountOperation.js:399
 #: ../js/ui/status/network.js:915
 msgid "Cancel"
 msgstr "రద్దుచేయి"
 
-#: ../js/gdm/authPrompt.js:169 ../js/gdm/authPrompt.js:217
+#: ../js/scdm/authPrompt.js:169 ../js/scdm/authPrompt.js:217
 msgid "Next"
 msgstr "తరువాత"
 
-#: ../js/gdm/authPrompt.js:213 ../js/ui/shellMountOperation.js:403
+#: ../js/scdm/authPrompt.js:213 ../js/ui/shellMountOperation.js:403
 #: ../js/ui/unlockDialog.js:59
 msgid "Unlock"
 msgstr "తాళంతీయి"
 
-#: ../js/gdm/authPrompt.js:215
+#: ../js/scdm/authPrompt.js:215
 msgctxt "button"
 msgid "Sign In"
 msgstr "ప్రవేశించండి"
 
-#: ../js/gdm/loginDialog.js:269
+#: ../js/scdm/loginDialog.js:269
 msgid "Choose Session"
 msgstr "ఘట్టాన్ని ఎంచుకోండి"
 
-#: ../js/gdm/loginDialog.js:429
+#: ../js/scdm/loginDialog.js:429
 msgid "Not listed?"
 msgstr "జాబితా చేయలేదా?"
 
-#: ../js/gdm/loginDialog.js:614
+#: ../js/scdm/loginDialog.js:614
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(ఉదా., వాడుకరి లేదా %s)"
 
-#: ../js/gdm/loginDialog.js:619 ../js/ui/components/networkAgent.js:269
+#: ../js/scdm/loginDialog.js:619 ../js/ui/components/networkAgent.js:269
 #: ../js/ui/components/networkAgent.js:287
 msgid "Username: "
 msgstr "వాడుకరిపేరు: "
 
-#: ../js/gdm/loginDialog.js:922
+#: ../js/scdm/loginDialog.js:922
 msgid "Login Window"
 msgstr "ప్రవేశ కిటికీ"
 
-#: ../js/gdm/util.js:323
+#: ../js/scdm/util.js:323
 msgid "Authentication error"
 msgstr "ధృవీకరణ దోషం"
 
-#: ../js/gdm/util.js:453
+#: ../js/scdm/util.js:453
 msgid "(or swipe finger)"
 msgstr "(లేదా వేలుతో స్వైప్‌చేయి)"
 
@@ -1806,8 +1806,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "ప్రవేశ తెర కొరకు GDM చే ఉపయోగించబడిన రీతి"
 
 #: ../src/main.c:385
-msgid "Use a specific mode, e.g. \"gdm\" for login screen"
-msgstr "ఒక నిర్దిష్ట రీతిని వాడు, ఉదా. ప్రవేశ తెర కొరకు \"gdm\""
+msgid "Use a specific mode, e.g. \"scdm\" for login screen"
+msgstr "ఒక నిర్దిష్ట రీతిని వాడు, ఉదా. ప్రవేశ తెర కొరకు \"scdm\""
 
 #: ../src/main.c:391
 msgid "List possible modes"

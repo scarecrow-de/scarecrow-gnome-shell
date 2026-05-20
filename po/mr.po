@@ -312,55 +312,55 @@ msgstr "%s करीता पसंती संवाद लोड करत�
 msgid "Scarecrow Shell Extensions"
 msgstr "GNOME शेल एक्सटेंशन्स"
 
-#: ../js/gdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:143
+#: ../js/scdm/authPrompt.js:147 ../js/ui/components/networkAgent.js:143
 #: ../js/ui/components/polkitAgent.js:166 ../js/ui/endSessionDialog.js:452
 #: ../js/ui/extensionDownloader.js:195 ../js/ui/shellMountOperation.js:399
 #: ../js/ui/status/network.js:915
 msgid "Cancel"
 msgstr "रद्द करा"
 
-#: ../js/gdm/authPrompt.js:169 ../js/gdm/authPrompt.js:217
+#: ../js/scdm/authPrompt.js:169 ../js/scdm/authPrompt.js:217
 msgid "Next"
 msgstr "पुढील"
 
-#: ../js/gdm/authPrompt.js:213 ../js/ui/shellMountOperation.js:403
+#: ../js/scdm/authPrompt.js:213 ../js/ui/shellMountOperation.js:403
 #: ../js/ui/unlockDialog.js:59
 msgid "Unlock"
 msgstr "कुलूपबंद अशक्य करा"
 
-#: ../js/gdm/authPrompt.js:215
+#: ../js/scdm/authPrompt.js:215
 msgctxt "button"
 msgid "Sign In"
 msgstr "प्रवेश करा"
 
-#: ../js/gdm/loginDialog.js:269
+#: ../js/scdm/loginDialog.js:269
 #| msgid "Switch Session"
 msgid "Choose Session"
 msgstr "सत्र पसंत करा"
 
-#: ../js/gdm/loginDialog.js:429
+#: ../js/scdm/loginDialog.js:429
 msgid "Not listed?"
 msgstr "सूचीत नाही?"
 
-#: ../js/gdm/loginDialog.js:614
+#: ../js/scdm/loginDialog.js:614
 #, javascript-format
 msgid "(e.g., user or %s)"
 msgstr "(उ.दा., वापरकर्ता किंवा %s)"
 
-#: ../js/gdm/loginDialog.js:619 ../js/ui/components/networkAgent.js:269
+#: ../js/scdm/loginDialog.js:619 ../js/ui/components/networkAgent.js:269
 #: ../js/ui/components/networkAgent.js:287
 msgid "Username: "
 msgstr "वापरकर्तानाव: "
 
-#: ../js/gdm/loginDialog.js:922
+#: ../js/scdm/loginDialog.js:922
 msgid "Login Window"
 msgstr "प्रवेश पटल"
 
-#: ../js/gdm/util.js:323
+#: ../js/scdm/util.js:323
 msgid "Authentication error"
 msgstr "ओळखपटवतेवेळी त्रुटी"
 
-#: ../js/gdm/util.js:453
+#: ../js/scdm/util.js:453
 msgid "(or swipe finger)"
 msgstr "(किंवा बोट फिरवा)"
 
@@ -1846,8 +1846,8 @@ msgid "Mode used by GDM for login screen"
 msgstr "प्रवेश पडद्याकरीता GDM तर्फे वापरण्याजोगी मोड"
 
 #: ../src/main.c:385
-msgid "Use a specific mode, e.g. \"gdm\" for login screen"
-msgstr "निर्देशीत मोडचा वापर करा, उ.दा. प्रवेश स्क्रीनकरीता \"gdm\""
+msgid "Use a specific mode, e.g. \"scdm\" for login screen"
+msgstr "निर्देशीत मोडचा वापर करा, उ.दा. प्रवेश स्क्रीनकरीता \"scdm\""
 
 #: ../src/main.c:391
 msgid "List possible modes"

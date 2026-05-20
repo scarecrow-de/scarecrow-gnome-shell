@@ -3,12 +3,12 @@
 
 const Gio = imports.gi.Gio;
 const Signals = imports.signals;
-const Credential = imports.gdm.credentialManager;
+const Credential = imports.scdm.credentialManager;
 
 const dbusPath = '/org/vmware/viewagent/Credentials';
 const dbusInterface = 'org.vmware.viewagent.Credentials';
 
-var SERVICE_NAME = 'gdm-vmwcred';
+var SERVICE_NAME = 'scdm-vmwcred';
 
 const VmwareCredentialsIface = '<node> \
 <interface name="' + dbusInterface + '"> \

@@ -3,9 +3,9 @@
 
 const Gio = imports.gi.Gio;
 const Signals = imports.signals;
-const Credential = imports.gdm.credentialManager;
+const Credential = imports.scdm.credentialManager;
 
-var SERVICE_NAME = 'gdm-ovirtcred';
+var SERVICE_NAME = 'scdm-ovirtcred';
 
 const OVirtCredentialsIface = `
 <node>
