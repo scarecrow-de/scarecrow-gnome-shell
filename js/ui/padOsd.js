@@ -1,7 +1,7 @@
 // -*- mode: js; js-indent-level: 4; indent-tabs-mode: nil -*-
 /* exported PadOsd, PadOsdService */
 
-const { Atk, Clutter, GDesktopEnums, Gio,
+const { Atk, Clutter, ScDesktopEnums, Gio,
         GLib, GObject, Gtk, Meta, Pango, Rsvg, St } = imports.gi;
 const ByteArray = imports.byteArray;
 const Signals = imports.signals;
@@ -140,10 +140,10 @@ var ActionComboBox = GObject.registerClass({
         Main.uiGroup.add_actor(this._editMenu.actor);
 
         this._actionLabels = new Map();
-        this._actionLabels.set(GDesktopEnums.PadButtonAction.NONE, _("Application defined"));
-        this._actionLabels.set(GDesktopEnums.PadButtonAction.HELP, _("Show on-screen help"));
-        this._actionLabels.set(GDesktopEnums.PadButtonAction.SWITCH_MONITOR, _("Switch monitor"));
-        this._actionLabels.set(GDesktopEnums.PadButtonAction.KEYBINDING, _("Assign keystroke"));
+        this._actionLabels.set(ScDesktopEnums.PadButtonAction.NONE, _("Application defined"));
+        this._actionLabels.set(ScDesktopEnums.PadButtonAction.HELP, _("Show on-screen help"));
+        this._actionLabels.set(ScDesktopEnums.PadButtonAction.SWITCH_MONITOR, _("Switch monitor"));
+        this._actionLabels.set(ScDesktopEnums.PadButtonAction.KEYBINDING, _("Assign keystroke"));
 
         this._buttonItems = [];
 
@@ -154,12 +154,12 @@ var ActionComboBox = GObject.registerClass({
             });
 
             /* These actions only apply to pad buttons */
-            if (selectedAction == GDesktopEnums.PadButtonAction.HELP ||
-                selectedAction == GDesktopEnums.PadButtonAction.SWITCH_MONITOR)
+            if (selectedAction == ScDesktopEnums.PadButtonAction.HELP ||
+                selectedAction == ScDesktopEnums.PadButtonAction.SWITCH_MONITOR)
                 this._buttonItems.push(item);
         }
 
-        this.setAction(GDesktopEnums.PadButtonAction.NONE);
+        this.setAction(ScDesktopEnums.PadButtonAction.NONE);
     }
 
     _onActionSelected(action) {
@@ -217,7 +217,7 @@ var ActionEditor = GObject.registerClass({
     }
 
     _updateKeybindingEntryState() {
-        if (this._currentAction == GDesktopEnums.PadButtonAction.KEYBINDING) {
+        if (this._currentAction == ScDesktopEnums.PadButtonAction.KEYBINDING) {
             this._keybindingEdit.set_text(this._currentKeybinding);
             this._keybindingEdit.show();
             this._keybindingEdit.grab_key_focus();
@@ -258,7 +258,7 @@ var ActionEditor = GObject.registerClass({
 
         let keybinding = null;
 
-        if (this._currentAction == GDesktopEnums.PadButtonAction.KEYBINDING)
+        if (this._currentAction == ScDesktopEnums.PadButtonAction.KEYBINDING)
             keybinding = this._currentKeybinding;
 
         this._buttonSettings.set_enum('action', this._currentAction);

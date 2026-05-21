@@ -94,7 +94,7 @@
 //     MetaBackgroundImage         MetaBackgroundImage
 //     MetaBackgroundImage         MetaBackgroundImage
 
-const { Clutter, GDesktopEnums, Gio, GLib, GObject, ScarecrowDesktop, Meta } = imports.gi;
+const { Clutter, ScDesktopEnums, Gio, GLib, GObject, ScarecrowDesktop, Meta } = imports.gi;
 const Signals = imports.signals;
 
 const LoginManager = imports.misc.loginManager;
@@ -343,7 +343,7 @@ var Background = GObject.registerClass({
 
         let shadingType = this._settings.get_enum(COLOR_SHADING_TYPE_KEY);
 
-        if (shadingType == GDesktopEnums.BackgroundShading.SOLID)
+        if (shadingType == ScDesktopEnums.BackgroundShading.SOLID)
             this.set_color(color);
         else
             this.set_gradient(shadingType, color, secondColor);
@@ -563,10 +563,10 @@ var BackgroundSource = class BackgroundSource {
 
         if (this._overrideImage != null) {
             file = Gio.File.new_for_path(this._overrideImage);
-            style = GDesktopEnums.BackgroundStyle.ZOOM; // Hardcode
+            style = ScDesktopEnums.BackgroundStyle.ZOOM; // Hardcode
         } else {
             style = this._settings.get_enum(BACKGROUND_STYLE_KEY);
-            if (style != GDesktopEnums.BackgroundStyle.NONE) {
+            if (style != ScDesktopEnums.BackgroundStyle.NONE) {
                 let uri = this._settings.get_string(PICTURE_URI_KEY);
                 file = Gio.File.new_for_commandline_arg(uri);
             }
